@@ -1,0 +1,4 @@
+The statistical model used in our experiments was pro- posed by Fuhr [5] for probabilistic text retrieval, but the adaptation to  text categorization is straightforward.
+Each category is assigned to its top scoring documents on the test set in a designated multiple of the percentage of documents it was assigned to on the training corpus.
+For the Reuters data we adopted a conservative approach to syntactic phrase indexing.
+We experimented with forming clusters from words under three metafeature definitions, and from phrases under eight metafeature definitions 141.

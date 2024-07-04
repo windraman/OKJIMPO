@@ -1,0 +1,2 @@
+ In this article, an efficient linear text segmentation algorithm based on hierarchical agglomerative clustering is presented. 
+To tackle the problems mentioned above, a novel efficient linear text segmentation algorithm based on Hierarchical Agglomerative Clustering (HAC) is presented in this article. 

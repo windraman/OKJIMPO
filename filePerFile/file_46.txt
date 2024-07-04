@@ -1,0 +1,121 @@
+Section Title : 
+1 Introduction
+2 Background and Related Work
+3 Requirements for Multi-Document
+6 Discussion
+7 Conc lus ions  and  Future  Work
+Label: section  StartNode: 1131  EndNode: 1146
+1 Introduction 
+Label: section  StartNode: 5072  EndNode: 5102
+2 Background and Related Work 
+Label: section  StartNode: 8588  EndNode: 8622
+3 Requirements for Multi-Document 
+Label: section  StartNode: 20793  EndNode: 20806
+6 Discussion 
+Label: section  StartNode: 32448  EndNode: 32484
+7 Conc lus ions  and  Future  Work  
+Label: Abstract  StartNode: 339  EndNode: 348
+Abstract 
+Label: intro  StartNode: 1131  EndNode: 1146
+1 Introduction 
+Label: rel_work  StartNode: 5072  EndNode: 5102
+2 Background and Related Work 
+Label: method  StartNode: 8588  EndNode: 8622
+3 Requirements for Multi-Document 
+Label: exp_result  StartNode: 20793  EndNode: 20806
+6 Discussion 
+Label: conclusion  StartNode: 32448  EndNode: 32484
+7 Conc lus ions  and  Future  Work  
+Label: References  StartNode: 34054  EndNode: 34066
+
+References 
+Label: JUDUL  StartNode: 0  EndNode: 52
+Multi-Document Summarization By Sentence Extraction 
+Label: NAMA  StartNode: 53  EndNode: 67
+Jade Goldstein
+Label: NAMA  StartNode: 69  EndNode: 81
+Vibhu Mittal
+Label: NAMA  StartNode: 84  EndNode: 99
+Jaime Carbonell
+Label: NAMA  StartNode: 101  EndNode: 117
+Mark Kantrowitzt
+Label: OTHER  StartNode: 119  EndNode: 181
+jade@cs.cmu.edu mittal@jprc.com jgc@cs.cmu.edu mkant@jprc.com 
+Label: PROBLEM  StartNode: 612  EndNode: 791
+Multi-document 
+summarization differs from single in that the issues 
+of compression, speed, redundancy and passage selec- 
+tion are critical in the formation of useful summaries.
+Label: METODE  StartNode: 793  EndNode: 1129
+Our approach addresses these issues by using domain- 
+independent techniques based mainly on fast, statistical 
+processing, a metric for reducing redundancy and maxi- 
+mizing diversity in the selected passages, and a modular 
+framework to allow easy parameterization for different 
+genres, corpora characteristics and user requirements.
+Label: PROBLEM  StartNode: 1738  EndNode: 1976
+However, large- 
+scale IR and summarization have not yet been truly in- 
+tegrated, and the functionality challenges on a summa- 
+rization system are greater in a true IR or topic-detection 
+context (Yang et al., 1998; Allan et al., 1998).
+Label: PROBLEM  StartNode: 3149  EndNode: 3389
+Ideally, multi-document 
+summaries should contain the key shared relevant infor- 
+mation among all the documents only once, plus other 
+information unique to some of the individual documents 
+that are directly relevant to the user's query. 
+Label: PROBLEM  StartNode: 3573  EndNode: 3827
+The degree of redundancy in information contained 
+within a group of topically-related articles is much 
+higher than the degree of redundancy within an arti- 
+cle, as each article is apt to describe the main point 
+as well as necessary shared background.
+Label: PROBLEM  StartNode: 3881  EndNode: 4000
+A group of articles may contain a temporal dimen- 
+sion, typical in a stream of news reports about an 
+unfolding event.
+Label: PROBLEM  StartNode: 4091  EndNode: 4327
+The compression ratio (i.e. the size of the summary 
+with respect o the size of the document set) will 
+typically be much smaller for collections of dozens 
+or hundreds of topically related documents than 
+for single document summaries.
+Label: PROBLEM  StartNode: 4617  EndNode: 4782
+The co-reference problem in summarization 
+presents even greater challenges for multi- 
+document han for single-document summariza- 
+tion (Baldwin and Morton, 1998).
+Label: METODE  StartNode: 16223  EndNode: 16391
+This section discusses our current implementation of
+a multi-document summarization system which is de- 
+signed to produce summaries that emphasize "relevant 
+novelty."
+Label: METODE  StartNode: 16496  EndNode: 16648
+A first approximation tomeasuring relevant novelty is to 
+measure relevance and novelty independently and pro- 
+vide a linear combination as the metric.
+Label: METODE  StartNode: 16892  EndNode: 17080
+Using this 
+metric one can maximize marginal relevance in retrieval 
+and summarization, hence we label our method "maxi- 
+mal marginal relevance" (MMR) (Carboneli and Gold- 
+stein, 1998). 
+Label: DATA  StartNode: 21098  EndNode: 21161
+We used the TIPSTER provided topic de- 
+scription as the query.
+Label: HASIL  StartNode: 27305  EndNode: 27472
+Counting clearly distinct propositions in both cases, 
+yields a 60% greater information content for the MMR- 
+MD case, though both summaries are equivalent in 
+length.
+Label: HASIL  StartNode: 27474  EndNode: 27695
+When these 200 documents were added to a set of 4 
+other topics of 200 documents, yielding a document-set 
+with 1000 documents, the query relevant multi-document 
+summarization system produced exactly the same re- 
+suits.
+Label: Problem Title  StartNode: 0  EndNode: 28
+Multi-Document Summarization
+Label: Method Title  StartNode: 32  EndNode: 51
+Sentence Extraction

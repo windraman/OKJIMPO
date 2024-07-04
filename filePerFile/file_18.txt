@@ -1,0 +1,204 @@
+Section Title : 
+1 Introduction
+2 Related Work
+3 Our Framework
+4 Experimental Studies
+Acknowledgments
+Label: section  StartNode: 1034  EndNode: 1049
+1 Introduction 
+Label: section  StartNode: 3692  EndNode: 3707
+2 Related Work 
+Label: section  StartNode: 7320  EndNode: 7336
+3 Our Framework 
+Label: section  StartNode: 20477  EndNode: 20501
+4 Experimental Studies  
+Label: section  StartNode: 30651  EndNode: 30667
+Acknowledgments 
+Label: Abstract  StartNode: 141  EndNode: 150
+Abstract 
+Label: intro  StartNode: 1034  EndNode: 1049
+1 Introduction 
+Label: rel_work  StartNode: 3692  EndNode: 3707
+2 Related Work 
+Label: method  StartNode: 7320  EndNode: 7336
+3 Our Framework 
+Label: exp_result  StartNode: 20477  EndNode: 20501
+4 Experimental Studies  
+Label: conclusion  StartNode: 30651  EndNode: 30667
+Acknowledgments 
+Label: References  StartNode: 30844  EndNode: 30857
+
+References  
+Label: METODE  StartNode: 0  EndNode: 40
+A Framework of Feature Selection Methods
+Label: JUDUL  StartNode: 0  EndNode: 64
+A Framework of Feature Selection Methods for Text Categorization
+Label: PROBLEM  StartNode: 45  EndNode: 64
+Text Categorization
+Label: TAHUN  StartNode: 66  EndNode: 70
+2009
+Label: NAMA  StartNode: 76  EndNode: 130
+Shoushan Li1  Rui Xia2  Chengqing Zong2  Chu-Ren Huang
+Label: PROBLEM  StartNode: 151  EndNode: 173
+In text categorization
+Label: METODE  StartNode: 175  EndNode: 278
+feature selection (FS) is 
+a strategy that aims at making text classifiers 
+more efficient and accurate
+Label: METODE  StartNode: 437  EndNode: 580
+In this paper, we propose a theoretic 
+framework of FS methods based on two basic 
+measurements: frequency measurement and 
+ratio measurement. 
+Label: METODE  StartNode: 654  EndNode: 839
+. Moreover, with the guidance of 
+our theoretical analysis, we propose a novel 
+method called weighed frequency and odds 
+(WFO) that combines the two measurements 
+with trained weights.
+Label: HASIL  StartNode: 840  EndNode: 1032
+The experimental results 
+on data sets from both topic-based and 
+sentiment classification tasks show that this 
+new method is robust across different tasks 
+and numbers of selected features. 
+Label: METODE  StartNode: 840  EndNode: 1033
+The experimental results 
+on data sets from both topic-based and 
+sentiment classification tasks show that this 
+new method is robust across different tasks 
+and numbers of selected features.  
+Label: METODE  StartNode: 3003  EndNode: 3147
+ we propose a framework with 
+two basic measurements for theoretical 
+comparison of six FS methods which are widely 
+used in text classification
+Label: DATA  StartNode: 7753  EndNode: 8179
+we give some 
+notations of these probabilities below. 
+( )P t : the probability that a document x  contains 
+term t ; 
+( )iP c : the probability that a document x  does 
+not belong to category ic ; 
+( , )iP t c : the joint probability that a document x  
+contains term t  and also belongs to category ic ; 
+( | )iP c t : the probability that a document x belongs 
+to category ic ?under the condition that it contains  
+term t.
+Label: DATA  StartNode: 8181  EndNode: 8451
+693
+( | )iP t c : the probability that, a document x does 
+not contain term t with the condition that x belongs to 
+category ic ; 
+Some other probabilities, such as ( )P t , ( )iP c , 
+( | )iP t c , ( | )iP t c , ( | )iP c t ,  and ( | )iP c t , are 
+similarly defined. 
+Label: DATA  StartNode: 8616  EndNode: 9209
+1{ }mi ic = : the set of categories; 
+iA : the number of the documents that contain the 
+term t  and also belong to category ic ; 
+iB : the number of the documents that contain the 
+term t  but do not belong to category ic ; 
+iN : the total number of the documents that belong 
+to category ic ; 
+allN : the total number of all documents from the 
+training data. 
+iC : the number of the documents that do not 
+contain the term t  but belong to category ic , i.e., 
+i iN A?  
+iD : the number of the documents that neither 
+contain the term t  nor belong to category ic , i.e., 
+all i iN N B? ? ;
+Label: OTHER  StartNode: 9484  EndNode: 9989
+we 
+define two basic measurements which are 
+discussed as follows. 
+The first measurement is to compute the 
+document frequency in one category, i.e., iA .  
+The second measurement is the ratio between 
+the document frequencies in one category and 
+the other categories, i.e., /i iA B . The terms with 
+a high ratio are often referred to as the terms with 
+high category information. 
+These two measurements form the basis for all 
+the measurements that are used by the FS 
+methods throughout this paper. 
+Label: HASIL  StartNode: 11577  EndNode: 11748
+we can see that the MI score 
+is based on the second basic measurement. This 
+method assumes that the term with higher 
+category ratio is more effective for classification
+Label: HASIL  StartNode: 13653  EndNode: 13729
+we can say that the IG 
+score is influenced by the two basic 
+measurements. 
+Label: OTHER  StartNode: 14165  EndNode: 14316
+For simplicity, we assume that there are two 
+categories and the numbers of the training 
+documents in the two categories are the same 
+( 2
+all iN N= )
+Label: HASIL  StartNode: 14545  EndNode: 14620
+we see that the CHI 
+score is related to both the frequency 
+measurement iA
+Label: HASIL  StartNode: 14621  EndNode: 14653
+ 
+and ratio measurement 
+/i iA B
+Label: HASIL  StartNode: 15828  EndNode: 16053
+ we can easily draw the two 
+following conclusions: 
+1) Given the same value of iA , the BNS score 
+increases with the increase of i iA B? . 
+2) Given the same value of i iA B? , BNS score 
+increase with the decrease of iA . 
+Label: HASIL  StartNode: 16670  EndNode: 16818
+In summary, the BNS FS method is biased 
+towards the terms with the high category ratio 
+but cannot be said to be sensitive to document 
+frequency. 
+Label: METODE  StartNode: 17425  EndNode: 17504
+ we have shown that the 
+two basic measurements constitute the six FS 
+methods.
+Label: DATA  StartNode: 20975  EndNode: 21190
+ In sentiment text 
+classification, we also use two data sets: one is 
+the widely used Cornell movie-review dataset2 
+(Pang and Lee, 2004) and one dataset from 
+product reviews of domain DVD3 (Blitzer et al., 
+2007)
+Label: METODE  StartNode: 21883  EndNode: 21949
+Hence we apply SVM algorithm with the 
+help of the LIBSVM 4  tool.
+Label: METODE  StartNode: 22963  EndNode: 23168
+Since the methods of DF and MI only utilize 
+the document frequency and category 
+information respectively, we use the DF scores 
+and MI scores to represent the information of the 
+two basic measurements. 
+Label: METODE  StartNode: 25455  EndNode: 25504
+ we roughly 
+cluster FS methods into three groups
+Label: METODE  StartNode: 29317  EndNode: 29377
+we can also find that FS does 
+help sentiment classification
+Label: METODE  StartNode: 29618  EndNode: 29722
+we propose a framework with two 
+basic measurements and use it to theoretically 
+analyze six FS methods.
+Label: OTHER  StartNode: 30200  EndNode: 30594
+In our study, we use four data sets to test our 
+new method. There are much more data sets on 
+text categorization which can be used. In 
+additional, we only focus on using balanced 
+samples in each category to do the experiments. 
+It is also necessary to compare the FS methods 
+on some unbalanced data sets, which are 
+common in real-life applications (Forman, 2003; 
+Mladeni and Marko, 1999)
+Label: Method Title  StartNode: 0  EndNode: 40
+A Framework of Feature Selection Methods
+Label: Problem Title  StartNode: 45  EndNode: 64
+Text Categorization

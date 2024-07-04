@@ -1,0 +1,96 @@
+Section Title : 
+1. Introduction
+2. Sentence Centrality and Centroid-based Summarization
+5. Results and Discussion
+6. Related Work
+7. Conclusion
+Label: section  StartNode: 1841  EndNode: 1856
+1. Introduction
+Label: section  StartNode: 7374  EndNode: 7429
+2. Sentence Centrality and Centroid-based Summarization
+Label: section  StartNode: 32711  EndNode: 32736
+5. Results and Discussion
+Label: section  StartNode: 43332  EndNode: 43347
+6. Related Work
+Label: section  StartNode: 46978  EndNode: 46991
+7. Conclusion
+Label: Abstract  StartNode: 297  EndNode: 305
+Abstract
+Label: intro  StartNode: 1841  EndNode: 1856
+1. Introduction
+Label: method  StartNode: 7374  EndNode: 7429
+2. Sentence Centrality and Centroid-based Summarization
+Label: exp_result  StartNode: 32711  EndNode: 32736
+5. Results and Discussion
+Label: rel_work  StartNode: 43332  EndNode: 43347
+6. Related Work
+Label: conclusion  StartNode: 46978  EndNode: 46991
+7. Conclusion
+Label: References  StartNode: 50352  EndNode: 50363
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 73
+LexRank: Graph-based Lexical Centrality as Salience in
+Text Summarization
+Label: NAMA  StartNode: 74  EndNode: 87
+Gu¨nes¸ Erkan
+Label: NAMA  StartNode: 172  EndNode: 189
+Dragomir R. Radev
+Label: OTHER  StartNode: 206  EndNode: 296
+School of Information & Department of EECS
+University of Michigan, Ann Arbor, MI 48109 USA
+Label: METODE  StartNode: 306  EndNode: 434
+We introduce a stochastic graph-based method for computing relative importance of
+textual units for Natural Language Processing.
+Label: PROBLEM  StartNode: 306  EndNode: 434
+We introduce a stochastic graph-based method for computing relative importance of
+textual units for Natural Language Processing.
+Label: PROBLEM  StartNode: 500  EndNode: 632
+Extractive TS relies on the concept of sentence salience
+to identify the most important sentences in a document or set of documents.
+Label: HASIL  StartNode: 1411  EndNode: 1573
+The results show that
+degree-based methods (including LexRank) outperform both centroid-based methods and
+other systems participating in DUC in most of the cases.
+Label: HASIL  StartNode: 1574  EndNode: 1696
+Furthermore, the LexRank
+with threshold method outperforms the other degree-based techniques including continuous
+LexRank.
+Label: PROBLEM  StartNode: 3278  EndNode: 3458
+In this paper, we focus
+on multi-document extractive generic text summarization, where the goal is to produce a
+summary of multiple documents about the same, but unspecified topic.
+Label: METODE  StartNode: 8776  EndNode: 8938
+All of our
+approaches are based on the concept of prestige2 in social networks, which has also inspired
+many ideas in computer networks and information retrieval.
+Label: METODE  StartNode: 9422  EndNode: 9560
+We hypothesize that the sentences
+that are similar to many of the other sentences in a cluster are more central (or salient)
+to the topic.
+Label: METODE  StartNode: 13224  EndNode: 13330
+We define degree centrality of a
+sentence as the degree of the corresponding node in the similarity graph.
+Label: METODE  StartNode: 13933  EndNode: 14058
+When computing degree centrality, we have treated each edge as a vote to determine the
+overall centrality value of each node.
+Label: DATA  StartNode: 28208  EndNode: 28263
+We used DUC 2003 and 2004 data sets in our experiments.
+Label: HASIL  StartNode: 36740  EndNode: 36891
+All of our
+three new methods (Degree, LexRank with threshold, and continuous LexRank) perform
+significantly better than the baselines in all data sets.
+Label: HASIL  StartNode: 36892  EndNode: 37048
+They also perform better than
+centroid-based summaries except for the DUC 2003 data set where the difference between
+Centroid and the others is not obvious.
+Label: HASIL  StartNode: 47785  EndNode: 47942
+Lastly, we have
+shown that our methods are quite insensitive to noisy data that often occurs as a result of
+imperfect topical document clustering algorithms.
+Label: Problem Title  StartNode: 0  EndNode: 7
+LexRank
+Label: Method Title  StartNode: 9  EndNode: 51
+Graph-based Lexical Centrality as Salience
+Label: Data Title  StartNode: 55  EndNode: 73
+Text Summarization

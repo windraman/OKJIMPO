@@ -1,0 +1,99 @@
+Section Title : 
+1 Introduction
+2 Translation models
+4 Experimental results
+5 Conclusion & Future work
+Label: section  StartNode: 806  EndNode: 820
+1 Introduction
+Label: section  StartNode: 2596  EndNode: 2616
+2 Translation models
+Label: section  StartNode: 5382  EndNode: 5404
+4 Experimental results
+Label: section  StartNode: 8655  EndNode: 8681
+5 Conclusion & Future work
+Label: Abstract  StartNode: 318  EndNode: 384
+Abstract. In this paper we address the combination of query trans-
+Label: intro  StartNode: 806  EndNode: 820
+1 Introduction
+Label: method  StartNode: 2596  EndNode: 2616
+2 Translation models
+Label: exp_result  StartNode: 5382  EndNode: 5404
+4 Experimental results
+Label: conclusion  StartNode: 8655  EndNode: 8681
+5 Conclusion & Future work
+Label: References  StartNode: 10527  EndNode: 10538
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 86
+Combining query translation techniques to
+improve cross-language information retrieval
+Label: NAMA  StartNode: 87  EndNode: 103
+Benjamin Herbert
+Label: NAMA  StartNode: 105  EndNode: 120
+Gyo¨rgy Szarvas
+Label: NAMA  StartNode: 126  EndNode: 140
+Iryna Gurevych
+Label: OTHER  StartNode: 141  EndNode: 286
+Ubiquitous Knowledge Processing Lab, Computer Science Department,
+Technische Universita¨t Darmstadt,
+Hochschulstr. 10, D-64289 Darmstadt, Germany
+Label: METODE  StartNode: 452  EndNode: 632
+We
+translate queries with Google Translate and extend them with new trans-
+lations obtained by mapping noun phrases in the query to concepts in
+the target language using Wikipedia.
+Label: PROBLEM  StartNode: 821  EndNode: 1019
+Multilingual information search becomes increasingly important due to the grow-
+ing amount of online information available in non-English languages and the rise
+of multilingual document collections.
+Label: PROBLEM  StartNode: 1020  EndNode: 1144
+Query translation for CLIR became the
+most widely used technique to access documents in a different language from
+the query.
+Label: PROBLEM  StartNode: 1145  EndNode: 1294
+As CLIR is less accurate than monolingual IR, the combination of
+query translation techniques is a promising way to approximate monolingual
+accuracy.
+Label: PROBLEM  StartNode: 1387  EndNode: 1752
+Combination of statistical machine translation (SMT),
+machine readable dictionary (MRD) based models or similarity thesauri (ST)
+proved to be difficult [1] due to the difference in the accuracy of individual mod-
+els (SMT tends to be superior); the aggregation of translation errors; or the
+topic drift caused by integrating multiple translations in a single query.
+Label: METODE  StartNode: 2635  EndNode: 2706
+As a baseline CLIR model, we use query translation by
+Google Translate.
+Label: METODE  StartNode: 3343  EndNode: 3493
+To exploit this, we mine all
+redirect and cross-language links to build a translation table which maps con-
+cepts to their target language equivalent.
+Label: METODE  StartNode: 3624  EndNode: 3771
+To map queries to Wikipedia concepts (titles), we first try to map the
+whole query, and then gradually proceed with mapping shorter word sequences.
+Label: DATA  StartNode: 3967  EndNode: 4063
+We used two CLIR collections introduced in the CLEF
+Domain Specific (DS) and Ad Hoc (AH) tracks.
+Label: HASIL  StartNode: 7428  EndNode: 7670
+As can be seen in Table 1, the individual CLIR models perform similar to
+the results reported in previous works: the Wikipedia model achieves 50-80%
+of the monolingual result, while Google Translate performs around 90% of the
+monolingual run.
+Label: HASIL  StartNode: 7671  EndNode: 7798
+The Wikipedia based concept mapping performs slightly worse
+than the more complex WP model by [5] but we use just title fields.
+Label: HASIL  StartNode: 7799  EndNode: 7959
+As regards the combination of the Wikipedia based and the Google trans-
+lations, we see consistent improvements over the CLIR models using a single
+translation.
+Label: METODE  StartNode: 8682  EndNode: 8904
+In this study, we introduced a simple CLIR model using Wikipedia, mapping
+concepts in one language to their equivalents in another language based on the
+redirect and cross-language links in multilingual Wikipedia versions.
+Label: HASIL  StartNode: 8905  EndNode: 9046
+This simple
+WP-based model performs similar to previous results obtained by Wikipedia-
+based CLIR (60-70% accuracy of monolingual retrieval).
+Label: Method Title  StartNode: 0  EndNode: 38
+Combining query translation techniques
+Label: Problem Title  StartNode: 42  EndNode: 86
+improve cross-language information retrieval

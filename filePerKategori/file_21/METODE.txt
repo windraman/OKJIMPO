@@ -1,0 +1,2 @@
+Summarization as Feature Selection
+To quantify the arguments advanced in this paper, we con-sidered a number of simple extraction-based techniques ~the details are given in list below. Similar heuristics-basedtechniques have been used for example in [16]  [5]  [17].  In allcases, a word occurring at least 3 times in the body of a doc-ument was considered a keyword, while a word occurring atleast once in the title of a story was considered a title word.

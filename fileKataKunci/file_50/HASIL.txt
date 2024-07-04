@@ -1,0 +1,15 @@
+tiles,1
+correspondwell,1
+humanjudgements,1
+themajor,1
+subtopicboundaries,1
+sciencemagazine,1
+articles,1
+structure,1
+obtains,1
+coarse,1
+grained,1
+generallyreflects,1
+human,1
+judgement,1
+data,1

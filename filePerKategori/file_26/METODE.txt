@@ -1,0 +1,11 @@
+This problem becomes a typical ap-plication of learning logic programs by considering the dependency treesof sentences as relational structures and examples of the target relationas ground atoms of a target predicate.
+We show that Plotkin’s LGGoperator can effectively be applied to such clauses and propose a sim-ple and effective divide-and-conquer algorithm for listing a certain set ofLGGs.
+We use these LGGs to generate binary features and compute thehypothesis by applying SVM to the feature vectors obtained.
+Applying Plotkin’s least general generalization (LGG) operator [11], wegenerate a set of first-order definite non-recursive Horn-clauses satisfying cer-tain frequency and consistency criterion, i.e., all these rules must cover at leasta certain number of positive examples while implying at most a certain numberof negative examples.
+In the generation of LGGs, we exploit the specific struc-ture of dependency trees allowing polynomial time rule evaluation defined by?-subsumption and the fact that the LGG is a closure operator on the power setof the instance space over the target predicate.
+Using these rules, we generate abinary feature vector for each example and, applying support vector machinesto these feature vectors, find a hypothesis separating the positive and negativeexamples.
+Given a set of sentences annotated with respect to thetarget relation, in a preprocessing step we first compute a dependency tree foreach sentence.
+Since our aim is to detect semantic relationships amongentities in a sentence, we merge the nodes of the dependency tree into singleartificial nodes that define the same entities.
+An important feature of the dependencytrees obtained in this way is that there is an injective mapping from the set ofentities in a sentence to the set of nodes in the corresponding dependency tree.
+We make use of this feature of dependency trees and the fact that dependencytrees can be considered as relational structures in the standard natural way; theedges of the trees can be represented by a single binary predicate, while thelabels by unary predicates.
+Our method is based on transforming examples into definite Horn-clauses by considering dependency trees as relational structures.

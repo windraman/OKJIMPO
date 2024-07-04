@@ -1,0 +1,120 @@
+Section Title : 
+1. Introduction
+2. Text classification framework
+5. Experiment
+6. Conclusions and future work
+Label: section  StartNode: 1530  EndNode: 1546
+1. Introduction 
+Label: section  StartNode: 3640  EndNode: 3673
+2. Text classification framework 
+Label: section  StartNode: 15999  EndNode: 16013
+5. Experiment 
+Label: section  StartNode: 24195  EndNode: 24226
+6. Conclusions and future work 
+Label: Abstract  StartNode: 333  EndNode: 343
+Abstract: 
+Label: intro  StartNode: 1530  EndNode: 1546
+1. Introduction 
+Label: method  StartNode: 3640  EndNode: 3673
+2. Text classification framework 
+Label: exp_result  StartNode: 15999  EndNode: 16013
+5. Experiment 
+Label: conclusion  StartNode: 24195  EndNode: 24226
+6. Conclusions and future work 
+Label: References  StartNode: 25402  EndNode: 25414
+
+References 
+Label: JUDUL  StartNode: 0  EndNode: 58
+A New Approach to Feature Selection in Text Classification
+Label: OTHER  StartNode: 59  EndNode: 176
+Proceedings of  the Fourth International Conference on Machine Learning and Cybernetics, Guangzhou, 18-21 August 2005
+Label: TAHUN  StartNode: 172  EndNode: 176
+2005
+Label: NAMA  StartNode: 177  EndNode: 184
+YI WANG
+Label: NAMA  StartNode: 186  EndNode: 200
+XIAO-JING WANG
+Label: PROBLEM  StartNode: 344  EndNode: 522
+Text classification is the process of automatically 
+assigning predefined categories to free text, which is very 
+important to information retrieval and many other 
+applications.
+Label: PROBLEM  StartNode: 523  EndNode: 818
+Of it, the first important thing is to effectively 
+represent a text to characterize it as belonging to a specified 
+category based on its content and thus make the following 
+phase of classifier training and using more effective and 
+efficient regarding to the final classification performance.
+Label: METODE  StartNode: 819  EndNode: 1037
+In 
+this paper, an effective and efficient new method called 
+variance-mean based feature filtering method of feature 
+selection to do feature reduction in the representation phase 
+for text classification is proposed.
+Label: HASIL  StartNode: 1038  EndNode: 1321
+It keeps the best features, 
+and thus improves the final performance e.g. macro-f1 to 0.92 
+and simultaneously decreases the computing time for 
+representing the incoming text waiting to be classified 
+dramatically, which is important because it occurs on line and 
+is time-critical.
+Label: PROBLEM  StartNode: 2565  EndNode: 2708
+In this paper, we 
+propose a new approach to feature selection to do feature 
+reduction, which is a constituent process in representing 
+texts.
+Label: METODE  StartNode: 10992  EndNode: 11163
+And here we use the term frequency as the weight for 
+the feature in a text’s feature vector for further constructing 
+our evaluation function just because of convenience.
+Label: METODE  StartNode: 11173  EndNode: 11239
+We then compute the mean and variance of the values 
+for each row,
+Label: METODE  StartNode: 11872  EndNode: 12202
+Thirdly, we compute the variance of the components’ 
+data in vector 1), denoted as , which shows the 
+degree of dispersion among classes the term w can 
+demonstrate and the mean of the components’ data in vector 
+2), denoted as , which shows the average level of 
+the degree of variability within every class the term w can 
+show.
+Label: METODE  StartNode: 12550  EndNode: 12638
+So and based 
+criterion can be used to evaluate the importance of the 
+candidate term w.
+Label: METODE  StartNode: 13017  EndNode: 13104
+The features whose  values are bigger than a 
+threshold got by experiment are filtered.
+Label: DATA  StartNode: 16014  EndNode: 16167
+The corpus used for training and testing is the 
+“Chinese text classification corpus” given by Ronglu Li 
+published on the website http://www.nlp.org.cn.
+Label: HASIL  StartNode: 21248  EndNode: 21420
+Feature reduction is really important because without it, the 
+performance value is only 0.73 of macro-f1, much lower 
+than the one gained with reduced feature space’ size.
+Label: HASIL  StartNode: 21424  EndNode: 21645
+Our 
+method shows a good property. The performance evaluation 
+data are still high when the dimension is reduced to 100, 
+and it gradually inclines to reach a peak with macro-f1 
+value of 0.9186 when the dimension is 400.
+Label: HASIL  StartNode: 23247  EndNode: 23889
+Compared with the classical document frequency 
+incorporated feature filtering methods analyzed in section 4, 
+such as DF, CHI used in our experiment, it shows in Figure 
+1, that our method can gain higher performance at a very 
+low dimension, and quickly reach a peak, which means 
+much less computing time and almost best performance 
+while the other two classical methods and the like only 
+show a slow ascend tendency from a lower performance 
+evaluation value without a peak until the dimension reaches 
+to almost the original one, which means decreasing the 
+dimension dramatically without great loss of performance is 
+hard to realize.
+Label: Method Title  StartNode: 0  EndNode: 14
+A New Approach
+Label: Problem Title  StartNode: 18  EndNode: 35
+Feature Selection
+Label: Data Title  StartNode: 39  EndNode: 58
+Text Classification

@@ -1,0 +1,1 @@
+So we chose three different text datasets to evaluate text clustering performance, including two standard labeled datasets: Reuters-21578 1  (Reuters), 20 Newsgroups 2 (20NG), and one web directory dataset (Web) collected from the Open Directory Project3.

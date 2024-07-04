@@ -1,0 +1,3 @@
+A novelrepresentation is introduced based ongeneric relation extraction (GRE), whichaims to build systems for relation iden-tification and characterisation that can betransferred across domains and tasks with-out modification of model parameters.
+The GRE modelsused here do rely on dependency parsing.
+For the sake of comparison, the current evaluationadopts the Filatova and Hatzivassiloglou (2004)summarisation framework.

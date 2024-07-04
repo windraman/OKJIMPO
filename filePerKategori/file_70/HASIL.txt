@@ -1,0 +1,3 @@
+As shown in Table 1, the hybrid approach using English documents translated from the original collection (hybrid-2, SrgMgE03) outperforms another hybrid approach using German documents (hybrid-1, SrgdMgG02), i.e., the scores of mean average precision (MAP) are 0.2605 for hybrid-2 and 0.2492 for hybrid-1.
+Unfortunately, the hyper approach could not show better performance than a simple query translation approach (SrgdQT04), i.e., its score of MAP is 0.2658, which is slightly greater than that of SrgdMgE03.
+Unfortunately, our hybrid approach could not show better effectiveness than a simple query translation approach partly because the performance of document translation is poor.

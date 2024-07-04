@@ -1,0 +1,4 @@
+hms, and allowing the use of corporaof any size. Our experiments use Freebase, a largesemantic database of several thousand relations, toprovide distant supervision.
+For each pair of enti-ties that appears in some Freebase relation, we findall sentences containing those entities in a large un-labeled corpus and extract textual features to traina relation classifier.
+We propose an alternative paradigm, distant su-pervision, that combines some of the advantagesof each of these approaches.
+The intuition of our distant supervision approachis to use Freebase to give us a training set of rela-tions and entity pairs that participate in those rela-tions.

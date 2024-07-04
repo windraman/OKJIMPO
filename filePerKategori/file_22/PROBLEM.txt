@@ -1,0 +1,2 @@
+Identifying Sections in Scientific Abstracts
+The prior knowledge aboutthe rhetorical structure of scientific abstractsis useful for various text-mining tasks suchas information extraction, information re-trieval, and automatic summarization.

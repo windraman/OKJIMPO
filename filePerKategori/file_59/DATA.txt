@@ -1,0 +1,1 @@
+We have used a subset of the EuroGOV corpus for the evaluation of the QRDPmodel.

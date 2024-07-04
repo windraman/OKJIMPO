@@ -1,0 +1,5 @@
+Our results show that in general, eachfeature selection technique will create diverse feature subsetswhen compared to the other members of the family
+In terms of similarity, we ï¬?nd that each ranker in theFOS family of techniques will create diverse feature subsetswhen compared to other members of the family. The onlyexception for this is Fold Change Difference and SAMwhich consistently achieve above 0.7 similarity score for155
+In terms of classiï¬?cation, we can see that despite thediversity of the feature subsets, the classiï¬?cation resultsof the rankers are quite similar with one exception: FoldChange Ratio. Fold Change Ratio achieves much differentresults than the other members of the family and is foundto be the worst ranker of the set of FOS rankers in termsof classiï¬?cation results
+As for the topperformers, we ï¬?nd that SAM followed by Signal-to-Noiseare commonly the top performers within all three learners.
+we recommend SAM and S2N for classiï¬?cationresults. However, the entire FOS set of feature rankers (withthe exception of Fold Change Ratio) are comparable to eachother.

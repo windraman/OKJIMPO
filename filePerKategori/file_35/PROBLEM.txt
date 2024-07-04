@@ -1,0 +1,4 @@
+We present a novel approach to relation ex-traction that integrates information across doc-uments, performs global inference and re-quires no labelled text.
+Naturally, the predictions of a distantly supervisedrelation extractor will be less accurate than those ofa supervised one.
+While facts of existing knowledgebases are inexpensive to come by, the heuristic align-ment to text will often lead to noisy patterns in learn-ing.
+However, when we use the knowl-edge base Freebase (Bollacker et al., 2008) and theNew York Times corpus (Sandhaus, 2008), we ob-serve very low precision.

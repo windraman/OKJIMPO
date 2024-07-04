@@ -1,0 +1,101 @@
+Section Title : 
+I. INTRODUCTION
+II. RELATED WORKS
+III. FIRST ORDER STATISTICS (FOS) BASED FEATURE
+V. RESULTS
+VI. CONCLUSION
+Label: section  StartNode: 2298  EndNode: 2313
+I. INTRODUCTION
+Label: section  StartNode: 6324  EndNode: 6341
+II. RELATED WORKS
+Label: section  StartNode: 8635  EndNode: 8682
+III. FIRST ORDER STATISTICS (FOS) BASED FEATURE
+Label: section  StartNode: 20653  EndNode: 20663
+V. RESULTS
+Label: section  StartNode: 26785  EndNode: 26799
+VI. CONCLUSION
+Label: Abstract  StartNode: 420  EndNode: 478
+Abstractâ€”Dimensionality reduction techniques have become
+Label: intro  StartNode: 2298  EndNode: 2313
+I. INTRODUCTION
+Label: rel_work  StartNode: 6324  EndNode: 6341
+II. RELATED WORKS
+Label: method  StartNode: 8635  EndNode: 8682
+III. FIRST ORDER STATISTICS (FOS) BASED FEATURE
+Label: exp_result  StartNode: 20653  EndNode: 20663
+V. RESULTS
+Label: conclusion  StartNode: 26785  EndNode: 26799
+VI. CONCLUSION
+Label: References  StartNode: 32706  EndNode: 32717
+
+REFERENCES
+Label: PROBLEM  StartNode: 0  EndNode: 46
+First Order Statistics Based Feature Selection
+Label: JUDUL  StartNode: 0  EndNode: 109
+First Order Statistics Based Feature Selection: A Diverse and Powerful Family of Feature Selection Techniques
+Label: PROBLEM  StartNode: 48  EndNode: 109
+A Diverse and Powerful Family of Feature Selection Techniques
+Label: NAMA  StartNode: 220  EndNode: 290
+Taghi Khoshgoftaar, David Dittman, Randall Wald, and Alireza Fazelpour
+Label: OTHER  StartNode: 431  EndNode: 537
+Dimensionality reduction techniques have become
+a required step when working with bioinformatics datasets.
+Label: METODE  StartNode: 1117  EndNode: 1284
+This paper presents seven univariate feature
+selection techniques and collects them into a single family
+entitled First Order Statistics (FOS) based feature selection.
+Label: HASIL  StartNode: 1682  EndNode: 1833
+Our results show that in general, each
+feature selection technique will create diverse feature subsets
+when compared to the other members of the family
+Label: DATA  StartNode: 5185  EndNode: 5367
+In addition to the
+seven techniques we use eleven DNA microarray datasets
+from various medical, genetics, and bioinformatics studies;
+twelve feature subset sizes; and three learners.
+Label: TAHUN  StartNode: 5790  EndNode: 5794
+2012
+Label: DATA  StartNode: 14177  EndNode: 14484
+The datasets are all DNA
+microarray datasets acquired from a number of different real
+world bioinformatics, genetics, and medical projects. Since
+the FOS techniques require only two classes to be present,
+we have to use datasets with two classes (for example:
+cancerous/non-cancerous or relapse/no relapse).
+Label: METODE  StartNode: 27123  EndNode: 27502
+ In this paper we present
+seven univariate feature selection techniques (Fold Change
+Difference, Fold Change Ratio, Welch T Statistic, Wilcoxon
+Rank Sum, Fisher Score, SAM, and Signal-to-Noise) as a
+single new family which we name First Order Statistics
+(FOS) based feature selection, due to their use of ï¬?rst
+order statistical measurements such as mean and standard
+deviation.
+Label: HASIL  StartNode: 27679  EndNode: 27966
+In terms of similarity, we ï¬?nd that each ranker in the
+FOS family of techniques will create diverse feature subsets
+when compared to other members of the family. The only
+exception for this is Fold Change Difference and SAM
+which consistently achieve above 0.7 similarity score for
+155
+Label: HASIL  StartNode: 31387  EndNode: 31762
+In terms of classiï¬?cation, we can see that despite the
+diversity of the feature subsets, the classiï¬?cation results
+of the rankers are quite similar with one exception: Fold
+Change Ratio. Fold Change Ratio achieves much different
+results than the other members of the family and is found
+to be the worst ranker of the set of FOS rankers in terms
+of classiï¬?cation results
+Label: HASIL  StartNode: 31898  EndNode: 32029
+As for the top
+performers, we ï¬?nd that SAM followed by Signal-to-Noise
+are commonly the top performers within all three learners.
+Label: HASIL  StartNode: 32041  EndNode: 32213
+we recommend SAM and S2N for classiï¬?cation
+results. However, the entire FOS set of feature rankers (with
+the exception of Fold Change Ratio) are comparable to each
+other.
+Label: Data Title  StartNode: 0  EndNode: 46
+First Order Statistics Based Feature Selection
+Label: Problem Title  StartNode: 48  EndNode: 109
+A Diverse and Powerful Family of Feature Selection Techniques

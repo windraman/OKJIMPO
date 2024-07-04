@@ -1,0 +1,120 @@
+Section Title : 
+1 Introduction
+2 Related Works
+3 Entity-Focused Sentence
+4 Evaluation
+6 Conclusion
+Label: section  StartNode: 1428  EndNode: 1442
+1 Introduction
+Label: section  StartNode: 3502  EndNode: 3517
+2 Related Works
+Label: section  StartNode: 5401  EndNode: 5426
+3 Entity-Focused Sentence
+Label: section  StartNode: 13084  EndNode: 13096
+4 Evaluation
+Label: section  StartNode: 29685  EndNode: 29697
+6 Conclusion
+Label: Abstract  StartNode: 531  EndNode: 539
+Abstract
+Label: intro  StartNode: 1428  EndNode: 1442
+1 Introduction
+Label: rel_work  StartNode: 3502  EndNode: 3517
+2 Related Works
+Label: method  StartNode: 5401  EndNode: 5426
+3 Entity-Focused Sentence
+Label: exp_result  StartNode: 13084  EndNode: 13096
+4 Evaluation
+Label: conclusion  StartNode: 29685  EndNode: 29697
+6 Conclusion
+Label: References  StartNode: 31188  EndNode: 31199
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 62
+Entity-Focused Sentence Simplification for Relation Extraction
+Label: OTHER  StartNode: 63  EndNode: 191
+Proceedings of the 23rd International Conference on Computational Linguistics (Coling 2010), pages 788–796,
+Beijing, August 2010
+Label: TAHUN  StartNode: 149  EndNode: 153
+2010
+Label: TAHUN  StartNode: 187  EndNode: 191
+2010
+Label: NAMA  StartNode: 192  EndNode: 203
+Makoto Miwa
+Label: NAMA  StartNode: 205  EndNode: 215
+Rune Sætre
+Label: NAMA  StartNode: 217  EndNode: 229
+Yusuke Miyao
+Label: NAMA  StartNode: 230  EndNode: 246
+ Jun’ichi Tsujii
+Label: PROBLEM  StartNode: 681  EndNode: 856
+The region con-
+necting a pair of entities (in a parsed
+sentence) is often used to construct ker-
+nels or feature vectors that can recognize
+and extract interesting relations.
+Label: PROBLEM  StartNode: 857  EndNode: 954
+Such re-
+gions are useful, but they can also incor-
+porate unnecessary distracting informa-
+tion.
+Label: METODE  StartNode: 1158  EndNode: 1222
+A dozen simple rules are defined on out-
+put from a deep parser.
+Label: METODE  StartNode: 1223  EndNode: 1302
+Each rule specif-
+ically examines the entities in one target
+interaction pair. 
+Label: PROBLEM  StartNode: 2215  EndNode: 2367
+The shortest paths between a pair of enti-
+ties (Bunescu and Mooney, 2005) or pair-enclosed
+trees (Zhang et al., 2006) are widely used as focus
+regions.
+Label: PROBLEM  StartNode: 2368  EndNode: 2487
+These regions are useful, but they can in-
+clude unnecessary sub-paths such as appositions,
+which cause noisy features.
+Label: METODE  StartNode: 2580  EndNode: 2752
+Instead of selecting the whole region between
+a target pair, the target sentence is simplified
+into simpler, pair-related, sentences using general,
+task-independent, rules.
+Label: METODE  StartNode: 5626  EndNode: 5816
+Our method
+relies on the deep parser; the rules depend on the
+Head-driven Phrase Structure Grammar (HPSG)
+used by Mogura, and all the rules are written for
+the parser Enju XML output format.
+Label: METODE  StartNode: 6276  EndNode: 6440
+A clause-selection
+rule constructs a simpler sentence (still includ-
+ing both target entities) by removing noisy infor-
+mation before and after the relevant clause.
+Label: METODE  StartNode: 6441  EndNode: 6553
+An
+entity-phrase rule simplifies an entity-containing
+region without changing the truth-value of the re-
+lation.
+Label: DATA  StartNode: 13097  EndNode: 13241
+To elucidate the effect of the sentence simplifi-
+cation, we applied the rules to five PPI corpora
+and evaluated the PPI extraction performance.
+Label: HASIL  StartNode: 29813  EndNode: 29973
+Using a few simple rules applicable
+to the output of a deep parser called Mogura,
+we showed that sentence simplification is effec-
+tive for relation extraction.
+Label: HASIL  StartNode: 29974  EndNode: 30160
+Applying all the rules
+improved the performance on three of the five
+corpora, while applying only the clause-selection
+rules raised the performance for the remaining two
+corpora as well.
+Label: HASIL  StartNode: 30161  EndNode: 30320
+We analyzed the simplification
+results, and showed that the simple rules are ap-
+plicable with little danger of changing the truth-
+values of the interactions.
+Label: Method Title  StartNode: 0  EndNode: 38
+Entity-Focused Sentence Simplification
+Label: Problem Title  StartNode: 43  EndNode: 62
+Relation Extraction

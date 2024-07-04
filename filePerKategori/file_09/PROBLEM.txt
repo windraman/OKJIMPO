@@ -1,0 +1,1 @@
+Our goal is to extract structured relations between named en-tities (e.g., a company name, a location name, or a name ofa drug or a disease) from unstructured documents with min-imal human effort. 

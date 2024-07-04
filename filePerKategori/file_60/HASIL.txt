@@ -1,0 +1,4 @@
+As can be seen in Table 1, the individual CLIR models perform similar tothe results reported in previous works: the Wikipedia model achieves 50-80%of the monolingual result, while Google Translate performs around 90% of themonolingual run.
+The Wikipedia based concept mapping performs slightly worsethan the more complex WP model by [5] but we use just title fields.
+As regards the combination of the Wikipedia based and the Google trans-lations, we see consistent improvements over the CLIR models using a singletranslation.
+This simpleWP-based model performs similar to previous results obtained by Wikipedia-based CLIR (60-70% accuracy of monolingual retrieval).

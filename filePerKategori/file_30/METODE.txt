@@ -1,0 +1,5 @@
+In this paper, we propose an unsupervised approach tolearning for Relation Detection, based on the use of massiveclustering ensembles.
+In this paper, we propose a novel and flexible unsuper-vised approach to learning for Relation Detection, based onclustering, which reduces the elements of human supervisionand simplifies the use of enriched feature sets with respectto other existing approaches.
+Our approach is based on the transformation of RelationDetection between entities of two given types, T1 and T2,into a binary classification problem: each pair of entitiesE1 and E2 of the proposed types co-occurring in thesame sentence has to be classified as related or unrelated.
+To classify each pair, we use a two-step scoring-filteringarchitecture.
+A scorer is used to calculate the score for thisinstance, s(x), and a filterer assigns it to the related orunrelated class according to whether this score is above orbelow a relatedness threshold, threl, respectively.

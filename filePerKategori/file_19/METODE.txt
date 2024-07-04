@@ -1,0 +1,7 @@
+Feature Selection and Feature Extract ion
+ Text Categorization
+If a syntactic parse of text is available, then features can be defined by the presence of two or more words in particular syntactic relationships. We call such a fea- ture a syntactic indexing phrase.
+Syntactic phrase indexing and term clustering have op- posite effects on the properties of a text representation, which led us t o  investigate combining the two techniques [3].
+We experimented with forming clusters from words under three metafeature definitions, and from phrases under eight metafeature definitions 141. 
+We first looked a t  effectiveness of proportional assign- ment with word-based indexing languages
+We checked for overfitting directly by testing the induced classifiers on the training set.

@@ -1,0 +1,6 @@
+We accomplish this goal by means of a cross-language generativemodel, i.e., bilingual Latent Dirichlet Allocation (BiLDA), trained on a comparable cor-pus such as one composed of Wikipedia articles.
+The resulting probabilistic translationmodel is incorporated in a statistical language model for information retrieval.
+The topic model we use is a bilingual extension of a standard LDA model, called bilin-gual LDA (BiLDA) ([17, 14, 7, 2]).
+We name this model the simple unigram model.
+We can now combine this document model with the LDA-only model using linearinterpolation and the Jelinek-Mercer smoothing
+We call this model the LDA-unigrammodel.

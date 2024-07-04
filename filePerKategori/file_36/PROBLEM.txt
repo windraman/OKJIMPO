@@ -1,0 +1,1 @@
+Oneway of automatically identifying information of interest fromthe vast Internet resources is by recognizing relevant entitiesand meaningful relations they share.

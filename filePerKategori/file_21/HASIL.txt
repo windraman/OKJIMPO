@@ -1,0 +1,2 @@
+We have proposed a framework for evaluating summariza-tion methods in the context of their utility as feature selec-tors in automatic text categorization. 
+ Our approach is wellsuited for classifiers utilizing binary feature vectors, where afeature corresponds to the presence or absence of a word ina document.

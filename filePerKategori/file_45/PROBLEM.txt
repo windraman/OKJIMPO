@@ -1,0 +1,2 @@
+We use the technique of SVM anchoring todemonstrate that lexical features extractedfrom a training corpus are not necessary toobtain state of the art results on tasks suchas Named Entity Recognition and Chunk-ing.
+While early approaches to the NP-chunking task(Cardie and Pierce, 1998) relied on part-of-speechinformation alone, it is widely accepted that lexi-cal information (word forms) is crucial for build-ing accurate systems for these tasks.

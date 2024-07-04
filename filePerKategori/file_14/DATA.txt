@@ -1,0 +1,1 @@
+The corpus used for training and testing is the “Chinese text classification corpus” given by Ronglu Li published on the website http://www.nlp.org.cn. We divide the corpus into two non-intersected sets: a training set containing 10 categories with 100 texts in each and a test set containing the same 10 categories with another 100 texts in each also

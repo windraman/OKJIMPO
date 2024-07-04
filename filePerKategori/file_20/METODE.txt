@@ -1,0 +1,5 @@
+High-Performing Feature Selection
+We are concentrating on ?lter methods because 1) theyare more scalable to very large collections and 2) their biasis di?erent from the classi?er’s.
+We included several feature selection methods presentedby [12].
+We implemented a variant of the µ co-occurence methoddescribed by [10], which uses the other ?lter feature selectionmethods as a starting point.
+We selected four high-performing classi?ers for the featureselection experiments:• K-Nearest Neighbors (local implementation)• Naive Bayes (Rainbow, [7])• Rocchio (local implementation)• Support Vector Machines (SVMLight, [3])

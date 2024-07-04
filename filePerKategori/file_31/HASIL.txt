@@ -1,0 +1,5 @@
+The results demonstratea clear superiority of a diversity based approach to a non-diversity based approach.
+At compression rates between 20% and 40%, despitesome outliers, DBS/XM performs better for the majorityof queries than Z-model, but breaks even at 50%.
+On the other hand, under MRS,DBS/XM turned out to be signi?cantly di?erent from Z-model at every compression rate examined.
+DBS/XM performs consistently betterthan Z-model under MRS.
+Under this scheme,diversity-based summarization (DBS/XM ) was found to besuperior to relevance-based summarization (Z-model).

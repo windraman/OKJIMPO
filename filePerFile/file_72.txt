@@ -1,0 +1,101 @@
+Section Title : 
+1 Introduction
+2 Overview of Information Mapping
+4 Experimental Tests and Analysis
+5 Conclusion
+Label: section  StartNode: 791  EndNode: 805
+1 Introduction
+Label: section  StartNode: 1528  EndNode: 1561
+2 Overview of Information Mapping
+Label: section  StartNode: 5190  EndNode: 5223
+4 Experimental Tests and Analysis
+Label: section  StartNode: 13144  EndNode: 13156
+5 Conclusion
+Label: Abstract  StartNode: 343  EndNode: 351
+Abstract
+Label: intro  StartNode: 791  EndNode: 805
+1 Introduction
+Label: method  StartNode: 1528  EndNode: 1561
+2 Overview of Information Mapping
+Label: exp_result  StartNode: 5190  EndNode: 5223
+4 Experimental Tests and Analysis
+Label: conclusion  StartNode: 13144  EndNode: 13156
+5 Conclusion
+Label: References  StartNode: 13602  EndNode: 13613
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 65
+Query Translation Method for Cross Language Information Retrieval
+Label: NAMA  StartNode: 66  EndNode: 82
+Hiroshi Masuichi
+Label: NAMA  StartNode: 83  EndNode: 99
+Raymond Flournoy
+Label: OTHER  StartNode: 100  EndNode: 168
+Center for the Study of Language and Information
+Stanford University
+Label: NAMA  StartNode: 220  EndNode: 235
+Stefan Kaufmann
+Label: NAMA  StartNode: 236  EndNode: 250
+Stanley Peters
+Label: PROBLEM  StartNode: 352  EndNode: 447
+This paper proposes a method of query trans-
+lation for Cross Language Information Re-
+trieval.
+Label: METODE  StartNode: 449  EndNode: 585
+The method uses a parallel bilingual
+corpus to produce word vectors and can read-
+ily be applied to monolingual vector-retrieval
+models.
+Label: PROBLEM  StartNode: 807  EndNode: 924
+A cross language information retrieval (CLIR)
+system is a system for retrieving documents across
+language boundaries.
+Label: PROBLEM  StartNode: 926  EndNode: 1043
+A query written in one language
+should be translated into a representation for finding
+documents in another language.
+Label: METODE  StartNode: 1839  EndNode: 1972
+In the information mapping approach,
+we use a multidimensional vector space, called word
+space for defining the association of words.
+Label: METODE  StartNode: 3973  EndNode: 4146
+Our basic idea for applying the information map-
+ping approach to CLIR is to produce a vector for a
+word in one language L with content-bearing words in
+another language L'.
+Label: METODE  StartNode: 4148  EndNode: 4213
+We use a bilingual parallel cor-
+pus to produce the word vectors.
+Label: DATA  StartNode: 5277  EndNode: 5367
+We used an English-Japanese bilingual patent ab-
+stract corpus for our experimental tests.
+Label: HASIL  StartNode: 9277  EndNode: 9410
+All four Tables
+show good results; a total of 1559 out of 1600 (97.4%)
+queries retrieved their counterpart patents at the first
+rank.
+Label: HASIL  StartNode: 10124  EndNode: 10222
+A total of
+735 out of 800 (91.9%) queries retrieved their counter-
+part patents at the first rank.
+Label: HASIL  StartNode: 11909  EndNode: 12110
+A total of 334 out of 400 (83.5 %) counter-
+part English patent abstracts were correctly retrieved at
+the first rank and 361 out of 400 (90.3 %) were re-
+trieved in the top 3 by the Japanese sentences.
+Label: HASIL  StartNode: 12518  EndNode: 12715
+A total of 310 out of 400
+(77.5 %) counterpart Japanese patent abstracts were
+correctly retrieved at the first rank and 360 out of 400
+(90.0 %) were retrieved in the top 3 by the English
+sentences.
+Label: HASIL  StartNode: 13345  EndNode: 13520
+The CLIR
+system produced with the method showed 97.4% accu-
+racy in our preliminary tests of finding the counter-
+parts in a parallel corpus of English and Japanese pat-
+ents.
+Label: Method Title  StartNode: 0  EndNode: 24
+Query Translation Method
+Label: Problem Title  StartNode: 29  EndNode: 65
+Cross Language Information Retrieval

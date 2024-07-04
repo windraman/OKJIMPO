@@ -1,0 +1,17 @@
+text,3
+segmentation,2
+task,1
+tackled,1
+paper,1
+understood,1
+segmentationof,1
+texts,1
+topically,1
+units,1
+chal,1
+lenge,1
+algorithm,1
+find,1
+thesub,1
+topical,1
+structure,1

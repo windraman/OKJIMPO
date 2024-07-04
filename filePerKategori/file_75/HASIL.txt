@@ -1,0 +1,6 @@
+The results demonstrate unambigu-ously that the event and relation representationsoutperform the tf*idf representation, with stronglysignificant p-values less than 0.001 for both Rougemeasures and all summary lengths.
+Results suggest thatthe entity pair model based on GRE data out-performs the entity pair model based on atomicevents, at least for medium sized summaries of100 and 200 words where ER is significantly betterthan EE for both Rouge measures.
+The scores for the entitypair representations reported in Table 3 are statisti-cally indistinguishable from those for correspond-ing relation and event representations in Table 2above.
+Performance for the re-lation representation is significantly better than anon-trivial tf*idf baseline across the range of sum-mary lengths explored.
+Performance is also atleast as good as a comparable but less general rep-resentation based on event extraction.
+Correlationanalysis suggests that different representations arecomplementary due to the fact that they performwell on different document sets.

@@ -1,0 +1,9 @@
+text,2
+categorization,2
+primary,1
+concern,1
+examine,1
+feature,1
+set,1
+size,1
+effectiveness,1

@@ -1,0 +1,69 @@
+Section Title : 
+1 Introduction
+2 Unsupervised relational pattern learning
+3 Experiments and results
+Label: section  StartNode: 755  EndNode: 769
+1 Introduction
+Label: section  StartNode: 4207  EndNode: 4249
+2 Unsupervised relational pattern learning
+Label: section  StartNode: 9147  EndNode: 9172
+3 Experiments and results
+Label: Abstract  StartNode: 330  EndNode: 338
+Abstract
+Label: intro  StartNode: 755  EndNode: 769
+1 Introduction
+Label: method  StartNode: 4207  EndNode: 4249
+2 Unsupervised relational pattern learning
+Label: exp_result  StartNode: 9147  EndNode: 9172
+3 Experiments and results
+Label: References  StartNode: 15106  EndNode: 15117
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 73
+Pattern Learning for Relation Extraction with a Hierarchical Topic Model
+
+Label: NAMA  StartNode: 73  EndNode: 124
+Enrique Alfonseca Katja Filippova Jean-Yves Delort
+
+Label: OTHER  StartNode: 770  EndNode: 976
+The detection of relations between entities for the
+automatic population of knowledge bases is very
+useful for solving tasks such as Entity Disambigua-
+tion, Information Retrieval and Question Answer-
+ing. 
+Label: PROBLEM  StartNode: 3755  EndNode: 3934
+The main contribution of this work is presenting
+a variant of distance supervision for relation extrac-
+tion where we do not use heuristics in the selection
+of the training data. 
+Label: METODE  StartNode: 4250  EndNode: 4783
+Similar to other distant supervision methods, our ap-
+proach takes as input an existing knowledge base
+containing entities and relations, and a textual cor-
+pus. In this work it is not necessary for the corpus
+to be related to the knowledge base. In what follows
+we assume that all the relations studied are binary
+and hold between exactly two entities in the knowl-
+edge base. We also assume a dependency parser is
+available, and that the entities have been automat-
+ically disambiguated using the knowledge base as
+sense inventory.
+Label: DATA  StartNode: 9173  EndNode: 9372
+Settings We use Freebase as our knowledge base.
+It can be freely downloaded1. text corpus used con-
+tains 33 million English news articles that we down-
+loaded between January 2004 and December 2011.
+Label: METODE  StartNode: 9991  EndNode: 10158
+Two ways of extracting patterns have
+been used: (a) Syntactic, taking the dependency
+path between the two entities, and (b) Intertext,
+taking the text between the two.
+Label: HASIL  StartNode: 11831  EndNode: 12229
+The results for different thresholds of p(r|w) are
+shown in Figure 3. As can be seen, the MLE base-
+lines (in red with syntactic patterns and green with
+intertext) perform consistently worse than the mod-
+els learned using the topic models (in pink and blue).
+The difference in precision, aggregated across all re-
+lations, is statistically significant at 95% confidence
+for most of the thresholds.

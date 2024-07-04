@@ -1,0 +1,3 @@
+Document Segmentation And Region Classification 
+Document segmentation is a process of splitting the document into distinct regions.
+Document segmentation is defined as method of subdividing the document regions into text and non-text regions.

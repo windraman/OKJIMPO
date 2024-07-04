@@ -1,0 +1,8 @@
+We find that exact word formsaren’t necessary for accurate classification.
+We show that by using a variant of SVM –Anchored SVM Learning (Goldberg and Elhadad,2007) with a polynomial kernel, one can learnaccurate models for English NP-chunking (Mar-cus and Ramshaw, 1995), base-phrase chunking(CoNLL 2000), and Dutch Named Entity Recog-nition (CoNLL 2002), on a heavily pruned featurespace. Our models make use of only a fractionof the lexical features available in the training set(less than 1%), and yet provide highly-competitiveaccuracies.
+Without fea-ture pruning, we achieve an F-score of 90.9. Thisdataset proved to be quite resilient to feature prun-ing.
+Without fea-ture pruning, we achieve an F-score of 90.9.
+For all the sequence labeling tasks we analyzed,the anchored-SVM proved to be robust to featurepruning.
+we cannot conclude that lexical infor-mation is not needed
+There is a significant differ-ence between the pruned and non-pruned modelsfor the chunking task. W
+We showed that this dif-ference can be bridged to some extent by a binaryfeature relating to idiomatic word usage, and thatthe difference vanishes when testing outside of theannotated corpus. 

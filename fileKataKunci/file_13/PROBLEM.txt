@@ -1,0 +1,16 @@
+article,2
+efficient,2
+linear,2
+text,2
+segmentation,2
+algorithm,2
+based,2
+hierarchical,2
+agglomerative,2
+clustering,2
+presented,2
+tackle,1
+problems,1
+mentioned,1
+novel,1
+hac,1

@@ -1,0 +1,83 @@
+Section Title : 
+1 Introduction
+2 Shallow Semantic Parsing
+5 Experimental results
+6 Conclusions
+Label: section  StartNode: 781  EndNode: 795
+1 Introduction
+Label: section  StartNode: 5517  EndNode: 5543
+2 Shallow Semantic Parsing
+Label: section  StartNode: 28475  EndNode: 28497
+5 Experimental results
+Label: section  StartNode: 31852  EndNode: 31865
+6 Conclusions
+Label: Abstract  StartNode: 237  EndNode: 245
+Abstract
+Label: intro  StartNode: 781  EndNode: 795
+1 Introduction
+Label: method  StartNode: 5517  EndNode: 5543
+2 Shallow Semantic Parsing
+Label: exp_result  StartNode: 28475  EndNode: 28497
+5 Experimental results
+Label: conclusion  StartNode: 31852  EndNode: 31865
+6 Conclusions
+Label: References  StartNode: 32486  EndNode: 32497
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 41
+Shallow Semantics for Relation Extraction
+Label: NAMA  StartNode: 42  EndNode: 98
+Sanda Harabagiu, Cosmin Adrian Bejan and Paul Mora?rescu
+Label: OTHER  StartNode: 99  EndNode: 143
+Human Language Technology Research Institute
+Label: METODE  StartNode: 442  EndNode: 633
+Semantic information was used (1) to enhance a
+dependency tree kernel; and (2) to build semantic
+dependency structures used for enhanced relation
+extraction for several semantic classifiers. 
+Label: PROBLEM  StartNode: 974  EndNode: 1140
+One
+way of automatically identifying information of interest from
+the vast Internet resources is by recognizing relevant entities
+and meaningful relations they share.
+Label: METODE  StartNode: 2945  EndNode: 2999
+We explored two main resources: PropBank and
+FrameNet.
+Label: METODE  StartNode: 4733  EndNode: 4804
+We used the
+semantic information identified by the parsers in two ways.
+Label: METODE  StartNode: 24161  EndNode: 24344
+Instead of using
+the entire dependency tree to compute similarities, we se-
+lected sub-trees that contain nodes having values for the fea-
+tures from set F2 (illustrated in Figure 7).
+Label: DATA  StartNode: 28498  EndNode: 28687
+To evaluate the role of shallow semantics provided by se-
+mantic parsers on relation extraction we have used the Auto-
+matic Content Extraction (ACE) corpus available from LDC
+(LDC2003T11).
+Label: METODE  StartNode: 29958  EndNode: 30058
+We used each kernel within an SVM (we augmented the
+SVMlight implementation to include our kernels).
+Label: HASIL  StartNode: 30169  EndNode: 30350
+The results indicate that
+on average, for K4, the best performing kernel, we obtained
+an increase of 24.66% in the F-score when features provided
+by the semantic parsers were added.
+Label: HASIL  StartNode: 30789  EndNode: 30922
+The re-
+sults show that frame semantics produce an enhancement of
+53.24% over previous state-of-art results in relation extrac-
+tion.
+Label: HASIL  StartNode: 32002  EndNode: 32135
+This structure enabled the extraction of rele-
+vant relations with better performance than previous state-of-
+the-art kernel methods.
+Label: HASIL  StartNode: 32136  EndNode: 32254
+Furthermore, the semantic features
+enabled similarly good results to be obtained with a few other
+learning algorithms.
+Label: Method Title  StartNode: 0  EndNode: 17
+Shallow Semantics
+Label: Problem Title  StartNode: 22  EndNode: 41
+Relation Extraction

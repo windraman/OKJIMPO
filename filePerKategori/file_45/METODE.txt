@@ -1,0 +1,3 @@
+We use the technique of SVM anchoring todemonstrate that lexical features extractedfrom a training corpus are not necessary toobtain state of the art results on tasks suchas Named Entity Recognition and Chunk-ing.
+We adopt the common feature representation inwhich each data-point is represented as a sparseD dimensional binary-valued vector f .
+To demonstrate this claim,we experiment with anchored SVM, which intro-duces artificial mechanical anchors into the modelto achieve separability, and make rare lexical fea-tures unnecessary.

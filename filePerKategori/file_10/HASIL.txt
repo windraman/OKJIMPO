@@ -1,0 +1,3 @@
+For Datasets 1 and 2, the performance results show thatthe two-step approach (Experiments 2, 3, and 4) outper-forms the one-step approach (Experiment 1). 
+For Dataset 3, the two-step ap-proach slightly decreased the performance; however, thedifferences are too small to draw strong conclusions. 
+This means the tagset used in theone-step approach is much smaller, and thus the one-stepsegmentation model can be better trained on a comparably2005small dataset.

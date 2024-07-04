@@ -1,0 +1,7 @@
+Our empirical evaluation showsthat the strategy with provable performance guarantees per-forms well in comparison with other commonly-used featureselection strategies.
+In addition, it performs better on cer-tain datasets under very aggressive feature selection.
+All the selection strategies except document frequency (DF)and uniform sampling (US) achieve 85% of the original (in-volving no sampling) micro-averaged F1 performance withonly 500 out of the (roughly) 20K original features.
+In gen-eral, the subspace sampling (SS) and information gain (IG)strategies perform best, followed closely by weighted sam-pling (WS).
+In general, SSwith k = 1500 strategy outperforms the other unsupervisedfeature selection strategies; however, it is only marginallybetter than the WS and DF methods.
+As with 20-Newsgroups, the IG-based feature selection strategy performs marginally betterthan the others.
+In fact, for this dataset, the DF selectionstrategy also slightly outperforms the subspace-based meth-ods.

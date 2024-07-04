@@ -1,0 +1,106 @@
+Section Title : 
+I. INTRODUCTION
+II. RELATED WORK
+III. APPROACH
+IV. EXPERIMENTATION
+V. CONCLUSIONS
+Label: section  StartNode: 1044  EndNode: 1059
+I. INTRODUCTION
+Label: section  StartNode: 3382  EndNode: 3398
+II. RELATED WORK
+Label: section  StartNode: 6499  EndNode: 6512
+III. APPROACH
+Label: section  StartNode: 18324  EndNode: 18343
+IV. EXPERIMENTATION
+Label: section  StartNode: 26170  EndNode: 26184
+V. CONCLUSIONS
+Label: Abstract  StartNode: 190  EndNode: 245
+Abstract—The goal of Information Extraction is to auto-
+Label: intro  StartNode: 1044  EndNode: 1059
+I. INTRODUCTION
+Label: rel_work  StartNode: 3382  EndNode: 3398
+II. RELATED WORK
+Label: method  StartNode: 6499  EndNode: 6512
+III. APPROACH
+Label: exp_result  StartNode: 18324  EndNode: 18343
+IV. EXPERIMENTATION
+Label: conclusion  StartNode: 26170  EndNode: 26184
+V. CONCLUSIONS
+Label: References  StartNode: 27362  EndNode: 27373
+
+REFERENCES
+Label: JUDUL  StartNode: 0  EndNode: 54
+Unsupervised Relation Extraction by Massive Clustering
+Label: NAMA  StartNode: 55  EndNode: 70
+Edgar Gonza`lez
+Label: NAMA  StartNode: 72  EndNode: 83
+Jordi Turmo
+Label: OTHER  StartNode: 84  EndNode: 159
+TALP Research Center
+Universitat Polite`cnica de Catalunya
+Barcelona, Spain
+Label: PROBLEM  StartNode: 199  EndNode: 356
+The goal of Information Extraction is to auto-
+matically generate structured pieces of information from the
+relevant information contained in text documents.
+Label: PROBLEM  StartNode: 467  EndNode: 541
+However,
+elements of human supervision strongly bias the learning
+process.
+Label: METODE  StartNode: 599  EndNode: 735
+In this paper, we propose an unsupervised approach to
+learning for Relation Detection, based on the use of massive
+clustering ensembles.
+Label: HASIL  StartNode: 736  EndNode: 970
+The results obtained on the ACE Relation Mention Detection
+task outperform in terms of F1 score by 5 points the state of the
+art of unsupervised techniques for this evaluation framework,
+in addition to being simpler and more flexible.
+Label: PROBLEM  StartNode: 1634  EndNode: 1818
+IE systems require a significant amount of specific lin-
+guistic knowledge, and the process of language or domain
+adaptation of IE systems can hence require significant hu-
+man effort.
+Label: METODE  StartNode: 2592  EndNode: 2858
+In this paper, we propose a novel and flexible unsuper-
+vised approach to learning for Relation Detection, based on
+clustering, which reduces the elements of human supervision
+and simplifies the use of enriched feature sets with respect
+to other existing approaches.
+Label: METODE  StartNode: 6513  EndNode: 6798
+Our approach is based on the transformation of Relation
+Detection between entities of two given types, T1 and T2,
+into a binary classification problem: each pair of entities
+E1 and E2 of the proposed types co-occurring in the
+same sentence has to be classified as related or unrelated.
+Label: METODE  StartNode: 6799  EndNode: 6871
+To classify each pair, we use a two-step scoring-filtering
+architecture.
+Label: METODE  StartNode: 6987  EndNode: 7207
+A scorer is used to calculate the score for this
+instance, s(x), and a filterer assigns it to the related or
+unrelated class according to whether this score is above or
+below a relatedness threshold, threl, respectively.
+Label: DATA  StartNode: 19545  EndNode: 19647
+As learning corpus we used the year 2000 subset of the
+Associated Press section of the AQUAINT Corpus.
+Label: DATA  StartNode: 19762  EndNode: 19877
+As mentioned, as test corpus we used data from the Rela-
+tion Detection and Recognition task of the ACE evaluation.
+Label: DATA  StartNode: 19878  EndNode: 19967
+Specifically, we used the training data of ACE evaluations
+for years 2003, 2004 and 2008.
+Label: HASIL  StartNode: 26444  EndNode: 26606
+ Our approach obtains a F1 measure
+of 55.7, more than 4 points above the upper bound of
+51.0 attainable by the other system, with both using only
+POS information.
+Label: HASIL  StartNode: 26681  EndNode: 26899
+Additionally, we have shown that learning using a massive
+combination of clusterings improves the performance of
+the scorer, with respect to a learner based on a single
+clustering model and a model selection criterion.
+Label: Problem Title  StartNode: 0  EndNode: 32
+Unsupervised Relation Extraction
+Label: Method Title  StartNode: 36  EndNode: 54
+Massive Clustering

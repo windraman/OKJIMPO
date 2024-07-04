@@ -1,0 +1,6 @@
+This algorithmis based on the well-known TextTiling algo-rithm, and segments documents using the La-tent Dirichlet Allocation (LDA) topic model.
+TopicTiling usestopic IDs, obtained by the LDA inference method,instead of words
+We de-note this most probable topic ID as the mode (mostfrequent across all inference steps) of the topic as-signment.
+These IDs are used to calculate the co-sine similarity between two adjacent blocks of sen-tences, represented as two vectors, containing thefrequency of each topic ID.
+To calculate the coherence score, we exclusivelyuse the topic IDs assigned to the words by infer-ence
+The coherence score is calculated by the vector dotproduct, also referred to as cosine similarity.

@@ -1,0 +1,3 @@
+An automatic measure of read-ability that incorporated both lexical and gram-matical features was thus needed.
+One goal of this work is to show that the use of pedagogically motivated grammatical features (e.g., passive voice, rather than the number of words per sen-tence) can improve readability measures based on lexical features alone.
+This phenome-non suggests that grammatical features may play a more important role in predicting and measuring L2 readability.

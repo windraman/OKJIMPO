@@ -1,0 +1,5 @@
+Contrastive error analy-sis (with and without lexical features) in-dicates that lexical features do contributeto resolving some semantic and complexsyntactic ambiguities – but we find thiscontribution does not generalize outsidethe training corpus.
+We find that exact word formsaren’t necessary for accurate classification.
+For all the sequence labeling tasks we analyzed,the anchored-SVM proved to be robust to featurepruning.
+The experiments support the claim thatrare lexical features do not provide substantial in-formation to the model, but instead play a role inmaintaining separability.
+When this role is takenover by anchoring, we can obtain the same levelof performance with very few robust lexical fea-tures.

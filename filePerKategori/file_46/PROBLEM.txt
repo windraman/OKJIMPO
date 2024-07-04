@@ -1,0 +1,7 @@
+Multi-document summarization differs from single in that the issues of compression, speed, redundancy and passage selec- tion are critical in the formation of useful summaries.
+However, large- scale IR and summarization have not yet been truly in- tegrated, and the functionality challenges on a summa- rization system are greater in a true IR or topic-detection context (Yang et al., 1998; Allan et al., 1998).
+Ideally, multi-document summaries should contain the key shared relevant infor- mation among all the documents only once, plus other information unique to some of the individual documents that are directly relevant to the user's query. 
+The degree of redundancy in information contained within a group of topically-related articles is much higher than the degree of redundancy within an arti- cle, as each article is apt to describe the main point as well as necessary shared background.
+A group of articles may contain a temporal dimen- sion, typical in a stream of news reports about an unfolding event.
+The compression ratio (i.e. the size of the summary with respect o the size of the document set) will typically be much smaller for collections of dozens or hundreds of topically related documents than for single document summaries.
+The co-reference problem in summarization presents even greater challenges for multi- document han for single-document summariza- tion (Baldwin and Morton, 1998).

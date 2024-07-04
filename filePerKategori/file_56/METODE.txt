@@ -1,0 +1,6 @@
+In this paper, an effective and efficient new method called variance-mean based feature filtering method of feature selection to do feature reduction in the representation phase for text classification is proposed.
+And here we use the term frequency as the weight for the feature in a text’s feature vector for further constructing our evaluation function just because of convenience.
+We then compute the mean and variance of the values for each row,
+Thirdly, we compute the variance of the components’ data in vector 1), denoted as , which shows the degree of dispersion among classes the term w can demonstrate and the mean of the components’ data in vector 2), denoted as , which shows the average level of the degree of variability within every class the term w can show.
+So and based criterion can be used to evaluate the importance of the candidate term w.
+The features whose  values are bigger than a threshold got by experiment are filtered.

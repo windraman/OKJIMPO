@@ -1,0 +1,5 @@
+In this study we proposed a Cross-Language Information Retrieval (CLIR) method based on domain ontology using Quran concepts for disambiguating translation of the query and to improve the dictionary-based query translation.
+In this approach, we use the cosine similarity between the document vector and a concepts vector as a measure of the score of the concepts for that document.
+Based on category, subcategories and related concepts in Quran ontology, we build a bilingual ontology, consists of Quran concepts and document concepts.
+To reduce this type of problems, we use term in the bilingual dictionary together with term and their translation from the bilingual ontology to build a new combination bilingual dictionary.
+We adopted two basics approaches from Rais et al. (2011) work: (1) using the first translation listed in the dictionary, motivated by the fact that the first translation is often the most frequently used; and (2) using all the translation candidates, motivated by the fact that when all the translation candidates are used, one can include all the possible expressions in the target language and obtain query expansion effect.

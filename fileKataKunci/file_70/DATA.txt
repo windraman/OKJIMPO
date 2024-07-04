@@ -1,0 +1,9 @@
+target,1
+french,1
+collection,1
+includes,1
+documents,1
+total,1
+average,1
+document,1
+length,1

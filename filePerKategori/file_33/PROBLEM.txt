@@ -1,0 +1,1 @@
+DUC 2005 investigated both Rouge andPyramid evaluation schemes in addition to more standardhuman evaluations of responsiveness and linguistic qual-ity.

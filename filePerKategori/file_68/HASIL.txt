@@ -1,0 +1,6 @@
+Evaluated based on user feedback collected through AmazonMechanical Turk, our experimental results show that theBoolean filtering approach, which is widely used in facetedsearch in e-commerce, doesn’t work well for text documentretrieval, due to the incompleteness (low recall) of metadataassignment in semi-structured text documents.
+The average MAP and P@10 of using faceted feed-back on OHSUMED dataset are improved by 32.4% and43.9% over the baseline (BM25) respectively.
+The averageMAP and P@10 on RCV1 dataset are improved by 11.1%and 8.8% respectively.
+The Boolean A+O worksbetter than Boolean AND while still worse than BooleanOR.
+Table 6 shows that FF per-forms better than PRF, and closely to RRF on OHSUMEDdataset; FF performs worse than PRF and RRF on RCV1dataset, and 10% better than BM25.
+The proposed soft modelis shown consistently more effective on both datasets, as itautomatically learns a weight for each facet, which capturesthe facet quality.

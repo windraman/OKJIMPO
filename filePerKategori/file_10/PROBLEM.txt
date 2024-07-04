@@ -1,0 +1,1 @@
+ In this work we describe ourapproach to automatic section segmentation of clinical records such as hospital discharge summaries and radiology reports, along withsection classification into pre-defined section categories. 

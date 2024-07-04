@@ -1,0 +1,97 @@
+Section Title : 
+1. Introduction
+2. Topic Boundary Detection Algorithm
+3. Evaluation
+5. Conclusions and Future Work
+Label: section  StartNode: 1138  EndNode: 1153
+1. Introduction
+Label: section  StartNode: 3783  EndNode: 3820
+2. Topic Boundary Detection Algorithm
+Label: section  StartNode: 12923  EndNode: 12936
+3. Evaluation
+Label: section  StartNode: 22323  EndNode: 22353
+5. Conclusions and Future Work
+Label: Abstract  StartNode: 228  EndNode: 236
+Abstract
+Label: intro  StartNode: 1138  EndNode: 1153
+1. Introduction
+Label: method  StartNode: 3783  EndNode: 3820
+2. Topic Boundary Detection Algorithm
+Label: exp_result  StartNode: 12923  EndNode: 12936
+3. Evaluation
+Label: conclusion  StartNode: 22323  EndNode: 22353
+5. Conclusions and Future Work
+Label: References  StartNode: 23464  EndNode: 23478
+
+7. References
+Label: JUDUL  StartNode: 0  EndNode: 67
+A TextTiling Based Approach to Topic Boundary Detection in Meetings
+Label: NAMA  StartNode: 68  EndNode: 86
+Satanjeev Banerjee
+Label: NAMA  StartNode: 91  EndNode: 112
+Alexander I. Rudnicky
+Label: OTHER  StartNode: 113  EndNode: 201
+Language Technologies Institute
+Carnegie Mellon University
+Pittsburgh, PA. United States
+Label: PROBLEM  StartNode: 237  EndNode: 336
+Our goal is to automatically detect boundaries between discussions
+of different topics in meetings.
+Label: METODE  StartNode: 337  EndNode: 419
+Towards this end we adapt the
+TextTiling algorithm [1] to the context of meetings.
+Label: METODE  StartNode: 420  EndNode: 579
+Our features
+include not only the overlapped words between adjacent windows,
+but also overlaps in the amount of speech contributed by each
+meeting participant.
+Label: HASIL  StartNode: 726  EndNode: 818
+We report average precision of
+0.85 and recall of 0.59 when segmenting unseen test meetings.
+Label: HASIL  StartNode: 819  EndNode: 1035
+Er-
+ror analysis of our results shows that although the basic idea of our
+algorithm is sound, it breaks down when participants stray from
+typical behavior (such as when they monopolize the conversation
+for too long).
+Label: PROBLEM  StartNode: 1154  EndNode: 1251
+Our goal as a part of the CALO project1 is to automatically un-
+derstand discussions at meetings.
+Label: PROBLEM  StartNode: 1252  EndNode: 1332
+A first step towards such under-
+standing is to detect the topics of discussion.
+Label: PROBLEM  StartNode: 1333  EndNode: 1454
+This problem can be
+broken into two parts – detecting when there is a change of topic,
+and determining what the topic is.
+Label: PROBLEM  StartNode: 1455  EndNode: 1601
+In this paper we describe our
+current work on the first question – the detection of boundaries
+between different topics of discussion in meetings.
+Label: METODE  StartNode: 2011  EndNode: 2248
+We base our algorithm on Marti Hearst’s TextTiling
+[1] algorithm where the probability that a point in a text essay is
+a topic boundary is computed based on the similarity between the
+words in windows to the left and right of that point.
+Label: DATA  StartNode: 14147  EndNode: 14242
+The data we use in this paper consists of 3 sequences of meetings
+named CMU-2, CMU-3 and SRI-1.
+Label: HASIL  StartNode: 17581  EndNode: 17743
+On performing this experiment across all the 6 data combi-
+nations, we get an average precision of 0.85, recall of 0.59 and
+f–measure of 0.67 on unseen test data.
+Label: HASIL  StartNode: 18012  EndNode: 18208
+The exact “best”
+window size for the two predictors changes based on the training
+data; the average being 56 seconds for the speech activity predic-
+tor and 70 seconds for the all words predictor.
+Label: HASIL  StartNode: 18209  EndNode: 18346
+The average best
+weight for linear combination is 0.6 for the speech activity bound-
+ary predictor (and 0.4 for the all words predictor).
+Label: Method Title  StartNode: 0  EndNode: 27
+A TextTiling Based Approach
+Label: Problem Title  StartNode: 31  EndNode: 55
+Topic Boundary Detection
+Label: Data Title  StartNode: 59  EndNode: 67
+Meetings

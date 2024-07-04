@@ -1,0 +1,2 @@
+Currently, IEsystems are usually domain-dependent and adaptingthe system to a new domain requires a high amountof manual labour, such as specifying and implement-ing relation–specific extraction patterns manually (cf.Fig. 1) or annotating large amounts of training cor-pora (cf. Fig. 2).
+Consequently, current IE technology is highlystatically and inflexible with respect to a timely adap-tation to new requirements in form of new topics.

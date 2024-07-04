@@ -1,0 +1,8 @@
+The approach uses lexical analyses basedon tf.idf, an information retrieval measurement, to de-termine the extent of the tiles, incorporating thesauralinformationvia a statisticaldisambiguation algorithm.
+Unlike standard discourse analysis approaches, Text-Tiling breaks the text into simple, contiguous ‘tiles’ thatare meant to reflect only topical loci, and not the inter-relations among the topics.
+The algorithm is a two step process; first, all pairs ofadjacent blocks of text (where blocks are usually 3-5sentences long) are compared and assigned a similar-ity value, and then the resulting sequence of similarityvalues, afterbeinggraphedandsmoothed, is examinedfor peaks and valleys.
+ In TextTiling, each block of k sentences istreated as a unit unto itself, and the frequency of aterm within each block is compared to its frequencyin the entire document
+Thus if the similarity score between two blocks is high,then not only do the blocks have terms in common, butthe terms they have in common are relatively rare withrespect to the rest of the document.
+The straightforward way to use the similarity infor-mation is to plot, for each sentence gap, the similarityvalue measured there.
+This re-sult is plotted and for the sentence gap numbers whereno measurement was made, their values are filled inby piecewise linear interpolation.
+We then compute the average similar-ity value at each sentence gap number, giving equalweight to input from each of the k measurements thatcross that point.

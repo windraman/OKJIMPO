@@ -1,0 +1,4 @@
+In recent years, text mining has moved far beyond the clas-sical problem of text classification with an increased interest in moresophisticated processing of large text corpora, such as, for example, eval-uations of complex queries.
+Obviously, the internal representation of texts ina search index as sequences of words is insufficient to recover semantics fromunstructured text (e.g., the “born in” relation in the above example).
+Relationextraction is one of the essential steps towards more complex automatic textprocessing.
+It is concerned with the problem of detecting and classifying prede-fined semantic relations among m-tuples (typically between pairs) of entities inunstructured texts.

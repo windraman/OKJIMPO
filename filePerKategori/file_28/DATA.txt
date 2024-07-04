@@ -1,0 +1,1 @@
+We apply the proposed method to a set of three hundred Web documents, whichare blog posts mentioned on food products.

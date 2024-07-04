@@ -1,0 +1,5 @@
+To prove this, we conducted a Naïve Bayesian classification experiment on Web Directory dataset and found that the classification accuracy increased from 49.6% to 57.6% after removing 98% terms.
+Finally, compared with other unsupervised feature selection methods, TC is better than DF and En, but little worse than TS.
+About 8.5% entropy reduction and 8.1% precision improvement are achieved while 96% features are removed with TS method.
+For example, after 11 iterations with CHI selection on Web Directory dataset (nearly 98% terms removal), the entropy was reduced from 2.305 to 1.994 (13.5% entropy reduction relatively) and the precision was improved from 52.9% to 60.6% (14.6% precision improvement relatively).
+It is found that its performance is close to the ideal case and much better than any unsupervised methods.

@@ -1,0 +1,3 @@
+The results obtained on the ACE Relation Mention Detectiontask outperform in terms of F1 score by 5 points the state of theart of unsupervised techniques for this evaluation framework,in addition to being simpler and more flexible.
+ Our approach obtains a F1 measureof 55.7, more than 4 points above the upper bound of51.0 attainable by the other system, with both using onlyPOS information.
+Additionally, we have shown that learning using a massivecombination of clusterings improves the performance ofthe scorer, with respect to a learner based on a singleclustering model and a model selection criterion.

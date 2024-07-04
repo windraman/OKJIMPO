@@ -1,0 +1,1 @@
+ The method is based on informa-tion made available by shallow semantic parsers.Semantic information was used (1) to enhance adependency tree kernel; and (2) to build semanticdependency structures used for enhanced relationextraction for several semantic classifiers.

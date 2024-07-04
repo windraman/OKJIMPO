@@ -1,0 +1,12 @@
+document,5
+segmentation,3
+regions,3
+text,2
+region,1
+classification,1
+process,1
+splitting,1
+distinct,1
+defined,1
+method,1
+subdividing,1

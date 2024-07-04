@@ -1,0 +1,112 @@
+Section Title : 
+I. INTRODUCTION
+II. FEATURE SELECTION BASED ON THE ?2 STATISTICS
+IV. EXPERIMENTAL RESULTS
+V. CONCLUSIONS
+Label: section  StartNode: 1109  EndNode: 1124
+I. INTRODUCTION
+Label: section  StartNode: 8948  EndNode: 8996
+II. FEATURE SELECTION BASED ON THE ?2 STATISTICS
+Label: section  StartNode: 37786  EndNode: 37810
+IV. EXPERIMENTAL RESULTS
+Label: section  StartNode: 52907  EndNode: 52921
+V. CONCLUSIONS
+Label: Abstract  StartNode: 121  EndNode: 179
+Abstract— Feature selection is an important method for im-
+Label: intro  StartNode: 1109  EndNode: 1124
+I. INTRODUCTION
+Label: method  StartNode: 8948  EndNode: 8996
+II. FEATURE SELECTION BASED ON THE ?2 STATISTICS
+Label: exp_result  StartNode: 37786  EndNode: 37810
+IV. EXPERIMENTAL RESULTS
+Label: conclusion  StartNode: 52907  EndNode: 52921
+V. CONCLUSIONS
+Label: References  StartNode: 55617  EndNode: 55628
+
+REFERENCES
+Label: JUDUL  StartNode: 0  EndNode: 64
+Text Clustering with Feature Selection by Using
+Statistical Data
+Label: NAMA  StartNode: 65  EndNode: 74
+Yanjun Li
+Label: NAMA  StartNode: 76  EndNode: 87
+Congnan Luo
+Label: NAMA  StartNode: 93  EndNode: 106
+Soon M. Chung
+Label: OTHER  StartNode: 108  EndNode: 120
+Member, IEEE
+Label: PROBLEM  StartNode: 131  EndNode: 310
+Feature selection is an important method for im-
+proving the ef?ciency and accuracy of text categorization algo-
+rithms by removing redundant and irrelevant terms from the
+corpus.
+Label: PROBLEM  StartNode: 4538  EndNode: 4806
+But it is shown in [12] that supervised feature
+selection methods using the information gain [16] and the ?2
+statistic can improve the clustering performance better than unsu-
+pervised methods when the class labels of documents are available
+for the feature selection.
+Label: PROBLEM  StartNode: 4807  EndNode: 4975
+However, supervised feature selection
+methods cannot be directly applied to document clustering be-
+cause usually the required class label information is not available.
+Label: METODE  StartNode: 6690  EndNode: 6844
+We also developed a new supervised feature selection method,
+named CHIR, which is based on the ?2 statistic and the new term-
+category dependency measure.
+Label: METODE  StartNode: 6845  EndNode: 6931
+Unlike CHI, CHIR selects features
+having strong positive dependency on the categories.
+Label: METODE  StartNode: 7173  EndNode: 7367
+Unlike the IF
+method [12], which performs text clustering and feature selection
+separately, TCFS integrates a supervised feature selection method,
+such as CHIR, into the text clustering process.
+Label: METODE  StartNode: 25331  EndNode: 25508
+Our feature selection method CHIR uses r?2(w) to measure the
+term-goodness, and makes sure that the r?2 statistic of each term
+represents only positive term-category dependency.
+Label: METODE  StartNode: 34369  EndNode: 34542
+In TCFS, a
+supervised feature selection method, such as CHIR, is integrated
+into the updating step of k-means, and the new updating step
+is considered as the E-step of TCFS.
+Label: DATA  StartNode: 39066  EndNode: 39218
+Two data sets, denoted by
+CACM and MED, are extracted from the CACM and MEDLINE
+abstracts, respectively, which are included in the Classic database
+[4].
+Label: DATA  StartNode: 39219  EndNode: 39375
+Additional three data sets, denoted by EXC, PEO and TOP,
+are from the EXCHANGES, PEOPLE and TOPICS category sets
+of the Reuters-21578 Distribution 1.0 [17].
+Label: HASIL  StartNode: 49828  EndNode: 49951
+Feature selection methods can improve the performance of
+text clustering as more irrelevant or redundant terms are
+removed.
+Label: HASIL  StartNode: 49954  EndNode: 50081
+TCFS with a supervised feature selection method, such as
+CHIR, CHI or CC, can achieve a better F-measure than k-
+means with TS.
+Label: HASIL  StartNode: 50273  EndNode: 50379
+k-means with TS does not consistently outperform k-means
+as the percentage of feature selection is varied.
+Label: HASIL  StartNode: 50543  EndNode: 50702
+The purity values
+of the clustering results obtained by performing k-means
+with TS on the EXC data set are consistently lower than
+those of performing k-means.
+Label: HASIL  StartNode: 50871  EndNode: 51006
+TCFS with CHIR outperforms all other clustering algorithms
+in terms of the F-measure and the purity value for different
+test data sets.
+Label: HASIL  StartNode: 51556  EndNode: 51690
+The experimental results suggest that the performance of TCFS
+is better than that of IF (with one iteration of k-means) in most
+cases.
+Label: Problem Title  StartNode: 0  EndNode: 15
+Text Clustering
+Label: Method Title  StartNode: 21  EndNode: 41
+Feature Selection by
+Label: Data Title  StartNode: 48  EndNode: 64
+Statistical Data

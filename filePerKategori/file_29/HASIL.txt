@@ -1,0 +1,6 @@
+Ourmodel is able to extract 10,000 instances of 102 re-lations at a precision of 67.6%.
+We also analyzefeature performance, showing that syntactic parsefeatures are particularly helpful for relations that areambiguous or lexically distant in their expression.
+At most recall levels, the combination of syn-tactic and lexical features offers a substantial im-provement in precision over either of these featuresets on its own.
+At a recall of 100 instances, the combination oflexical and syntactic features has the best perfor-mance for a majority of the relations, while at a re-call level of 1000 instances the results are mixed.
+Our results show that the distant supervision algo-rithm is able to extract high-precision patterns fora reasonably large number of relations.
+Our results thus suggest that syntactic featuresare indeed useful in distantly supervised informa-tion extraction, and that the benefit of syntax oc-curs in cases where the individual patterns are par-ticularly ambiguous, and where they are nearby inthe dependency structure but distant in terms ofwords.

@@ -1,0 +1,2 @@
+Relation extraction is the task of identifying the relations that hold between interesting entities in text data.
+The main aim of this paper is to examine the suitability of grammatical inference for the task of relation extraction.

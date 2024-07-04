@@ -1,0 +1,113 @@
+Section Title : 
+1. Introduction
+2. Data Sets and Tasks
+3. Categorization Method
+4. Indexing Languages
+6. Results
+7. Future Work
+8. Summary
+Label: section  StartNode: 824  EndNode: 840
+1. Introduction 
+Label: section  StartNode: 2870  EndNode: 2893
+2. Data Sets and Tasks 
+Label: section  StartNode: 4700  EndNode: 4725
+3. Categorization Method 
+Label: section  StartNode: 8483  EndNode: 8505
+4. Indexing Languages 
+Label: section  StartNode: 12719  EndNode: 12730
+6. Results 
+Label: section  StartNode: 20876  EndNode: 20891
+7. Future Work 
+Label: section  StartNode: 21804  EndNode: 21816
+8. Summary  
+Label: Abstract  StartNode: 82  EndNode: 91
+ABSTRACT 
+Label: intro  StartNode: 824  EndNode: 840
+1. Introduction 
+Label: method  StartNode: 2870  EndNode: 2893
+2. Data Sets and Tasks 
+Label: method  StartNode: 4700  EndNode: 4725
+3. Categorization Method 
+Label: rel_work  StartNode: 8483  EndNode: 8505
+4. Indexing Languages 
+Label: exp_result  StartNode: 12719  EndNode: 12730
+6. Results 
+Label: exp_result  StartNode: 20876  EndNode: 20891
+7. Future Work 
+Label: conclusion  StartNode: 21804  EndNode: 21816
+8. Summary  
+Label: References  StartNode: 23022  EndNode: 23034
+
+References 
+Label: METODE  StartNode: 0  EndNode: 41
+Feature Selection and Feature Extract ion
+Label: JUDUL  StartNode: 0  EndNode: 65
+Feature Selection and Feature Extract ion for Text Categorization
+Label: METODE  StartNode: 45  EndNode: 65
+ Text Categorization
+Label: PROBLEM  StartNode: 46  EndNode: 65
+Text Categorization
+Label: NAMA  StartNode: 66  EndNode: 81
+David D. Lewis 
+Label: HASIL  StartNode: 276  EndNode: 395
+Good categorization performance was achieved using 
+a statistical classifier and a proportional assignment strat- 
+egy.
+Label: METODE  StartNode: 1712  EndNode: 1916
+If a syntactic parse of text is available, then features 
+can be defined by the presence of two or more words in 
+particular syntactic relationships. We call such a fea- 
+ture a syntactic indexing phrase.
+Label: METODE  StartNode: 2214  EndNode: 2394
+Syntactic phrase indexing and term clustering have op- 
+posite effects on the properties of a text representation, 
+which led us t o  investigate combining the two techniques 
+[3].
+Label: DATA  StartNode: 2894  EndNode: 2982
+Our first data  set was a set of 21,450 Reuters newswire 
+stories from the year 1987 [4]
+Label: PROBLEM  StartNode: 6776  EndNode: 6887
+A primary concern of ours was to  examine the effect 
+of feature set size on text categorization effectiveness.
+Label: OTHER  StartNode: 8506  EndNode: 8695
+We investigated phrasal and term clustering methods 
+only on the Reuters collection, since the smaller amount 
+of text made the MUC-3 corpus less appropriate for clus- 
+tering experiments. 
+Label: METODE  StartNode: 11458  EndNode: 11604
+We experimented with forming clusters from 
+words under three metafeature definitions, and from 
+phrases under eight metafeature definitions 141. 
+Label: METODE  StartNode: 12731  EndNode: 12830
+We first looked a t  effectiveness of proportional assign- 
+ment with word-based indexing languages
+Label: OTHER  StartNode: 14258  EndNode: 14399
+We 
+show the breakeven point reached for categorization runs 
+with various size sets of words, again on both the Reuters 
+and MUC-3 data sets
+Label: METODE  StartNode: 15115  EndNode: 15208
+We 
+checked for overfitting directly by testing the induced 
+classifiers on the training set.
+Label: OTHER  StartNode: 16231  EndNode: 16463
+Finally, since features with a higher value on expected 
+mutual information are selected first, we intuitively ex- 
+pect features with lower ratings, and thus appearing only 
+in the larger feature sets, to simply be worse features. 
+Label: OTHER  StartNode: 18857  EndNode: 19003
+ In earlier work on the 
+CACM collection \[3\], we identified lack of training data 
+as a primary impediment to high quality cluster forma- 
+tion.
+Label: HASIL  StartNode: 22003  EndNode: 22337
+ We have also shown, via studying text cate- 
+gorization effectiveness, a variety of properties of index- 
+ing languages that are difficult or impossible to measure 
+directly in text retrieval experiments, uch as effects of 
+feature set size and performance of phrasal representa- 
+tions in isolation from word-based representations. 
+Label: Method Title  StartNode: 0  EndNode: 41
+Feature Selection and Feature Extract ion
+Label: Problem Title  StartNode: 46  EndNode: 65
+Text Categorization

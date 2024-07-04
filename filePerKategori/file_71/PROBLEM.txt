@@ -1,0 +1,3 @@
+Cross-language information retrieval today is dominated by techniques that rely principally oncontext-independent token-to-token mappings despite the fact that state-of-the-art statisticalmachine translation systems now have far richer translation models available in theirinternal representations.
+These approaches have complementary strengths: MT makes good use of contextbut at the cost of typically producing only one-best results, while token-to-token mappingscan produce n-best token translations but without leveraging available contextual clues.
+One limitation of applying language and translation models in CLIR is that they have mostlyfocused on isolated tokens (i.e., unigram models).

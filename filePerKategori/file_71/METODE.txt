@@ -1,0 +1,6 @@
+This paper explores combination-of-evidence techniques usingthree types of statistical translation models: context-independent token translation, tokentranslation using phrase-dependent contexts, and token translation using sentence-dependentcontexts.
+Context-independent translation is performed using statistically-aligned tokens inparallel text, phrase-dependent translation is performed using aligned statistical phrases, andsentence-dependent translation is performed using those same aligned phrases together with ann-gram language model.
+One method is to extract a context-awareportion of the SCFG by selecting only the grammar rules that apply to a given query.
+Another solution is to perform translation in context using the full MT system on the entirequery and then to reconstruct context-sensitive token translation probabilities by accumulatingtranslation likelihood evidence from each of the top n query translations.
+In this work we use a technique based on mapping termstatistics before computing term weights (Pirkola, 1998; Darwish and Oard, 2003), leading to arepresentation known as Probabilistic Structured Queries (PSQ).
+In this paper, we explore ways to improve the baseline token-translation model discussed aboveby exploiting the internal representations of the MT system.

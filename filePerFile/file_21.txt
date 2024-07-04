@@ -1,0 +1,105 @@
+Section Title : 
+1. INTRODUCTION
+niques that reduce the computational load involved are thus
+2. RELATED WORK
+3. SUMMARIZATION AS FEATURE SELEC-
+5. EVALUATION OF SUMMARIZATION SYS-
+6. EXPERIMENTAL SETUP
+6.4 Results
+7. CONCLUSIONS
+Label: section  StartNode: 779  EndNode: 794
+1. INTRODUCTION
+Label: section  StartNode: 2295  EndNode: 2354
+niques that reduce the computational load involved are thus
+Label: section  StartNode: 4504  EndNode: 4519
+2. RELATED WORK
+Label: section  StartNode: 5580  EndNode: 5614
+3. SUMMARIZATION AS FEATURE SELEC-
+Label: section  StartNode: 12051  EndNode: 12086
+5. EVALUATION OF SUMMARIZATION SYS-
+Label: section  StartNode: 15742  EndNode: 15763
+6. EXPERIMENTAL SETUP
+Label: section  StartNode: 20904  EndNode: 20915
+6.4 Results
+Label: section  StartNode: 23941  EndNode: 23955
+7. CONCLUSIONS
+Label: Abstract  StartNode: 112  EndNode: 120
+ABSTRACT
+Label: intro  StartNode: 779  EndNode: 794
+1. INTRODUCTION
+Label: intro  StartNode: 2295  EndNode: 2354
+niques that reduce the computational load involved are thus
+Label: rel_work  StartNode: 4504  EndNode: 4519
+2. RELATED WORK
+Label: rel_work  StartNode: 5580  EndNode: 5614
+3. SUMMARIZATION AS FEATURE SELEC-
+Label: method  StartNode: 12051  EndNode: 12086
+5. EVALUATION OF SUMMARIZATION SYS-
+Label: method  StartNode: 15742  EndNode: 15763
+6. EXPERIMENTAL SETUP
+Label: exp_result  StartNode: 20904  EndNode: 20915
+6.4 Results
+Label: conclusion  StartNode: 23941  EndNode: 23955
+7. CONCLUSIONS
+Label: References  StartNode: 24942  EndNode: 24956
+
+9. REFERENCES
+Label: METODE  StartNode: 0  EndNode: 34
+Summarization as Feature Selection
+Label: JUDUL  StartNode: 0  EndNode: 58
+Summarization as Feature Selection for Text
+Categorization
+Label: PROBLEM  StartNode: 39  EndNode: 58
+Text
+Categorization
+Label: NAMA  StartNode: 59  EndNode: 110
+Aleksander Kotcz Vidya Prabakarmurthi Jugal  Kalita
+Label: PROBLEM  StartNode: 121  EndNode: 247
+We address the problem of evaluating the effectiveness of
+summarization techniques for the task of document catego-
+rization. 
+Label: TAHUN  StartNode: 2290  EndNode: 2294
+2001
+Label: PROBLEM  StartNode: 3084  EndNode: 3278
+In this work, we focus on the task of au-
+tomatic document categorization in scenarios where a doc-
+ument’s summary is functionally equivalent to reducing the
+number of features of the original.
+Label: OTHER  StartNode: 3600  EndNode: 3827
+We
+argue that, for the task of automatic text categorization,
+an ideal task-specific summary can be narrowly defined as
+the subset of most-informative features selected specifically
+with the categorization performance in mind. 
+Label: OTHER  StartNode: 5397  EndNode: 5579
+In their ex-
+periments with a probabilistic TF-IDF based classifier, they
+showed that title-based document descriptors resulted in re-
+spectable levels of categorization performance.
+Label: DATA  StartNode: 15784  EndNode: 15856
+We used the Reuters-21578 collection’ as a testbed  for our
+experiments.
+Label: METODE  StartNode: 18425  EndNode: 18852
+To quantify the arguments advanced in this paper, we con-
+sidered a number of simple extraction-based techniques ~
+the details are given in list below. Similar heuristics-based
+techniques have been used for example in [16]  [5]  [17].  In all
+cases, a word occurring at least 3 times in the body of a doc-
+ument was considered a keyword, while a word occurring at
+least once in the title of a story was considered a title word.
+Label: HASIL  StartNode: 23956  EndNode: 24113
+We have proposed a framework for evaluating summariza-
+tion methods in the context of their utility as feature selec-
+tors in automatic text categorization. 
+Label: HASIL  StartNode: 24112  EndNode: 24270
+ Our approach is well
+suited for classifiers utilizing binary feature vectors, where a
+feature corresponds to the presence or absence of a word in
+a document.
+Label: NAMA  StartNode: 24924  EndNode: 24941
+Joshua Alspector 
+Label: Method Title  StartNode: 0  EndNode: 34
+Summarization as Feature Selection
+Label: Problem Title  StartNode: 39  EndNode: 58
+Text
+Categorization

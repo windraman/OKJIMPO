@@ -1,0 +1,2 @@
+The first corpus was from a set of texts gathered from the Web for a prior evaluation of the language modeling approach.
+The second corpora consisted of textbook mate-rials (Adelson-Goldstein and Howard, 2004, for level 2; Ediger and Pavlik, 2000, for levels 3 and 4; Silberstein, 2002, for level 5) from a series of Eng-lish as a Second Language reading courses at the English Language Institute at the University of Pittsburgh.

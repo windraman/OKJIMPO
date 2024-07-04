@@ -1,0 +1,5 @@
+foundabout,1
+facts,1
+superset,1
+theground,1
+truth,1

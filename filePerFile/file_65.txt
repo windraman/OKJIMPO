@@ -1,0 +1,128 @@
+Section Title : 
+1. INTRODUCTION
+1.1. Related Work
+2. MATERIALS AND METHODS
+3. RESULTS
+5. CONCLUSION
+Label: section  StartNode: 2034  EndNode: 2050
+1. INTRODUCTION 
+Label: section  StartNode: 4975  EndNode: 4993
+1.1. Related Work 
+Label: section  StartNode: 9557  EndNode: 9582
+2. MATERIALS AND METHODS 
+Label: section  StartNode: 18629  EndNode: 18640
+3. RESULTS 
+Label: section  StartNode: 23657  EndNode: 23671
+5. CONCLUSION 
+Label: Abstract  StartNode: 446  EndNode: 455
+ABSTRACT 
+Label: intro  StartNode: 2034  EndNode: 2050
+1. INTRODUCTION 
+Label: rel_work  StartNode: 4975  EndNode: 4993
+1.1. Related Work 
+Label: method  StartNode: 9557  EndNode: 9582
+2. MATERIALS AND METHODS 
+Label: exp_result  StartNode: 18629  EndNode: 18640
+3. RESULTS 
+Label: conclusion  StartNode: 23657  EndNode: 23671
+5. CONCLUSION 
+Label: References  StartNode: 25560  EndNode: 25575
+
+6. REFERENCES 
+Label: JUDUL  StartNode: 0  EndNode: 110
+QUERY TRANSLATION USING CONCEPTS 
+SIMILARITY BASED ON QURAN ONTOLOGY 
+FOR CROSS-LANGUAGE INFORMATION RETRIEVAL
+Label: NAMA  StartNode: 113  EndNode: 126
+Zulaini Yahya
+Label: NAMA  StartNode: 129  EndNode: 152
+Muhamad Taufik Abdullah
+Label: NAMA  StartNode: 156  EndNode: 168
+Azreen Azman
+Label: NAMA  StartNode: 174  EndNode: 192
+Rabiah Abdul Kadir
+Label: OTHER  StartNode: 196  EndNode: 381
+1Department of Multimedia,  
+2Department of Computer Science, 
+Faculty of Computer Science and Information Technology, 
+Universiti Putra Malaysia, 43400 UPM Serdang, Selangor, Malaysia 
+Label: TAHUN  StartNode: 434  EndNode: 438
+2013
+Label: PROBLEM  StartNode: 456  EndNode: 605
+In Cross-Language Information Retrieval (CLIR) process, the translation effects have a direct impact on the 
+accuracy of follow-up retrieval results.
+Label: PROBLEM  StartNode: 606  EndNode: 803
+In dictionary-based approach, we are dealing with the words that 
+have more than one meaning which can decrease the retrieval performance if the query translation return an 
+incorrect translations.
+Label: METODE  StartNode: 864  EndNode: 1089
+In this study we proposed 
+a Cross-Language Information Retrieval (CLIR) method based on domain ontology using Quran concepts 
+for disambiguating translation of the query and to improve the dictionary-based query translation.
+Label: HASIL  StartNode: 1629  EndNode: 1817
+The experimental result shows that our proposed method brings significant improvement in retrieval 
+accuracy for English document collections, but deficient for Malay document collections.
+Label: METODE  StartNode: 10431  EndNode: 10591
+In this approach, we use the cosine 
+similarity between the document vector and a concepts 
+vector as a measure of the score of the concepts for that 
+document.
+Label: METODE  StartNode: 11168  EndNode: 11324
+Based on category, subcategories and related 
+concepts in Quran ontology, we build a bilingual 
+ontology, consists of Quran concepts and document 
+concepts.
+Label: METODE  StartNode: 11986  EndNode: 12180
+To 
+reduce this type of problems, we use term in the 
+bilingual dictionary together with term and their 
+translation from the bilingual ontology to build a new 
+combination bilingual dictionary.
+Label: METODE  StartNode: 12341  EndNode: 12774
+We adopted two basics approaches from Rais et al. 
+(2011) work: (1) using the first translation listed in the 
+dictionary, motivated by the fact that the first translation 
+is often the most frequently used; and (2) using all the 
+translation candidates, motivated by the fact that when 
+all the translation candidates are used, one can include all 
+the possible expressions in the target language and obtain 
+query expansion effect.
+Label: DATA  StartNode: 16751  EndNode: 16973
+To evaluate the 
+effectiveness of the proposed CLIR method, we used 
+Malay-English documents sets from actual Malay 
+Quran collection and actual English Quran collection 
+from Abdullah (2006) to verify the proposed method.
+Label: HASIL  StartNode: 18945  EndNode: 19157
+As shown in Table 4, the English document MAP 
+results for IR2 were 2.1 and 5.1% lower than mono IR1 
+result and the Malay document MAP results for IR2 
+were 3.4 and 7.5% lower than mono IR1 result, as 
+expected.
+Label: HASIL  StartNode: 19158  EndNode: 19324
+The English document MAP result for IR3 is 
+higher than IR2 by 2 and 0.6% and the Malay document 
+MAP result for IR3 is lower than IR2 by 2.5 and 2.8%, 
+respectively.
+Label: HASIL  StartNode: 19502  EndNode: 19652
+As can be seen in this figure, 
+dictionary-based CLIR approach in IR2, showed 
+decreasing in retrieval performance compared to 
+Mono IR system in IR1.
+Label: HASIL  StartNode: 21460  EndNode: 21640
+As shown in 
+Table 4, the MAP results for using first translation were 
+3% and 4.1% higher than using all translation candidates 
+result for English and Malay document collections.
+Label: HASIL  StartNode: 23810  EndNode: 24081
+Translation approach in IR2 and IR3, showed that 
+CLIR query translation using first translation listed in the 
+dictionary is obtained a better result compared to using 
+all translation candidates listed in the dictionary either in 
+English or Malay document collections.
+Label: Problem Title  StartNode: 0  EndNode: 17
+QUERY TRANSLATION
+Label: Method Title  StartNode: 24  EndNode: 110
+CONCEPTS 
+SIMILARITY BASED ON QURAN ONTOLOGY 
+FOR CROSS-LANGUAGE INFORMATION RETRIEVAL

@@ -1,0 +1,4 @@
+Note that the supervised method that uses all labelled samples (supT) always obtain better accuracy than the unsupervised method with all the samples (nsup), except in 92AV3C where both methods have similar performance.
+Notice also that, in general, jointly supervised and unsupervised information improve the results, particularly when the unsupervised version tend to perform poorly, and adding few labeled sample increase the accuracy in a significant way.
+Thus, the proposed hybrid method (ssfc) and its supervised version (sup) are better when the number of labeled samples is increased.
+When the number of labeled samples is sufficiently large, the performance of ssfc and sup converge.

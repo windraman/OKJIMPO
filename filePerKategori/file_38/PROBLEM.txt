@@ -1,0 +1,2 @@
+But in real case the class information is unknown, so only unsupervised feature selection can be exploited.
+In many cases, unsupervised feature selection are much worse than supervised feature selection, not only less terms they can remove, but also much worse clustering performance they yield.

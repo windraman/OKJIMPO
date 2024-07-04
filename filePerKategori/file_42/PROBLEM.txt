@@ -1,0 +1,5 @@
+Our goal is to automatically detect boundaries between discussionsof different topics in meetings.
+Our goal as a part of the CALO project1 is to automatically un-derstand discussions at meetings.
+A first step towards such under-standing is to detect the topics of discussion.
+This problem can bebroken into two parts – detecting when there is a change of topic,and determining what the topic is.
+In this paper we describe ourcurrent work on the first question – the detection of boundariesbetween different topics of discussion in meetings.

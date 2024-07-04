@@ -1,0 +1,88 @@
+Section Title : 
+1 INTRODUCTION
+2 RELATED WORK
+3 PROBLEM FORMALIZATION
+5 EVALUATION AND EXPERIMENTAL
+6 CONCLUSION AND FUTURE WORK
+Label: section  StartNode: 1118  EndNode: 1132
+1 INTRODUCTION
+Label: section  StartNode: 3166  EndNode: 3180
+2 RELATED WORK
+Label: section  StartNode: 4127  EndNode: 4150
+3 PROBLEM FORMALIZATION
+Label: section  StartNode: 8598  EndNode: 8627
+5 EVALUATION AND EXPERIMENTAL
+Label: section  StartNode: 12869  EndNode: 12897
+6 CONCLUSION AND FUTURE WORK
+Label: Abstract  StartNode: 101  EndNode: 165
+Abstract. Numerous sources of data are available on the web, for
+Label: intro  StartNode: 1118  EndNode: 1132
+1 INTRODUCTION
+Label: rel_work  StartNode: 3166  EndNode: 3180
+2 RELATED WORK
+Label: method  StartNode: 4127  EndNode: 4150
+3 PROBLEM FORMALIZATION
+Label: exp_result  StartNode: 8598  EndNode: 8627
+5 EVALUATION AND EXPERIMENTAL
+Label: conclusion  StartNode: 12869  EndNode: 12897
+6 CONCLUSION AND FUTURE WORK
+Label: References  StartNode: 13919  EndNode: 13930
+
+REFERENCES
+Label: JUDUL  StartNode: 0  EndNode: 59
+Multi-pattern wrappers for relation extraction from the
+Web
+Label: NAMA  StartNode: 56  EndNode: 100
+Web
+Benjamin Habegger1 and Mohamed Quafafou1
+Label: PROBLEM  StartNode: 249  EndNode: 397
+The extraction of information from the content of these
+sources is a challenging problem and a hard task since they are het-
+erogeneous and dynamic.
+Label: METODE  StartNode: 398  EndNode: 538
+This paper presents a new method for ex-
+tracting wrappers and relations from the web using both page encod-
+ing and context generalization.
+Label: METODE  StartNode: 633  EndNode: 740
+Multiple patterns
+are then extracted considering the occurrences of the input instances
+in the data source.
+Label: METODE  StartNode: 1946  EndNode: 1999
+Our method represents a wrapper as a set of patterns.
+Label: METODE  StartNode: 2000  EndNode: 2096
+We consider
+that the user wants to extract a relation from a given document or set
+of documents.
+Label: OTHER  StartNode: 4065  EndNode: 4126
+Wrapper induction was first introduced by N.
+Kushmerick [10].
+Label: PROBLEM  StartNode: 4786  EndNode: 4904
+The problem we resolve in this paper is to build a wrapper for a
+data source which can extract a relation it contains.
+Label: METODE  StartNode: 8546  EndNode: 8597
+Our method is based on encoding and generalization.
+Label: DATA  StartNode: 8636  EndNode: 8767
+We have evaluated our method on three different types of data
+sources : search-engines, product catalogs and bibliography listings.
+Label: HASIL  StartNode: 9399  EndNode: 9489
+Our method works quite well on the output of
+search engines as it is shown by table below.
+Label: HASIL  StartNode: 10079  EndNode: 10194
+All the built wrappers correctly
+extract the full page with a couple of instances as can be seen the ta-
+ble below.
+Label: HASIL  StartNode: 11878  EndNode: 11999
+In the worst case, when
+all the examples need to be given, the wrapper generated can still
+work on other generated pages.
+Label: HASIL  StartNode: 13419  EndNode: 13572
+The proposed method can wrap up many
+different types of site, is robust to irregularities in format and makes
+use of structure contained in content text.
+Label: Method Title  StartNode: 0  EndNode: 22
+Multi-pattern wrappers
+Label: Problem Title  StartNode: 27  EndNode: 46
+relation extraction
+Label: Data Title  StartNode: 52  EndNode: 59
+the
+Web

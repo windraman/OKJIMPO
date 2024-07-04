@@ -1,0 +1,6 @@
+A dozen simple rules are defined on out-put from a deep parser.
+Each rule specif-ically examines the entities in one targetinteraction pair. 
+Instead of selecting the whole region betweena target pair, the target sentence is simplifiedinto simpler, pair-related, sentences using general,task-independent, rules.
+Our methodrelies on the deep parser; the rules depend on theHead-driven Phrase Structure Grammar (HPSG)used by Mogura, and all the rules are written forthe parser Enju XML output format.
+A clause-selectionrule constructs a simpler sentence (still includ-ing both target entities) by removing noisy infor-mation before and after the relevant clause.
+Anentity-phrase rule simplifies an entity-containingregion without changing the truth-value of the re-lation.

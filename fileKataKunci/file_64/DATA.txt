@@ -1,0 +1,13 @@
+three,1
+relations,1
+tracted,1
+collection,1
+articles,1
+newyork,1
+times,1
+north,1
+amer,1
+ican,1
+news,1
+text,1
+corpus,1

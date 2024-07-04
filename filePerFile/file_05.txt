@@ -1,0 +1,63 @@
+Section Title : 
+1 Introduction
+2 In Defence of the Binary Method
+5 Related Work
+6 Experiments
+7 Discussion
+Label: section  StartNode: 1121  EndNode: 1135
+1 Introduction
+Label: section  StartNode: 6549  EndNode: 6582
+2 In Defence of the Binary Method
+Label: section  StartNode: 14113  EndNode: 14127
+5 Related Work
+Label: section  StartNode: 19274  EndNode: 19287
+6 Experiments
+Label: section  StartNode: 31656  EndNode: 31668
+7 Discussion
+Label: Abstract  StartNode: 231  EndNode: 297
+Abstract. The widely known binary relevance method for multi-label
+Label: intro  StartNode: 1121  EndNode: 1135
+1 Introduction
+Label: method  StartNode: 6549  EndNode: 6582
+2 In Defence of the Binary Method
+Label: rel_work  StartNode: 14113  EndNode: 14127
+5 Related Work
+Label: exp_result  StartNode: 19274  EndNode: 19287
+6 Experiments
+Label: conclusion  StartNode: 31656  EndNode: 31668
+7 Discussion
+Label: References  StartNode: 36935  EndNode: 36946
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 48
+Classifier Chains for Multi-label Classification
+Label: METODE  StartNode: 0  EndNode: 17
+Classifier Chains
+Label: PROBLEM  StartNode: 22  EndNode: 48
+Multi-label Classification
+Label: NAMA  StartNode: 49  EndNode: 106
+Jesse Read, Bernhard Pfahringer, Geoff Holmes, Eibe Frank
+Label: OTHER  StartNode: 241  EndNode: 482
+The widely known binary relevance method for multi-label
+classification, which considers each label as an independent binary prob-
+lem, has been sidelined in the literature due to the perceived inadequacy
+of its label-independence assumption
+Label: HASIL  StartNode: 590  EndNode: 717
+This paper shows that binary relevance-based methods have much to of-
+fer, especially in terms of scalability to large datasets
+Label: METODE  StartNode: 719  EndNode: 854
+We exemplify this
+with a novel chaining method that can model label correlations while
+maintaining acceptable computational complexity.
+Label: DATA  StartNode: 24068  EndNode: 24195
+In total we use 12 datasets, with dimensions ranging from 6 to 983 labels, and
+from less than 1,000 examples to almost 100,000.
+Label: HASIL  StartNode: 36413  EndNode: 36719
+Using a variety of multi-label datasets and evaluation measures, we carried
+out empirical evaluations against a range of algorithms. Our classifier chains
+method proved superior to related methods, and in an ensemble scenario was
+able to improve on state-of-the-art methods, particularly on large datasets.
+Label: Method Title  StartNode: 0  EndNode: 17
+Classifier Chains
+Label: Problem Title  StartNode: 22  EndNode: 48
+Multi-label Classification

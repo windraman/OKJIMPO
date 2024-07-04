@@ -1,0 +1,95 @@
+Section Title : 
+1. Introduction
+2. Generating evaluative arguments
+4. The experiment
+5. Related work
+6. Conclusions and future work
+Label: section  StartNode: 2489  EndNode: 2504
+1. Introduction
+Label: section  StartNode: 6996  EndNode: 7030
+2. Generating evaluative arguments
+Label: section  StartNode: 68167  EndNode: 68184
+4. The experiment
+Label: section  StartNode: 82651  EndNode: 82666
+5. Related work
+Label: section  StartNode: 95818  EndNode: 95848
+6. Conclusions and future work
+Label: Abstract  StartNode: 396  EndNode: 404
+Abstract
+Label: intro  StartNode: 2489  EndNode: 2504
+1. Introduction
+Label: method  StartNode: 6996  EndNode: 7030
+2. Generating evaluative arguments
+Label: exp_result  StartNode: 68167  EndNode: 68184
+4. The experiment
+Label: rel_work  StartNode: 82651  EndNode: 82666
+5. Related work
+Label: conclusion  StartNode: 95818  EndNode: 95848
+6. Conclusions and future work
+Label: References  StartNode: 101234  EndNode: 101245
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 46
+Generating and evaluating evaluative arguments
+Label: NAMA  StartNode: 47  EndNode: 64
+Giuseppe Carenini
+Label: NAMA  StartNode: 70  EndNode: 86
+Johanna D. Moore
+Label: OTHER  StartNode: 314  EndNode: 395
+Received 21 June 2005; received in revised form 15 May 2006; accepted 23 May 2006
+Label: TAHUN  StartNode: 369  EndNode: 373
+2006
+Label: TAHUN  StartNode: 391  EndNode: 395
+2006
+Label: PROBLEM  StartNode: 621  EndNode: 837
+With the proliferation of on-line systems
+serving as personal advisors and assistants, there is a pressing need to develop general and testable computational models for
+generating and presenting evaluative arguments.
+Label: PROBLEM  StartNode: 1824  EndNode: 2170
+Within the framework, we have performed an experiment to test two basic hypotheses on which the design of
+the computational model is based; namely, that our proposal for tailoring an evaluative argument to the addressee’s preferences
+increases its effectiveness, and that differences in conciseness significantly influence argument effectiveness.
+Label: PROBLEM  StartNode: 3993  EndNode: 4142
+First, because of the complexity of generating natural language, researchers
+have tended to focus only on specific aspects of the generation process.
+Label: PROBLEM  StartNode: 4143  EndNode: 4293
+Second, because of a lack of systematic
+evaluation, it is difficult to gauge the effectiveness, scalability and robustness of the proposed approaches.
+Label: HASIL  StartNode: 5824  EndNode: 5959
+The first hypothesis was only marginally confirmed in the experiment (0.05 < p < 0.10), while
+the second one was confirmed at p < 0.05.
+Label: METODE  StartNode: 8978  EndNode: 9153
+GEA, like
+most previous work in NLG, makes the assumption that deep generation should strictly precede surface generation,
+and adopts the resulting pipeline architecture [50].
+Label: METODE  StartNode: 17194  EndNode: 17362
+One model that satisfies the requirements noted above is the additive multiattribute value function (AMVF), which
+is based on multiattribute utility theory (MAUT) [14].
+Label: METODE  StartNode: 28118  EndNode: 28216
+We have adopted compellingness as our measure of the strength for supporting or opposing evidence.
+Label: METODE  StartNode: 28217  EndNode: 28327
+We have
+adopted notably-compelling? as a decision criterion for including a piece of evidence in the argument.
+Label: METODE  StartNode: 38634  EndNode: 38696
+The GEA microplanner performs a simple form of lexical choice.
+Label: METODE  StartNode: 39607  EndNode: 39779
+In practice, lexicalization proper in GEA is implemented in the Functional Unification Framework (FUF) by ex-
+tending previous work on realizing evaluative statements [22].
+Label: METODE  StartNode: 41411  EndNode: 41492
+GEA performs both aggregation via shared participants and by syntactic embedding.
+Label: DATA  StartNode: 58367  EndNode: 58728
+It consists of having the decision-maker select a subset of preferred objects
+(e.g., houses) out of a set of possible alternatives by considering trade-offs among multiple objectives (e.g., house
+location, house quality) and by evaluating the objects with respect to their values for a set of primitive attributes
+(e.g., distance from work, size of the garden).
+Label: HASIL  StartNode: 78927  EndNode: 79063
+Argu-
+ments generated for the TC condition had greater satisfaction z-scores than arguments generated for the TV, NTC and
+NA conditions.
+Label: HASIL  StartNode: 79064  EndNode: 79342
+The difference in effectiveness between arguments generated in the TC condition and arguments gen-
+erated in the TV condition was statistically significant (p < 0.05), while the difference in the other two comparisons
+TC vs. NTC and NA was only marginally significant (p < 0.1).
+Label: HASIL  StartNode: 96679  EndNode: 96786
+While the second hypothesis was confirmed in the experiment, the first one was only marginally con-
+firmed.

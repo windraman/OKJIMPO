@@ -1,0 +1,103 @@
+Section Title : 
+1. ANALYSIS OF INVESTIGATIVE TEXTS
+2. AUTOMATIC RELATION EXTRACTION
+3. PERFORMANCE EVALUATION
+4. CONCLUSIVE REMARKS
+Label: section  StartNode: 1647  EndNode: 1681
+1. ANALYSIS OF INVESTIGATIVE TEXTS
+Label: section  StartNode: 11191  EndNode: 11223
+2. AUTOMATIC RELATION EXTRACTION
+Label: section  StartNode: 24635  EndNode: 24660
+3. PERFORMANCE EVALUATION
+Label: section  StartNode: 37563  EndNode: 37584
+4. CONCLUSIVE REMARKS
+Label: Abstract  StartNode: 480  EndNode: 488
+ABSTRACT
+Label: intro  StartNode: 1647  EndNode: 1681
+1. ANALYSIS OF INVESTIGATIVE TEXTS
+Label: method  StartNode: 11191  EndNode: 11223
+2. AUTOMATIC RELATION EXTRACTION
+Label: exp_result  StartNode: 24635  EndNode: 24660
+3. PERFORMANCE EVALUATION
+Label: conclusion  StartNode: 37563  EndNode: 37584
+4. CONCLUSIVE REMARKS
+Label: References  StartNode: 41580  EndNode: 41594
+
+5. REFERENCES
+Label: JUDUL  StartNode: 0  EndNode: 56
+Kernel-based Relation Extraction from Investigative Data
+Label: NAMA  StartNode: 57  EndNode: 74
+Cristina Giannone
+Label: OTHER  StartNode: 75  EndNode: 139
+CM Sistemi s.p.a and
+University of Roma, Tor
+Vergata
+Rome, Italy
+Label: NAMA  StartNode: 170  EndNode: 184
+Roberto Basili
+Label: NAMA  StartNode: 253  EndNode: 271
+Chiara Del Vescovo
+Label: NAMA  StartNode: 332  EndNode: 344
+Paolo Naggar
+Label: NAMA  StartNode: 400  EndNode: 420
+Alessandro Moschitti
+Label: PROBLEM  StartNode: 870  EndNode: 1045
+The recognition and storage of complex re-
+lations among subjects mentioned in these sources is a very
+difficult and time consuming task, ultimately based on pools
+of experts.
+Label: METODE  StartNode: 1167  EndNode: 1264
+SVMs here are employed to produce a set
+of possible interpretations for domain relevant concepts.
+Label: HASIL  StartNode: 1416  EndNode: 1646
+The empirical investigation pre-
+sented here shows that accurate results, comparable to the
+expert teams, can be achieved, and parametrization allows
+to fine tune the system behavior for fitting the specific do-
+main requirements.
+Label: PROBLEM  StartNode: 2603  EndNode: 2707
+Hence text mining techniques based
+on pure linguistic strategies fail to extract information from
+texts.
+Label: METODE  StartNode: 11471  EndNode: 11610
+The common idea
+of these works is that the computation of the function f
+(as in Eq. 1) is translated into an automatic classification
+step.
+Label: METODE  StartNode: 13182  EndNode: 13356
+SVM classifiers learn a decision boundary be-
+tween two data classes that maximizes the minimum dis-
+tance, or margin, of the training points of each class from
+the boundary.
+Label: DATA  StartNode: 25511  EndNode: 25736
+The experimental corpus, made of 86 documents, annotated
+by two teams of analysts, has been extracted from two collec-
+tions of public judicial acts related to the legal proceedings
+against the same large criminal enterprise.
+Label: HASIL  StartNode: 33322  EndNode: 33675
+Although the precision score of Decision Tree
+and NaiveBayes are better than the model trained over the
+bag-of-words (i.e. a simple model), it achieves an overall
+lower F1 measure (0.31 and 0.4 vs. 0.45) this is due to the
+higher generalisation power of the kernel methods, in fact
+the simple Bow model is already able to achieve an higher
+recall level.
+Label: HASIL  StartNode: 35660  EndNode: 35866
+On some more complex relationship
+classes, as PP knows PP and PP hangs out at a Pl, the
+KXBOW kernel achieves lower performances, basically due
+to the presence of dialectal or syntactically odd expressions.
+Label: HASIL  StartNode: 37242  EndNode: 37455
+As apparent, the plot shows a regular shape and it
+suggests that parameter tuning can be effectively applied to
+capture the required trade-off between the suitable coverage
+and the required accuracy of the method.
+Label: HASIL  StartNode: 37585  EndNode: 37671
+The technology designed and tested in the project has been
+shown to be very effective.
+Label: Problem Title  StartNode: 0  EndNode: 32
+Kernel-based Relation Extraction
+Label: Data Title  StartNode: 38  EndNode: 56
+Investigative Data
+Failed Files : 
+Yang berhasil : 77 dari 77

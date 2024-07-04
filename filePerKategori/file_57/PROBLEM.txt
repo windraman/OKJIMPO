@@ -1,0 +1,4 @@
+With the proliferation of on-line systemsserving as personal advisors and assistants, there is a pressing need to develop general and testable computational models forgenerating and presenting evaluative arguments.
+Within the framework, we have performed an experiment to test two basic hypotheses on which the design ofthe computational model is based; namely, that our proposal for tailoring an evaluative argument to the addressee’s preferencesincreases its effectiveness, and that differences in conciseness significantly influence argument effectiveness.
+First, because of the complexity of generating natural language, researchershave tended to focus only on specific aspects of the generation process.
+Second, because of a lack of systematicevaluation, it is difficult to gauge the effectiveness, scalability and robustness of the proposed approaches.

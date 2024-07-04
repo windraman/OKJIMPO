@@ -1,0 +1,4 @@
+Our approach addresses these issues by using domain- independent techniques based mainly on fast, statistical processing, a metric for reducing redundancy and maxi- mizing diversity in the selected passages, and a modular framework to allow easy parameterization for different genres, corpora characteristics and user requirements.
+This section discusses our current implementation ofa multi-document summarization system which is de- signed to produce summaries that emphasize "relevant novelty."
+A first approximation tomeasuring relevant novelty is to measure relevance and novelty independently and pro- vide a linear combination as the metric.
+Using this metric one can maximize marginal relevance in retrieval and summarization, hence we label our method "maxi- mal marginal relevance" (MMR) (Carboneli and Gold- stein, 1998). 

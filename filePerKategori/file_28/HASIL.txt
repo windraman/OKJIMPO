@@ -1,0 +1,2 @@
+Indeed, asshown in Table 1, precision value is 0.806 in case that the number of seed pairsis 10, and it is within a range of 0.2 to 0.4 in other cases.
+On the other hand, anumber of false negative pairs resulted in low recall.

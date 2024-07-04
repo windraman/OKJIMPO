@@ -1,0 +1,5 @@
+All four Tablesshow good results; a total of 1559 out of 1600 (97.4%)queries retrieved their counterpart patents at the firstrank.
+A total of735 out of 800 (91.9%) queries retrieved their counter-part patents at the first rank.
+A total of 334 out of 400 (83.5 %) counter-part English patent abstracts were correctly retrieved atthe first rank and 361 out of 400 (90.3 %) were re-trieved in the top 3 by the Japanese sentences.
+A total of 310 out of 400(77.5 %) counterpart Japanese patent abstracts werecorrectly retrieved at the first rank and 360 out of 400(90.0 %) were retrieved in the top 3 by the Englishsentences.
+The CLIRsystem produced with the method showed 97.4% accu-racy in our preliminary tests of finding the counter-parts in a parallel corpus of English and Japanese pat-ents.

@@ -1,0 +1,17 @@
+extraction,2
+ldc,2
+evaluate,1
+role,1
+shallow,1
+semantics,1
+provided,1
+se,1
+mantic,1
+parsers,1
+relation,1
+auto,1
+matic,1
+content,1
+ace,1
+corpus,1
+t,1

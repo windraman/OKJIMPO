@@ -1,0 +1,5 @@
+ Usingthis kernel within a Support Vector Ma-chine, we detect and classify relationsbetween entities in the Automatic Con-tent Extraction (ACE) corpus of newsarticles.
+We describe a relation extraction techniquebased on kernel methods.
+Kernel methods arenon-parametric density estimation techniques thatcompute a kernel function between data instances,where a kernel function can be thought of as asimilarity measure.
+To address this problem, we apply SVMsto the task of relation exraction.
+We define a tree kernel over dependency treesand incorporate this kernel within an SVM to ex-tract relations from newswire documents.

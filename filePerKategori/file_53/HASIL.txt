@@ -1,0 +1,1 @@
+The percentage of the extracted text was 99-100% of alltext in test images.

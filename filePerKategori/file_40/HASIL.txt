@@ -1,0 +1,4 @@
+Results show that our summarizing abstractfeature extraction method encouragingly enhances classi?cation performances on most of the classi?ers whencompared with other methods.
+ Comparisonand test results show that the AFE scores the highest F1 measure on the Reuters dataset with 96.9%, the 20Newsgroups dataset with 94.8%, and the ModApte-10 with 96.1%.
+This means that the AFE achieves a betterF1 measure of 3.7% on the Reuters, 19.4% on the 20 Newsgroups, and 3.4% on the ModApte-10 than its nearestfollowing non-AFE method.
+Looking at the average F1 measures of the classi?ers, we see that the AFE’s scoreis 9.2% higher on Reuters, 33.0% higher on 20 Newsgroups, and 7.3% higher on ModApte-10 than the next bestscored method.

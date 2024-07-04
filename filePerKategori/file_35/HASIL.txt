@@ -1,0 +1,4 @@
+For the in-domain setting, our joint modelleads to 4% higher precision than an isolatedlocal approach, but has no advantage over apipeline.
+For the out-of-domain data, we ben-efit strongly from joint modelling, and observeimprovements in precision of 13% over thepipeline, and 15% over the isolated baseline.
+For example, the held-out experiments with 200,000NYT documents finish within three hours.
+When applied to out-of-domain text, this approachleads to a 15% increase in precision over an isolatedbaseline, and a 13% improvement over a pipelinedsystem.

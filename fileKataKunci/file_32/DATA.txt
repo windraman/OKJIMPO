@@ -1,0 +1,11 @@
+ppi,2
+elucidate,1
+sentence,1
+simplifi,1
+cation,1
+applied,1
+rules,1
+corporaand,1
+evaluated,1
+extraction,1
+performance,1

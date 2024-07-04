@@ -1,0 +1,2 @@
+The ?rst dataset is Reuters-215782 and the second is the reduced version ofthe 20 Newsgroups dataset, which is known as the 20 Newsgroups Mini3 dataset.
+We examineperformances of the classi?ers on 3 standard and popular text collections: the Reuters-21578, 20 Newsgroups,and the ModApte-10 split of Reuters.

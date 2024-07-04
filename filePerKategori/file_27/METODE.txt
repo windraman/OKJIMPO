@@ -1,0 +1,6 @@
+This method works by first fac-toring all complex relations into a set of binary re-lations.
+A classifier is then trained in the standardmanner to recognize all pairs of related entities.
+Fi-nally a graph is constructed from the output of thisclassifier and the complex relations are determinedfrom the cliques of this graph.
+Instead of trying to classify all possible relationinstances, in this work we first classify pairs of en-tities as being related or not.
+Then, as discussed inSection 4.2, we reconstruct the larger complex rela-tions from a set of binary relation instances.
+Instead of having the system re-turn all cliques, our system just returns the maximalcliques, that is, those cliques that are not subsets ofother cliques.

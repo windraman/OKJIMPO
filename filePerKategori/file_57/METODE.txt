@@ -1,0 +1,7 @@
+GEA, likemost previous work in NLG, makes the assumption that deep generation should strictly precede surface generation,and adopts the resulting pipeline architecture [50].
+One model that satisfies the requirements noted above is the additive multiattribute value function (AMVF), whichis based on multiattribute utility theory (MAUT) [14].
+We have adopted compellingness as our measure of the strength for supporting or opposing evidence.
+We haveadopted notably-compelling? as a decision criterion for including a piece of evidence in the argument.
+The GEA microplanner performs a simple form of lexical choice.
+In practice, lexicalization proper in GEA is implemented in the Functional Unification Framework (FUF) by ex-tending previous work on realizing evaluative statements [22].
+GEA performs both aggregation via shared participants and by syntactic embedding.

@@ -1,0 +1,6 @@
+From the extracted relations, the system built 306 clus-ters of two or more instances, which were manuallyevaluated by two authors of this paper.
+81 of our clus-ters contain two or more instances of exactly the samerelation, mostly due to the same sentence appearingin several documents of the corpus.
+Of the remaining225 clusters, 121 were marked as consistent (i.e., all in-stances in the cluster express a similar relation), 35 aspartly consistent (i.e., more than half of the instancesin the cluster express a similar relation), 69 as not use-ful.
+Of our 121 consistent clusters, 76 were classified as be-ing of the type ’same pattern’, 27 as being of the type’same topic’ and 18 as being of the type ’relation para-phrases’.
+For the same sentences, the IDEX system extracted 27relations, 11 of them corresponding to the manuallyextracted ones.
+This yields a recall value of 73% anda precision value of 41%.

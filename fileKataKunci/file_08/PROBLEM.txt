@@ -1,0 +1,15 @@
+large,2
+thispaper,1
+propose,1
+framework,1
+scaleevaluation,1
+relation,1
+extraction,1
+systems,1
+basedon,1
+automatic,1
+annotator,1
+publiconline,1
+database,1
+web,1
+corpus,1

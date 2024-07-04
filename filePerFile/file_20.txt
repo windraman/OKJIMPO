@@ -1,0 +1,81 @@
+Section Title : 
+1. INTRODUCTION
+2. FEATURE SELECTION METHODS
+3. CLASSIFIERS AND DOCUMENT COL-
+4. RESULTS
+6. ACKNOWLEDGMENTS
+Label: section  StartNode: 1307  EndNode: 1322
+1. INTRODUCTION
+Label: section  StartNode: 4001  EndNode: 4029
+2. FEATURE SELECTION METHODS
+Label: section  StartNode: 6856  EndNode: 6888
+3. CLASSIFIERS AND DOCUMENT COL-
+Label: section  StartNode: 7593  EndNode: 7603
+4. RESULTS
+Label: section  StartNode: 13096  EndNode: 13114
+6. ACKNOWLEDGMENTS
+Label: Abstract  StartNode: 85  EndNode: 93
+ABSTRACT
+Label: intro  StartNode: 1307  EndNode: 1322
+1. INTRODUCTION
+Label: method  StartNode: 4001  EndNode: 4029
+2. FEATURE SELECTION METHODS
+Label: method  StartNode: 6856  EndNode: 6888
+3. CLASSIFIERS AND DOCUMENT COL-
+Label: exp_result  StartNode: 7593  EndNode: 7603
+4. RESULTS
+Label: conclusion  StartNode: 13096  EndNode: 13114
+6. ACKNOWLEDGMENTS
+Label: References  StartNode: 13506  EndNode: 13520
+
+7. REFERENCES
+Label: JUDUL  StartNode: 0  EndNode: 57
+High-Performing Feature Selection for Text Classification
+Label: METODE  StartNode: 0  EndNode: 33
+High-Performing Feature Selection
+Label: PROBLEM  StartNode: 38  EndNode: 57
+Text Classification
+Label: NAMA  StartNode: 58  EndNode: 71
+Monica Rogati
+Label: NAMA  StartNode: 73  EndNode: 84
+Yiming Yang
+Label: HASIL  StartNode: 980  EndNode: 1128
+The results we obtained using only 3% of the available
+features are among the best reported, including results ob-
+tained with the full feature set.
+Label: TAHUN  StartNode: 2051  EndNode: 2055
+2002
+Label: METODE  StartNode: 4030  EndNode: 4179
+We are concentrating on ?lter methods because 1) they
+are more scalable to very large collections and 2) their bias
+is di?erent from the classi?er’s.
+Label: METODE  StartNode: 4201  EndNode: 4265
+We included several feature selection methods presented
+by [12].
+Label: OTHER  StartNode: 5452  EndNode: 5701
+We examined the correlation between some of the top-
+performing methods and found that some (such as the mul-
+ticlass version of IG and CHI MAX) had little to negative
+correlation, which suggested a potential performance gain
+when they are combined.
+Label: METODE  StartNode: 6013  EndNode: 6159
+We implemented a variant of the µ co-occurence method
+described by [10], which uses the other ?lter feature selection
+methods as a starting point.
+Label: METODE  StartNode: 6898  EndNode: 7129
+We selected four high-performing classi?ers for the feature
+selection experiments:
+• K-Nearest Neighbors (local implementation)
+• Naive Bayes (Rainbow, [7])
+• Rocchio (local implementation)
+• Support Vector Machines (SVMLight, [3])
+Label: OTHER  StartNode: 12230  EndNode: 12496
+We conducted an extensive study of the performance of
+over 100 variants of 5 ?lter feature selection methods us-
+ing two benchmark collections (Reuters 21578 and part of
+RCV1) and four classi?ers (Naive Bayes, Rocchio, K-Nearest
+Neighbor and Support Vector Machines)
+Label: Method Title  StartNode: 0  EndNode: 33
+High-Performing Feature Selection
+Label: Problem Title  StartNode: 38  EndNode: 57
+Text Classification

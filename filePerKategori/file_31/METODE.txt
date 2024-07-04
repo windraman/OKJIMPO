@@ -1,0 +1,5 @@
+The novelty lies in exploiting the diversityof concepts in text for summarization, which has not re-ceived much attention in the summarization literature.
+Adiversity-based approach here is a principled generalizationof Maximal Marginal Relevance criterion by Carbonell andGoldstein [3].
+We propose, in addition, an information-centric approachto evaluation, where the quality of summaries is judged notin terms of how well they match human-created summariesbut in terms of how well they represent their source docu-ments in IR tasks such document retrieval and text catego-rization.
+We evaluate summaries, not in terms of how wellthey match human-made extracts [9, 6], nor in terms of howmuch time it takes for humans to make relevance judgmentson them [12], but in terms of how well they represent sourcedocuments in usual IR tasks such as document retrieval andtext categorization.
+Roughly,the summarizer consists of the following two operations:1. Find-Diversity: Find diverse topic areas in text.2. Reduce-Redundancy: From each topic area, iden-tify the most important sentence and take that sen-tence as a representative of the area.

@@ -1,0 +1,3 @@
+Using a few simple rules applicableto the output of a deep parser called Mogura,we showed that sentence simplification is effec-tive for relation extraction.
+Applying all the rulesimproved the performance on three of the fivecorpora, while applying only the clause-selectionrules raised the performance for the remaining twocorpora as well.
+We analyzed the simplificationresults, and showed that the simple rules are ap-plicable with little danger of changing the truth-values of the interactions.

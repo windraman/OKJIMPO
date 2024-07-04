@@ -1,0 +1,1 @@
+Evaluation of the system’s performance consists ofrunning the system on a concatenation of newspaper articles.

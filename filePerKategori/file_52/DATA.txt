@@ -1,0 +1,4 @@
+For the experimentation the following datasets have been chosen of the UCI repository
+Gisette is a big data in the UCI repository, with 5000 attributes and 13500 objects, 7000 of them labelled. 
+Optdigits problem is about the recognition of a handwritten number.
+In covtype database, the objective is predicting forest cover type from cartographic variables, with no remotely sensed data.

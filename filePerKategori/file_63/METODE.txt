@@ -1,0 +1,5 @@
+In this paper, we propose a novel approach for CLIRsystem targeting Web documents, which uses a naturallanguage resource that is extracted from a Web searchengine as a corpus, and resolves the ambiguities caused bythe dictionary-based query translation approach, by using aco-occurrence information.
+The obtainedtranslation-candidates are disambiguated, using term co-occurrence statistics and then passed to the search engine.
+A query submitted by a user is first segmented into wordsusing a morphological analyzer.
+Then, each word istranslated into the target language using a machine-readable dictionary.
+For instance, thenumber of retrieved documents by searching some termscombined by AND operators, can be regarded as a co-occurrence frequency of those terms in a Web documentcorpus.

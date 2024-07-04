@@ -1,0 +1,5 @@
+The discovery of regulatory pathways, signal cascades,metabolic processes or diseasemodels requires knowledge on individ-ual relations like e.g. physical or regulatory interactions betweengenes and proteins.
+Most interactions mentioned in the free text ofbiomedical publications are not yet contained in structured databases.
+Most interactions mentioned in the free text ofbiomedical publications are not yet contained in structured databases.
+Most biological facts are available only in the free text of scientificarticles. For information integration or combination with other typesof data, these facts have to be extracted from the scientific literature.
+Extracted relationsexhibit high sensitivity but very low specificity.

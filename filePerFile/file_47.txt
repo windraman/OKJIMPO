@@ -1,0 +1,95 @@
+Section Title : 
+1 INTRODUCTION
+2 EXTRACTING RELATIONS
+3 EVALUATION
+4 RELATED WORK
+5 CONCLUSIONS
+Label: section  StartNode: 766  EndNode: 781
+1 INTRODUCTION 
+Label: section  StartNode: 6227  EndNode: 6250
+2 EXTRACTING RELATIONS 
+Label: section  StartNode: 14438  EndNode: 14451
+3 EVALUATION 
+Label: section  StartNode: 22206  EndNode: 22221
+4 RELATED WORK 
+Label: section  StartNode: 24574  EndNode: 24588
+5 CONCLUSIONS 
+Label: Abstract  StartNode: 163  EndNode: 227
+Abstract.1 In this paper we propose a novel relation extraction 
+Label: intro  StartNode: 766  EndNode: 781
+1 INTRODUCTION 
+Label: method  StartNode: 6227  EndNode: 6250
+2 EXTRACTING RELATIONS 
+Label: exp_result  StartNode: 14438  EndNode: 14451
+3 EVALUATION 
+Label: rel_work  StartNode: 22206  EndNode: 22221
+4 RELATED WORK 
+Label: conclusion  StartNode: 24574  EndNode: 24588
+5 CONCLUSIONS 
+Label: References  StartNode: 26775  EndNode: 26789
+
+6 REFERENCES 
+Label: JUDUL  StartNode: 0  EndNode: 63
+Learning context-free grammars to extract relations from 
+text 
+Label: NAMA  StartNode: 64  EndNode: 160
+Georgios Petasis and Vangelis Karkaletsis and Georgios Paliouras and Constantine D. Spyropoulos 
+Label: METODE  StartNode: 174  EndNode: 267
+In this paper we propose a novel relation extraction 
+method, based on grammatical inference.
+Label: METODE  StartNode: 268  EndNode: 418
+Following a semi-
+supervised learning approach, the text that connects named entities 
+in an annotated corpus is used to infer a context free grammar.
+Label: HASIL  StartNode: 575  EndNode: 764
+Evaluation results show that the 
+proposed approach performs comparable to the state of the art, 
+while exhibiting a bias towards precision, which is a sign of 
+conservative generalisation.
+Label: PROBLEM  StartNode: 782  EndNode: 896
+Relation extraction is the task of identifying the relations that hold 
+between interesting entities in text data.
+Label: METODE  StartNode: 1590  EndNode: 1657
+In this paper, a supervised machine learning approach is 
+proposed.
+Label: METODE  StartNode: 1658  EndNode: 1819
+Assuming the existence of a named entity recogniser 
+(NERC), the proposed approach extracts binary relations between 
+named entities already identified in texts.
+Label: PROBLEM  StartNode: 2257  EndNode: 2376
+The main aim of this paper is to examine the suitability of 
+grammatical inference for the task of relation extraction.
+Label: OTHER  StartNode: 3044  EndNode: 3131
+Software and Knowledge Engineering Laboratory, National Centre for 
+Scientific Research
+Label: METODE  StartNode: 6690  EndNode: 6888
+The approach presented 
+in this paper concentrates on extracting binary relations from 
+textual corpora, by trying to capture the linguistic evidence in the 
+text that connects two related entities.
+Label: DATA  StartNode: 14452  EndNode: 14548
+For the purposes of the evaluation, annotated corpus from the 
+BOEMIE research project was used.
+Label: METODE  StartNode: 14737  EndNode: 14929
+All pages have been manually annotated, according to a 
+semantic model capturing information about athletes and their 
+participations in sports competitions, held under official 
+competitions.
+Label: HASIL  StartNode: 19297  EndNode: 19482
+Evaluation results suggest that the proposed approach performs 
+well in comparison to the state of the art, despite the difficulties of 
+comparing results obtained on different corpora.
+Label: HASIL  StartNode: 25742  EndNode: 26108
+In addition, the fact that the proposed approach 
+does not involve any abstraction other than the generalisation 
+performed by the grammatical inference algorithm, allowed us to 
+get an estimate of the degree of generalisation that can be achieved 
+by the algorithm. This was measured to be at least 10 pp 
+accompanied with a degradation in precision of about 29 pp.
+Label: Method Title  StartNode: 0  EndNode: 30
+Learning context-free grammars
+Label: Problem Title  StartNode: 34  EndNode: 51
+extract relations
+Label: Data Title  StartNode: 57  EndNode: 62
+
+text

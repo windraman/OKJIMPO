@@ -1,0 +1,106 @@
+Section Title : 
+1 Introduction
+1.1 Related Work
+2 Learning with Less Features
+4 Experiment Setup
+6 Error Analysis
+Label: section  StartNode: 1175  EndNode: 1189
+1 Introduction
+Label: section  StartNode: 5786  EndNode: 5802
+1.1 Related Work
+Label: section  StartNode: 8529  EndNode: 8558
+2 Learning with Less Features
+Label: section  StartNode: 14168  EndNode: 14186
+4 Experiment Setup
+Label: section  StartNode: 24897  EndNode: 24913
+6 Error Analysis
+Label: Abstract  StartNode: 218  EndNode: 226
+Abstract
+Label: intro  StartNode: 1175  EndNode: 1189
+1 Introduction
+Label: rel_work  StartNode: 5786  EndNode: 5802
+1.1 Related Work
+Label: method  StartNode: 8529  EndNode: 8558
+2 Learning with Less Features
+Label: exp_result  StartNode: 14168  EndNode: 14186
+4 Experiment Setup
+Label: conclusion  StartNode: 24897  EndNode: 24913
+6 Error Analysis
+Label: References  StartNode: 38660  EndNode: 38671
+
+References
+Label: METODE  StartNode: 0  EndNode: 31
+On the Role of Lexical Features
+Label: JUDUL  StartNode: 0  EndNode: 52
+On the Role of Lexical Features in Sequence Labeling
+Label: PROBLEM  StartNode: 35  EndNode: 52
+Sequence Labeling
+Label: NAMA  StartNode: 53  EndNode: 87
+Yoav Goldberg? and Michael Elhadad
+Label: METODE  StartNode: 227  EndNode: 445
+We use the technique of SVM anchoring to
+demonstrate that lexical features extracted
+from a training corpus are not necessary to
+obtain state of the art results on tasks such
+as Named Entity Recognition and Chunk-
+ing.
+Label: OTHER  StartNode: 1190  EndNode: 1331
+Common NLP tasks, such as Named Entity
+Recognition and Chunking, involve the identifi-
+cation of spans of words belonging to the same
+phrase.
+Label: HASIL  StartNode: 2527  EndNode: 2602
+We find that exact word forms
+aren’t necessary for accurate classification.
+Label: HASIL  StartNode: 3512  EndNode: 3990
+We show that by using a variant of SVM –
+Anchored SVM Learning (Goldberg and Elhadad,
+2007) with a polynomial kernel, one can learn
+accurate models for English NP-chunking (Mar-
+cus and Ramshaw, 1995), base-phrase chunking
+(CoNLL 2000), and Dutch Named Entity Recog-
+nition (CoNLL 2002), on a heavily pruned feature
+space. Our models make use of only a fraction
+of the lexical features available in the training set
+(less than 1%), and yet provide highly-competitive
+accuracies.
+Label: DATA  StartNode: 16967  EndNode: 17048
+We use the Dutch data set from the CoNLL 2002
+shared task (Tjong Kim Sang, 2002).
+Label: HASIL  StartNode: 17949  EndNode: 18070
+Without fea-
+ture pruning, we achieve an F-score of 90.9. This
+dataset proved to be quite resilient to feature prun-
+ing.
+Label: HASIL  StartNode: 17949  EndNode: 18006
+Without fea-
+ture pruning, we achieve an F-score of 90.9.
+Label: DATA  StartNode: 18662  EndNode: 18800
+We use
+the data from the CoNLL 2000 shared task: NP
+chunks are extracted from Sections 15-18 (train)
+and 20 (test) of the Penn WSJ corpus.
+Label: DATA  StartNode: 19882  EndNode: 19929
+We use the data from
+the CoNLL 2000 shared task
+Label: HASIL  StartNode: 37285  EndNode: 37390
+For all the sequence labeling tasks we analyzed,
+the anchored-SVM proved to be robust to feature
+pruning.
+Label: HASIL  StartNode: 37693  EndNode: 37752
+we cannot conclude that lexical infor-
+mation is not needed
+Label: HASIL  StartNode: 37754  EndNode: 37855
+There is a significant differ-
+ence between the pruned and non-pruned models
+for the chunking task. W
+Label: HASIL  StartNode: 37854  EndNode: 38050
+We showed that this dif-
+ference can be bridged to some extent by a binary
+feature relating to idiomatic word usage, and that
+the difference vanishes when testing outside of the
+annotated corpus. 
+Label: Problem Title  StartNode: 0  EndNode: 31
+On the Role of Lexical Features
+Label: Data Title  StartNode: 35  EndNode: 52
+Sequence Labeling

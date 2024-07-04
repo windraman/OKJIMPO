@@ -1,0 +1,101 @@
+Section Title : 
+I. INTRODUCTION
+II. FEATURE SELECTION BASED ON THE ?2 STATISTICS
+IV. EXPERIMENTAL RESULTS
+V. CONCLUSIONS
+Label: section  StartNode: 1109  EndNode: 1124
+I. INTRODUCTION
+Label: section  StartNode: 8948  EndNode: 8996
+II. FEATURE SELECTION BASED ON THE ?2 STATISTICS
+Label: section  StartNode: 37786  EndNode: 37810
+IV. EXPERIMENTAL RESULTS
+Label: section  StartNode: 52907  EndNode: 52921
+V. CONCLUSIONS
+Label: Abstract  StartNode: 121  EndNode: 179
+Abstract— Feature selection is an important method for im-
+Label: intro  StartNode: 1109  EndNode: 1124
+I. INTRODUCTION
+Label: method  StartNode: 8948  EndNode: 8996
+II. FEATURE SELECTION BASED ON THE ?2 STATISTICS
+Label: exp_result  StartNode: 37786  EndNode: 37810
+IV. EXPERIMENTAL RESULTS
+Label: conclusion  StartNode: 52907  EndNode: 52921
+V. CONCLUSIONS
+Label: References  StartNode: 55617  EndNode: 55628
+
+REFERENCES
+Label: PROBLEM  StartNode: 0  EndNode: 38
+Text Clustering with Feature Selection
+Label: JUDUL  StartNode: 0  EndNode: 64
+Text Clustering with Feature Selection by Using Statistical Data
+Label: METODE  StartNode: 42  EndNode: 64
+Using Statistical Data
+Label: NAMA  StartNode: 65  EndNode: 106
+Yanjun Li, Congnan Luo, and Soon M. Chung
+Label: METODE  StartNode: 130  EndNode: 749
+ Feature selection is an important method for im-
+proving the ef?ciency and accuracy of text categorization algo-
+rithms by removing redundant and irrelevant terms from the
+corpus. In this paper, we propose a new supervised feature
+selection method, named CHIR, which is based on the ?2 statistic
+and new statistical data that can measure the positive term-
+category dependency. We also propose a new text clustering
+algorithm TCFS, which stands for Text Clustering with Feature
+Selection. TCFS can incorporate CHIR to identify relevant
+features (i.e., terms) iteratively, and the clustering becomes a
+learning process.
+Label: OTHER  StartNode: 130  EndNode: 310
+ Feature selection is an important method for im-
+proving the ef?ciency and accuracy of text categorization algo-
+rithms by removing redundant and irrelevant terms from the
+corpus.
+Label: METODE  StartNode: 311  EndNode: 508
+In this paper, we propose a new supervised feature
+selection method, named CHIR, which is based on the ?2 statistic
+and new statistical data that can measure the positive term-
+category dependency.
+Label: HASIL  StartNode: 888  EndNode: 1010
+Our experimental results show that
+TCFS with CHIR has better clustering accuracy in terms of the
+F-measure and the purity.
+Label: METODE  StartNode: 5997  EndNode: 6198
+In this research, we extended the ?2 term-category indepen-
+dence test by introducing new statistical data that can measure
+whether the dependency between a term and a category is positive
+or negative.
+Label: HASIL  StartNode: 7725  EndNode: 8073
+Our experimental results with various real data sets demon-
+strated that the TCFS algorithm using the CHIR feature selection
+method performs better than k-means, k-means with the Term
+Strength (TS) feature selection method [12], the IF method, and
+TCFS with other supervised feature selection methods in terms
+of the accuracy of clustering results.
+Label: TAHUN  StartNode: 12898  EndNode: 12902
+2008
+Label: HASIL  StartNode: 13218  EndNode: 13370
+In our research, we found the feature selection method CHI
+does not fully explore all the information provided by the ?2
+term-category independence test
+Label: DATA  StartNode: 38903  EndNode: 39375
+We used ?ve test data sets extracted from two different types
+of text databases, which have been widely used by the researchers
+in the information retrieval area. Two data sets, denoted by
+CACM and MED, are extracted from the CACM and MEDLINE
+abstracts, respectively, which are included in the Classic database
+[4]. Additional three data sets, denoted by EXC, PEO and TOP,
+are from the EXCHANGES, PEOPLE and TOPICS category sets
+of the Reuters-21578 Distribution 1.0 [17].
+Label: METODE  StartNode: 39879  EndNode: 39972
+We used the
+cohesiveness of clusters to measure the performance of feature
+selection methods.
+Label: METODE  StartNode: 40940  EndNode: 41032
+We used the F-
+measure and the purity to evaluate the accuracy of the clustering
+algorithms.
+Label: Problem Title  StartNode: 0  EndNode: 15
+Text Clustering
+Label: Method Title  StartNode: 21  EndNode: 41
+Feature Selection by
+Label: Data Title  StartNode: 48  EndNode: 64
+Statistical Data

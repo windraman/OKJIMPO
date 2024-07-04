@@ -1,0 +1,4 @@
+TheEmbra system performance is better than mean and me-dian system scores for the responsiveness measure andfor three of the five linguistic quality measures (grammat-icality, non-redundancy and focus).
+It is just below meanand median scores for structure/coherence.
+We observed an insignificant but positiveimprovement in the Rouge-2 recall of 0.8% while Rouge-SU4 recall exhibited a slight decrease of 0.2%.
+For bothofficial DUC 2005 measures, the precision increased giv-ing slightly higher combined F-scores. For Rouge-2, pre-cision improved by 1.2%. And for Rouge-SU4, precisionimproved by 0.2%.

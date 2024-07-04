@@ -1,0 +1,91 @@
+Section Title : 
+1. Introduction
+2. Text classification framework
+5. Experiment
+6. Conclusions and future work
+Label: section  StartNode: 1596  EndNode: 1612
+1. Introduction 
+Label: section  StartNode: 3706  EndNode: 3739
+2. Text classification framework 
+Label: section  StartNode: 16175  EndNode: 16189
+5. Experiment 
+Label: section  StartNode: 24398  EndNode: 24429
+6. Conclusions and future work 
+Label: Abstract  StartNode: 399  EndNode: 409
+Abstract: 
+Label: intro  StartNode: 1596  EndNode: 1612
+1. Introduction 
+Label: method  StartNode: 3706  EndNode: 3739
+2. Text classification framework 
+Label: exp_result  StartNode: 16175  EndNode: 16189
+5. Experiment 
+Label: conclusion  StartNode: 24398  EndNode: 24429
+6. Conclusions and future work 
+Label: References  StartNode: 25484  EndNode: 25496
+
+References 
+Label: JUDUL  StartNode: 0  EndNode: 58
+A New Approach to Feature Selection in Text Classification
+Label: TAHUN  StartNode: 172  EndNode: 177
+2005
+Label: NAMA   StartNode: 243  EndNode: 268
+YI WANG, XIAO-JING WANG  
+Label: PROBLEM  StartNode: 410  EndNode: 588
+Text classification is the process of automatically 
+assigning predefined categories to free text, which is very 
+important to information retrieval and many other 
+applications.
+Label: METODE  StartNode: 885  EndNode: 1102
+In 
+this paper, an effective and efficient new method called 
+variance-mean based feature filtering method of feature 
+selection to do feature reduction in the representation phase 
+for text classification is proposed
+Label: METODE  StartNode: 2630  EndNode: 2773
+ In this paper, we 
+propose a new approach to feature selection to do feature 
+reduction, which is a constituent process in representing 
+texts
+Label: HASIL  StartNode: 2775  EndNode: 2918
+Using SVM as the classifier, the macro-precision, 
+macro-recall and macro-f1 used to evaluate the 
+performance shown by our experiment are high
+Label: HASIL  StartNode: 3413  EndNode: 3641
+Further, in part 5, the experiment we 
+have done is described, demonstrating the effectiveness and 
+efficiency our method can gain regarding to the final 
+classification performance by analyzing the performance 
+evaluation data.
+Label: TAHUN  St artNode: 4924  EndNode: 4929
+2005
+Label: DATA  StartNode: 11114  EndNode: 11286
+And here we use the term frequency as the weight for 
+the feature in a textâ€™s feature vector for further constructing 
+our evaluation function just because of convenience
+Label: DATA  StartNode: 16348  EndNode: 16551
+We divide 
+the corpus into two non-intersected sets: a training set 
+containing 10 categories with 100 texts in each and a test 
+set containing the same 10 categories with another 100 texts 
+in each also
+Label: HASIL  StartNode: 21624  EndNode: 21661
+2) Our 
+method shows a good property.
+Label: HASIL  StartNode: 23623  EndNode: 23824
+ that our method can gain higher performance at a very 
+low dimension, and quickly reach a peak, which means 
+much less computing time and almost best performance 
+while the other two classical methods
+Label: HASIL  StartNode: 24582  EndNode: 24853
+ The classification 
+performance gained using the new method proposed in this 
+paper doing feature reduction is very effective and efficient 
+especially when compared with the one gained using the 
+classical methods, which are reported having better 
+performance in [11].
+Label: Method Title  StartNode: 0  EndNode: 14
+A New Approach
+Label: Problem Title  StartNode: 18  EndNode: 35
+Feature Selection
+Label: Data Title  StartNode: 39  EndNode: 58
+Text Classification

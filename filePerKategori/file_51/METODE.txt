@@ -1,0 +1,6 @@
+In order to examinethe properties of these seven techniques we performed a seriesof similarity and classi?cation experiments on eleven DNAmicroarray datasets.
+This paper presents a set of seven univariate featureselection techniques which we have combined into a familyof techniques we name First Order Statistics (FOS) basedfeature selection.
+Our group decided to use twelvefeature subset sizes for this experiment: 5, 10, 15, 20, 25, 50,75, 100, 200, 350, 500, and 1000.
+We decided to use consistency index [4] because it takesinto consideration bias due to chance.
+In this study we use three different classi?ers or learnersto evaluate the classi?cation power of the seven FOS rankers.
+The three classi?ers used in this study are SVM, LogisticRegression, and Random Forest.

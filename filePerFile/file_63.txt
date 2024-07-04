@@ -1,0 +1,116 @@
+Section Title : 
+1 Introduction
+2 Related Work
+3 Query Translation
+5 Evaluation
+6 Conclusion
+Label: section  StartNode: 1245  EndNode: 1259
+1 Introduction
+Label: section  StartNode: 5656  EndNode: 5670
+2 Related Work
+Label: section  StartNode: 9934  EndNode: 9953
+3 Query Translation
+Label: section  StartNode: 20034  EndNode: 20046
+5 Evaluation
+Label: section  StartNode: 30624  EndNode: 30636
+6 Conclusion
+Label: Abstract  StartNode: 374  EndNode: 382
+Abstract
+Label: intro  StartNode: 1245  EndNode: 1259
+1 Introduction
+Label: rel_work  StartNode: 5656  EndNode: 5670
+2 Related Work
+Label: method  StartNode: 9934  EndNode: 9953
+3 Query Translation
+Label: exp_result  StartNode: 20034  EndNode: 20046
+5 Evaluation
+Label: conclusion  StartNode: 30624  EndNode: 30636
+6 Conclusion
+Label: References  StartNode: 31686  EndNode: 31697
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 92
+Query Term Disambiguation for Web Cross-Language Information
+Retrieval using a Search Engine
+Label: NAMA  StartNode: 93  EndNode: 104
+Akira Maeda
+Label: NAMA  StartNode: 106  EndNode: 118
+Fatiha Sadat
+Label: NAMA  StartNode: 120  EndNode: 139
+Masatoshi Yoshikawa
+Label: NAMA  StartNode: 145  EndNode: 160
+Shunsuke Uemura
+Label: OTHER  StartNode: 161  EndNode: 255
+Graduate School of Information Science
+Nara Institute of Science and Technology (NAIST), Japan
+Label: PROBLEM  StartNode: 383  EndNode: 511
+With the worldwide growth of the Internet, research on Cross-Language Information Retrieval (CLIR) is
+being paid much attention.
+Label: PROBLEM  StartNode: 512  EndNode: 660
+Existing CLIR approaches based on query translation require parallel corpora
+or comparable corpora for the disambiguation of translated query terms.
+Label: PROBLEM  StartNode: 661  EndNode: 729
+However, those natural
+language resources are not readily available.
+Label: HASIL  StartNode: 1052  EndNode: 1157
+In the experiments, our method
+achieved 97% of manual translation case in terms of the average precision.
+Label: PROBLEM  StartNode: 4576  EndNode: 4710
+One of the major technical problems to be solved in CLIR
+concerns the translation of short queries of one or few
+words, appropriately.
+Label: PROBLEM  StartNode: 4711  EndNode: 4826
+Possible translation-candidates might
+be numerous in such cases and resolving such ambiguities
+becomes a hard task.
+Label: METODE  StartNode: 4827  EndNode: 5131
+In this paper, we propose a novel approach for CLIR
+system targeting Web documents, which uses a natural
+language resource that is extracted from a Web search
+engine as a corpus, and resolves the ambiguities caused by
+the dictionary-based query translation approach, by using a
+co-occurrence information.
+Label: METODE  StartNode: 10160  EndNode: 10289
+The obtained
+translation-candidates are disambiguated, using term co-
+occurrence statistics and then passed to the search engine.
+Label: METODE  StartNode: 10290  EndNode: 10379
+A query submitted by a user is first segmented into words
+using a morphological analyzer.
+Label: METODE  StartNode: 10380  EndNode: 10472
+Then, each word is
+translated into the target language using a machine-
+readable dictionary.
+Label: METODE  StartNode: 11390  EndNode: 11575
+For instance, the
+number of retrieved documents by searching some terms
+combined by AND operators, can be regarded as a co-
+occurrence frequency of those terms in a Web document
+corpus.
+Label: DATA  StartNode: 20648  EndNode: 20737
+For the test data, we used NACSIS Test Collection 1
+(NTCIR-1)[17] (Research Purpose Use).
+Label: DATA  StartNode: 21604  EndNode: 21855
+For query translation, we merged three dictionaries,
+Japanese-English Bilingual Dictionary and Technical
+Terms Dictionary (Information Processing) of EDR
+Electronic Dictionary Version 1.5[19] and EDICT, which is
+a freeware Japanese-English dictionary.
+Label: DATA  StartNode: 22251  EndNode: 22350
+We chose AltaVista as the Web
+search engine for the query disambiguation for the
+following reasons:
+Label: HASIL  StartNode: 26463  EndNode: 26635
+In terms of average precisions compared with NODIS, the
+proposed disambiguation method improved 1.0 point for
+NTCIR and 0.8 point for NEAR, but decreased 0.7 point
+for AND.
+Label: HASIL  StartNode: 30103  EndNode: 30245
+In this experiment, differences of the average precisions
+among four measures were lower than 0.1% and no
+significant difference was observed.
+Label: Method Title  StartNode: 0  EndNode: 25
+Query Term Disambiguation
+Label: Problem Title  StartNode: 30  EndNode: 92
+Web Cross-Language Information
+Retrieval using a Search Engine

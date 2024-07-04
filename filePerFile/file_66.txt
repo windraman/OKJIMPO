@@ -1,0 +1,134 @@
+Section Title : 
+1 Introduct ion
+2 Trans la t ion  Mode l
+4 Resu l ts
+5 Conclusions and Future
+Label: section  StartNode: 919  EndNode: 935
+1 Introduct ion 
+Label: section  StartNode: 7321  EndNode: 7347
+2 Trans la t ion  Mode l  
+Label: section  StartNode: 12942  EndNode: 12955
+4 Resu l ts  
+Label: section  StartNode: 19870  EndNode: 19895
+5 Conclusions and Future 
+Label: Abstract  StartNode: 205  EndNode: 214
+Abstract 
+Label: intro  StartNode: 919  EndNode: 935
+1 Introduct ion 
+Label: method  StartNode: 7321  EndNode: 7347
+2 Trans la t ion  Mode l  
+Label: exp_result  StartNode: 12942  EndNode: 12955
+4 Resu l ts  
+Label: conclusion  StartNode: 19870  EndNode: 19895
+5 Conclusions and Future 
+Label: References  StartNode: 21701  EndNode: 21713
+
+References 
+Label: JUDUL  StartNode: 0  EndNode: 89
+Should we Translate the Documents or the Queries in Cross-language Information Retrieval?
+Label: NAMA  StartNode: 90  EndNode: 108
+J. Scott McCarley 
+Label: OTHER  StartNode: 109  EndNode: 204
+IBM T.J. Watson Research Center 
+P.O. Box 218 
+Yorktown Heights, NY 10598 
+jsmc@watson.ibm.com 
+Label: PROBLEM  StartNode: 215  EndNode: 374
+Previous comparisons of document and 
+query translation suffered difficulty due to 
+differing quality of machine translation in 
+these two opposite directions.
+Label: METODE  StartNode: 375  EndNode: 519
+We avoid 
+this difficulty by training identical statistical 
+translation models for both translation di- 
+rections using the same training data.
+Label: METODE  StartNode: 520  EndNode: 759
+We in- 
+vestigate information retrieval between En- 
+glish and French, incorporating both trans- 
+lations directions into both document trans- 
+lation and query translation-based informa- 
+tion retrieval, as well as into hybrid sys- 
+tems.
+Label: HASIL  StartNode: 760  EndNode: 917
+We find that hybrids of document 
+and query translation-based systems out- 
+perform query translation systems, even 
+human-quality query translation systems.
+Label: PROBLEM  StartNode: 936  EndNode: 1029
+Should we translate the documents or the 
+queries in cross-language information re- 
+trieval?
+Label: PROBLEM  StartNode: 1794  EndNode: 1969
+Translating 
+the documents into the query's language(s) 
+and translating the queries into the docu- 
+ment's language(s) represent wo extreme 
+approaches to coupling MT and IR.
+Label: METODE  StartNode: 5557  EndNode: 5742
+The present work avoids 
+this difficulty by using statistical machine 
+translation systems for both directions that 
+are trained on the same training data us- 
+ing identical procedures.
+Label: METODE  StartNode: 6002  EndNode: 6193
+We built and compared three information 
+retrieval systems : one based on document 
+translation, one based on query translation, 
+and a hybrid system that used both trans- 
+lation directions.
+Label: METODE  StartNode: 6194  EndNode: 6342
+In fact, the "score" of a 
+document in the hybrid system is simply the 
+arithmetic mean of its scores in the query 
+and document ranslation systems.
+Label: DATA  StartNode: 8923  EndNode: 9067
+The document sets used in our experiments 
+were the English and French parts of the doc- 
+ument set used in the TREC-6 and TREC- 
+7 CLIR tracks.
+Label: DATA  StartNode: 9068  EndNode: 9201
+The English document 
+set consisted of 3 years of AP newswire 
+(1988-1990), comprising 242918 stories orig- 
+inally occupying 759 MB.
+Label: DATA  StartNode: 9202  EndNode: 9359
+The French doc- 
+ument set consisted of the same 3 years of 
+SDA (a Swiss newswire service), compris- 
+ing 141656 stories and originally occupy- 
+ing 257 MB.
+Label: HASIL  StartNode: 18067  EndNode: 18267
+We ob- 
+serve that the hybrid systems which combine 
+query translation and document translation 
+outperform both query translation and doc- 
+ument translation individually, on both sets 
+of documents.
+Label: HASIL  StartNode: 19553  EndNode: 19640
+Surprisingly, we 
+find that the hybrid system outperforms the 
+pure monolingual system.
+Label: HASIL  StartNode: 20329  EndNode: 20590
+We find no 
+clear advantage for either the query trans- 
+lation system or the document translation 
+system; instead French=eeEnglish translation 
+appears advantageous over English~French 
+translation, in spite of identical procedures 
+used in constructing both.
+Label: HASIL  StartNode: 20591  EndNode: 20683
+However a hy- 
+brid system incorporating both directions 
+of translation outperforms either.
+Label: HASIL  StartNode: 20684  EndNode: 20856
+Further- 
+more, by incorporating human query trans- 
+lations rather than machine translations, 
+we show that the hybrid system contin- 
+ues to outperform query translation.
+Label: Problem Title  StartNode: 0  EndNode: 48
+Should we Translate the Documents or the Queries
+Label: Data Title  StartNode: 52  EndNode: 89
+Cross-language Information Retrieval?

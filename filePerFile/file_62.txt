@@ -1,0 +1,100 @@
+Section Title : 
+1   Introduction
+2   Related work
+3   Proposed Approach
+5   Evaluation
+7   Conclusion and Future Work
+Label: section  StartNode: 1029  EndNode: 1046
+1   Introduction 
+Label: section  StartNode: 3566  EndNode: 3583
+2   Related work 
+Label: section  StartNode: 4895  EndNode: 4917
+3   Proposed Approach 
+Label: section  StartNode: 12185  EndNode: 12200
+5   Evaluation 
+Label: section  StartNode: 18200  EndNode: 18231
+7   Conclusion and Future Work 
+Label: Abstract  StartNode: 363  EndNode: 438
+Abstract. This paper presents WikiTranslate, a system which performs query 
+Label: intro  StartNode: 1029  EndNode: 1046
+1   Introduction 
+Label: rel_work  StartNode: 3566  EndNode: 3583
+2   Related work 
+Label: method  StartNode: 4895  EndNode: 4917
+3   Proposed Approach 
+Label: exp_result  StartNode: 12185  EndNode: 12200
+5   Evaluation 
+Label: conclusion  StartNode: 18200  EndNode: 18231
+7   Conclusion and Future Work 
+Label: References  StartNode: 20431  EndNode: 20443
+
+References 
+Label: JUDUL  StartNode: 0  EndNode: 94
+WikiTranslate: Query Translation for Cross-Lingual 
+Information Retrieval Using Only Wikipedia
+Label: NAMA  StartNode: 96  EndNode: 107
+Dong Nguyen
+Label: NAMA  StartNode: 109  EndNode: 124
+Arnold Overwijk
+Label: NAMA  StartNode: 126  EndNode: 139
+Claudia Hauff
+Label: NAMA  StartNode: 141  EndNode: 162
+Dolf R.B. Trieschnigg
+Label: NAMA  StartNode: 164  EndNode: 180
+Djoerd 
+Hiemstra
+Label: NAMA  StartNode: 186  EndNode: 208
+Franciska M.G. de Jong
+Label: OTHER  StartNode: 251  EndNode: 362
+{dong.p.ng,arnold.overwijk}@gmail.com, 
+{c.hauff,trieschn,f.m.g.dejong}@ewi.utwente.nl 
+hiemstra@cs.utwente.nl 
+Label: METODE  StartNode: 373  EndNode: 543
+This paper presents WikiTranslate, a system which performs query 
+translation for cross-lingual information retrieval (CLIR) using only Wikipedia 
+to obtain translations.
+Label: HASIL  StartNode: 823  EndNode: 902
+The system 
+achieved a performance of 67% compared to the monolingual baseline.
+Label: PROBLEM  StartNode: 1361  EndNode: 1462
+The aim of this research is 
+to explore the possibilities of Wikipedia for query translation in CLIR.
+Label: PROBLEM  StartNode: 1465  EndNode: 1617
+The main research question of this paper is: Is Wikipedia a viable alternative to 
+current translation resources in cross-lingual information retrieval?
+Label: METODE  StartNode: 1619  EndNode: 1706
+We treat Wikipedia articles as representations of concepts (i.e. units of knowl-
+edge).
+Label: PROBLEM  StartNode: 1856  EndNode: 2003
+This raises 
+the following sub questions: How can queries be mapped to Wikipedia concepts? and 
+How to create a query given the Wikipedia concepts?
+Label: METODE  StartNode: 4918  EndNode: 5126
+The approach used by WikiTranslate consists of two important steps: mapping the 
+query in source language to Wikipedia concepts and creating the final query in the 
+target language using these found concepts.
+Label: DATA  StartNode: 12315  EndNode: 12388
+The system is first evaluated with the data of CLEF 
+2006, 2005 and 2004.
+Label: DATA  StartNode: 12389  EndNode: 12458
+The best performing system is also evaluated with data of 
+CLEF 2008.
+Label: HASIL  StartNode: 13806  EndNode: 13978
+Averaging the runs with these settings 
+over the years 2004, 2005 and 2006 shows us that Spanish had an average perform-
+ance of 71.89% and French had an average of 76.78%.
+Label: HASIL  StartNode: 14085  EndNode: 14176
+Including translations only as a phrase query results in a average 
+MAP decrease of 0.0990.
+Label: HASIL  StartNode: 14244  EndNode: 14304
+Including redirects showed an average MAP decrease of 0.118.
+Label: HASIL  StartNode: 14305  EndNode: 14368
+Filtering non-
+related words lead to an MAP increase of 0.0926.
+Label: Data Title  StartNode: 0  EndNode: 13
+WikiTranslate
+Label: Method Title  StartNode: 15  EndNode: 32
+Query Translation
+Label: Problem Title  StartNode: 37  EndNode: 94
+Cross-Lingual 
+Information Retrieval Using Only Wikipedia

@@ -1,0 +1,3 @@
+Towards this end we adapt theTextTiling algorithm [1] to the context of meetings.
+Our featuresinclude not only the overlapped words between adjacent windows,but also overlaps in the amount of speech contributed by eachmeeting participant.
+We base our algorithm on Marti Hearst’s TextTiling[1] algorithm where the probability that a point in a text essay isa topic boundary is computed based on the similarity between thewords in windows to the left and right of that point.

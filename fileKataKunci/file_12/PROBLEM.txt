@@ -1,0 +1,14 @@
+main,1
+contribution,1
+work,1
+presentinga,1
+variant,1
+distance,1
+supervision,1
+relation,1
+extrac,1
+tion,1
+heuristics,1
+selectionof,1
+training,1
+data,1

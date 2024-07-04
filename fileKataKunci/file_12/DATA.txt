@@ -1,0 +1,16 @@
+settings,1
+freebase,1
+knowledge,1
+base,1
+freely,1
+downloaded,1
+text,1
+corpus,1
+con,1
+tains,1
+english,1
+news,1
+articles,1
+loaded,1
+january,1
+december,1

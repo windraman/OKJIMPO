@@ -1,0 +1,104 @@
+Section Title : 
+1. INTRODUCTION
+2. DICTIONARY-BASED QUERY
+5. EXPERIMENTAL RESULTS AND
+6. CONCLUSION
+Label: section  StartNode: 1422  EndNode: 1437
+1. INTRODUCTION
+Label: section  StartNode: 3575  EndNode: 3600
+2. DICTIONARY-BASED QUERY
+Label: section  StartNode: 25500  EndNode: 25527
+5. EXPERIMENTAL RESULTS AND
+Label: section  StartNode: 36939  EndNode: 36952
+6. CONCLUSION
+Label: Abstract  StartNode: 464  EndNode: 472
+ABSTRACT
+Label: intro  StartNode: 1422  EndNode: 1437
+1. INTRODUCTION
+Label: method  StartNode: 3575  EndNode: 3600
+2. DICTIONARY-BASED QUERY
+Label: exp_result  StartNode: 25500  EndNode: 25527
+5. EXPERIMENTAL RESULTS AND
+Label: conclusion  StartNode: 36939  EndNode: 36952
+6. CONCLUSION
+Label: References  StartNode: 39289  EndNode: 39300
+
+REFERENCES
+Label: JUDUL  StartNode: 0  EndNode: 93
+Improving Query Translation for Cross-Language
+Information Retrieval using Statistical Models
+Label: NAMA  StartNode: 94  EndNode: 106
+Jianfeng Gao
+Label: NAMA  StartNode: 109  EndNode: 121
+Jian-Yun Nie
+Label: NAMA  StartNode: 125  EndNode: 135
+Endong Xun
+Label: NAMA  StartNode: 138  EndNode: 148
+Jian Zhang
+Label: NAMA  StartNode: 151  EndNode: 160
+Ming Zhou
+Label: NAMA  StartNode: 163  EndNode: 178
+Changning Huang
+Label: OTHER  StartNode: 380  EndNode: 463
+** # This work was done while these authors were visiting
+Microsoft Research China.
+Label: PROBLEM  StartNode: 578  EndNode: 708
+However, we are faced
+with the problem of translation ambiguity, i.e. multiple
+translations are stored in a dictionary for a word.
+Label: PROBLEM  StartNode: 709  EndNode: 777
+In addition, a
+word-by-word query translation is not precise enough.
+Label: METODE  StartNode: 880  EndNode: 1022
+First, as many as possible,
+noun phrases are recognized and translated as a whole by using
+statistical models and phrase translation patterns.
+Label: PROBLEM  StartNode: 1438  EndNode: 1595
+With the explosion of on-line non-English documents, cross-
+language information retrieval (CLIR) systems have become
+increasingly important in recent years.
+Label: PROBLEM  StartNode: 1678  EndNode: 1855
+In particular, dictionary-based translation has
+been a commonly used method because of its simplicity and the
+increasing availability of machine readable bilingual dictionaries.
+Label: METODE  StartNode: 2542  EndNode: 2656
+Second, to deal with the translation ambiguity problem, we
+propose a method based on statistics of co-occurrences.
+Label: METODE  StartNode: 2766  EndNode: 2924
+Finally, to
+increase the coverage of the bilingual dictionary, additional
+words and translations are automatically generated from a
+parallel bilingual corpus.
+Label: METODE  StartNode: 9008  EndNode: 9098
+It is carried out in a
+bottom-up manner: we first identify base NPs, and then complex
+NPs.
+Label: DATA  StartNode: 25539  EndNode: 25627
+In this section, we present the results of our CLIR experiments
+on TREC Chinese corpora.
+Label: HASIL  StartNode: 32540  EndNode: 32657
+In summary, the improvement by using NP translation for short
+queries is statistically significant (p-value = 0.015).
+Label: HASIL  StartNode: 32658  EndNode: 32764
+The addition
+of translation selection is also statistically significant for long
+queries (p-value = 0.05).
+Label: HASIL  StartNode: 32765  EndNode: 32983
+The improvement obtained with the
+combination of both approaches (i.e. NP translation and
+translation selection) are statistically significant for both short
+queries (p-value = 0.03) and long queries (p-value = 0.001).
+Label: HASIL  StartNode: 32984  EndNode: 33144
+The
+comparison with the MT approach shows that at least for short
+queries, the improvement brought by our methods is statistically
+significant (p-value = 0.02).
+Label: HASIL  StartNode: 38230  EndNode: 38345
+The combination of our approach with the MT
+system leads to a high effectiveness of 105% of that of
+monolingual IR.
+Label: Method Title  StartNode: 0  EndNode: 27
+Improving Query Translation
+Label: Problem Title  StartNode: 32  EndNode: 93
+Cross-Language
+Information Retrieval using Statistical Models

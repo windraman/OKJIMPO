@@ -1,0 +1,114 @@
+Section Title : 
+1 Introduction
+2 Previous work
+3 Definitions
+5 Experiments
+6 Conclusions and Future Work
+Label: section  StartNode: 915  EndNode: 929
+1 Introduction
+Label: section  StartNode: 4748  EndNode: 4763
+2 Previous work
+Label: section  StartNode: 8607  EndNode: 8620
+3 Definitions
+Label: section  StartNode: 20893  EndNode: 20906
+5 Experiments
+Label: section  StartNode: 27642  EndNode: 27671
+6 Conclusions and Future Work
+Label: Abstract  StartNode: 397  EndNode: 405
+Abstract
+Label: intro  StartNode: 915  EndNode: 929
+1 Introduction
+Label: rel_work  StartNode: 4748  EndNode: 4763
+2 Previous work
+Label: method  StartNode: 8607  EndNode: 8620
+3 Definitions
+Label: exp_result  StartNode: 20893  EndNode: 20906
+5 Experiments
+Label: conclusion  StartNode: 27642  EndNode: 27671
+6 Conclusions and Future Work
+Label: References  StartNode: 31204  EndNode: 31215
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 84
+Simple Algorithms for Complex Relation Extraction
+with Applications to Biomedical IE
+Label: NAMA  StartNode: 85  EndNode: 98
+Ryan McDonald
+Label: NAMA  StartNode: 100  EndNode: 116
+Fernando Pereira
+Label: NAMA  StartNode: 118  EndNode: 129
+Seth Kulick
+Label: OTHER  StartNode: 131  EndNode: 191
+1CIS and 2IRCS, University of Pennsylvania, Philadelphia, PA
+Label: NAMA  StartNode: 251  EndNode: 264
+Scott Winters
+Label: NAMA  StartNode: 265  EndNode: 273
+Yang Jin
+Label: NAMA  StartNode: 274  EndNode: 284
+Pete White
+Label: PROBLEM  StartNode: 501  EndNode: 607
+We present here a simple
+two-stage method for extracting complex
+relations between named entities in text.
+Label: PROBLEM  StartNode: 2327  EndNode: 2413
+Very little work has been done
+in recognizing and extracting more complex rela-
+tions.
+Label: METODE  StartNode: 9803  EndNode: 9897
+This method works by first fac-
+toring all complex relations into a set of binary re-
+lations.
+Label: METODE  StartNode: 9898  EndNode: 9993
+A classifier is then trained in the standard
+manner to recognize all pairs of related entities.
+Label: METODE  StartNode: 9994  EndNode: 10134
+Fi-
+nally a graph is constructed from the output of this
+classifier and the complex relations are determined
+from the cliques of this graph.
+Label: METODE  StartNode: 12208  EndNode: 12346
+Instead of trying to classify all possible relation
+instances, in this work we first classify pairs of en-
+tities as being related or not.
+Label: METODE  StartNode: 12347  EndNode: 12468
+Then, as discussed in
+Section 4.2, we reconstruct the larger complex rela-
+tions from a set of binary relation instances.
+Label: METODE  StartNode: 16835  EndNode: 16992
+Instead of having the system re-
+turn all cliques, our system just returns the maximal
+cliques, that is, those cliques that are not subsets of
+other cliques.
+Label: DATA  StartNode: 21762  EndNode: 21954
+Our data set consists of 447 abstracts selected
+from MEDLINE as being relevant to populating a
+database with facts of the form: gene X with vari-
+ation event Y is associated with malignancy Z.
+Label: HASIL  StartNode: 25503  EndNode: 25703
+First we observe that the maximal clique method
+combined with maximum entropy (system MC) re-
+duces the relative error rate over naively enumer-
+ating and classifying all instances (system NE) by
+21%.
+Label: HASIL  StartNode: 25734  EndNode: 25885
+The system based
+on binary factorization not only is more efficient
+then naively enumerating all instances, but signifi-
+cantly outperforms it as well.
+Label: HASIL  StartNode: 28148  EndNode: 28305
+We showed that such a method can be suc-
+cessful with an empirical evaluation on a large set
+of biomedical data annotated with genomic varia-
+tion relations.
+Label: HASIL  StartNode: 28306  EndNode: 28435
+In fact, this approach is both signifi-
+cantly quicker and more accurate then enumerating
+and classifying all possible instances.
+Label: Method Title  StartNode: 0  EndNode: 17
+Simple Algorithms
+Label: Problem Title  StartNode: 22  EndNode: 49
+Complex Relation Extraction
+Label: Method Title  StartNode: 55  EndNode: 67
+Applications
+Label: Problem Title  StartNode: 71  EndNode: 84
+Biomedical IE

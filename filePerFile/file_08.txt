@@ -1,0 +1,59 @@
+Section Title : 
+1 Introduction
+2 Evaluation Methodology
+3 Comparing ReVerb and SONEX
+Label: section  StartNode: 873  EndNode: 887
+1 Introduction
+Label: section  StartNode: 3953  EndNode: 3977
+2 Evaluation Methodology
+Label: section  StartNode: 15265  EndNode: 15293
+3 Comparing ReVerb and SONEX
+Label: Abstract  StartNode: 363  EndNode: 371
+Abstract
+Label: intro  StartNode: 873  EndNode: 887
+1 Introduction
+Label: method  StartNode: 3953  EndNode: 3977
+2 Evaluation Methodology
+Label: exp_result  StartNode: 15265  EndNode: 15293
+3 Comparing ReVerb and SONEX
+Label: References  StartNode: 18796  EndNode: 18807
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 67
+Automatic Evaluation of Relation Extraction Systems on Large-scale
+
+Label: NAMA  StartNode: 67  EndNode: 118
+Mirko Bronzi †, Zhaochen Guo ‡, Filipe Mesquita ‡,
+
+Label: PROBLEM  StartNode: 686  EndNode: 873
+ In this
+paper we propose a framework for large-scale
+evaluation of relation extraction systems based
+on an automatic annotator that uses a public
+online database and a large web corpus.
+
+Label: METODE  StartNode: 2798  EndNode: 3187
+Measuring true precision and recall In this pa-
+per we discuss an automatic method to estimate true
+precision and recall of open RE systems. We pro-
+pose the use of an automatic annotator: a system
+capable of verifying whether or not a fact was cor-
+rectly extracted. This is done by leveraging exter-
+nal sources of data and text, which are not avail-
+able to the systems being evaluated.
+Label: OTHER  StartNode: 4118  EndNode: 4202
+ A fact is
+a triple fi = ?e1, r, e2? associating entities e1 and
+e2 via relation r. 
+Label: DATA  StartNode: 15294  EndNode: 15596
+We now use our evaluation method to compare two
+open RE systems: ReVerb and SONEX. The input
+corpus for this comparison is the New York Times
+corpus, composed by 1.8 million documents.
+ReVerb (Fader et al., 2011) extracts relational
+phrases using rules over part-of-speech tags and
+noun-phrase chunks. 
+Label: HASIL  StartNode: 16665  EndNode: 16740
+We found
+about 63 million facts in G?, the superset of the
+ground truth G. 

@@ -1,0 +1,5 @@
+In the first case when the feature number is low (about less than 1,000), the FS methods in the second group including IG, CHI, WLLR,  always perform better than those in the other two groups.
+In the second case when the feature number is large, among the six traditional methods, MI and BNS take the leads in the domains of 20NG and Movie while IG and CHI seem to be better and more stable than others in the domain of DVD.
+As for WFO, its performances are excellent cross all these three domains and different feature numbers.
+The experimental results show that our framework helps us to better understand and compare different FS methods.
+Furthermore, the novel method WFO generated from the framework, can perform robustly across different domains and feature numbers. 

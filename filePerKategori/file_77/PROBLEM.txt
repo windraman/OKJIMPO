@@ -1,0 +1,2 @@
+The recognition and storage of complex re-lations among subjects mentioned in these sources is a verydifficult and time consuming task, ultimately based on poolsof experts.
+Hence text mining techniques basedon pure linguistic strategies fail to extract information fromtexts.

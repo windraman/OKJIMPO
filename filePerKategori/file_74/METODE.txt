@@ -1,0 +1,5 @@
+This paper presents a new method for ex-tracting wrappers and relations from the web using both page encod-ing and context generalization.
+Multiple patternsare then extracted considering the occurrences of the input instancesin the data source.
+Our method represents a wrapper as a set of patterns.
+We considerthat the user wants to extract a relation from a given document or setof documents.
+Our method is based on encoding and generalization.

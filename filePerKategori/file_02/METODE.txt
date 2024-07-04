@@ -1,0 +1,6 @@
+Using Statistical Data
+ Feature selection is an important method for im-proving the ef?ciency and accuracy of text categorization algo-rithms by removing redundant and irrelevant terms from thecorpus. In this paper, we propose a new supervised featureselection method, named CHIR, which is based on the ?2 statisticand new statistical data that can measure the positive term-category dependency. We also propose a new text clusteringalgorithm TCFS, which stands for Text Clustering with FeatureSelection. TCFS can incorporate CHIR to identify relevantfeatures (i.e., terms) iteratively, and the clustering becomes alearning process.
+In this paper, we propose a new supervised featureselection method, named CHIR, which is based on the ?2 statisticand new statistical data that can measure the positive term-category dependency.
+In this research, we extended the ?2 term-category indepen-dence test by introducing new statistical data that can measurewhether the dependency between a term and a category is positiveor negative.
+We used thecohesiveness of clusters to measure the performance of featureselection methods.
+We used the F-measure and the purity to evaluate the accuracy of the clusteringalgorithms.

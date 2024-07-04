@@ -1,0 +1,123 @@
+Section Title : 
+I. INTRODUCTION
+II. FEATURE CLUSTERING AND SEMI-SUPERVISED
+III. EXPERIMENTS AND RESULTS
+IV. CONCLUSIONS
+Label: section  StartNode: 880  EndNode: 896
+I. INTRODUCTION 
+Label: section  StartNode: 5434  EndNode: 5477
+II. FEATURE CLUSTERING AND SEMI-SUPERVISED 
+Label: section  StartNode: 10846  EndNode: 10875
+III. EXPERIMENTS AND RESULTS 
+Label: section  StartNode: 18070  EndNode: 18086
+IV. CONCLUSIONS 
+Label: Abstract  StartNode: 298  EndNode: 359
+Abstract— In this contribution a feature selection method in 
+Label: intro  StartNode: 880  EndNode: 896
+I. INTRODUCTION 
+Label: method  StartNode: 5434  EndNode: 5477
+II. FEATURE CLUSTERING AND SEMI-SUPERVISED 
+Label: exp_result  StartNode: 10846  EndNode: 10875
+III. EXPERIMENTS AND RESULTS 
+Label: conclusion  StartNode: 18070  EndNode: 18086
+IV. CONCLUSIONS 
+Label: References  StartNode: 20831  EndNode: 20843
+
+REFERENCES 
+Label: JUDUL  StartNode: 0  EndNode: 63
+Clustering-based Feature Selection in Semi-supervised Problems 
+Label: NAMA  StartNode: 64  EndNode: 79
+Ianisse Quinzán
+Label: NAMA  StartNode: 80  EndNode: 95
+ José M. Sotoca
+Label: NAMA  StartNode: 97  EndNode: 111
+Filiberto Pla 
+Label: METODE  StartNode: 398  EndNode: 619
+This method selects 
+variables using a feature clustering strategy, using a 
+combination of supervised and unsupervised feature distance 
+measure, which is based on Conditional Mutual Information 
+and Conditional Entropy.
+Label: PROBLEM  StartNode: 1021  EndNode: 1143
+The classification or labeling of samples by an 
+expert can often be too expensive in time and sometimes 
+even unfeasible.
+Label: PROBLEM  StartNode: 1391  EndNode: 1511
+In many application problems there is 
+available a significant amount of unlabelled data, and only 
+few labeled samples.
+Label: PROBLEM  StartNode: 1783  EndNode: 1857
+A challenge in semi-supervised learning is the feature 
+selection problem.
+Label: OTHER  StartNode: 5281  EndNode: 5433
+2009 Ninth International Conference on Intelligent Systems Design and Applications
+978-0-7695-3872-3/09 $26.00 © 2009 IEEE
+DOI 10.1109/ISDA.2009.211
+535
+Label: TAHUN  StartNode: 5281  EndNode: 5285
+2009
+Label: METODE  StartNode: 7870  EndNode: 8210
+In order to find the subset of m < n, X?? X, features that 
+minimize the above expression, a clustering based strategy is 
+proposed, as an approximation to use expression (4) as the 
+criterion function to minimize, grouping the original set of 
+features X into clusters X? , and finally selecting a feature 
+representative for each cluster.
+Label: METODE  StartNode: 8213  EndNode: 8374
+Thus, Ward’s agglomerative hierarchical clustering has 
+been used as a clustering strategy [9], but using an adequate 
+distance for the semi-supervised approach.
+Label: METODE  StartNode: 8745  EndNode: 8875
+The distance measure proposed between each pair of 
+features is hybrid, and has two parts, one supervised and 
+other unsupervised.
+Label: METODE  StartNode: 9257  EndNode: 9388
+The first term (also known as the Mantaras’ distance [8]) 
+calculates the symmetrical conditional entropy of two 
+random variables.
+Label: METODE  StartNode: 9854  EndNode: 10118
+The second term (it can be also proven that this term is 
+also a distance metric) is based on Conditional Mutual 
+Information I(Xi,Y/Xj), and it can be interpreted as how much 
+information variable Xi can predict about relevant variable Y 
+that variable Xj cannot.
+Label: METODE  StartNode: 10634  EndNode: 10802
+Finally, for each cluster Cj, the representative feature ?? j 
+will be selected as the one with the highest Mutual 
+Information with respect to the relevant variable Y,
+Label: DATA  StartNode: 12173  EndNode: 12259
+For the experimentation the following datasets have been 
+chosen of the UCI repository
+Label: DATA  StartNode: 12297  EndNode: 12406
+Gisette is a big data in the UCI repository, with 5000 
+attributes and 13500 objects, 7000 of them labelled. 
+Label: DATA  StartNode: 12748  EndNode: 12816
+Optdigits problem is about the recognition of a 
+handwritten number.
+Label: DATA  StartNode: 13091  EndNode: 13218
+In covtype database, the objective is predicting forest 
+cover type from cartographic variables, with no 
+remotely sensed data.
+Label: HASIL  StartNode: 15668  EndNode: 15890
+Note that the supervised method that uses all labelled 
+samples (supT) always obtain better accuracy than the 
+unsupervised method with all the samples (nsup), except in 
+92AV3C where both methods have similar performance.
+Label: HASIL  StartNode: 15892  EndNode: 16135
+Notice also that, in general, jointly supervised and 
+unsupervised information improve the results, particularly 
+when the unsupervised version tend to perform poorly, and 
+adding few labeled sample increase the accuracy in a 
+significant way.
+Label: HASIL  StartNode: 16138  EndNode: 16272
+Thus, the proposed hybrid method (ssfc) and its 
+supervised version (sup) are better when the number of 
+labeled samples is increased.
+Label: HASIL  StartNode: 16273  EndNode: 16374
+When the number of labeled 
+samples is sufficiently large, the performance of ssfc and sup 
+converge.
+Label: Problem Title  StartNode: 0  EndNode: 34
+Clustering-based Feature Selection
+Label: Data Title  StartNode: 38  EndNode: 62
+Semi-supervised Problems

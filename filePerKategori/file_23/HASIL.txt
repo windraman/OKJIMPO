@@ -1,0 +1,3 @@
+In this section we present our algorithm for assigning oneof 15 section types. 
+We hypothesize that section sequences can improve theaccuracy of section label classi?cation.
+Finally, we have assumed that text span boundaries inclinical notes are known, which is unusual in practice. Inorder to improve the accuracy of the classi?er, a future di-rection for this study is to segment and classify text spansat the same time.

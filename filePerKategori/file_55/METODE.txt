@@ -1,0 +1,5 @@
+We introduce a stochastic graph-based method for computing relative importance oftextual units for Natural Language Processing.
+All of ourapproaches are based on the concept of prestige2 in social networks, which has also inspiredmany ideas in computer networks and information retrieval.
+We hypothesize that the sentencesthat are similar to many of the other sentences in a cluster are more central (or salient)to the topic.
+We define degree centrality of asentence as the degree of the corresponding node in the similarity graph.
+When computing degree centrality, we have treated each edge as a vote to determine theoverall centrality value of each node.

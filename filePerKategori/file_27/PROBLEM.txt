@@ -1,0 +1,2 @@
+We present here a simpletwo-stage method for extracting complexrelations between named entities in text.
+Very little work has been donein recognizing and extracting more complex rela-tions.

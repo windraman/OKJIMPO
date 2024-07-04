@@ -1,0 +1,1 @@
+Lacking a standard test set, 5 the algorithm was eval-uated on two data sources: three expository articles(length 77 to 160 sentences), and the five short gen-eral interest articles from (Morris 1988) (length 23 to 44sentences).

@@ -1,0 +1,3 @@
+Our focus in this experiment is on examining search performance of a hybrid approach combining query translation and document translation, in which English is employed as an intermediary language for translation.
+Some researchers have already attempted to merge two results from query and document translation for enhancing effectiveness of CLIR.
+One problem for implementing this approach is that the document translation is usually a cost-intensive task, but we can alleviate it by using simpler translation techniques, e.g., “pseudo translation” [1] in which each term is simply replaced with its corresponding translations by a bilingual dictionary.

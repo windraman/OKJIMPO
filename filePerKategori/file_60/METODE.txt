@@ -1,0 +1,5 @@
+Wetranslate queries with Google Translate and extend them with new trans-lations obtained by mapping noun phrases in the query to concepts inthe target language using Wikipedia.
+As a baseline CLIR model, we use query translation byGoogle Translate.
+To exploit this, we mine allredirect and cross-language links to build a translation table which maps con-cepts to their target language equivalent.
+To map queries to Wikipedia concepts (titles), we first try to map thewhole query, and then gradually proceed with mapping shorter word sequences.
+In this study, we introduced a simple CLIR model using Wikipedia, mappingconcepts in one language to their equivalents in another language based on theredirect and cross-language links in multilingual Wikipedia versions.

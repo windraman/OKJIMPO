@@ -1,0 +1,4 @@
+First, as many as possible,noun phrases are recognized and translated as a whole by usingstatistical models and phrase translation patterns.
+Second, to deal with the translation ambiguity problem, wepropose a method based on statistics of co-occurrences.
+Finally, toincrease the coverage of the bilingual dictionary, additionalwords and translations are automatically generated from aparallel bilingual corpus.
+It is carried out in abottom-up manner: we first identify base NPs, and then complexNPs.

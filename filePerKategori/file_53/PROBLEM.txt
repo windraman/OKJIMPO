@@ -1,0 +1,2 @@
+Document structure analysis and understand-ing are the main processes in reaching this goal: ease ofuse and availability of documents.
+In order to achieve the best possible results with OCR andstoraging, the contents of the document have to be exam-ined.

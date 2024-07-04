@@ -1,0 +1,5 @@
+The system achieved a performance of 67% compared to the monolingual baseline.
+Averaging the runs with these settings over the years 2004, 2005 and 2006 shows us that Spanish had an average perform-ance of 71.89% and French had an average of 76.78%.
+Including translations only as a phrase query results in a average MAP decrease of 0.0990.
+Including redirects showed an average MAP decrease of 0.118.
+Filtering non-related words lead to an MAP increase of 0.0926.

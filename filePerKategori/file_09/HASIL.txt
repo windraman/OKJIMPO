@@ -1,0 +1,1 @@
+As we conjectured,for this relation (which lacks true integrity constraints), theEM-based methods have higher accuracy than the constraint-based method. 

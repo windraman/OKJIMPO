@@ -1,0 +1,82 @@
+Section Title : 
+INTRODUCTION
+ALGORITHM AND IMPLEMENTATION
+EVALUATION AND RESULTS
+FURTHER RESEARCH
+Label: section  StartNode: 630  EndNode: 642
+INTRODUCTION
+Label: section  StartNode: 2287  EndNode: 2315
+ALGORITHM AND IMPLEMENTATION
+Label: section  StartNode: 9328  EndNode: 9350
+EVALUATION AND RESULTS
+Label: section  StartNode: 11755  EndNode: 11771
+FURTHER RESEARCH
+Label: Abstract  StartNode: 165  EndNode: 173
+ABSTRACT
+Label: intro  StartNode: 630  EndNode: 642
+INTRODUCTION
+Label: method  StartNode: 2287  EndNode: 2315
+ALGORITHM AND IMPLEMENTATION
+Label: exp_result  StartNode: 9328  EndNode: 9350
+EVALUATION AND RESULTS
+Label: conclusion  StartNode: 11755  EndNode: 11771
+FURTHER RESEARCH
+Label: References  StartNode: 14322  EndNode: 14333
+
+REFERENCES
+Label: JUDUL  StartNode: 0  EndNode: 91
+IMPLEMENTATION OF AN AUTOMATED TEXT SEGMENTATION SYSTEM
+USING HEARST’S TEXTTILING ALGORITHM
+Label: NAMA  StartNode: 56  EndNode: 108
+USING HEARST’S TEXTTILING ALGORITHM
+Brent Fitzgerald
+Label: OTHER  StartNode: 129  EndNode: 164
+CS224N Final Project - June 1, 2000
+Label: TAHUN  StartNode: 160  EndNode: 164
+2000
+Label: PROBLEM  StartNode: 643  EndNode: 780
+Most of the texts one comes across are composed of a number of topics, perhaps varying in their relevance
+to one another and their scope.
+Label: PROBLEM  StartNode: 781  EndNode: 944
+A system that could automatically detect these subtopics would certainly be useful,
+allowing the reader to quickly skip to the topics most relevant to her purpose.
+Label: PROBLEM  StartNode: 1756  EndNode: 1881
+Thus, any
+highly accurate segmentation system would certainly be useful in these times of overly abundant, undocumented
+data.
+Label: METODE  StartNode: 2400  EndNode: 2566
+The approach used in this
+paper is based on Hearst’s TextTiling algorithm, a moving window approach that uses lexical overlap as a means of
+detecting topic coherence.
+Label: METODE  StartNode: 3272  EndNode: 3400
+First, it divides the input text into
+sequences of relevant tokens and calculates the cohesion at each potential boundary point.
+Label: METODE  StartNode: 3402  EndNode: 3558
+It then uses these
+cohesion scores to produce depth scores for each potential boundary point that has a lower cohesion than the
+neighboring boundary points.
+Label: METODE  StartNode: 3560  EndNode: 3755
+Using these depth scores, the algorithm is able to select boundary points where the
+depth is low relative to the other depth scores, indicating that that gap represents a topic shift in the text.
+Label: METODE  StartNode: 3757  EndNode: 3933
+The output
+is the text file with boundaries inserted at these gaps with sufficiently high depth scores, delineating the various
+topics by breaking at the least cohesive points.
+Label: DATA  StartNode: 9351  EndNode: 9462
+Evaluation of the system’s performance consists of
+running the system on a concatenation of newspaper articles.
+Label: HASIL  StartNode: 11385  EndNode: 11514
+The best precision score was 0.77 when run on the New York Times texts, and it was
+accompanied by a recall score of 0.77 as well.
+Label: HASIL  StartNode: 11516  EndNode: 11754
+While these scores may sound relatively impressive, it is important to
+note that they were only numerically evaluated on this one set of data, and so it is unlikely that those parameters
+would return such high scores in all circumstances.
+Label: HASIL  StartNode: 14094  EndNode: 14322
+While this system fails to perform as well as many
+of the other segmentation systems that have recently been presented in the literature, it is certainly on the right path
+and can produce good results with the proper parameters.
+Label: Problem Title  StartNode: 0  EndNode: 55
+IMPLEMENTATION OF AN AUTOMATED TEXT SEGMENTATION SYSTEM
+Label: Method Title  StartNode: 62  EndNode: 91
+HEARST’S TEXTTILING ALGORITHM

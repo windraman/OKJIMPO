@@ -1,0 +1,1 @@
+Measuring true precision and recall In this pa-per we discuss an automatic method to estimate trueprecision and recall of open RE systems. We pro-pose the use of an automatic annotator: a systemcapable of verifying whether or not a fact was cor-rectly extracted. This is done by leveraging exter-nal sources of data and text, which are not avail-able to the systems being evaluated.

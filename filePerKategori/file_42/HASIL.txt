@@ -1,0 +1,5 @@
+We report average precision of0.85 and recall of 0.59 when segmenting unseen test meetings.
+Er-ror analysis of our results shows that although the basic idea of ouralgorithm is sound, it breaks down when participants stray fromtypical behavior (such as when they monopolize the conversationfor too long).
+On performing this experiment across all the 6 data combi-nations, we get an average precision of 0.85, recall of 0.59 andf–measure of 0.67 on unseen test data.
+The exact “best”window size for the two predictors changes based on the trainingdata; the average being 56 seconds for the speech activity predic-tor and 70 seconds for the all words predictor.
+The average bestweight for linear combination is 0.6 for the speech activity bound-ary predictor (and 0.4 for the all words predictor).

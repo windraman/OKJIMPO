@@ -1,0 +1,1 @@
+Text classification is the process of automatically assigning predefined categories to free text, which is very important to information retrieval and many other applications.

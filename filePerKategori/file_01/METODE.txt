@@ -1,0 +1,2 @@
+In this paper, an effective and efficient new method called variance-mean based feature filtering method of feature selection to do feature reduction in the representation phase for text classification is proposed
+ In this paper, we propose a new approach to feature selection to do feature reduction, which is a constituent process in representing texts

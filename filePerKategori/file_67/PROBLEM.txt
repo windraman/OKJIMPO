@@ -1,0 +1,4 @@
+However, we are facedwith the problem of translation ambiguity, i.e. multipletranslations are stored in a dictionary for a word.
+In addition, aword-by-word query translation is not precise enough.
+With the explosion of on-line non-English documents, cross-language information retrieval (CLIR) systems have becomeincreasingly important in recent years.
+In particular, dictionary-based translation hasbeen a commonly used method because of its simplicity and theincreasing availability of machine readable bilingual dictionaries.

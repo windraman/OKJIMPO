@@ -1,0 +1,6 @@
+set,2
+data,1
+reuters,1
+newswire,1
+stories,1
+year,1

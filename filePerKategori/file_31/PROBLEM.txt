@@ -1,0 +1,2 @@
+Oneof the problems with the former approach has to do with itsunderlying assumption that human-made summaries are re-liable enough to be used as “gold standards” for automaticsummarization.
+Another problem associated with the approach concernsthe portability of a summarization system: deploying thesystem in a new domain usually requires one to collect alarge amount of data, which need to be manually annotated,and then train the system.

@@ -1,0 +1,1 @@
+To evaluate the effectiveness of the proposed CLIR method, we used Malay-English documents sets from actual Malay Quran collection and actual English Quran collection from Abdullah (2006) to verify the proposed method.

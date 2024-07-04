@@ -1,0 +1,7 @@
+The experimental results on data sets from both topic-based and sentiment classification tasks show that this new method is robust across different tasks and numbers of selected features. 
+we can see that the MI score is based on the second basic measurement. This method assumes that the term with higher category ratio is more effective for classification
+we can say that the IG score is influenced by the two basic measurements. 
+we see that the CHI score is related to both the frequency measurement iA
+ and ratio measurement /i iA B
+ we can easily draw the two following conclusions: 1) Given the same value of iA , the BNS score increases with the increase of i iA B? . 2) Given the same value of i iA B? , BNS score increase with the decrease of iA . 
+In summary, the BNS FS method is biased towards the terms with the high category ratio but cannot be said to be sensitive to document frequency. 

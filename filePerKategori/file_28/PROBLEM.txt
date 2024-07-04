@@ -1,0 +1,3 @@
+This paper proposes a novel method that extracts semanticrelations from social data in order to acquire ontologies that are usedfor mining social data.
+Since semantic technologieshave yet to catch up with the explosive growth in the publishing of data on theSocial Web, mining the social data is still a challenging issue.
+This paper addresses the issue of semantic relation extraction from doc-uments on the Social Web.

@@ -1,0 +1,124 @@
+Section Title : 
+1 Introduction
+2 The Method
+3 Empirical Results
+4 Summary
+Label: section  StartNode: 1423  EndNode: 1437
+1 Introduction
+Label: section  StartNode: 5944  EndNode: 5956
+2 The Method
+Label: section  StartNode: 12464  EndNode: 12483
+3 Empirical Results
+Label: section  StartNode: 14303  EndNode: 14312
+4 Summary
+Label: Abstract  StartNode: 337  EndNode: 406
+Abstract. In recent years, text mining has moved far beyond the clas-
+Label: intro  StartNode: 1423  EndNode: 1437
+1 Introduction
+Label: method  StartNode: 5944  EndNode: 5956
+2 The Method
+Label: exp_result  StartNode: 12464  EndNode: 12483
+3 Empirical Results
+Label: conclusion  StartNode: 14303  EndNode: 14312
+4 Summary
+Label: References  StartNode: 15569  EndNode: 15580
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 56
+A Logic-Based Approach to Relation Extraction
+from Texts
+Label: NAMA  StartNode: 57  EndNode: 72
+Tama´s Horva´th
+Label: NAMA  StartNode: 77  EndNode: 90
+Gerhard Paass
+Label: NAMA  StartNode: 93  EndNode: 108
+Frank Reichartz
+Label: NAMA  StartNode: 115  EndNode: 128
+Stefan Wrobel
+Label: OTHER  StartNode: 193  EndNode: 257
+2 Fraunhofer IAIS, Schloss Birlinghoven, Sankt Augustin, Germany
+Label: PROBLEM  StartNode: 347  EndNode: 582
+In recent years, text mining has moved far beyond the clas-
+sical problem of text classification with an increased interest in more
+sophisticated processing of large text corpora, such as, for example, eval-
+uations of complex queries.
+Label: METODE  StartNode: 668  EndNode: 888
+This problem becomes a typical ap-
+plication of learning logic programs by considering the dependency trees
+of sentences as relational structures and examples of the target relation
+as ground atoms of a target predicate.
+Label: METODE  StartNode: 971  EndNode: 1150
+We show that Plotkin’s LGG
+operator can effectively be applied to such clauses and propose a sim-
+ple and effective divide-and-conquer algorithm for listing a certain set of
+LGGs.
+Label: METODE  StartNode: 1151  EndNode: 1272
+We use these LGGs to generate binary features and compute the
+hypothesis by applying SVM to the feature vectors obtained.
+Label: PROBLEM  StartNode: 1945  EndNode: 2145
+Obviously, the internal representation of texts in
+a search index as sequences of words is insufficient to recover semantics from
+unstructured text (e.g., the “born in” relation in the above example).
+Label: PROBLEM  StartNode: 2146  EndNode: 2243
+Relation
+extraction is one of the essential steps towards more complex automatic text
+processing.
+Label: PROBLEM  StartNode: 2244  EndNode: 2413
+It is concerned with the problem of detecting and classifying prede-
+fined semantic relations among m-tuples (typically between pairs) of entities in
+unstructured texts.
+Label: METODE  StartNode: 4493  EndNode: 4830
+Applying Plotkin’s least general generalization (LGG) operator [11], we
+generate a set of first-order definite non-recursive Horn-clauses satisfying cer-
+tain frequency and consistency criterion, i.e., all these rules must cover at least
+a certain number of positive examples while implying at most a certain number
+of negative examples.
+Label: METODE  StartNode: 4831  EndNode: 5093
+In the generation of LGGs, we exploit the specific struc-
+ture of dependency trees allowing polynomial time rule evaluation defined by
+?-subsumption and the fact that the LGG is a closure operator on the power set
+of the instance space over the target predicate.
+Label: METODE  StartNode: 5094  EndNode: 5294
+Using these rules, we generate a
+binary feature vector for each example and, applying support vector machines
+to these feature vectors, find a hypothesis separating the positive and negative
+examples.
+Label: METODE  StartNode: 6246  EndNode: 6395
+Given a set of sentences annotated with respect to the
+target relation, in a preprocessing step we first compute a dependency tree for
+each sentence.
+Label: METODE  StartNode: 6718  EndNode: 6899
+Since our aim is to detect semantic relationships among
+entities in a sentence, we merge the nodes of the dependency tree into single
+artificial nodes that define the same entities.
+Label: METODE  StartNode: 7205  EndNode: 7405
+An important feature of the dependency
+trees obtained in this way is that there is an injective mapping from the set of
+entities in a sentence to the set of nodes in the corresponding dependency tree.
+Label: METODE  StartNode: 7786  EndNode: 8050
+We make use of this feature of dependency trees and the fact that dependency
+trees can be considered as relational structures in the standard natural way; the
+edges of the trees can be represented by a single binary predicate, while the
+labels by unary predicates.
+Label: DATA  StartNode: 12484  EndNode: 12619
+In this section we compare our method with the approaches proposed in [2,
+4] on the publicly available benchmark dataset ACE–20034 [9].
+Label: HASIL  StartNode: 13890  EndNode: 14012
+While our method outperforms the subtree kernels both
+in precision and recall, the shortest path kernel only in precision.
+Label: HASIL  StartNode: 14013  EndNode: 14186
+Though the
+shortest path kernel has better recall, we note that our method is more general
+than the shortest path kernel, as it is not restricted to binary target relations.
+Label: METODE  StartNode: 14404  EndNode: 14533
+Our method is based on transforming examples into definite Horn-clauses by considering dependency trees as relational structures.
+Label: HASIL  StartNode: 14992  EndNode: 15129
+Empirical results on a popular
+benchmark dataset indicate that the performance of our method is comparable
+with state-of-the-art methods.
+Label: Method Title  StartNode: 0  EndNode: 22
+A Logic-Based Approach
+Label: Problem Title  StartNode: 26  EndNode: 45
+Relation Extraction
+Label: Data Title  StartNode: 51  EndNode: 56
+Texts

@@ -1,0 +1,1 @@
+For the purposes of the evaluation, annotated corpus from the BOEMIE research project was used.

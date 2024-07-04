@@ -1,0 +1,6 @@
+The experimental result shows that our proposed method brings significant improvement in retrieval accuracy for English document collections, but deficient for Malay document collections.
+As shown in Table 4, the English document MAP results for IR2 were 2.1 and 5.1% lower than mono IR1 result and the Malay document MAP results for IR2 were 3.4 and 7.5% lower than mono IR1 result, as expected.
+The English document MAP result for IR3 is higher than IR2 by 2 and 0.6% and the Malay document MAP result for IR3 is lower than IR2 by 2.5 and 2.8%, respectively.
+As can be seen in this figure, dictionary-based CLIR approach in IR2, showed decreasing in retrieval performance compared to Mono IR system in IR1.
+As shown in Table 4, the MAP results for using first translation were 3% and 4.1% higher than using all translation candidates result for English and Malay document collections.
+Translation approach in IR2 and IR3, showed that CLIR query translation using first translation listed in the dictionary is obtained a better result compared to using all translation candidates listed in the dictionary either in English or Malay document collections.

@@ -1,0 +1,111 @@
+Section Title : 
+1. Introduction
+2. Related Work
+3. Our Datasets
+4. Methods
+5. Experiments
+6. Application – Comorbidity Extraction
+7. Discussion
+8. Conclusion
+9. Acknowledgement
+Label: section  StartNode: 1373  EndNode: 1388
+1. Introduction
+Label: section  StartNode: 3434  EndNode: 3449
+2. Related Work
+Label: section  StartNode: 8377  EndNode: 8392
+3. Our Datasets
+Label: section  StartNode: 16034  EndNode: 16044
+4. Methods
+Label: section  StartNode: 21399  EndNode: 21413
+5. Experiments
+Label: section  StartNode: 29612  EndNode: 29651
+6. Application – Comorbidity Extraction
+Label: section  StartNode: 32878  EndNode: 32891
+7. Discussion
+Label: section  StartNode: 33864  EndNode: 33877
+8. Conclusion
+Label: section  StartNode: 34716  EndNode: 34734
+9. Acknowledgement
+Label: Abstract  StartNode: 392  EndNode: 400
+Abstract
+Label: intro  StartNode: 1373  EndNode: 1388
+1. Introduction
+Label: rel_work  StartNode: 3434  EndNode: 3449
+2. Related Work
+Label: method  StartNode: 8377  EndNode: 8392
+3. Our Datasets
+Label: method  StartNode: 16034  EndNode: 16044
+4. Methods
+Label: exp_result  StartNode: 21399  EndNode: 21413
+5. Experiments
+Label: exp_result  StartNode: 29612  EndNode: 29651
+6. Application – Comorbidity Extraction
+Label: exp_result  StartNode: 32878  EndNode: 32891
+7. Discussion
+Label: conclusion  StartNode: 33864  EndNode: 33877
+8. Conclusion
+Label: conclusion  StartNode: 34716  EndNode: 34734
+9. Acknowledgement
+Label: References  StartNode: 36225  EndNode: 36240
+
+10. References
+Label: JUDUL  StartNode: 0  EndNode: 63
+Statistical Section Segmentation in Free-Text Clinical Records
+
+Label: NAMA  StartNode: 63  EndNode: 156
+Michael Tepper1, Daniel Capurro2, Fei Xia1,2, Lucy Vanderwende3,2, Meliha Yetisgen-Yildiz2,1
+
+Label: OTHER  StartNode: 268  EndNode: 391
+3Microsoft Research, Redmond WA 98052, USA
+{mtepper, dcapurro, fxia}@uw.edu, lucy.vanderwende@microsoft.com, melihay@uw.edu
+Label: PROBLEM  StartNode: 642  EndNode: 866
+ In this work we describe our
+approach to automatic section segmentation of clinical records such as hospital discharge summaries and radiology reports, along with
+section classification into pre-defined section categories. 
+Label: DATA  StartNode: 8393  EndNode: 8544
+We used three datasets composed of discharge summaries
+and radiology reports to develop our statistical section seg-
+menter and test its performance. A
+Label: DATA  StartNode: 8808  EndNode: 8925
+This corpus consists of 430 discharge summaries of 402 pa-
+tients who had a surgery at UW’s medical center in 20101.
+
+Label: DATA  StartNode: 9526  EndNode: 9687
+This corpus was created for the 2010 i2b2 natural language
+processing challenge on medical concept, assertion, and re-
+lation extraction (Uzuner et al., 2011). T
+Label: DATA  StartNode: 10090  EndNode: 10188
+This corpus consists of 100 radiology reports extracted
+from the UW Radiology Information System. 
+Label: METODE  StartNode: 16045  EndNode: 16632
+Our basic methodology for section segmentation is to clas-
+sify each line in a document to indicate its membership to a
+section. Our classifier operates at the line-level rather than
+the sentence-level, as content of clinical records tends to
+be fragmentary and list-based. Similar to Hirohata et al.
+(2008), we relied on BIO tags to differentiate the begin-
+nings of sections (which tend to consist of headers) from
+the remaining lines.
+Under this methodology we tried two approaches: a joint
+(one-step) approach and a pipeline (two-step) approach.
+Both approaches are described below.
+
+Label: HASIL  StartNode: 22826  EndNode: 22982
+For Datasets 1 and 2, the performance results show that
+the two-step approach (Experiments 2, 3, and 4) outper-
+forms the one-step approach (Experiment 1). 
+Label: HASIL  StartNode: 23709  EndNode: 23851
+For Dataset 3, the two-step ap-
+proach slightly decreased the performance; however, the
+differences are too small to draw strong conclusions. 
+Label: HASIL  StartNode: 23993  EndNode: 24161
+This means the tagset used in the
+one-step approach is much smaller, and thus the one-step
+segmentation model can be better trained on a comparably
+2005
+small dataset.
+
+Label: Problem Title  StartNode: 0  EndNode: 32
+Statistical Section Segmentation
+Label: Data Title  StartNode: 36  EndNode: 62
+Free-Text Clinical Records

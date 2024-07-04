@@ -1,0 +1,5 @@
+We present Expectation-Maximizationalgorithms for automatically evaluating the quality of the ex-traction patterns and derived relation tuples.
+Anattractive approach to reduce the training cost, pioneered byBrin [3], is to start with just a handful of “seed” tuples for therelation of interest, and automatically discover extraction pat-terns for the task.
+We present gen-eral Expectation-Maximization (EM) algorithms for estimat-ing pattern and tuple confidence.
+Snowball extracts a re-lation from text by starting with just a handful of exam-ple tuples for the relation.
+After gener-ating extraction patterns for a target relation and a documentcollection, Snowball scans the collection documents to dis-cover new tuples using Algorithm 1.

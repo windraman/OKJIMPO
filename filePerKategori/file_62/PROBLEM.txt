@@ -1,0 +1,3 @@
+The aim of this research is to explore the possibilities of Wikipedia for query translation in CLIR.
+The main research question of this paper is: Is Wikipedia a viable alternative to current translation resources in cross-lingual information retrieval?
+This raises the following sub questions: How can queries be mapped to Wikipedia concepts? and How to create a query given the Wikipedia concepts?

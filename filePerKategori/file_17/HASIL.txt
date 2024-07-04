@@ -1,0 +1,1 @@
+ Finally, this paper suggests that applying two or more technique i.e. hybrid approach gives better solution for class imbalance problem. 

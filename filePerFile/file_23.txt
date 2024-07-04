@@ -1,0 +1,109 @@
+Section Title : 
+1. INTRODUCTION
+This paper focuses on the discourse-level analysis of clin-
+2. RELATED WORK
+3. METHODS
+4. EXPERIMENTS
+5. CONCLUSION
+Label: section  StartNode: 1568  EndNode: 1583
+1. INTRODUCTION
+Label: section  StartNode: 3236  EndNode: 3295
+This paper focuses on the discourse-level analysis of clin-
+Label: section  StartNode: 7583  EndNode: 7598
+2. RELATED WORK
+Label: section  StartNode: 13131  EndNode: 13141
+3. METHODS
+Label: section  StartNode: 18521  EndNode: 18535
+4. EXPERIMENTS
+Label: section  StartNode: 28469  EndNode: 28482
+5. CONCLUSION
+Label: Abstract  StartNode: 242  EndNode: 250
+ABSTRACT
+Label: intro  StartNode: 1568  EndNode: 1583
+1. INTRODUCTION
+Label: intro  StartNode: 3236  EndNode: 3295
+This paper focuses on the discourse-level analysis of clin-
+Label: rel_work  StartNode: 7583  EndNode: 7598
+2. RELATED WORK
+Label: method  StartNode: 13131  EndNode: 13141
+3. METHODS
+Label: exp_result  StartNode: 18521  EndNode: 18535
+4. EXPERIMENTS
+Label: conclusion  StartNode: 28469  EndNode: 28482
+5. CONCLUSION
+Label: References  StartNode: 29183  EndNode: 29197
+
+7. REFERENCES
+Label: PROBLEM  StartNode: 0  EndNode: 34
+Section Classification in Clinical
+Label: JUDUL  StartNode: 0  EndNode: 77
+Section Classification in Clinical Notes using Supervised
+Hidden Markov Model
+Label: METODE  StartNode: 47  EndNode: 77
+Supervised
+Hidden Markov Model
+Label: NAMA  StartNode: 78  EndNode: 123
+Ying Li, Sharon Lipsky Gorman, Noémie Elhadad
+Label: OTHER  StartNode: 124  EndNode: 241
+Department of Biomedical Informatics
+Columbia University
+New York, NY 10032{yil7003,srg7002,noemie}@dbmi.columbia.edu
+Label: PROBLEM  StartNode: 251  EndNode: 441
+As more and more information is available in the Electronic
+Health Record in the form of free-text narrative, there is a
+need for automated tools, which can process and understand
+such texts
+Label: METODE  StartNode: 772  EndNode: 905
+ Our method re-
+lies on a Hidden Markov Model (HMM) trained on a corpus
+of 9,679 clinical notes from NewYork-Presbyterian Hospi-
+tal.
+Label: METODE  StartNode: 2137  EndNode: 2141
+2010
+Label: TAHUN  StartNode: 2137  EndNode: 2141
+2010
+Label: OTHER  StartNode: 3236  EndNode: 3342
+This paper focuses on the discourse-level analysis of clin-
+ical notes, namely argumentative zoning [19]. 
+Label: METODE  StartNode: 9947  EndNode: 10461
+Our work contrasts from their approach in the fol-
+lowing ways: (i) sections are classi?ed as part of a sequence,
+not independently of the other sections in the note; (ii) our
+set of section labels is more generic than theirs, and thus
+smaller, so as to be robust across note types (e.g., discharge
+summaries vs. outpatient consult notes); and (iii) like in
+their work, our dataset is comprised of sections with head-
+ers mapped to the 15 section labels automatically according
+to a hand-built mapping dictionary. 
+Label: HASIL  StartNode: 13142  EndNode: 13222
+In this section we present our algorithm for assigning one
+of 15 section types. 
+Label: HASIL  StartNode: 18129  EndNode: 18223
+We hypothesize that section sequences can improve the
+accuracy of section label classi?cation.
+Label: DATA  StartNode: 20837  EndNode: 21093
+In our dataset of 9,679 notes we paid attention to the
+following: we did not include notes with less than two section
+headers; we did not include notes in the training data, which
+came from the same patient id as the clinical notes present
+in the test set.
+Label: OTHER  StartNode: 21094  EndNode: 21227
+This way, we avoid boosting the accuracy
+of our classi?er arti?cially due to repetition of content in
+the notes for the same patient.
+Label: DATA  StartNode: 21629  EndNode: 21709
+The test set contains 2,088 clinical notes,
+corresponding to 11,706 text spans. 
+Label: HASIL  StartNode: 26734  EndNode: 26986
+Finally, we have assumed that text span boundaries in
+clinical notes are known, which is unusual in practice. In
+order to improve the accuracy of the classi?er, a future di-
+rection for this study is to segment and classify text spans
+at the same time.
+Label: Problem Title  StartNode: 0  EndNode: 22
+Section Classification
+Label: Data Title  StartNode: 26  EndNode: 40
+Clinical Notes
+Label: Method Title  StartNode: 47  EndNode: 77
+Supervised
+Hidden Markov Model

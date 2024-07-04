@@ -1,0 +1,120 @@
+Section Title : 
+1. Introduction
+2. System architecture
+3. Experiments and results
+4. Possible enhancements
+5. Related work
+Label: section  StartNode: 937  EndNode: 952
+1. Introduction
+Label: section  StartNode: 5872  EndNode: 5894
+2. System architecture
+Label: section  StartNode: 11461  EndNode: 11487
+3. Experiments and results
+Label: section  StartNode: 15500  EndNode: 15524
+4. Possible enhancements
+Label: section  StartNode: 17556  EndNode: 17571
+5. Related work
+Label: Abstract  StartNode: 212  EndNode: 220
+Abstract
+Label: intro  StartNode: 937  EndNode: 952
+1. Introduction
+Label: method  StartNode: 5872  EndNode: 5894
+2. System architecture
+Label: exp_result  StartNode: 11461  EndNode: 11487
+3. Experiments and results
+Label: conclusion  StartNode: 15500  EndNode: 15524
+4. Possible enhancements
+Label: rel_work  StartNode: 17556  EndNode: 17571
+5. Related work
+Label: References  StartNode: 21192  EndNode: 21206
+
+7. References
+Label: JUDUL  StartNode: 0  EndNode: 51
+Unsupervised Relation Extraction from Web Documents
+Label: NAMA  StartNode: 52  EndNode: 67
+Kathrin Eichler
+Label: NAMA  StartNode: 69  EndNode: 82
+Holmer Hemsen
+Label: NAMA  StartNode: 87  EndNode: 102
+Gu¨nter Neumann
+Label: OTHER  StartNode: 103  EndNode: 180
+DFKI GmbH, LT-Lab, Stuhlsatzenhausweg 3 (Building D3 2), D-66123 Saarbru¨cken
+Label: PROBLEM  StartNode: 1316  EndNode: 1609
+Currently, IE
+systems are usually domain-dependent and adapting
+the system to a new domain requires a high amount
+of manual labour, such as specifying and implement-
+ing relation–specific extraction patterns manually (cf.
+Fig. 1) or annotating large amounts of training cor-
+pora (cf. Fig. 2).
+Label: PROBLEM  StartNode: 1705  EndNode: 1857
+Consequently, current IE technology is highly
+statically and inflexible with respect to a timely adap-
+tation to new requirements in form of new topics.
+Label: METODE  StartNode: 6748  EndNode: 6931
+In order to restrict the processing to sen-
+tences written in English, we apply a language guesser
+tool, lc4j (Lc4j, 2007) and remove sentences not clas-
+sified as written in English.
+Label: METODE  StartNode: 7065  EndNode: 7221
+To all remaining sentences, we apply LingPipe (Ling-
+Pipe, 2007) for sentence boundary detection, named
+entity recognition (NER) and coreference resolution.
+Label: METODE  StartNode: 7482  EndNode: 7564
+We define a sentence to be
+of potential relevance if it at least contains two NEs.
+Label: METODE  StartNode: 8311  EndNode: 8590
+We can now extract
+verb relations using a simple algorithm: We define a
+verb relation to be a verb together with its arguments
+(subject(s), object(s) and prepositional phrases) and
+consider only those relations to be of interest where at
+least the subject or the object is an NE.
+Label: METODE  StartNode: 9792  EndNode: 9942
+We thus de-
+cided to use a scoring algorithm that compares a re-
+lation to other relations based on certain aspects and
+calculates a similarity score.
+Label: METODE  StartNode: 10038  EndNode: 10165
+Similarity is measured based on the output from the
+different preprocessing steps as well as lexical informa-
+tion from WordNet
+Label: DATA  StartNode: 11488  EndNode: 11778
+For our experiments, we built a test corpus of doc-
+uments related to the topic “Berlin Hauptbahnhof”
+by sending queries describing the topic (e.g., “Berlin
+Hauptbahnhof”, “Berlin central station”) to Google
+and downloading the retrieved documents specifying
+English as the target language.
+Label: HASIL  StartNode: 11989  EndNode: 12136
+From the extracted relations, the system built 306 clus-
+ters of two or more instances, which were manually
+evaluated by two authors of this paper.
+Label: HASIL  StartNode: 12137  EndNode: 12295
+81 of our clus-
+ters contain two or more instances of exactly the same
+relation, mostly due to the same sentence appearing
+in several documents of the corpus.
+Label: HASIL  StartNode: 12296  EndNode: 12550
+Of the remaining
+225 clusters, 121 were marked as consistent (i.e., all in-
+stances in the cluster express a similar relation), 35 as
+partly consistent (i.e., more than half of the instances
+in the cluster express a similar relation), 69 as not use-
+ful.
+Label: HASIL  StartNode: 13039  EndNode: 13219
+Of our 121 consistent clusters, 76 were classified as be-
+ing of the type ’same pattern’, 27 as being of the type
+’same topic’ and 18 as being of the type ’relation para-
+phrases’.
+Label: HASIL  StartNode: 13941  EndNode: 14061
+For the same sentences, the IDEX system extracted 27
+relations, 11 of them corresponding to the manually
+extracted ones.
+Label: HASIL  StartNode: 14062  EndNode: 14125
+This yields a recall value of 73% and
+a precision value of 41%.
+Label: Problem Title  StartNode: 0  EndNode: 32
+Unsupervised Relation Extraction
+Label: Data Title  StartNode: 38  EndNode: 51
+Web Documents

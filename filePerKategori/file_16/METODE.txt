@@ -1,0 +1,1 @@
+In this paper, a filter method for feature selection is presented. A new hybrid method for semi-supervised problem is proposed, which combines supervised and unsupervised measures of information. This approach applies a strategy to obtain a feature subset through clustering techniques. 

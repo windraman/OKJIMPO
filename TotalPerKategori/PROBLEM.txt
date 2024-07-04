@@ -1,0 +1,208 @@
+Text classification is the process of automatically assigning predefined categories to free text, which is very important to information retrieval and many other applications.
+Text Clustering with Feature Selection
+Semi-supervised Problems
+First Order Statistics Based Feature Selection
+A Diverse and Powerful Family of Feature Selection Techniques
+Multi-label Classification
+Sequence Labeling
+ Improve Readability Measures for First and Second Language Texts
+This work evaluates a system that uses in-terpolated predictions of reading difficulty that are based on both vocabulary and grammatical features.
+ In thispaper we propose a framework for large-scaleevaluation of relation extraction systems basedon an automatic annotator that uses a publiconline database and a large web corpus.
+Our goal is to extract structured relations between named en-tities (e.g., a company name, a location name, or a name ofa drug or a disease) from unstructured documents with min-imal human effort. 
+ In this work we describe ourapproach to automatic section segmentation of clinical records such as hospital discharge summaries and radiology reports, along withsection classification into pre-defined section categories. 
+This paper presents a new method for extractingmeaningful relations from unstructured natural lan-guage sources. T
+The main contribution of this work is presentinga variant of distance supervision for relation extrac-tion where we do not use heuristics in the selectionof the training data. 
+ In this article, an efficient linear text segmentation algorithm based on hierarchical agglomerative clustering is presented. 
+To tackle the problems mentioned above, a novel efficient linear text segmentation algorithm based on Hierarchical Agglomerative Clustering (HAC) is presented in this article. 
+ In this paper, we propose a new approach to feature selection to do feature reduction, which is a constituent process in representing texts. Using SVM as the classifier, the macro-precision, macro-recall and macro-f1 used to evaluate the performance shown by our experiment are high
+The problem of document clustering is generally de?ned asfollows: given a set of documents, we would like to partitionthem into a predetermined or an automatically derived numberof clusters, such that the documents assigned to each clusterare more similar to each other than the documents assigned todifferent clusters. 
+In this research, we extended the ?2 term-category indepen-dence test by introducing new statistical data that can measurewhether the dependency between a term and a category is positiveor negative. This new statistical data can describe the term-category dependency more accurately than the two variants ofDigital Object Indentifier 10.1109/TKDE.2007.190740 1041-4347/$25.00 ©  2007 IEEEthe ?2 statistic — correlation coef?cient and GSS coef?cient.We also developed a new supervised feature selection method,named CHIR, which is based on the ?2 statistic and the new term-category dependency measure.
+When we have an empirical knowledge about the classes assigned to the samples in the training set, we say that the learning problem has a supervised nature. If the samples are not labeled, the learning problem is considered as unsupervised. In many application problems there is available a significant amount of unlabelled data, and only few labeled samples. The introduction of such few labels can improve the classification accuracy significantly [17]. We will refer to this problem as semi-supervised learning and it has recently received an increased interest in the pattern recognition and machine learning communities.
+We focus on the application problems where the unlabeled information can improve in a significant way the classification result of just using the limited labeled samples available. 
+Classification of data becomes difficult because of unbounded size and imbalance nature of data. Class imbalance problem become greatest issue in data mining
+Imbalance problem occur where one of the two classes having more sample than other classes
+There are different methods available for classification of imbalance data set which is divided into three main categories, the algorithmic approach, data-preprocessing approach and feature selection approach
+ In imbalance data set the class having more number of instances is called as major class while the one having relatively less number of instances are called as minor class [16]
+Text Categorization
+In text categorization
+Text Categorization
+A primary concern of ours was to  examine the effect of feature set size on text categorization effectiveness.
+Text Classification
+TextCategorization
+We address the problem of evaluating the effectiveness ofsummarization techniques for the task of document catego-rization. 
+In this work, we focus on the task of au-tomatic document categorization in scenarios where a doc-ument’s summary is functionally equivalent to reducing thenumber of features of the original.
+Identifying Sections in Scientific Abstracts
+The prior knowledge aboutthe rhetorical structure of scientific abstractsis useful for various text-mining tasks suchas information extraction, information re-trieval, and automatic summarization.
+Section Classification in Clinical
+As more and more information is available in the ElectronicHealth Record in the form of free-text narrative, there is aneed for automated tools, which can process and understandsuch texts
+Document Segmentation And Region Classification 
+Document segmentation is a process of splitting the document into distinct regions.
+Document segmentation is defined as method of subdividing the document regions into text and non-text regions.
+The automatic detection and extraction of Semantic Rela-tions is a crucial step to improve the performance of severalNatural Language Processing applications.
+In recent years, text mining has moved far beyond the clas-sical problem of text classification with an increased interest in moresophisticated processing of large text corpora, such as, for example, eval-uations of complex queries.
+Obviously, the internal representation of texts ina search index as sequences of words is insufficient to recover semantics fromunstructured text (e.g., the “born in” relation in the above example).
+Relationextraction is one of the essential steps towards more complex automatic textprocessing.
+It is concerned with the problem of detecting and classifying prede-fined semantic relations among m-tuples (typically between pairs) of entities inunstructured texts.
+We present here a simpletwo-stage method for extracting complexrelations between named entities in text.
+Very little work has been donein recognizing and extracting more complex rela-tions.
+This paper proposes a novel method that extracts semanticrelations from social data in order to acquire ontologies that are usedfor mining social data.
+Since semantic technologieshave yet to catch up with the explosive growth in the publishing of data on theSocial Web, mining the social data is still a challenging issue.
+This paper addresses the issue of semantic relation extraction from doc-uments on the Social Web.
+Modern models of relation extraction for tasks likeACE are based on supervised learning of relationsfrom small hand-labeled corpora.
+We investigate analternative paradigm that does not require labeledcorpora, avoiding the domain dependence of ACE-style algorithms, and allowing the use of corporaof any size.
+PROBLEM
+Also, because the relations are labeledon a particular corpus, the resulting classifiers tendto be biased toward that text domain.
+ Unsupervised approaches canuse very large amounts of data and extract verylarge numbers of relations, but the resulting rela-tions may not be easy to map to relations neededfor a particular knowledge base.
+The resulting patterns often sufferfrom low precision and semantic drift.
+The goal of Information Extraction is to auto-matically generate structured pieces of information from therelevant information contained in text documents.
+However,elements of human supervision strongly bias the learningprocess.
+IE systems require a significant amount of specific lin-guistic knowledge, and the process of language or domainadaptation of IE systems can hence require significant hu-man effort.
+Oneof the problems with the former approach has to do with itsunderlying assumption that human-made summaries are re-liable enough to be used as “gold standards” for automaticsummarization.
+Another problem associated with the approach concernsthe portability of a summarization system: deploying thesystem in a new domain usually requires one to collect alarge amount of data, which need to be manually annotated,and then train the system.
+The region con-necting a pair of entities (in a parsedsentence) is often used to construct ker-nels or feature vectors that can recognizeand extract interesting relations.
+Such re-gions are useful, but they can also incor-porate unnecessary distracting informa-tion.
+The shortest paths between a pair of enti-ties (Bunescu and Mooney, 2005) or pair-enclosedtrees (Zhang et al., 2006) are widely used as focusregions.
+These regions are useful, but they can in-clude unnecessary sub-paths such as appositions,which cause noisy features.
+DUC 2005 investigated both Rouge andPyramid evaluation schemes in addition to more standardhuman evaluations of responsiveness and linguistic qual-ity.
+Automatic extraction of semantic relationships between en-tity instances in an ontology is useful for attaching richer semantic meta-data to documents.
+However, in addition to this,many ontology-based applications require methods for automatic discovery ofproperties and relations between instances.
+One barrier to applying relation extraction in ontology-based applicationscomes from the difficulty of adapting the system to new domains.
+We present a novel approach to relation ex-traction that integrates information across doc-uments, performs global inference and re-quires no labelled text.
+Naturally, the predictions of a distantly supervisedrelation extractor will be less accurate than those ofa supervised one.
+While facts of existing knowledgebases are inexpensive to come by, the heuristic align-ment to text will often lead to noisy patterns in learn-ing.
+However, when we use the knowl-edge base Freebase (Bollacker et al., 2008) and theNew York Times corpus (Sandhaus, 2008), we ob-serve very low precision.
+Oneway of automatically identifying information of interest fromthe vast Internet resources is by recognizing relevant entitiesand meaningful relations they share.
+However, when dealing with a new task, it is still difficult to quickly select a suitable one from various FS methods provided by many previous studies.
+However, comparing these FS methods appears to be difficult because they are usually based on different theories or measurements.
+In order to better understand the relationship between these methods, building a general theoretical framework provides a fascinating perspective.
+But in real case the class information is unknown, so only unsupervised feature selection can be exploited.
+In many cases, unsupervised feature selection are much worse than supervised feature selection, not only less terms they can remove, but also much worse clustering performance they yield.
+An automatic measure of read-ability that incorporated both lexical and gram-matical features was thus needed.
+One goal of this work is to show that the use of pedagogically motivated grammatical features (e.g., passive voice, rather than the number of words per sen-tence) can improve readability measures based on lexical features alone.
+This phenome-non suggests that grammatical features may play a more important role in predicting and measuring L2 readability.
+Feature selection and extraction are frequently used solutions to overcome the curse of dimensionality intext classi?cation problems.
+In vector space, we representthe documents with terms, which is also known as the bag-of-words model.
+The nature of the bag-of-wordsapproach causes a very high dimensional and sparse feature space.
+It is hard to build an e?cient model for text classi?cation in this high dimensional featurespace.
+Due to this problem, dimension reduction has become one of the key problems of textual informationprocessing and retrieval [4].
+The effect of selecting varying numbers and kinds of fea- tures for use in predicting category membership was inves- tigated on the Reuters and MUC-3 text categorization data sets.
+The extraction of new text features by syntactic analysis and feature clustering was investigated on the Reuters data set.
+However, words have properties, such as synonymy and polysemy, that make them a less than ideal indexing language.
+Syntactic phrase indexing and term clustering have op- posite effects on the properties of a text representation, which led us t o  investigate combining the two techniques [3].
+However, the small size of standard text retrieval test collections, and the variety of approaches available for query interpretation, made it difficult to  study purely representational issues in text retrieval experiments.
+Our goal is to automatically detect boundaries between discussionsof different topics in meetings.
+Our goal as a part of the CALO project1 is to automatically un-derstand discussions at meetings.
+A first step towards such under-standing is to detect the topics of discussion.
+This problem can bebroken into two parts – detecting when there is a change of topic,and determining what the topic is.
+In this paper we describe ourcurrent work on the first question – the detection of boundariesbetween different topics of discussion in meetings.
+We consider feature selection for text classification both the-oretically and empirically.
+Nevertheless,general theoretical performance guarantees are modest andit is often difficult to claim more than a vague intuitive un-derstanding of why a particular feature selection algorithmperforms well when it does.
+Indeed, selecting an optimal setof features is in general difficult, both theoretically and em-pirically; hardness results are known [5–7], and in practicegreedy heuristics are often employed [4,13,17,20].
+Currently, IEsystems are usually domain-dependent and adaptingthe system to a new domain requires a high amountof manual labour, such as specifying and implement-ing relation–specific extraction patterns manually (cf.Fig. 1) or annotating large amounts of training cor-pora (cf. Fig. 2).
+Consequently, current IE technology is highlystatically and inflexible with respect to a timely adap-tation to new requirements in form of new topics.
+We use the technique of SVM anchoring todemonstrate that lexical features extractedfrom a training corpus are not necessary toobtain state of the art results on tasks suchas Named Entity Recognition and Chunk-ing.
+While early approaches to the NP-chunking task(Cardie and Pierce, 1998) relied on part-of-speechinformation alone, it is widely accepted that lexi-cal information (word forms) is crucial for build-ing accurate systems for these tasks.
+Multi-document summarization differs from single in that the issues of compression, speed, redundancy and passage selec- tion are critical in the formation of useful summaries.
+However, large- scale IR and summarization have not yet been truly in- tegrated, and the functionality challenges on a summa- rization system are greater in a true IR or topic-detection context (Yang et al., 1998; Allan et al., 1998).
+Ideally, multi-document summaries should contain the key shared relevant infor- mation among all the documents only once, plus other information unique to some of the individual documents that are directly relevant to the user's query. 
+The degree of redundancy in information contained within a group of topically-related articles is much higher than the degree of redundancy within an arti- cle, as each article is apt to describe the main point as well as necessary shared background.
+A group of articles may contain a temporal dimen- sion, typical in a stream of news reports about an unfolding event.
+The compression ratio (i.e. the size of the summary with respect o the size of the document set) will typically be much smaller for collections of dozens or hundreds of topically related documents than for single document summaries.
+The co-reference problem in summarization presents even greater challenges for multi- document han for single-document summariza- tion (Baldwin and Morton, 1998).
+Relation extraction is the task of identifying the relations that hold between interesting entities in text data.
+The main aim of this paper is to examine the suitability of grammatical inference for the task of relation extraction.
+Feature selection is an important method for im-proving the ef?ciency and accuracy of text categorization algo-rithms by removing redundant and irrelevant terms from thecorpus.
+But it is shown in [12] that supervised featureselection methods using the information gain [16] and the ?2statistic can improve the clustering performance better than unsu-pervised methods when the class labels of documents are availablefor the feature selection.
+However, supervised feature selectionmethods cannot be directly applied to document clustering be-cause usually the required class label information is not available.
+The task tackled in this paper is Text Segmentation(TS), which is to be understood as the segmentationof texts into topically similar units.
+The chal-lenge for a text segmentation algorithm is to find thesub-topical structure of a text.
+Expository texts such as science magazine articles andenvironmental impact reports can be viewed as beingcomposed of a few main topics and a series of short,sometimesdensely discussed, subtopics.
+The capability to automate the recognition of this kindof structure in a full-text document shouldbe useful forimproving a variety of computational tasks, e.g., hy-pertext, text summarization and information retrieval.
+One of the most prevalent problems in DNA microarraydatasets is the large degree of high dimensionality that isinherent in the data.
+Feature selection refers to a diverse series of techniquesfrom the ?eld of data mining designed for the reduction ofthe dimensionality of a dataset.
+However, there are a number of feature selection tech-niques which are computationally infeasible due to the se-vere level of high dimensionality found in DNA microarraydatasets.
+Thus, for datasets with such extremedegrees of high dimensionality, the most appropriate choiceof selection approach is univariate feature selection.
+The classification or labeling of samples by an expert can often be too expensive in time and sometimes even unfeasible.
+In many application problems there is available a significant amount of unlabelled data, and only few labeled samples.
+A challenge in semi-supervised learning is the feature selection problem.
+Document structure analysis and understand-ing are the main processes in reaching this goal: ease ofuse and availability of documents.
+In order to achieve the best possible results with OCR andstoraging, the contents of the document have to be exam-ined.
+Most of the texts one comes across are composed of a number of topics, perhaps varying in their relevanceto one another and their scope.
+A system that could automatically detect these subtopics would certainly be useful,allowing the reader to quickly skip to the topics most relevant to her purpose.
+Thus, anyhighly accurate segmentation system would certainly be useful in these times of overly abundant, undocumenteddata.
+We introduce a stochastic graph-based method for computing relative importance oftextual units for Natural Language Processing.
+Extractive TS relies on the concept of sentence salienceto identify the most important sentences in a document or set of documents.
+In this paper, we focuson multi-document extractive generic text summarization, where the goal is to produce asummary of multiple documents about the same, but unspecified topic.
+Text classification is the process of automatically assigning predefined categories to free text, which is very important to information retrieval and many other applications.
+Of it, the first important thing is to effectively represent a text to characterize it as belonging to a specified category based on its content and thus make the following phase of classifier training and using more effective and efficient regarding to the final classification performance.
+In this paper, we propose a new approach to feature selection to do feature reduction, which is a constituent process in representing texts.
+With the proliferation of on-line systemsserving as personal advisors and assistants, there is a pressing need to develop general and testable computational models forgenerating and presenting evaluative arguments.
+Within the framework, we have performed an experiment to test two basic hypotheses on which the design ofthe computational model is based; namely, that our proposal for tailoring an evaluative argument to the addressee’s preferencesincreases its effectiveness, and that differences in conciseness significantly influence argument effectiveness.
+First, because of the complexity of generating natural language, researchershave tended to focus only on specific aspects of the generation process.
+Second, because of a lack of systematicevaluation, it is difficult to gauge the effectiveness, scalability and robustness of the proposed approaches.
+The discovery of regulatory pathways, signal cascades,metabolic processes or diseasemodels requires knowledge on individ-ual relations like e.g. physical or regulatory interactions betweengenes and proteins.
+Most interactions mentioned in the free text ofbiomedical publications are not yet contained in structured databases.
+Most interactions mentioned in the free text ofbiomedical publications are not yet contained in structured databases.
+Most biological facts are available only in the free text of scientificarticles. For information integration or combination with other typesof data, these facts have to be extracted from the scientific literature.
+Extracted relationsexhibit high sensitivity but very low specificity.
+Therefore, the develop-ment of novel techniques for managing of data, especially when we deal withinformation in multiple languages, is needed.
+In Cross-Language Information Retrieval (CLIR), the usual approach is tofirst translate the query into the target language and then retrieve documents inthis language by using a conventional, monolingual information retrieval system.
+Since our perspective, the above two-step approach is too sensitive to trans-lation errors produced during the first step.
+In fact, even if we have a veryaccurate retrieval system, translation errors prevent correct retrieval of rele-vant documents.
+Multilingual information search becomes increasingly important due to the grow-ing amount of online information available in non-English languages and the riseof multilingual document collections.
+Query translation for CLIR became themost widely used technique to access documents in a different language fromthe query.
+As CLIR is less accurate than monolingual IR, the combination ofquery translation techniques is a promising way to approximate monolingualaccuracy.
+Combination of statistical machine translation (SMT),machine readable dictionary (MRD) based models or similarity thesauri (ST)proved to be difficult [1] due to the difference in the accuracy of individual mod-els (SMT tends to be superior); the aggregation of translation errors; or thetopic drift caused by integrating multiple translations in a single query.
+Cross-Language Information Retrieval (CLIR) can be used to retrieve documents in one language in response to a query given in another.
+The usual approach consists of two steps: 1) translation of the user query into the target language and then 2) retrieval of documents in this language by using a conventional mono-lingual information retrieval system.
+In this paper, we propose a novel approach to translate queries for a Japanese-English CLIR task.
+The aim of this research is to explore the possibilities of Wikipedia for query translation in CLIR.
+The main research question of this paper is: Is Wikipedia a viable alternative to current translation resources in cross-lingual information retrieval?
+This raises the following sub questions: How can queries be mapped to Wikipedia concepts? and How to create a query given the Wikipedia concepts?
+With the worldwide growth of the Internet, research on Cross-Language Information Retrieval (CLIR) isbeing paid much attention.
+Existing CLIR approaches based on query translation require parallel corporaor comparable corpora for the disambiguation of translated query terms.
+However, those naturallanguage resources are not readily available.
+One of the major technical problems to be solved in CLIRconcerns the translation of short queries of one or fewwords, appropriately.
+Possible translation-candidates mightbe numerous in such cases and resolving such ambiguitiesbecomes a hard task.
+However, the output of such systems tend to be noisy, andhence it is crucial to be able to estimate the quality of the ex-tracted information.
+A fundamental problem in information extraction is howto train an extraction system for an extraction task of inter-est.
+Our goal is to extract structured relations between named en-tities (e.g., a company name, a location name, or a name ofa drug or a disease) from unstructured documents with min-imal human effort.
+In Cross-Language Information Retrieval (CLIR) process, the translation effects have a direct impact on the accuracy of follow-up retrieval results.
+In dictionary-based approach, we are dealing with the words that have more than one meaning which can decrease the retrieval performance if the query translation return an incorrect translations.
+Previous comparisons of document and query translation suffered difficulty due to differing quality of machine translation in these two opposite directions.
+Should we translate the documents or the queries in cross-language information re- trieval?
+Translating the documents into the query's language(s) and translating the queries into the docu- ment's language(s) represent wo extreme approaches to coupling MT and IR.
+However, we are facedwith the problem of translation ambiguity, i.e. multipletranslations are stored in a dictionary for a word.
+In addition, aword-by-word query translation is not precise enough.
+With the explosion of on-line non-English documents, cross-language information retrieval (CLIR) systems have becomeincreasingly important in recent years.
+In particular, dictionary-based translation hasbeen a commonly used method because of its simplicity and theincreasing availability of machine readable bilingual dictionaries.
+A personalized search or filtering system usually suffersfrom the “cold start” problem, where the system performspoorly when it has little training data about new users.
+We aim to study a new inter-active user feedback mechanism that helps retrieval systemslearn more about user information needs with limited userinteractions.
+This motivates usto explore whether we can adapt the faceted search idea tothe general purpose document retrieval.
+First, how to recommend facet-value pairs to users.
+Secondly, we study how to useuser faceted feedback in retrieval.
+Translation dictionaries do not exist for every languagepair, and they are usually trained on large parallel corpora, where each document hasan exact translation in the other language, or are hand-built.
+Parallel corpora are notavailable for each language pair.
+In contrast, comparable corpora in which documentsin the source and the target language contain similar content, are usually available inabundance.
+In this paper we address the question whether suitable cross-language re-trieval models can be built based on the interlingual topic representations learned fromcomparable corpora.
+Our focus in this experiment is on examining search performance of a hybrid approach combining query translation and document translation, in which English is employed as an intermediary language for translation.
+Some researchers have already attempted to merge two results from query and document translation for enhancing effectiveness of CLIR.
+One problem for implementing this approach is that the document translation is usually a cost-intensive task, but we can alleviate it by using simpler translation techniques, e.g., “pseudo translation” [1] in which each term is simply replaced with its corresponding translations by a bilingual dictionary.
+Cross-language information retrieval today is dominated by techniques that rely principally oncontext-independent token-to-token mappings despite the fact that state-of-the-art statisticalmachine translation systems now have far richer translation models available in theirinternal representations.
+These approaches have complementary strengths: MT makes good use of contextbut at the cost of typically producing only one-best results, while token-to-token mappingscan produce n-best token translations but without leveraging available contextual clues.
+One limitation of applying language and translation models in CLIR is that they have mostlyfocused on isolated tokens (i.e., unigram models).
+This paper proposes a method of query trans-lation for Cross Language Information Re-trieval.
+A cross language information retrieval (CLIR)system is a system for retrieving documents acrosslanguage boundaries.
+A query written in one languageshould be translated into a representation for findingdocuments in another language.
+However standard queries, containing 2-3 terms in average, are less and less likely to be sufficient to retrieve all of the relevant documents.  
+Consequently, advanced techniques are necessary to enhance the performances of Information Retrieval (IR) systems, such as Cross Language Information Retrieval (CLIR).
+Bridging the gap between document and query languages requires the application of machine translation techniques to queries, indices, or both.
+Translation software can induce linguistic differences between translated data and human language.
+The extraction of information from the content of thesesources is a challenging problem and a hard task since they are het-erogeneous and dynamic.
+The problem we resolve in this paper is to build a wrapper for adata source which can extract a relation it contains.
+The problemis that these shallow features often break downwhere underlying linguistic content needs to becompared rather than just surface structure.
+The problem with these systems is that they alluse supervised approaches to IE that require thatthe IE templates be known in advance and addi-tionally require significant investment in writingextraction rules or in annotating data for train-ing.
+We extend previous work on tree kernelsto estimate the similarity between thedependency trees of sentences.
+The ability to detect complex patterns in data islimited by the complexity of the data’s represen-tation.
+The recognition and storage of complex re-lations among subjects mentioned in these sources is a verydifficult and time consuming task, ultimately based on poolsof experts.
+Hence text mining techniques basedon pure linguistic strategies fail to extract information fromtexts.

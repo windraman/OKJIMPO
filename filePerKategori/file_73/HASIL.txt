@@ -1,0 +1,4 @@
+More than half of the queries of the complete OPF corpus, including words with spelling mistakes, URLs, etc. are expanded into several choices.
+It is worth noticing that the quantity of words provided by QE is unevenly spread across different queries.
+Silence reduction, which is the first aim of the proposed method, is significant as the results in IV.B show.
+Indeed, the expansions shown in section IV.B.1 do maintain the meaning of the original query.

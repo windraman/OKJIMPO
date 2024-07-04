@@ -1,0 +1,17 @@
+data,1
+set,1
+consists,1
+abstracts,1
+selectedfrom,1
+medline,1
+relevant,1
+populating,1
+adatabase,1
+facts,1
+form,1
+gene,1
+vari,1
+ation,1
+event,1
+associated,1
+malignancy,1

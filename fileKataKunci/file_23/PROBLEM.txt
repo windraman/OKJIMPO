@@ -1,0 +1,14 @@
+classification,1
+clinical,1
+electronichealth,1
+record,1
+form,1
+free,1
+text,1
+narrative,1
+aneed,1
+automated,1
+tools,1
+process,1
+understandsuch,1
+texts,1

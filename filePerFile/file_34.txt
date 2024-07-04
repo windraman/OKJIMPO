@@ -1,0 +1,119 @@
+Section Title : 
+1 Introduction
+2 The ACE Entity and Relation Hierarchies
+5 Experiment Results and Analysis.
+6 Conclusions
+Label: section  StartNode: 1307  EndNode: 1321
+1 Introduction
+Label: section  StartNode: 4722  EndNode: 4763
+2 The ACE Entity and Relation Hierarchies
+Label: section  StartNode: 23134  EndNode: 23168
+5 Experiment Results and Analysis.
+Label: section  StartNode: 35165  EndNode: 35178
+6 Conclusions
+Label: Abstract  StartNode: 408  EndNode: 476
+Abstract. Automatic extraction of semantic relationships between en-
+Label: intro  StartNode: 1307  EndNode: 1321
+1 Introduction
+Label: method  StartNode: 4722  EndNode: 4763
+2 The ACE Entity and Relation Hierarchies
+Label: exp_result  StartNode: 23134  EndNode: 23168
+5 Experiment Results and Analysis.
+Label: conclusion  StartNode: 35165  EndNode: 35178
+6 Conclusions
+Label: References  StartNode: 36780  EndNode: 36791
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 56
+Automatic Extraction of Hierarchical Relations
+from Text
+Label: NAMA  StartNode: 57  EndNode: 66
+Ting Wang
+Label: NAMA  StartNode: 70  EndNode: 80
+Yaoyong Li
+Label: NAMA  StartNode: 83  EndNode: 99
+Kalina Bontcheva
+Label: NAMA  StartNode: 102  EndNode: 119
+Hamish Cunningham
+Label: NAMA  StartNode: 126  EndNode: 133
+Ji Wang
+Label: OTHER  StartNode: 135  EndNode: 215
+1 Department of Computer Science, University of Sheffield, Sheffield, S1 4DP, UK
+Label: PROBLEM  StartNode: 418  EndNode: 571
+Automatic extraction of semantic relationships between en-
+tity instances in an ontology is useful for attaching richer semantic meta-
+data to documents.
+Label: METODE  StartNode: 572  EndNode: 759
+In this paper we propose an SVM based approach
+to hierarchical relation extraction, using features derived automatically
+from a number of GATE-based open-source language processing tools.
+Label: METODE  StartNode: 760  EndNode: 960
+In comparison to the previous works, we use several new features includ-
+ing part of speech tag, entity subtype, entity class, entity role, semantic
+representation of sentence and WordNet synonym set.
+Label: HASIL  StartNode: 1085  EndNode: 1306
+The results show there is a trade-off among
+these factors for relation extraction and the features containing more
+information such as semantic ones can improve the performance of the
+ontological relation extraction task.
+Label: PROBLEM  StartNode: 1983  EndNode: 2132
+However, in addition to this,
+many ontology-based applications require methods for automatic discovery of
+properties and relations between instances.
+Label: PROBLEM  StartNode: 2279  EndNode: 2418
+One barrier to applying relation extraction in ontology-based applications
+comes from the difficulty of adapting the system to new domains.
+Label: METODE  StartNode: 3838  EndNode: 4000
+Motivated by the above work, we use the SVM as well and apply a diverse
+set of Natural Language Processing (NLP) tools to derive features for relation
+extraction.
+Label: METODE  StartNode: 4000  EndNode: 4195
+ In particular, several new features are introduced, such as part-of-
+speech (POS) tags, entity subtype, entity class, entity role, semantic represen-
+tation of sentences and WordNet synonym set.
+Label: METODE  StartNode: 5491  EndNode: 5646
+As we use a very
+high dimensional and very sparse feature vector for relation extraction, it can be
+expected that SVM will have similarly good performance.
+Label: METODE  StartNode: 9555  EndNode: 9654
+Therefore we used the one-against-one method in the experiments
+(see Section 5.1 for more details).
+Label: METODE  StartNode: 11443  EndNode: 11573
+Based on the previous works, we developed a set of features for semantic
+relation extraction, many of which are adopted from [19].
+Label: METODE  StartNode: 11574  EndNode: 11737
+Moreover, we intro-
+duce some new features such as POS tags, entity subtype and class features,
+entity mention role feature, and several general semantic features.
+Label: METODE  StartNode: 12078  EndNode: 12208
+Therefore in our method, we introduce instead a set of more general semantic
+features produced by a semantic analyser and WordNet.
+Label: DATA  StartNode: 23169  EndNode: 23277
+We evaluate our method, especially the contribution of the different features, on
+the ACE2004 training data.
+Label: HASIL  StartNode: 32151  EndNode: 32279
+The results show that performance on relation detection level is the highest
+while that on subtype classification is the lowest.
+Label: HASIL  StartNode: 32668  EndNode: 32865
+The performance for the type EMP-ORG
+when classifying on the type level is the best among all 7 relation types: 77.29%
+Precision, 75.00% Recall and 76.01% F1 averaged over 5 folds cross validation.
+Label: HASIL  StartNode: 32866  EndNode: 33090
+However, the performance on the 7 subtypes within EMP-ORG when classifying
+at subtype level is not only much lower than the result for EMP-ORG overall
+but also rather unstable: from zero for Partner to 72.79% for Subsidiary.
+Label: HASIL  StartNode: 33091  EndNode: 33257
+The
+two biggest subtypes Employ-Exec and Employ-Staff get only 67.16% and 62.25
+% F1 which are much lower than the 76.01% on type level for their parent type
+EMP-ORG.
+Label: HASIL  StartNode: 34144  EndNode: 34450
+But the improvement at
+various levels is different: as more features are used, the improvement in relation
+detection is only 10.34% (from 61.25% to 71.59%), while the improvement in
+type and subtype classification is much more significant: 23.59% (from 41.61%
+to 65.20%) and 23.40% (from 33.38% to 56.78%).
+Label: Problem Title  StartNode: 0  EndNode: 46
+Automatic Extraction of Hierarchical Relations
+Label: Data Title  StartNode: 52  EndNode: 56
+Text

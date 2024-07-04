@@ -1,0 +1,5 @@
+We avoid this difficulty by training identical statistical translation models for both translation di- rections using the same training data.
+We in- vestigate information retrieval between En- glish and French, incorporating both trans- lations directions into both document trans- lation and query translation-based informa- tion retrieval, as well as into hybrid sys- tems.
+The present work avoids this difficulty by using statistical machine translation systems for both directions that are trained on the same training data us- ing identical procedures.
+We built and compared three information retrieval systems : one based on document translation, one based on query translation, and a hybrid system that used both trans- lation directions.
+In fact, the "score" of a document in the hybrid system is simply the arithmetic mean of its scores in the query and document ranslation systems.

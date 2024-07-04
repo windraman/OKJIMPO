@@ -1,0 +1,121 @@
+Section Title : 
+1 Introduction
+2 Related Work
+3 TopicTiling
+5 Evaluation
+6 Conclusion and Further Work
+Label: section  StartNode: 949  EndNode: 963
+1 Introduction
+Label: section  StartNode: 3202  EndNode: 3216
+2 Related Work
+Label: section  StartNode: 5489  EndNode: 5502
+3 TopicTiling
+Label: section  StartNode: 11011  EndNode: 11023
+5 Evaluation
+Label: section  StartNode: 19955  EndNode: 19984
+6 Conclusion and Further Work
+Label: Abstract  StartNode: 269  EndNode: 277
+Abstract
+Label: intro  StartNode: 949  EndNode: 963
+1 Introduction
+Label: rel_work  StartNode: 3202  EndNode: 3216
+2 Related Work
+Label: method  StartNode: 5489  EndNode: 5502
+3 TopicTiling
+Label: exp_result  StartNode: 11011  EndNode: 11023
+5 Evaluation
+Label: conclusion  StartNode: 19955  EndNode: 19984
+6 Conclusion and Further Work
+Label: References  StartNode: 22722  EndNode: 22733
+
+References
+Label: NAMA  StartNode: 0  EndNode: 68
+TopicTiling: A Text Segmentation Algorithm based on LDA
+Martin Riedl
+Label: JUDUL  StartNode: 0  EndNode: 55
+TopicTiling: A Text Segmentation Algorithm based on LDA
+Label: NAMA  StartNode: 73  EndNode: 86
+Chris Biemann
+Label: OTHER  StartNode: 87  EndNode: 233
+Ubiquitous Knowledge Processing Lab
+Computer Science Department, Technische Universita¨t Darmstadt
+Hochschulstrasse 10, D-64289 Darmstadt, Germany
+Label: METODE  StartNode: 349  EndNode: 496
+This algorithm
+is based on the well-known TextTiling algo-
+rithm, and segments documents using the La-
+tent Dirichlet Allocation (LDA) topic model.
+Label: HASIL  StartNode: 497  EndNode: 674
+We show that using the mode topic ID as-
+signed during the inference method of LDA,
+used to annotate unseen documents, improves
+performance by stabilizing the obtained top-
+ics.
+Label: HASIL  StartNode: 675  EndNode: 779
+We show significant improvements over
+state of the art segmentation algorithms on two
+standard datasets.
+Label: HASIL  StartNode: 780  EndNode: 948
+As an additional benefit,
+TopicTiling performs the segmentation in lin-
+ear time and thus is computationally less ex-
+pensive than other LDA-based segmentation
+methods.
+Label: PROBLEM  StartNode: 964  EndNode: 1106
+The task tackled in this paper is Text Segmentation
+(TS), which is to be understood as the segmentation
+of texts into topically similar units.
+Label: PROBLEM  StartNode: 1210  EndNode: 1307
+The chal-
+lenge for a text segmentation algorithm is to find the
+sub-topical structure of a text.
+Label: METODE  StartNode: 1583  EndNode: 1665
+TopicTiling uses
+topic IDs, obtained by the LDA inference method,
+instead of words
+Label: METODE  StartNode: 1842  EndNode: 1963
+We de-
+note this most probable topic ID as the mode (most
+frequent across all inference steps) of the topic as-
+signment.
+Label: METODE  StartNode: 1964  EndNode: 2134
+These IDs are used to calculate the co-
+sine similarity between two adjacent blocks of sen-
+tences, represented as two vectors, containing the
+frequency of each topic ID.
+Label: METODE  StartNode: 7639  EndNode: 7742
+To calculate the coherence score, we exclusively
+use the topic IDs assigned to the words by infer-
+ence
+Label: METODE  StartNode: 7943  EndNode: 8042
+The coherence score is calculated by the vector dot
+product, also referred to as cosine similarity.
+Label: DATA  StartNode: 9687  EndNode: 9851
+The performance of the introduced algorithm is
+demonstrated using two datasets: A dataset pro-
+posed by Choi and another more challenging one as-
+sembled by Galley.
+Label: HASIL  StartNode: 15412  EndNode: 15532
+Using a one-sampled t-
+test with ? = 0.05 we can state significant improve-
+ments in comparison to all other algorithms.
+Label: HASIL  StartNode: 17212  EndNode: 17360
+Considering
+the unfiltered results we observe that results improve
+when using the mode assigned topic ID and a win-
+dow of larger than one sentence.
+Label: HASIL  StartNode: 17585  EndNode: 17726
+Fil-
+tering the documents for parts of speech leads to ?
+1% absolute error rate reduction, as can be seen in
+the last two columns of Table 4.
+Label: HASIL  StartNode: 17727  EndNode: 17826
+Again, we observe
+that the mode assignment always leads to better re-
+sults, gaining at least 0.6%.
+Label: Problem Title  StartNode: 0  EndNode: 11
+TopicTiling
+Label: Data Title  StartNode: 13  EndNode: 42
+A Text Segmentation Algorithm
+Label: Method Title  StartNode: 52  EndNode: 55
+LDA

@@ -1,0 +1,12 @@
+finally,1
+paper,1
+suggests,1
+applying,1
+technique,1
+hybrid,1
+approach,1
+better,1
+solution,1
+class,1
+imbalance,1
+problem,1

@@ -1,0 +1,6 @@
+In this paper, we propose a theoretic framework of FS methods based on two basic measurements: frequency measurement and ratio measurement.
+Moreover, with the guidance of our theoretical analysis, we propose a novel method called weighed frequency and odds (WFO) that combines the two measurements with trained weights.
+The first measurement is to compute the document frequency in one category, i.e., iA .
+The second measurement is the ratio between the document frequencies in one category and the other categories, i.e., /i iA B .
+These two measurements form the basis for all the measurements that are used by the FS methods throughout this paper.
+Therefore, we propose a new FS method called Weighed Frequency and Odds (WFO),

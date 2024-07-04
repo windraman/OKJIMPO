@@ -1,0 +1,3 @@
+Our experimental results show thatTCFS with CHIR has better clustering accuracy in terms of theF-measure and the purity.
+Our experimental results with various real data sets demon-strated that the TCFS algorithm using the CHIR feature selectionmethod performs better than k-means, k-means with the TermStrength (TS) feature selection method [12], the IF method, andTCFS with other supervised feature selection methods in termsof the accuracy of clustering results.
+In our research, we found the feature selection method CHIdoes not fully explore all the information provided by the ?2term-category independence test

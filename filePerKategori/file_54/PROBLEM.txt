@@ -1,0 +1,3 @@
+Most of the texts one comes across are composed of a number of topics, perhaps varying in their relevanceto one another and their scope.
+A system that could automatically detect these subtopics would certainly be useful,allowing the reader to quickly skip to the topics most relevant to her purpose.
+Thus, anyhighly accurate segmentation system would certainly be useful in these times of overly abundant, undocumenteddata.

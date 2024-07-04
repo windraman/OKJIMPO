@@ -1,0 +1,10 @@
+The integration process includes fast featureextraction with rule-based classification and label propa-gation using connectivity analysis providing classifiedareas in three categories: background, text and picture.
+The PCS procedure combines the segmentation and classi-fication parts.
+The image is first divided into small nxn pixel windows,where n is determined according to scanning resolutionand the size of the image.
+In our experiments, we used four simple features to clas-sify each window to text or picture.
+These characteristicswere black/white-ratio inside the single window, averageblack (thresholded) run-length and vertical cross-correla-tion between neighbouring pixels and between the first andevery fifth (relative) pixel.
+After extracting all the desired features, the classificationrules are formed.
+After the windows are classified the connectivity analysisis next.
+For this purpose,several different basic 3x3 and 4x4 (windows) masks havebeen developed.
+Because each formed area gets a label that describes itscontents, the text areas are easy to search from the windowmap.
+After forming rectangle coordinates, the areas left insidethe  rectangles can be extracted from the original picturefor further processing, including OCR text recognition ordata storage.

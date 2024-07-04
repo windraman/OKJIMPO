@@ -1,0 +1,2 @@
+The system is first evaluated with the data of CLEF 2006, 2005 and 2004.
+The best performing system is also evaluated with data of CLEF 2008.

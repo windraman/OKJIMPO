@@ -1,0 +1,5 @@
+In summary, the improvement by using NP translation for shortqueries is statistically significant (p-value = 0.015).
+The additionof translation selection is also statistically significant for longqueries (p-value = 0.05).
+The improvement obtained with thecombination of both approaches (i.e. NP translation andtranslation selection) are statistically significant for both shortqueries (p-value = 0.03) and long queries (p-value = 0.001).
+Thecomparison with the MT approach shows that at least for shortqueries, the improvement brought by our methods is statisticallysignificant (p-value = 0.02).
+The combination of our approach with the MTsystem leads to a high effectiveness of 105% of that ofmonolingual IR.

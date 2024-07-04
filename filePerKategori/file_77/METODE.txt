@@ -1,0 +1,3 @@
+SVMs here are employed to produce a setof possible interpretations for domain relevant concepts.
+The common ideaof these works is that the computation of the function f(as in Eq. 1) is translated into an automatic classificationstep.
+SVM classifiers learn a decision boundary be-tween two data classes that maximizes the minimum dis-tance, or margin, of the training points of each class fromthe boundary.

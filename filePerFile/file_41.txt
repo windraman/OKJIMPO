@@ -1,0 +1,117 @@
+Section Title : 
+1. Introduction
+2. Data Sets and Tasks
+6. Results
+8. Summary
+Label: section  StartNode: 910  EndNode: 926
+1. Introduction 
+Label: section  StartNode: 2955  EndNode: 2978
+2. Data Sets and Tasks 
+Label: section  StartNode: 12804  EndNode: 12815
+6. Results 
+Label: section  StartNode: 21889  EndNode: 21901
+8. Summary  
+Label: Abstract  StartNode: 168  EndNode: 177
+ABSTRACT 
+Label: intro  StartNode: 910  EndNode: 926
+1. Introduction 
+Label: method  StartNode: 2955  EndNode: 2978
+2. Data Sets and Tasks 
+Label: exp_result  StartNode: 12804  EndNode: 12815
+6. Results 
+Label: conclusion  StartNode: 21889  EndNode: 21901
+8. Summary  
+Label: References  StartNode: 23107  EndNode: 23119
+
+References 
+Label: JUDUL  StartNode: 0  EndNode: 64
+Feature Selection and Feature Extraction for Text Categorization
+Label: NAMA  StartNode: 65  EndNode: 79
+David D. Lewis
+Label: OTHER  StartNode: 81  EndNode: 166
+Center for Information and Language Studies 
+University of Chicago 
+Chicago, IL 60637
+Label: DATA  StartNode: 178  EndNode: 361
+The effect of selecting varying numbers and kinds of fea- 
+tures for use in predicting category membership was inves- 
+tigated on the Reuters and MUC-3 text categorization data 
+sets.
+Label: PROBLEM  StartNode: 178  EndNode: 361
+The effect of selecting varying numbers and kinds of fea- 
+tures for use in predicting category membership was inves- 
+tigated on the Reuters and MUC-3 text categorization data 
+sets.
+Label: HASIL  StartNode: 482  EndNode: 622
+The optimal feature set size for word-based indexing 
+was found to be surprisingly low (10 to 15 features) despite 
+the large training sets.
+Label: DATA  StartNode: 623  EndNode: 747
+The extraction of new text features 
+by syntactic analysis and feature clustering was investigated 
+on the Reuters data set.
+Label: PROBLEM  StartNode: 623  EndNode: 747
+The extraction of new text features 
+by syntactic analysis and feature clustering was investigated 
+on the Reuters data set.
+Label: HASIL  StartNode: 748  EndNode: 908
+Syntactic indexing phrases, clus- 
+ters of these phrases, and clusters of words were all found to 
+provide less effective representations than individual words.
+Label: PROBLEM  StartNode: 1549  EndNode: 1665
+However, words have properties, 
+such as synonymy and polysemy, that make them a less 
+than ideal indexing language.
+Label: PROBLEM  StartNode: 2300  EndNode: 2480
+Syntactic phrase indexing and term clustering have op- 
+posite effects on the properties of a text representation, 
+which led us t o  investigate combining the two techniques 
+[3].
+Label: PROBLEM  StartNode: 2481  EndNode: 2708
+However, the small size of standard text retrieval 
+test collections, and the variety of approaches available 
+for query interpretation, made it difficult to  study purely 
+representational issues in text retrieval experiments.
+Label: DATA  StartNode: 2979  EndNode: 3068
+Our first data  set was a set of 21,450 Reuters newswire 
+stories from the year 1987 [4].
+Label: DATA  StartNode: 3429  EndNode: 3637
+The second data set consisted of 1,500 documents from 
+the US.  Foreign Broadcast Information Service (FBIS) 
+that had previously been used in the MUC-3 evaluation 
+of natural language processing systems [2].
+Label: METODE  StartNode: 4811  EndNode: 4982
+The statistical model used in our experiments was pro- 
+posed by Fuhr [5] for probabilistic text retrieval, but 
+the adaptation to  text categorization is straightforward.
+Label: METODE  StartNode: 6275  EndNode: 6446
+Each category is assigned to its top scoring documents 
+on the test set in a designated multiple of the percentage 
+of documents it was assigned to on the training corpus.
+Label: METODE  StartNode: 9029  EndNode: 9115
+For the Reuters data we adopted a conservative approach 
+to syntactic phrase indexing.
+Label: METODE  StartNode: 11543  EndNode: 11688
+We experimented with forming clusters from 
+words under three metafeature definitions, and from 
+phrases under eight metafeature definitions 141.
+Label: HASIL  StartNode: 18131  EndNode: 18281
+Disappointingly, as shown in Figure 5, term cluster- 
+ing did not significantly improve the quality of either 
+a word-based or phrasal representation.
+Label: HASIL  StartNode: 21902  EndNode: 22088
+We have shown a statistical classifier trained on manu- 
+ally categorized documents to achieve quite effective per- 
+formance in assigning multiple, overlapping categories to 
+documents.
+Label: HASIL  StartNode: 22089  EndNode: 22421
+We have also shown, via studying text cate- 
+gorization effectiveness, a variety of properties of index- 
+ing languages that are difficult or impossible to measure 
+directly in text retrieval experiments, uch as effects of 
+feature set size and performance of phrasal representa- 
+tions in isolation from word-based representations.
+Label: Method Title  StartNode: 0  EndNode: 40
+Feature Selection and Feature Extraction
+Label: Problem Title  StartNode: 45  EndNode: 64
+Text Categorization

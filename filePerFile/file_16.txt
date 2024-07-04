@@ -1,0 +1,112 @@
+Section Title : 
+I. INTRODUCTION
+II. FEATURE CLUSTERING AND SEMI-SUPERVISED
+III. EXPERIMENTS AND RESULTS
+IV. CONCLUSIONS
+ACKNOWLEDGMENT
+Label: section  StartNode: 943  EndNode: 959
+I. INTRODUCTION 
+Label: section  StartNode: 5344  EndNode: 5387
+II. FEATURE CLUSTERING AND SEMI-SUPERVISED 
+Label: section  StartNode: 10756  EndNode: 10785
+III. EXPERIMENTS AND RESULTS 
+Label: section  StartNode: 17980  EndNode: 17996
+IV. CONCLUSIONS 
+Label: section  StartNode: 20546  EndNode: 20561
+ACKNOWLEDGMENT 
+Label: Abstract  StartNode: 361  EndNode: 422
+Abstract— In this contribution a feature selection method in 
+Label: intro  StartNode: 943  EndNode: 959
+I. INTRODUCTION 
+Label: method  StartNode: 5344  EndNode: 5387
+II. FEATURE CLUSTERING AND SEMI-SUPERVISED 
+Label: exp_result  StartNode: 10756  EndNode: 10785
+III. EXPERIMENTS AND RESULTS 
+Label: conclusion  StartNode: 17980  EndNode: 17996
+IV. CONCLUSIONS 
+Label: conclusion  StartNode: 20546  EndNode: 20561
+ACKNOWLEDGMENT 
+Label: References  StartNode: 20741  EndNode: 20753
+
+REFERENCES 
+Label: JUDUL  StartNode: 0  EndNode: 63
+Clustering-Based Feature Selection in Semi-supervised Problems
+
+Label: NAMA  StartNode: 127  EndNode: 174
+Ianisse Quinzán, José M. Sotoca, Filiberto Pla 
+Label: OTHER  StartNode: 960  EndNode: 1084
+With the advent of new technologies large amount of 
+data with a high number of attributes can be collected 
+automatically. 
+Label: PROBLEM  StartNode: 1209  EndNode: 1844
+When we have an empirical knowledge about the classes 
+assigned to the samples in the training set, we say that the 
+learning problem has a supervised nature. If the samples are 
+not labeled, the learning problem is considered as 
+unsupervised. In many application problems there is 
+available a significant amount of unlabelled data, and only 
+few labeled samples. The introduction of such few labels can 
+improve the classification accuracy significantly [17]. We 
+will refer to this problem as semi-supervised learning and it 
+has recently received an increased interest in the pattern 
+recognition and machine learning communities.
+Label: METODE  StartNode: 4823  EndNode: 5115
+In this paper, a filter method for feature selection is 
+presented. A new hybrid method for semi-supervised 
+problem is proposed, which combines supervised and 
+unsupervised measures of information. This approach applies 
+a strategy to obtain a feature subset through clustering 
+techniques. 
+Label: PROBLEM  StartNode: 5711  EndNode: 5895
+We focus on the application problems where the 
+unlabeled information can improve in a significant way the 
+classification result of just using the limited labeled samples 
+available. 
+Label: DATA  StartNode: 12083  EndNode: 13720
+For the experimentation the following datasets have been 
+chosen of the UCI repository (http://archive.ics.uci.edu/ml/). 
+• Gisette is a big data in the UCI repository, with 5000 
+attributes and 13500 objects, 7000 of them labelled. 
+It is a handwritten digit recognition problem; and the 
+task is to discriminate between the four and the nine 
+numbers. It has artificial attributes that are randomly 
+generated, and the values are rather sparse, about 
+13% of the values are non-zero. In the experiments, 
+only the first 500 features with the highest entropy 
+were used. 
+• Optdigits problem is about the recognition of a 
+handwritten number. The database has 5620 samples 
+and 64 features. The 32x32 bitmaps are divided into 
+no overlapping blocks of 4x4 and the number of 
+pixels is counted in each block. This generates an 
+input matrix of 8x8 (64 features) where each value is 
+an integer in the range 0..16.  
+• In covtype database, the objective is predicting forest 
+cover type from cartographic variables, with no 
+remotely sensed data. This database has 54 features, 
+581012 objects and 7 classes. 
+A hyperspectral image called 92AV3C [9] has also been 
+used, corresponding to a spectral image (145 x 145 pixels, 
+220 bands, and 17 classes) acquired with the AVIRIS, in 
+June 1992, over the Indian Pine Test, in Northwestern 
+Indiana. (http:/dynamo.ecn.purdue.edu/?biehl/MultiSpec) It 
+has also pixels with an undetermined class. In this 
+hyperspectral image several bands are discarded due to the 
+effect of atmospheric absorption; 185 of the original 220 
+bands were used discarding the lowest signal-to-noise ratio 
+bands.  
+Label: HASIL  StartNode: 16640  EndNode: 17031
+ In these 
+cases, the unsupervised information improves the accuracy 
+and the ssfc method is adequate (see gisette in figure 1). 
+Optdigits is a database where sup technique gets high-
+quality features for few labeled samples. Thus, in this case 
+the ssfc has similar performance than sup. Nevertheless when 
+the number of labeled samples is increased, ssfc and sup 
+become similar to supT. 
+Label: TAHUN  StartNode: 24010  EndNode: 24092
+ 2009 Ninth International Conference on Inteligent Systems Design and Applications
+Label: Problem Title  StartNode: 0  EndNode: 34
+Clustering-Based Feature Selection
+Label: Data Title  StartNode: 38  EndNode: 62
+Semi-supervised Problems

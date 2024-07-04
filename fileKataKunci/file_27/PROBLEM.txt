@@ -1,0 +1,14 @@
+extracting,2
+simpletwo,1
+stage,1
+method,1
+complexrelations,1
+named,1
+entities,1
+text,1
+work,1
+donein,1
+recognizing,1
+complex,1
+rela,1
+tions,1

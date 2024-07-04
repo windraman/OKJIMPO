@@ -1,0 +1,6 @@
+Feature selection methods can improve the performance oftext clustering as more irrelevant or redundant terms areremoved.
+TCFS with a supervised feature selection method, such asCHIR, CHI or CC, can achieve a better F-measure than k-means with TS.
+k-means with TS does not consistently outperform k-meansas the percentage of feature selection is varied.
+The purity valuesof the clustering results obtained by performing k-meanswith TS on the EXC data set are consistently lower thanthose of performing k-means.
+TCFS with CHIR outperforms all other clustering algorithmsin terms of the F-measure and the purity value for differenttest data sets.
+The experimental results suggest that the performance of TCFSis better than that of IF (with one iteration of k-means) in mostcases.

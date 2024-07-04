@@ -1,0 +1,3 @@
+Evaluation results show that the proposed approach performs comparable to the state of the art, while exhibiting a bias towards precision, which is a sign of conservative generalisation.
+Evaluation results suggest that the proposed approach performs well in comparison to the state of the art, despite the difficulties of comparing results obtained on different corpora.
+In addition, the fact that the proposed approach does not involve any abstraction other than the generalisation performed by the grammatical inference algorithm, allowed us to get an estimate of the degree of generalisation that can be achieved by the algorithm. This was measured to be at least 10 pp accompanied with a degradation in precision of about 29 pp.

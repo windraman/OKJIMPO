@@ -1,0 +1,11 @@
+topic,2
+therewere,1
+clusters,1
+summarised,1
+respect,1
+ashort,1
+query,1
+consisting,1
+sentence,1
+descrip,1
+tion,1

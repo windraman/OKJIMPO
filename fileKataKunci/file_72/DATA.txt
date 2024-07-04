@@ -1,0 +1,9 @@
+english,1
+japanese,1
+bilingual,1
+patent,1
+ab,1
+stract,1
+corpus,1
+experimental,1
+tests,1

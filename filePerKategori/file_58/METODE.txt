@@ -1,0 +1,6 @@
+We developed RelEx, an approach for relation extractionfrom free text.
+It is based on natural language preprocessing producingdependency parse trees and applying a small number of simple rules tothese trees.
+It uses asmall set of simple rules, building upon publicly available toolsapplied for part-of-speech-tagging, noun-phrase-chunking anddependency.
+As an extension to standard relation extraction pipelines, wepropose the use of dependency parse trees (Klein and Manning,2002, 2003; Mel’cuk, 1988) as a means for biomedical relationextraction.
+The RelEx work-flow (Figure 1) extracts directed qualified relations startingfrom free-text sentences.
+RelEx creates candidate relations by extracting paths connecting pairs ofproteins from dependency parse trees. 

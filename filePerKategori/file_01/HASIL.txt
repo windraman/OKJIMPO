@@ -1,0 +1,5 @@
+Using SVM as the classifier, the macro-precision, macro-recall and macro-f1 used to evaluate the performance shown by our experiment are high
+Further, in part 5, the experiment we have done is described, demonstrating the effectiveness and efficiency our method can gain regarding to the final classification performance by analyzing the performance evaluation data.
+2) Our method shows a good property.
+ that our method can gain higher performance at a very low dimension, and quickly reach a peak, which means much less computing time and almost best performance while the other two classical methods
+ The classification performance gained using the new method proposed in this paper doing feature reduction is very effective and efficient especially when compared with the one gained using the classical methods, which are reported having better performance in [11].

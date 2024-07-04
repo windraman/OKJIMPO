@@ -1,0 +1,6 @@
+Motivated by the commonly used faceted search interfacein e-commerce, this paper investigates interactive relevancefeedback mechanism based on faceted document metadata.
+In this mechanism, the system recommends a group of docu-ment facet-value pairs, and lets users select relevant ones torestrict the returned documents.
+We propose four facet-value pair recommendation approaches and two retrievalmodels that incorporate user feedback on document facets.
+In this mechanism, instead of letting users pro-vide relevance feedback on documents or create structuredqueries actively, the system suggests faceted constraints (inthe form of facet-value pairs) and users can choose interest-ing facet-value pairs to improve the returned documents.
+Thus we also propose a soft re-trieval model.
+In this model, a document that meets a userselected faceted constraint gets a certain number of credits.

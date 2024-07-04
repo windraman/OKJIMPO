@@ -1,0 +1,10 @@
+data,2
+conll,2
+shared,2
+task,2
+dutch,1
+set,1
+tjong,1
+kim,1
+sang,1
+fromthe,1

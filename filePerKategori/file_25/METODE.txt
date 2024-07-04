@@ -1,0 +1,3 @@
+This paper presents a supervised method for the detection and extraction of Causal Relations from open domain text. 
+Our approach first identifies the syntactic patterns that may encode acausation, then we use Machine Learning techniques to decide whether or not a pattern instance encodes a causation
+Our method for the detection and extraction of causationsis based on the use of syntactic patterns that may encodecausation.

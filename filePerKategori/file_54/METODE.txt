@@ -1,0 +1,5 @@
+The approach used in thispaper is based on Hearst’s TextTiling algorithm, a moving window approach that uses lexical overlap as a means ofdetecting topic coherence.
+First, it divides the input text intosequences of relevant tokens and calculates the cohesion at each potential boundary point.
+It then uses thesecohesion scores to produce depth scores for each potential boundary point that has a lower cohesion than theneighboring boundary points.
+Using these depth scores, the algorithm is able to select boundary points where thedepth is low relative to the other depth scores, indicating that that gap represents a topic shift in the text.
+The outputis the text file with boundaries inserted at these gaps with sufficiently high depth scores, delineating the varioustopics by breaking at the least cohesive points.

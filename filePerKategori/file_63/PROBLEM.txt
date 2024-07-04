@@ -1,0 +1,5 @@
+With the worldwide growth of the Internet, research on Cross-Language Information Retrieval (CLIR) isbeing paid much attention.
+Existing CLIR approaches based on query translation require parallel corporaor comparable corpora for the disambiguation of translated query terms.
+However, those naturallanguage resources are not readily available.
+One of the major technical problems to be solved in CLIRconcerns the translation of short queries of one or fewwords, appropriately.
+Possible translation-candidates mightbe numerous in such cases and resolving such ambiguitiesbecomes a hard task.

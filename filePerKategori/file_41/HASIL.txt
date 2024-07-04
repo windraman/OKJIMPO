@@ -1,0 +1,5 @@
+The optimal feature set size for word-based indexing was found to be surprisingly low (10 to 15 features) despite the large training sets.
+Syntactic indexing phrases, clus- ters of these phrases, and clusters of words were all found to provide less effective representations than individual words.
+Disappointingly, as shown in Figure 5, term cluster- ing did not significantly improve the quality of either a word-based or phrasal representation.
+We have shown a statistical classifier trained on manu- ally categorized documents to achieve quite effective per- formance in assigning multiple, overlapping categories to documents.
+We have also shown, via studying text cate- gorization effectiveness, a variety of properties of index- ing languages that are difficult or impossible to measure directly in text retrieval experiments, uch as effects of feature set size and performance of phrasal representa- tions in isolation from word-based representations.

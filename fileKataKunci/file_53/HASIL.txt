@@ -1,0 +1,6 @@
+percentage,1
+extracted,1
+text,1
+alltext,1
+test,1
+images,1

@@ -1,0 +1,2 @@
+We manually classified 1270 sentences from the TREC5corpus into encoding or not encoding causation; 170 in-trasentencial causations were found.
+We performed our experiments using the semantically an-notated SemCor 2.1 corpus.

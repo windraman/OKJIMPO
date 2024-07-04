@@ -1,0 +1,4 @@
+The method uses a parallel bilingualcorpus to produce word vectors and can read-ily be applied to monolingual vector-retrievalmodels.
+In the information mapping approach,we use a multidimensional vector space, called wordspace for defining the association of words.
+Our basic idea for applying the information map-ping approach to CLIR is to produce a vector for aword in one language L with content-bearing words inanother language L'.
+We use a bilingual parallel cor-pus to produce the word vectors.

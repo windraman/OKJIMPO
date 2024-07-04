@@ -1,0 +1,1 @@
+Settings We use Freebase as our knowledge base.It can be freely downloaded1. text corpus used con-tains 33 million English news articles that we down-loaded between January 2004 and December 2011.

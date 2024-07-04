@@ -1,0 +1,371 @@
+In this paper, an effective and efficient new method called variance-mean based feature filtering method of feature selection to do feature reduction in the representation phase for text classification is proposed
+ In this paper, we propose a new approach to feature selection to do feature reduction, which is a constituent process in representing texts
+Using Statistical Data
+ Feature selection is an important method for im-proving the ef?ciency and accuracy of text categorization algo-rithms by removing redundant and irrelevant terms from thecorpus. In this paper, we propose a new supervised featureselection method, named CHIR, which is based on the ?2 statisticand new statistical data that can measure the positive term-category dependency. We also propose a new text clusteringalgorithm TCFS, which stands for Text Clustering with FeatureSelection. TCFS can incorporate CHIR to identify relevantfeatures (i.e., terms) iteratively, and the clustering becomes alearning process.
+In this paper, we propose a new supervised featureselection method, named CHIR, which is based on the ?2 statisticand new statistical data that can measure the positive term-category dependency.
+In this research, we extended the ?2 term-category indepen-dence test by introducing new statistical data that can measurewhether the dependency between a term and a category is positiveor negative.
+We used thecohesiveness of clusters to measure the performance of featureselection methods.
+We used the F-measure and the purity to evaluate the accuracy of the clusteringalgorithms.----------------------------------------------------------List Anotasi Title PAPER-----------
+Clustering-Based Feature Selection
+In this contribution a feature selection method in semi-supervised problems is proposed. This method selects variables using a feature clustering strategy, using a combination of supervised and unsupervised feature distance measure, which is based on Conditional Mutual Information and Conditional Entropy.
+In this paper, a filter method for feature selection is presented. A new hybrid method for semi-supervised problem is proposed, which combines supervised and unsupervised measures of information.
+This paper presents seven univariate featureselection techniques and collects them into a single familyentitled First Order Statistics (FOS) based feature selection.
+ In this paper we presentseven univariate feature selection techniques (Fold ChangeDifference, Fold Change Ratio, Welch T Statistic, WilcoxonRank Sum, Fisher Score, SAM, and Signal-to-Noise) as asingle new family which we name First Order Statistics(FOS) based feature selection, due to their use of ï¬?rstorder statistical measurements such as mean and standarddeviation.
+Classifier Chains
+We exemplify thiswith a novel chaining method that can model label correlations whilemaintaining acceptable computational complexity.
+On the Role of Lexical Features
+We use the technique of SVM anchoring todemonstrate that lexical features extractedfrom a training corpus are not necessary toobtain state of the art results on tasks suchas Named Entity Recognition and Chunk-ing.
+Combining Lexical and Grammatical Features
+The statistical model used for this study is based on a variation of the multinomial Naïve Bayes classifier.
+Measuring true precision and recall In this pa-per we discuss an automatic method to estimate trueprecision and recall of open RE systems. We pro-pose the use of an automatic annotator: a systemcapable of verifying whether or not a fact was cor-rectly extracted. This is done by leveraging exter-nal sources of data and text, which are not avail-able to the systems being evaluated.
+We present gen-eral Expectation-Maximization (EM) algorithms for estimat-ing pattern and tuple confidence. Our specific contributionsinclude:• A formalization of the pattern confidence estimationproblem (Section 2).?Microsoft Research Email:eugeneag@microsoft.com• A general EM-based method for estimating the confi-dence of automatically generated patterns and the ex-tracted relation tuples (Section 3).• An evaluation of different pattern weighting methodsover multiple relation extraction tasks (Section 5).
+Our basic methodology for section segmentation is to clas-sify each line in a document to indicate its membership to asection. Our classifier operates at the line-level rather thanthe sentence-level, as content of clinical records tends tobe fragmentary and list-based. Similar to Hirohata et al.(2008), we relied on BIO tags to differentiate the begin-nings of sections (which tend to consist of headers) fromthe remaining lines.Under this methodology we tried two approaches: a joint(one-step) approach and a pipeline (two-step) approach.Both approaches are described below.
+ The method is based on informa-tion made available by shallow semantic parsers.Semantic information was used (1) to enhance adependency tree kernel; and (2) to build semanticdependency structures used for enhanced relationextraction for several semantic classifiers.
+Similar to other distant supervision methods, our ap-proach takes as input an existing knowledge basecontaining entities and relations, and a textual cor-pus. In this work it is not necessary for the corpusto be related to the knowledge base. In what followswe assume that all the relations studied are binaryand hold between exactly two entities in the knowl-edge base. We also assume a dependency parser isavailable, and that the entities have been automat-ically disambiguated using the knowledge base assense inventory.
+Two ways of extracting patterns havebeen used: (a) Syntactic, taking the dependencypath between the two entities, and (b) Intertext,taking the text between the two.
+In this section, an efficient linear text segmentation algorithm (called TSHAC), which considers both computational complexity and segmentation accuracy, is proposed. The process of TSHAC consists of 4 steps. At first, a long text is preprocessed; tokenization, stopword removal, and stemming are conducted to construct the vocabulary of the text. After text preprocessing, the text can be represented as vectors, each of which represents a sentence within the text. A part of sentence similarities are then computed to construct the sentence-similarity matrix. Finally, the optimal topic boundaries are identified by the proposed algorithm.
+In this paper, an effective and efficient new method called variance-mean based feature filtering method of feature selection to do feature reduction in the representation phase for text classification is proposed. It keeps the best features, and thus improves the final performance e.g. macro-f1 to 0.92 and simultaneously decreases the computing time for representing the incoming text waiting to be classified dramatically, which is important because it occurs on line and is time-critical.
+ Based on the EM algorithm, we proposea new text clustering algorithm, named Text Clustering withFeature Selection (TCFS), which performs the clustering and thesupervised feature selection alternately until convergence.Recall that we de?ned the problem of text clustering as thegrouping of documents with similar topics into a cluster. As weuse the EM algorithm, we assume that each cluster of documentshas a Gaussian distribution of terms. That means, a corpus withk clusters is considered as a mixture of k Gaussian distributions.Given the parameters and our Gaussian model, we maximize thelikelihood of our data set. The maximum likelihood representshow well our Gaussian model ?ts the data set. In this case,the clustering criterion for the TCFS algorithm is the maximumlikelihood, and a natural criterion for the feature selection also isthe maximum likelihood.
+In this paper, a filter method for feature selection is presented. A new hybrid method for semi-supervised problem is proposed, which combines supervised and unsupervised measures of information. This approach applies a strategy to obtain a feature subset through clustering techniques. 
+There are different methods available for classification of imbalance data set which is divided into three main categories, the algorithmic approach, data-preprocessing approach and feature selection approach
+ various techniques have been proposed to solve the problems associated with class imbalance [9], which divided into three basic categories, the algorithmic approach, data-preprocessing and feature selection approach.
+A Framework of Feature Selection Methods
+feature selection (FS) is a strategy that aims at making text classifiers more efficient and accurate
+In this paper, we propose a theoretic framework of FS methods based on two basic measurements: frequency measurement and ratio measurement. 
+. Moreover, with the guidance of our theoretical analysis, we propose a novel method called weighed frequency and odds (WFO) that combines the two measurements with trained weights.
+The experimental results on data sets from both topic-based and sentiment classification tasks show that this new method is robust across different tasks and numbers of selected features.  
+ we propose a framework with two basic measurements for theoretical comparison of six FS methods which are widely used in text classification
+ we have shown that the two basic measurements constitute the six FS methods.
+Hence we apply SVM algorithm with the help of the LIBSVM 4  tool.
+Since the methods of DF and MI only utilize the document frequency and category information respectively, we use the DF scores and MI scores to represent the information of the two basic measurements. 
+ we roughly cluster FS methods into three groups
+we can also find that FS does help sentiment classification
+we propose a framework with two basic measurements and use it to theoretically analyze six FS methods.
+Feature Selection and Feature Extract ion
+ Text Categorization
+If a syntactic parse of text is available, then features can be defined by the presence of two or more words in particular syntactic relationships. We call such a fea- ture a syntactic indexing phrase.
+Syntactic phrase indexing and term clustering have op- posite effects on the properties of a text representation, which led us t o  investigate combining the two techniques [3].
+We experimented with forming clusters from words under three metafeature definitions, and from phrases under eight metafeature definitions 141. 
+We first looked a t  effectiveness of proportional assign- ment with word-based indexing languages
+We checked for overfitting directly by testing the induced classifiers on the training set.
+High-Performing Feature Selection
+We are concentrating on ?lter methods because 1) theyare more scalable to very large collections and 2) their biasis di?erent from the classi?er’s.
+We included several feature selection methods presentedby [12].
+We implemented a variant of the µ co-occurence methoddescribed by [10], which uses the other ?lter feature selectionmethods as a starting point.
+We selected four high-performing classi?ers for the featureselection experiments:• K-Nearest Neighbors (local implementation)• Naive Bayes (Rainbow, [7])• Rocchio (local implementation)• Support Vector Machines (SVMLight, [3])
+Summarization as Feature Selection
+To quantify the arguments advanced in this paper, we con-sidered a number of simple extraction-based techniques ~the details are given in list below. Similar heuristics-basedtechniques have been used for example in [16]  [5]  [17].  In allcases, a word occurring at least 3 times in the body of a doc-ument was considered a keyword, while a word occurring atleast once in the title of a story was considered a title word.
+Conditional Random Fields
+ METHOD: Formalizingthe categorization task as a sequential label-ing problem, we employ Conditional Ran-dom Fields (CRFs) to annotate section la-bels into abstract sentences.
+RESULTS: The pro-posed method outperformed the previousapproaches, achieving 95.5% per-sentenceaccuracy and 68.8% per-abstract accuracy.
+We design three kinds of features to represent eachabstract sentence for CRFs.
+We constructed two sets of corpora (‘pure’ and ‘ex-panded’), each of which contains 51,000 abstractssampled from the abstracts with structured sections.
+We utilized FlexCRFs4 implementation to builda classifier with linear-chain CRFs. 
+SupervisedHidden Markov Model
+ Our method re-lies on a Hidden Markov Model (HMM) trained on a corpusof 9,679 clinical notes from NewYork-Presbyterian Hospi-tal.
+2010
+Our work contrasts from their approach in the fol-lowing ways: (i) sections are classi?ed as part of a sequence,not independently of the other sections in the note; (ii) ourset of section labels is more generic than theirs, and thussmaller, so as to be robust across note types (e.g., dischargesummaries vs. outpatient consult notes); and (iii) like intheir work, our dataset is comprised of sections with head-ers mapped to the 15 section labels automatically accordingto a hand-built mapping dictionary. 
+Multilayer Perceptron  
+This paper presents the implementation of bottom up approach to segment the document image into homogenous regions based on geometric structure. 
+The proposed approach reduces the computational complexities of supporting procedure after document segmentation such as OCR system for processing text regions and for processing non text region.
+This paper presents a supervised method for the detection and extraction of Causal Relations from open domain text. 
+Our approach first identifies the syntactic patterns that may encode acausation, then we use Machine Learning techniques to decide whether or not a pattern instance encodes a causation
+Our method for the detection and extraction of causationsis based on the use of syntactic patterns that may encodecausation.
+This problem becomes a typical ap-plication of learning logic programs by considering the dependency treesof sentences as relational structures and examples of the target relationas ground atoms of a target predicate.
+We show that Plotkin’s LGGoperator can effectively be applied to such clauses and propose a sim-ple and effective divide-and-conquer algorithm for listing a certain set ofLGGs.
+We use these LGGs to generate binary features and compute thehypothesis by applying SVM to the feature vectors obtained.
+Applying Plotkin’s least general generalization (LGG) operator [11], wegenerate a set of first-order definite non-recursive Horn-clauses satisfying cer-tain frequency and consistency criterion, i.e., all these rules must cover at leasta certain number of positive examples while implying at most a certain numberof negative examples.
+In the generation of LGGs, we exploit the specific struc-ture of dependency trees allowing polynomial time rule evaluation defined by?-subsumption and the fact that the LGG is a closure operator on the power setof the instance space over the target predicate.
+Using these rules, we generate abinary feature vector for each example and, applying support vector machinesto these feature vectors, find a hypothesis separating the positive and negativeexamples.
+Given a set of sentences annotated with respect to thetarget relation, in a preprocessing step we first compute a dependency tree foreach sentence.
+Since our aim is to detect semantic relationships amongentities in a sentence, we merge the nodes of the dependency tree into singleartificial nodes that define the same entities.
+An important feature of the dependencytrees obtained in this way is that there is an injective mapping from the set ofentities in a sentence to the set of nodes in the corresponding dependency tree.
+We make use of this feature of dependency trees and the fact that dependencytrees can be considered as relational structures in the standard natural way; theedges of the trees can be represented by a single binary predicate, while thelabels by unary predicates.
+Our method is based on transforming examples into definite Horn-clauses by considering dependency trees as relational structures.
+This method works by first fac-toring all complex relations into a set of binary re-lations.
+A classifier is then trained in the standardmanner to recognize all pairs of related entities.
+Fi-nally a graph is constructed from the output of thisclassifier and the complex relations are determinedfrom the cliques of this graph.
+Instead of trying to classify all possible relationinstances, in this work we first classify pairs of en-tities as being related or not.
+Then, as discussed inSection 4.2, we reconstruct the larger complex rela-tions from a set of binary relation instances.
+Instead of having the system re-turn all cliques, our system just returns the maximalcliques, that is, those cliques that are not subsets ofother cliques.
+A set of nouns are iteratively extracted fromdocuments in a bootstrapping manner, and then a semantic relationbetween a noun pair is identified by a clustering procedure.
+The mainfeature is exploitation of the co-occurrence of a verb and a noun in asentence, considering that a verb plays an important role in expressingthe meaning of a sentence.
+The main feature is exploitation of theco-occurrence of a verb and a noun in a sentence, considering that a verb playsan important role in expressing the meaning of a sentence.
+Prompted by this observation, the method identifies nouns appear-ing together with particular verbs at a high frequency.
+This is a hybrid methodinvolving a bootstrapping procedure and a clustering procedure.
+The bootstrap-ping procedure is a process that initially extracts patterns from given verb-nounpairs and then alternately extracts pairs and patterns.
+The clustering procedure identifies weak se-mantic relations for each pair of nouns obtained by the bootstrapping procedure,resulting in the hierarchical form of the nouns.
+The method consists of two procedures: bootstrapping and clustering.
+Thebootstrapping procedure consists of pattern acquisition and term acquisitionsteps.
+hms, and allowing the use of corporaof any size. Our experiments use Freebase, a largesemantic database of several thousand relations, toprovide distant supervision.
+For each pair of enti-ties that appears in some Freebase relation, we findall sentences containing those entities in a large un-labeled corpus and extract textual features to traina relation classifier.
+We propose an alternative paradigm, distant su-pervision, that combines some of the advantagesof each of these approaches.
+The intuition of our distant supervision approachis to use Freebase to give us a training set of rela-tions and entity pairs that participate in those rela-tions.
+In this paper, we propose an unsupervised approach tolearning for Relation Detection, based on the use of massiveclustering ensembles.
+In this paper, we propose a novel and flexible unsuper-vised approach to learning for Relation Detection, based onclustering, which reduces the elements of human supervisionand simplifies the use of enriched feature sets with respectto other existing approaches.
+Our approach is based on the transformation of RelationDetection between entities of two given types, T1 and T2,into a binary classification problem: each pair of entitiesE1 and E2 of the proposed types co-occurring in thesame sentence has to be classified as related or unrelated.
+To classify each pair, we use a two-step scoring-filteringarchitecture.
+A scorer is used to calculate the score for thisinstance, s(x), and a filterer assigns it to the related orunrelated class according to whether this score is above orbelow a relatedness threshold, threl, respectively.
+The novelty lies in exploiting the diversityof concepts in text for summarization, which has not re-ceived much attention in the summarization literature.
+Adiversity-based approach here is a principled generalizationof Maximal Marginal Relevance criterion by Carbonell andGoldstein [3].
+We propose, in addition, an information-centric approachto evaluation, where the quality of summaries is judged notin terms of how well they match human-created summariesbut in terms of how well they represent their source docu-ments in IR tasks such document retrieval and text catego-rization.
+We evaluate summaries, not in terms of how wellthey match human-made extracts [9, 6], nor in terms of howmuch time it takes for humans to make relevance judgmentson them [12], but in terms of how well they represent sourcedocuments in usual IR tasks such as document retrieval andtext categorization.
+Roughly,the summarizer consists of the following two operations:1. Find-Diversity: Find diverse topic areas in text.2. Reduce-Redundancy: From each topic area, iden-tify the most important sentence and take that sen-tence as a representative of the area.
+A dozen simple rules are defined on out-put from a deep parser.
+Each rule specif-ically examines the entities in one targetinteraction pair. 
+Instead of selecting the whole region betweena target pair, the target sentence is simplifiedinto simpler, pair-related, sentences using general,task-independent, rules.
+Our methodrelies on the deep parser; the rules depend on theHead-driven Phrase Structure Grammar (HPSG)used by Mogura, and all the rules are written forthe parser Enju XML output format.
+A clause-selectionrule constructs a simpler sentence (still includ-ing both target entities) by removing noisy infor-mation before and after the relevant clause.
+Anentity-phrase rule simplifies an entity-containingregion without changing the truth-value of the re-lation.
+The system takes a novel ap-proach to relevance and redundancy, model-ing sentence similarity using a latent seman-tic space constructed over a very large cor-pus.
+The Embra (Edinburgh Multi-document Brevilo-quence Assay) system is based on a Maximal MarginalRelevance (MMR) framework (Carbonell and Goldstein,1998), where a single extraction score is derived by com-bining measures of relevance and redundancy of candi-date sentences.
+The system is novel in that it measuresrelevance and redundancy using a very large latent se-mantic space.
+It addresses specificity by detecting thepresence or absence of Named Entities in our extract can-didates.
+And it implements a sentence-ordering algorithmto maximize sentence coherence in our final summaries.
+At the core of preprocessing is the LT TTT program fs-gmatch, a general purpose transducer which processes aninput stream and adds annotations using rules providedin a hand-written grammar file.
+We also use the sta-tistical combined part-of-speech (POS) tagger and sen-tence boundary disambiguation module from LT TTT(Mikheev, 1997).
+In contrast, our system attempts to derive more robustrepresentations of sentences by building a large seman-tic space using LSA on a very large corpus.
+Specificity is addressed in the sentence selection algo-rithm and is based on the presence of named entities.
+As regards discourse coherence,due to constraints of architecture and the sentence ex-traction framework, the current system is only concernedwith telling the story step-by-step in the right order.
+With respect to cohesion, looking at the performanceof available, state-of-the-art anaphora resolution algo-rithms, we decided that it would not be in our interestto substitute pronouns with their (assumed) antecedents.
+In this paper we propose an SVM based approachto hierarchical relation extraction, using features derived automaticallyfrom a number of GATE-based open-source language processing tools.
+In comparison to the previous works, we use several new features includ-ing part of speech tag, entity subtype, entity class, entity role, semanticrepresentation of sentence and WordNet synonym set.
+Motivated by the above work, we use the SVM as well and apply a diverseset of Natural Language Processing (NLP) tools to derive features for relationextraction.
+ In particular, several new features are introduced, such as part-of-speech (POS) tags, entity subtype, entity class, entity role, semantic represen-tation of sentences and WordNet synonym set.
+As we use a veryhigh dimensional and very sparse feature vector for relation extraction, it can beexpected that SVM will have similarly good performance.
+Therefore we used the one-against-one method in the experiments(see Section 5.1 for more details).
+Based on the previous works, we developed a set of features for semanticrelation extraction, many of which are adopted from [19].
+Moreover, we intro-duce some new features such as POS tags, entity subtype and class features,entity mention role feature, and several general semantic features.
+Therefore in our method, we introduce instead a set of more general semanticfeatures produced by a semantic analyser and WordNet.
+In particular, wetackle relation extraction and entity identifi-cation jointly.
+We use distant supervision totrain a factor graph model for relation ex-traction based on an existing knowledge base(Freebase, derived in parts from Wikipedia).
+For inference we run an efficient Gibbs sam-pler that leads to linear time joint inference.
+It is based on an undirected graphical modelin which variables correspond to facts, and factorsbetween them measure compatibility.
+Akin to previous work inrelation extraction with distant supervision, we re-quire no annotated text.
+However, instead extract-ing facts in isolation, we model interactions betweenfacts in order to improve precision.
+In particular, wecapture selectional preferences of relations.
+Thesepreferences are modelled in a cross-document fash-ion using a large scale factor graph.
+Semantic information was used (1) to enhance adependency tree kernel; and (2) to build semanticdependency structures used for enhanced relationextraction for several semantic classifiers. 
+We explored two main resources: PropBank andFrameNet.
+We used thesemantic information identified by the parsers in two ways.
+Instead of usingthe entire dependency tree to compute similarities, we se-lected sub-trees that contain nodes having values for the fea-tures from set F2 (illustrated in Figure 7).
+We used each kernel within an SVM (we augmented theSVMlight implementation to include our kernels).
+In this paper, we propose a theoretic framework of FS methods based on two basic measurements: frequency measurement and ratio measurement.
+Moreover, with the guidance of our theoretical analysis, we propose a novel method called weighed frequency and odds (WFO) that combines the two measurements with trained weights.
+The first measurement is to compute the document frequency in one category, i.e., iA .
+The second measurement is the ratio between the document frequencies in one category and the other categories, i.e., /i iA B .
+These two measurements form the basis for all the measurements that are used by the FS methods throughout this paper.
+Therefore, we propose a new FS method called Weighed Frequency and Odds (WFO),
+Then we propose a new feature selection method called “Term Contribution (TC)” and perform a comparative study on a variety of feature selection methods for text clustering, including Document Frequency (DF), Term Strength (TS), Entropy-based (En), Information Gain (IG) and ?2 statistic (CHI). 
+Finally, we propose an “Iterative Feature Selection (IF)” method that addresses the unavailability of label problem by utilizing effective supervised feature selection method to iteratively select features and perform clustering.
+We introduce a new feature selection method called “Term Contribution” that takes the term weight into account. 
+So we define the contribution of a term in a dataset as its overall contribution to the documents’ similarities.
+Enlightened by the EM algorithm, we propose a novel iterative feature selection method, which utilizes supervised feature selection methods for text clustering methods.
+On the E-step, to approximate the expectation of feature relevance, we use supervised feature selection algorithm to calculate the relevance score for each term, then the probability for the term relevance is simplified to }1,0{)( =tz  according to whether the term relevance score is larger than a predefined threshold value.
+So at each iteration, we will remove some irrelevant terms based on the calculated relevance of each term.
+On the M-step, because K-means algorithm can be described by slightly extending the mathematics of the EM algorithm to the hard threshold case (Bottou et al., 1995), we use K-means clustering algorithm to obtain the cluster results based on the selected terms. 
+In order to utilize the efficient supervised methods, we proposed an iterative feature selection method that iteratively performs clustering and feature selection in a unified framework.
+This work evaluates a system that uses in-terpolated predictions of reading difficulty that are based on both vocabulary and grammatical features.
+The statistical model used for this study is based on a variation of the multinomial Naïve Bayes classifier.
+The language models employed in this work are simple: they are based on unigrams and assume that the probability of a token is independent of the surrounding tokens.
+The Stanford Parser (Klein and Man-ning, 2002) was used to produce constituent struc-ture trees.
+Once a document is parsed, the predictor uses Tgrep2 (Rohde, 2005), a tree structure searching tool, to identify instances of the target patterns.
+A k-Nearest Neighbor (kNN) algorithm is used for classification based on the grammatical features described above.
+We introduce an extraction method that summarizes the features of the documentsamples, where the new features aggregate information about how much evidence there is in a document, foreach class.
+We project the high dimensional features of documents onto a new feature space having dimensionsequal to the number of classes in order to form the abstract features.
+In this paper, we propose a supervised feature extraction method, which produces the extractedfeatures by combining the e?ects of the input features over classes.
+The method we provide, the abstract feature extractor (AFE), is a supervised feature extraction algorithm thatproduces the extracted features by combining the e?ects of the input features over classes.
+Input features are projected to a suppositious featurespace using the probabilistic distribution of the features over classes.
+We project the probabilities of the featuresto classes and sum up these probabilities to get the impact of each feature to each class.
+In the AFE, we combine the in-class term frequencies given in Eq. (22) with inverse document frequenciesand use this scheme to weight the e?ects of terms on the classes, as in Eq. (23).
+The statistical model used in our experiments was pro- posed by Fuhr [5] for probabilistic text retrieval, but the adaptation to  text categorization is straightforward.
+Each category is assigned to its top scoring documents on the test set in a designated multiple of the percentage of documents it was assigned to on the training corpus.
+For the Reuters data we adopted a conservative approach to syntactic phrase indexing.
+We experimented with forming clusters from words under three metafeature definitions, and from phrases under eight metafeature definitions 141.
+Towards this end we adapt theTextTiling algorithm [1] to the context of meetings.
+Our featuresinclude not only the overlapped words between adjacent windows,but also overlaps in the amount of speech contributed by eachmeeting participant.
+We base our algorithm on Marti Hearst’s TextTiling[1] algorithm where the probability that a point in a text essay isa topic boundary is computed based on the similarity between thewords in windows to the left and right of that point.
+Our main result is an unsuper-vised feature selection strategy for which we give worst-casetheoretical guarantees on the generalization power of theresultant classification function f˜ with respect to the classi-fication function f obtained when keeping all the features.
+But rather thanemploying the Singular Value Decomposition (which, upontruncation, would result in a small number of dimensions,each of which is a linear combination of up to all of the orig-inal features), we will attempt to choose a small number ofthese features that preserve the relevant geometric structurein the data (or at least in the data insofar as the particularclassification algorithm is concerned).
+Our main goal is to choose a small number rof features, where d . r ? n, such that, by using only thoser features, we can obtain good classification quality, both intheory and in practice, when compared to using the full setof n features.
+In particular, we would like to solve exactlyor approximately a RLSC problem of the form (4) to get avector to classify successfully a new document according toa classification function of the form (6).
+In order to restrict the processing to sen-tences written in English, we apply a language guessertool, lc4j (Lc4j, 2007) and remove sentences not clas-sified as written in English.
+To all remaining sentences, we apply LingPipe (Ling-Pipe, 2007) for sentence boundary detection, namedentity recognition (NER) and coreference resolution.
+We define a sentence to beof potential relevance if it at least contains two NEs.
+We can now extractverb relations using a simple algorithm: We define averb relation to be a verb together with its arguments(subject(s), object(s) and prepositional phrases) andconsider only those relations to be of interest where atleast the subject or the object is an NE.
+We thus de-cided to use a scoring algorithm that compares a re-lation to other relations based on certain aspects andcalculates a similarity score.
+Similarity is measured based on the output from thedifferent preprocessing steps as well as lexical informa-tion from WordNet
+We use the technique of SVM anchoring todemonstrate that lexical features extractedfrom a training corpus are not necessary toobtain state of the art results on tasks suchas Named Entity Recognition and Chunk-ing.
+We adopt the common feature representation inwhich each data-point is represented as a sparseD dimensional binary-valued vector f .
+To demonstrate this claim,we experiment with anchored SVM, which intro-duces artificial mechanical anchors into the modelto achieve separability, and make rare lexical fea-tures unnecessary.
+Our approach addresses these issues by using domain- independent techniques based mainly on fast, statistical processing, a metric for reducing redundancy and maxi- mizing diversity in the selected passages, and a modular framework to allow easy parameterization for different genres, corpora characteristics and user requirements.
+This section discusses our current implementation ofa multi-document summarization system which is de- signed to produce summaries that emphasize "relevant novelty."
+A first approximation tomeasuring relevant novelty is to measure relevance and novelty independently and pro- vide a linear combination as the metric.
+Using this metric one can maximize marginal relevance in retrieval and summarization, hence we label our method "maxi- mal marginal relevance" (MMR) (Carboneli and Gold- stein, 1998). 
+In this paper we propose a novel relation extraction method, based on grammatical inference.
+Following a semi-supervised learning approach, the text that connects named entities in an annotated corpus is used to infer a context free grammar.
+In this paper, a supervised machine learning approach is proposed.
+Assuming the existence of a named entity recogniser (NERC), the proposed approach extracts binary relations between named entities already identified in texts.
+The approach presented in this paper concentrates on extracting binary relations from textual corpora, by trying to capture the linguistic evidence in the text that connects two related entities.
+All pages have been manually annotated, according to a semantic model capturing information about athletes and their participations in sports competitions, held under official competitions.
+We also developed a new supervised feature selection method,named CHIR, which is based on the ?2 statistic and the new term-category dependency measure.
+Unlike CHI, CHIR selects featureshaving strong positive dependency on the categories.
+Unlike the IFmethod [12], which performs text clustering and feature selectionseparately, TCFS integrates a supervised feature selection method,such as CHIR, into the text clustering process.
+Our feature selection method CHIR uses r?2(w) to measure theterm-goodness, and makes sure that the r?2 statistic of each termrepresents only positive term-category dependency.
+In TCFS, asupervised feature selection method, such as CHIR, is integratedinto the updating step of k-means, and the new updating stepis considered as the E-step of TCFS.
+This algorithmis based on the well-known TextTiling algo-rithm, and segments documents using the La-tent Dirichlet Allocation (LDA) topic model.
+TopicTiling usestopic IDs, obtained by the LDA inference method,instead of words
+We de-note this most probable topic ID as the mode (mostfrequent across all inference steps) of the topic as-signment.
+These IDs are used to calculate the co-sine similarity between two adjacent blocks of sen-tences, represented as two vectors, containing thefrequency of each topic ID.
+To calculate the coherence score, we exclusivelyuse the topic IDs assigned to the words by infer-ence
+The coherence score is calculated by the vector dotproduct, also referred to as cosine similarity.
+The approach uses lexical analyses basedon tf.idf, an information retrieval measurement, to de-termine the extent of the tiles, incorporating thesauralinformationvia a statisticaldisambiguation algorithm.
+Unlike standard discourse analysis approaches, Text-Tiling breaks the text into simple, contiguous ‘tiles’ thatare meant to reflect only topical loci, and not the inter-relations among the topics.
+The algorithm is a two step process; first, all pairs ofadjacent blocks of text (where blocks are usually 3-5sentences long) are compared and assigned a similar-ity value, and then the resulting sequence of similarityvalues, afterbeinggraphedandsmoothed, is examinedfor peaks and valleys.
+ In TextTiling, each block of k sentences istreated as a unit unto itself, and the frequency of aterm within each block is compared to its frequencyin the entire document
+Thus if the similarity score between two blocks is high,then not only do the blocks have terms in common, butthe terms they have in common are relatively rare withrespect to the rest of the document.
+The straightforward way to use the similarity infor-mation is to plot, for each sentence gap, the similarityvalue measured there.
+This re-sult is plotted and for the sentence gap numbers whereno measurement was made, their values are filled inby piecewise linear interpolation.
+We then compute the average similar-ity value at each sentence gap number, giving equalweight to input from each of the k measurements thatcross that point.
+In order to examinethe properties of these seven techniques we performed a seriesof similarity and classi?cation experiments on eleven DNAmicroarray datasets.
+This paper presents a set of seven univariate featureselection techniques which we have combined into a familyof techniques we name First Order Statistics (FOS) basedfeature selection.
+Our group decided to use twelvefeature subset sizes for this experiment: 5, 10, 15, 20, 25, 50,75, 100, 200, 350, 500, and 1000.
+We decided to use consistency index [4] because it takesinto consideration bias due to chance.
+In this study we use three different classi?ers or learnersto evaluate the classi?cation power of the seven FOS rankers.
+The three classi?ers used in this study are SVM, LogisticRegression, and Random Forest.
+This method selects variables using a feature clustering strategy, using a combination of supervised and unsupervised feature distance measure, which is based on Conditional Mutual Information and Conditional Entropy.
+In order to find the subset of m < n, X?? X, features that minimize the above expression, a clustering based strategy is proposed, as an approximation to use expression (4) as the criterion function to minimize, grouping the original set of features X into clusters X? , and finally selecting a feature representative for each cluster.
+Thus, Ward’s agglomerative hierarchical clustering has been used as a clustering strategy [9], but using an adequate distance for the semi-supervised approach.
+The distance measure proposed between each pair of features is hybrid, and has two parts, one supervised and other unsupervised.
+The first term (also known as the Mantaras’ distance [8]) calculates the symmetrical conditional entropy of two random variables.
+The second term (it can be also proven that this term is also a distance metric) is based on Conditional Mutual Information I(Xi,Y/Xj), and it can be interpreted as how much information variable Xi can predict about relevant variable Y that variable Xj cannot.
+Finally, for each cluster Cj, the representative feature ?? j will be selected as the one with the highest Mutual Information with respect to the relevant variable Y,
+The integration process includes fast featureextraction with rule-based classification and label propa-gation using connectivity analysis providing classifiedareas in three categories: background, text and picture.
+The PCS procedure combines the segmentation and classi-fication parts.
+The image is first divided into small nxn pixel windows,where n is determined according to scanning resolutionand the size of the image.
+In our experiments, we used four simple features to clas-sify each window to text or picture.
+These characteristicswere black/white-ratio inside the single window, averageblack (thresholded) run-length and vertical cross-correla-tion between neighbouring pixels and between the first andevery fifth (relative) pixel.
+After extracting all the desired features, the classificationrules are formed.
+After the windows are classified the connectivity analysisis next.
+For this purpose,several different basic 3x3 and 4x4 (windows) masks havebeen developed.
+Because each formed area gets a label that describes itscontents, the text areas are easy to search from the windowmap.
+After forming rectangle coordinates, the areas left insidethe  rectangles can be extracted from the original picturefor further processing, including OCR text recognition ordata storage.
+The approach used in thispaper is based on Hearst’s TextTiling algorithm, a moving window approach that uses lexical overlap as a means ofdetecting topic coherence.
+First, it divides the input text intosequences of relevant tokens and calculates the cohesion at each potential boundary point.
+It then uses thesecohesion scores to produce depth scores for each potential boundary point that has a lower cohesion than theneighboring boundary points.
+Using these depth scores, the algorithm is able to select boundary points where thedepth is low relative to the other depth scores, indicating that that gap represents a topic shift in the text.
+The outputis the text file with boundaries inserted at these gaps with sufficiently high depth scores, delineating the varioustopics by breaking at the least cohesive points.
+We introduce a stochastic graph-based method for computing relative importance oftextual units for Natural Language Processing.
+All of ourapproaches are based on the concept of prestige2 in social networks, which has also inspiredmany ideas in computer networks and information retrieval.
+We hypothesize that the sentencesthat are similar to many of the other sentences in a cluster are more central (or salient)to the topic.
+We define degree centrality of asentence as the degree of the corresponding node in the similarity graph.
+When computing degree centrality, we have treated each edge as a vote to determine theoverall centrality value of each node.
+In this paper, an effective and efficient new method called variance-mean based feature filtering method of feature selection to do feature reduction in the representation phase for text classification is proposed.
+And here we use the term frequency as the weight for the feature in a text’s feature vector for further constructing our evaluation function just because of convenience.
+We then compute the mean and variance of the values for each row,
+Thirdly, we compute the variance of the components’ data in vector 1), denoted as , which shows the degree of dispersion among classes the term w can demonstrate and the mean of the components’ data in vector 2), denoted as , which shows the average level of the degree of variability within every class the term w can show.
+So and based criterion can be used to evaluate the importance of the candidate term w.
+The features whose  values are bigger than a threshold got by experiment are filtered.
+GEA, likemost previous work in NLG, makes the assumption that deep generation should strictly precede surface generation,and adopts the resulting pipeline architecture [50].
+One model that satisfies the requirements noted above is the additive multiattribute value function (AMVF), whichis based on multiattribute utility theory (MAUT) [14].
+We have adopted compellingness as our measure of the strength for supporting or opposing evidence.
+We haveadopted notably-compelling? as a decision criterion for including a piece of evidence in the argument.
+The GEA microplanner performs a simple form of lexical choice.
+In practice, lexicalization proper in GEA is implemented in the Functional Unification Framework (FUF) by ex-tending previous work on realizing evaluative statements [22].
+GEA performs both aggregation via shared participants and by syntactic embedding.
+We developed RelEx, an approach for relation extractionfrom free text.
+It is based on natural language preprocessing producingdependency parse trees and applying a small number of simple rules tothese trees.
+It uses asmall set of simple rules, building upon publicly available toolsapplied for part-of-speech-tagging, noun-phrase-chunking anddependency.
+As an extension to standard relation extraction pipelines, wepropose the use of dependency parse trees (Klein and Manning,2002, 2003; Mel’cuk, 1988) as a means for biomedical relationextraction.
+The RelEx work-flow (Figure 1) extracts directed qualified relations startingfrom free-text sentences.
+RelEx creates candidate relations by extracting paths connecting pairs ofproteins from dependency parse trees. 
+In thiswork, we propose to use a training corpus made up by a set of Query-Relevant Document Pairs (QRDP) in a probabilistic cross-lingual infor-mation retrieval approach which is based on the IBM alignment model1 for statistical machine translation.
+To overcome this drawback, we propose to use a set of querieswith their respective set of relevant documents as an input training set for adirect probabilistic cross-lingual information retrieval system which integratesboth steps into a single one.
+This is done on the basis of the IBM alignmentmodel 1 (IBM-1) for statistical machine translation [6].
+The corpus reductionwas based on the use of a technique for selecting mid-frequency terms, namedthe Transition Point (TP), which was used in other research works with thesame purpose [9,10].
+The QRDP model uses a statistical dictionary ofassociated words directly to rank documents according to their relevance withrespect to the query.----------------------------------------------------------List Anotasi Title PAPER-----------
+Wetranslate queries with Google Translate and extend them with new trans-lations obtained by mapping noun phrases in the query to concepts inthe target language using Wikipedia.
+As a baseline CLIR model, we use query translation byGoogle Translate.
+To exploit this, we mine allredirect and cross-language links to build a translation table which maps con-cepts to their target language equivalent.
+To map queries to Wikipedia concepts (titles), we first try to map thewhole query, and then gradually proceed with mapping shorter word sequences.
+In this study, we introduced a simple CLIR model using Wikipedia, mappingconcepts in one language to their equivalents in another language based on theredirect and cross-language links in multilingual Wikipedia versions.
+To get all possible English senses for every Japanese term, the online dictionary SPACEALC is utilized.
+The EWC semantic relatedness measure is used to select the most related meanings for the results of translation.
+This measure combines the Wikipedia-based Explicit Semantic Analysis measure, the WordNet path measure and the mixed collocation index.
+We assume that terms in any query should be semantically related to each other.
+After segmenting the queries, we obtain full sets of translations for each Japanese term.
+The final step is to select the most semantically related alternatives applying EWC.
+This paper presents WikiTranslate, a system which performs query translation for cross-lingual information retrieval (CLIR) using only Wikipedia to obtain translations.
+We treat Wikipedia articles as representations of concepts (i.e. units of knowl-edge).
+The approach used by WikiTranslate consists of two important steps: mapping the query in source language to Wikipedia concepts and creating the final query in the target language using these found concepts.
+In this paper, we propose a novel approach for CLIRsystem targeting Web documents, which uses a naturallanguage resource that is extracted from a Web searchengine as a corpus, and resolves the ambiguities caused bythe dictionary-based query translation approach, by using aco-occurrence information.
+The obtainedtranslation-candidates are disambiguated, using term co-occurrence statistics and then passed to the search engine.
+A query submitted by a user is first segmented into wordsusing a morphological analyzer.
+Then, each word istranslated into the target language using a machine-readable dictionary.
+For instance, thenumber of retrieved documents by searching some termscombined by AND operators, can be regarded as a co-occurrence frequency of those terms in a Web documentcorpus.
+We present Expectation-Maximizationalgorithms for automatically evaluating the quality of the ex-traction patterns and derived relation tuples.
+Anattractive approach to reduce the training cost, pioneered byBrin [3], is to start with just a handful of “seed” tuples for therelation of interest, and automatically discover extraction pat-terns for the task.
+We present gen-eral Expectation-Maximization (EM) algorithms for estimat-ing pattern and tuple confidence.
+Snowball extracts a re-lation from text by starting with just a handful of exam-ple tuples for the relation.
+After gener-ating extraction patterns for a target relation and a documentcollection, Snowball scans the collection documents to dis-cover new tuples using Algorithm 1.
+In this study we proposed a Cross-Language Information Retrieval (CLIR) method based on domain ontology using Quran concepts for disambiguating translation of the query and to improve the dictionary-based query translation.
+In this approach, we use the cosine similarity between the document vector and a concepts vector as a measure of the score of the concepts for that document.
+Based on category, subcategories and related concepts in Quran ontology, we build a bilingual ontology, consists of Quran concepts and document concepts.
+To reduce this type of problems, we use term in the bilingual dictionary together with term and their translation from the bilingual ontology to build a new combination bilingual dictionary.
+We adopted two basics approaches from Rais et al. (2011) work: (1) using the first translation listed in the dictionary, motivated by the fact that the first translation is often the most frequently used; and (2) using all the translation candidates, motivated by the fact that when all the translation candidates are used, one can include all the possible expressions in the target language and obtain query expansion effect.
+We avoid this difficulty by training identical statistical translation models for both translation di- rections using the same training data.
+We in- vestigate information retrieval between En- glish and French, incorporating both trans- lations directions into both document trans- lation and query translation-based informa- tion retrieval, as well as into hybrid sys- tems.
+The present work avoids this difficulty by using statistical machine translation systems for both directions that are trained on the same training data us- ing identical procedures.
+We built and compared three information retrieval systems : one based on document translation, one based on query translation, and a hybrid system that used both trans- lation directions.
+In fact, the "score" of a document in the hybrid system is simply the arithmetic mean of its scores in the query and document ranslation systems.
+First, as many as possible,noun phrases are recognized and translated as a whole by usingstatistical models and phrase translation patterns.
+Second, to deal with the translation ambiguity problem, wepropose a method based on statistics of co-occurrences.
+Finally, toincrease the coverage of the bilingual dictionary, additionalwords and translations are automatically generated from aparallel bilingual corpus.
+It is carried out in abottom-up manner: we first identify base NPs, and then complexNPs.
+Motivated by the commonly used faceted search interfacein e-commerce, this paper investigates interactive relevancefeedback mechanism based on faceted document metadata.
+In this mechanism, the system recommends a group of docu-ment facet-value pairs, and lets users select relevant ones torestrict the returned documents.
+We propose four facet-value pair recommendation approaches and two retrievalmodels that incorporate user feedback on document facets.
+In this mechanism, instead of letting users pro-vide relevance feedback on documents or create structuredqueries actively, the system suggests faceted constraints (inthe form of facet-value pairs) and users can choose interest-ing facet-value pairs to improve the returned documents.
+Thus we also propose a soft re-trieval model.
+In this model, a document that meets a userselected faceted constraint gets a certain number of credits.
+We accomplish this goal by means of a cross-language generativemodel, i.e., bilingual Latent Dirichlet Allocation (BiLDA), trained on a comparable cor-pus such as one composed of Wikipedia articles.
+The resulting probabilistic translationmodel is incorporated in a statistical language model for information retrieval.
+The topic model we use is a bilingual extension of a standard LDA model, called bilin-gual LDA (BiLDA) ([17, 14, 7, 2]).
+We name this model the simple unigram model.
+We can now combine this document model with the LDA-only model using linearinterpolation and the Jelinek-Mercer smoothing
+We call this model the LDA-unigrammodel.
+This paper reports experimental results of cross-language information retrieval (CLIR) from German to French, in which a hybrid approach of query and document translation was attempted, i.e, combining results of query translation (German to French) and of document translation (French to German).
+In order to avoid too high complexity of computation for translating a large amount of texts in documents, we executed pseudo-translation, i.e., a simple replacement of terms by a bilingual dictionary (for query translation, a machine translation system was used).
+In particular, since English was used as an intermediary language for both translation directions of German and French, English translations at the middle stage were employed as document representations in order to reduce the number of translation steps.
+By omitting a translation step (English to German), the performance was improved.
+This paper explores combination-of-evidence techniques usingthree types of statistical translation models: context-independent token translation, tokentranslation using phrase-dependent contexts, and token translation using sentence-dependentcontexts.
+Context-independent translation is performed using statistically-aligned tokens inparallel text, phrase-dependent translation is performed using aligned statistical phrases, andsentence-dependent translation is performed using those same aligned phrases together with ann-gram language model.
+One method is to extract a context-awareportion of the SCFG by selecting only the grammar rules that apply to a given query.
+Another solution is to perform translation in context using the full MT system on the entirequery and then to reconstruct context-sensitive token translation probabilities by accumulatingtranslation likelihood evidence from each of the top n query translations.
+In this work we use a technique based on mapping termstatistics before computing term weights (Pirkola, 1998; Darwish and Oard, 2003), leading to arepresentation known as Probabilistic Structured Queries (PSQ).
+In this paper, we explore ways to improve the baseline token-translation model discussed aboveby exploiting the internal representations of the MT system.
+The method uses a parallel bilingualcorpus to produce word vectors and can read-ily be applied to monolingual vector-retrievalmodels.
+In the information mapping approach,we use a multidimensional vector space, called wordspace for defining the association of words.
+Our basic idea for applying the information map-ping approach to CLIR is to produce a vector for aword in one language L with content-bearing words inanother language L'.
+We use a bilingual parallel cor-pus to produce the word vectors.
+The backbone is an Information Retrieval (IR) system based on a search engine and a multilingual module based on statistical machine translation of documents.
+To this system is added a Query Expansion (QE) module which mainly uses linguistic resources to perform the expansion.
+Our proposal is to overcome this problem by using Query Expansion (QE).
+QE consists in adding new words to the initial query.
+In a nutshell, our key idea is to combine QE with CLIR in a Multilingual Multimedia Information Retrieval (MMIR) prototype.
+This paper presents a new method for ex-tracting wrappers and relations from the web using both page encod-ing and context generalization.
+Multiple patternsare then extracted considering the occurrences of the input instancesin the data source.
+Our method represents a wrapper as a set of patterns.
+We considerthat the user wants to extract a relation from a given document or setof documents.
+Our method is based on encoding and generalization.
+A novelrepresentation is introduced based ongeneric relation extraction (GRE), whichaims to build systems for relation iden-tification and characterisation that can betransferred across domains and tasks with-out modification of model parameters.
+The GRE modelsused here do rely on dependency parsing.
+For the sake of comparison, the current evaluationadopts the Filatova and Hatzivassiloglou (2004)summarisation framework.
+ Usingthis kernel within a Support Vector Ma-chine, we detect and classify relationsbetween entities in the Automatic Con-tent Extraction (ACE) corpus of newsarticles.
+We describe a relation extraction techniquebased on kernel methods.
+Kernel methods arenon-parametric density estimation techniques thatcompute a kernel function between data instances,where a kernel function can be thought of as asimilarity measure.
+To address this problem, we apply SVMsto the task of relation exraction.
+We define a tree kernel over dependency treesand incorporate this kernel within an SVM to ex-tract relations from newswire documents.
+SVMs here are employed to produce a setof possible interpretations for domain relevant concepts.
+The common ideaof these works is that the computation of the function f(as in Eq. 1) is translated into an automatic classificationstep.
+SVM classifiers learn a decision boundary be-tween two data classes that maximizes the minimum dis-tance, or margin, of the training points of each class fromthe boundary.

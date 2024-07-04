@@ -1,0 +1,95 @@
+Section Title : 
+I. INTRODUCTION
+II. RELATED WORKS
+III. TEXT SEGMENTATION BASED ON HIERARCHICAL
+IV. PERFORMANCE EVALUATIONS
+B. Experimental Results
+V. CONCLUSION AND FUTURE WORKS
+Label: section  StartNode: 1336  EndNode: 1351
+I. INTRODUCTION
+Label: section  StartNode: 4721  EndNode: 4738
+II. RELATED WORKS
+Label: section  StartNode: 8149  EndNode: 8194
+III. TEXT SEGMENTATION BASED ON HIERARCHICAL 
+Label: section  StartNode: 17453  EndNode: 17481
+IV. PERFORMANCE EVALUATIONS 
+Label: section  StartNode: 21608  EndNode: 21632
+B. Experimental Results 
+Label: section  StartNode: 22547  EndNode: 22578
+V. CONCLUSION AND FUTURE WORKS 
+Label: Abstract  StartNode: 488  EndNode: 551
+Abstract—Linear text segmentation aims at dividing a long text 
+Label: intro  StartNode: 1336  EndNode: 1351
+I. INTRODUCTION
+Label: rel_work  StartNode: 4721  EndNode: 4738
+II. RELATED WORKS
+Label: method  StartNode: 8149  EndNode: 8194
+III. TEXT SEGMENTATION BASED ON HIERARCHICAL 
+Label: exp_result  StartNode: 17453  EndNode: 17481
+IV. PERFORMANCE EVALUATIONS 
+Label: exp_result  StartNode: 21608  EndNode: 21632
+B. Experimental Results 
+Label: conclusion  StartNode: 22547  EndNode: 22578
+V. CONCLUSION AND FUTURE WORKS 
+Label: References  StartNode: 23688  EndNode: 23699
+
+REFERENCES
+Label: JUDUL  StartNode: 0  EndNode: 117
+An Efficient Linear Text Segmentation Algorithm Using Hierarchical Agglomerative Clustering
+Agglomerative Clustering
+
+Label: NAMA  StartNode: 117  EndNode: 128
+Ji-Wei Wu 
+
+Label: OTHER  StartNode: 497  EndNode: 583
+Linear text segmentation aims at dividing a long text 
+into several topical segments. 
+Label: PROBLEM  StartNode: 702  EndNode: 831
+ In this article, an efficient linear text 
+segmentation algorithm based on hierarchical agglomerative 
+clustering is presented. 
+Label: PROBLEM  StartNode: 3435  EndNode: 3614
+To tackle the problems mentioned above, a novel 
+efficient linear text segmentation algorithm based on 
+Hierarchical Agglomerative Clustering (HAC) is presented 
+in this article. 
+Label: METODE  StartNode: 8229  EndNode: 8880
+In this section, an efficient linear text segmentation 
+algorithm (called TSHAC), which considers both 
+computational complexity and segmentation accuracy, is 
+proposed. The process of TSHAC consists of 4 steps. At first, 
+a long text is preprocessed; tokenization, stopword removal, 
+and stemming are conducted to construct the vocabulary of 
+the text. After text preprocessing, the text can be represented 
+as vectors, each of which represents a sentence within the 
+text. A part of sentence similarities are then computed to 
+construct the sentence-similarity matrix. Finally, the optimal 
+topic boundaries are identified by the proposed algorithm.
+Label: DATA  StartNode: 17482  EndNode: 17935
+To evaluate the performance of TSHAC, a publicly 
+available test corpus is adopted. The test corpus was created 
+by Choi [3] and has been commonly used in previous 
+researches. The test corpus consists of 700 samples. A 
+sample is a concatenation of ten text segments. A segment is 
+the first n sentences of a randomly selected document from 
+the Brown corpus. The 700 samples are divided into 4 sets 
+according to the range of the number of sentences. 
+Label: HASIL  StartNode: 21986  EndNode: 22546
+The experimental results in Table II are reported when 
+the number of segments is unknown in advance. 
+From Table II, the proposed linear text segmentation 
+algorithm (i.e., TSHAC) outperforms the linear time 
+algorithm, TextTiling, and the more complex algorithms, 
+C99. TSHAC also provides comparable results with other 
+algorithms. Moreover, unlike TSF, which requires manpower 
+to designate parameters used, TSHAC provides a fully 
+automatic process for linear text segmentation without 
+auxiliary knowledge base, parameter setting, or user 
+involvement.  
+Label: TAHUN  StartNode: 26036  EndNode: 26116
+2011 Seventh International Conference on Computational Intelligence and Security
+Label: Problem Title  StartNode: 0  EndNode: 47
+An Efficient Linear Text Segmentation Algorithm
+Label: Method Title  StartNode: 54  EndNode: 116
+Hierarchical Agglomerative Clustering
+Agglomerative Clustering

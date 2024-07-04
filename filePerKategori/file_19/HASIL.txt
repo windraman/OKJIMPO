@@ -1,0 +1,2 @@
+Good categorization performance was achieved using a statistical classifier and a proportional assignment strat- egy.
+ We have also shown, via studying text cate- gorization effectiveness, a variety of properties of index- ing languages that are difficult or impossible to measure directly in text retrieval experiments, uch as effects of feature set size and performance of phrasal representa- tions in isolation from word-based representations. 

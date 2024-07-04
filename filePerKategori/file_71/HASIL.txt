@@ -1,0 +1,6 @@
+Experiments on retrieval of Arabic, Chinese, and French documentsusing English queries show that no one technique is optimal for all queries, but that statisticallysignificant improvements in mean average precision over strong baselines can be achieved bycombining translation evidence from all three techniques.
+The best results are achieved when weperform a linear interpolation of all three approaches (query-based, phrase-based, and token-based).
+Based on the randomized significance test proposed by Smucker et al. (2007), the combinedapproach (E) outperforms all models (except for the phrase-based approach) in the Arabiccollection with 95% confidence.
+When we ran the same test on the other two collections, wefound that the combined approach is significantly better than the baseline (A) and 1-best (D)approaches for Chinese, whereas MAP is significantly higher than baseline A for French.
+For French, the best retrieval effectiveness results from the n-bestfull query translation model (C), significantly better than the baseline model (A).
+This showsthat there is no individual model that outperforms the rest in all three collections.

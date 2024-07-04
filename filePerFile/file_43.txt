@@ -1,0 +1,124 @@
+Section Title : 
+1. INTRODUCTION
+2. BACKGROUND AND RELATED WORK
+3. OUR MAIN ALGORITHM
+6. EMPIRICAL RESULTS
+7. CONCLUSIONS
+Label: section  StartNode: 1806  EndNode: 1821
+1. INTRODUCTION
+Label: section  StartNode: 7745  EndNode: 7775
+2. BACKGROUND AND RELATED WORK
+Label: section  StartNode: 12064  EndNode: 12085
+3. OUR MAIN ALGORITHM
+Label: section  StartNode: 30343  EndNode: 30363
+6. EMPIRICAL RESULTS
+Label: section  StartNode: 45022  EndNode: 45036
+7. CONCLUSIONS
+Label: Abstract  StartNode: 60  EndNode: 69
+Abstract]
+Label: intro  StartNode: 1806  EndNode: 1821
+1. INTRODUCTION
+Label: rel_work  StartNode: 7745  EndNode: 7775
+2. BACKGROUND AND RELATED WORK
+Label: method  StartNode: 12064  EndNode: 12085
+3. OUR MAIN ALGORITHM
+Label: exp_result  StartNode: 30343  EndNode: 30363
+6. EMPIRICAL RESULTS
+Label: conclusion  StartNode: 45022  EndNode: 45036
+7. CONCLUSIONS
+Label: References  StartNode: 46267  EndNode: 46281
+
+9. REFERENCES
+Label: JUDUL  StartNode: 0  EndNode: 49
+Feature Selection Methods for Text Classification
+Label: OTHER  StartNode: 50  EndNode: 69
+[Extended Abstract]
+Label: NAMA  StartNode: 70  EndNode: 86
+Anirban Dasgupta
+Label: NAMA  StartNode: 145  EndNode: 159
+Petros Drineas
+Label: NAMA  StartNode: 228  EndNode: 239
+Boulos Harb
+Label: NAMA  StartNode: 313  EndNode: 329
+Vanja Josifovski
+Label: NAMA  StartNode: 387  EndNode: 405
+Michael W. Mahoney
+Label: PROBLEM  StartNode: 473  EndNode: 564
+We consider feature selection for text classification both the-
+oretically and empirically.
+Label: METODE  StartNode: 565  EndNode: 840
+Our main result is an unsuper-
+vised feature selection strategy for which we give worst-case
+theoretical guarantees on the generalization power of the
+resultant classification function f˜ with respect to the classi-
+fication function f obtained when keeping all the features.
+Label: HASIL  StartNode: 1281  EndNode: 1451
+Our empirical evaluation shows
+that the strategy with provable performance guarantees per-
+forms well in comparison with other commonly-used feature
+selection strategies.
+Label: HASIL  StartNode: 1452  EndNode: 1546
+In addition, it performs better on cer-
+tain datasets under very aggressive feature selection.
+Label: PROBLEM  StartNode: 3565  EndNode: 3787
+Nevertheless,
+general theoretical performance guarantees are modest and
+it is often difficult to claim more than a vague intuitive un-
+derstanding of why a particular feature selection algorithm
+performs well when it does.
+Label: PROBLEM  StartNode: 3788  EndNode: 3996
+Indeed, selecting an optimal set
+of features is in general difficult, both theoretically and em-
+pirically; hardness results are known [5–7], and in practice
+greedy heuristics are often employed [4,13,17,20].
+Label: METODE  StartNode: 4750  EndNode: 5168
+But rather than
+employing the Singular Value Decomposition (which, upon
+truncation, would result in a small number of dimensions,
+each of which is a linear combination of up to all of the orig-
+inal features), we will attempt to choose a small number of
+these features that preserve the relevant geometric structure
+in the data (or at least in the data insofar as the particular
+classification algorithm is concerned).
+Label: METODE  StartNode: 12285  EndNode: 12527
+Our main goal is to choose a small number r
+of features, where d . r ? n, such that, by using only those
+r features, we can obtain good classification quality, both in
+theory and in practice, when compared to using the full set
+of n features.
+Label: METODE  StartNode: 12528  EndNode: 12733
+In particular, we would like to solve exactly
+or approximately a RLSC problem of the form (4) to get a
+vector to classify successfully a new document according to
+a classification function of the form (6).
+Label: DATA  StartNode: 30364  EndNode: 30500
+In this section, we describe our empirical evaluations on
+three datasets: TechTC-100 [9]; 20-Newsgroups [1,2,21]; and
+Reuters RCV2 [23].
+Label: HASIL  StartNode: 37353  EndNode: 37580
+All the selection strategies except document frequency (DF)
+and uniform sampling (US) achieve 85% of the original (in-
+volving no sampling) micro-averaged F1 performance with
+only 500 out of the (roughly) 20K original features.
+Label: HASIL  StartNode: 37581  EndNode: 37718
+In gen-
+eral, the subspace sampling (SS) and information gain (IG)
+strategies perform best, followed closely by weighted sam-
+pling (WS).
+Label: HASIL  StartNode: 42809  EndNode: 42977
+In general, SS
+with k = 1500 strategy outperforms the other unsupervised
+feature selection strategies; however, it is only marginally
+better than the WS and DF methods.
+Label: HASIL  StartNode: 44805  EndNode: 44912
+As with 20-Newsgroups, the IG-
+based feature selection strategy performs marginally better
+than the others.
+Label: HASIL  StartNode: 44913  EndNode: 45021
+In fact, for this dataset, the DF selection
+strategy also slightly outperforms the subspace-based meth-
+ods.
+Label: Method Title  StartNode: 0  EndNode: 25
+Feature Selection Methods
+Label: Problem Title  StartNode: 30  EndNode: 49
+Text Classification

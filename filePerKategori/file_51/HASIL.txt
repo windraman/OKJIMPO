@@ -1,0 +1,5 @@
+In all but two cases (using Logistic Regression andeither 75 or 200 features), FCR is the worst performerby a clear margin.
+This leads us tostate that the set of FOS techniques, while diverse in theirselections for the feature subsets, will perform similarly toeach other in terms of classi?cation (with the exception ofFCR).
+In terms of similarity, we ?nd that each ranker in theFOS family of techniques will create diverse feature subsetswhen compared to other members of the family.
+If one ignores Fold Change ratio,then the difference between the best ranker and the worsthas a maximum of 0.03080 in terms of AUC.
+As for the topperformers, we ?nd that SAM followed by Signal-to-Noiseare commonly the top performers within all three learners.

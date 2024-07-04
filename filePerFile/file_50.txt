@@ -1,0 +1,110 @@
+Section Title : 
+1 Introduction
+2 TextTiling
+3 Relation to Other Work
+4 Evaluation
+5 Discussion
+Label: section  StartNode: 768  EndNode: 782
+1 Introduction
+Label: section  StartNode: 6644  EndNode: 6656
+2 TextTiling
+Label: section  StartNode: 16283  EndNode: 16307
+3 Relation to Other Work
+Label: section  StartNode: 20909  EndNode: 20921
+4 Evaluation
+Label: section  StartNode: 26645  EndNode: 26657
+5 Discussion
+Label: Abstract  StartNode: 196  EndNode: 204
+Abstract
+Label: intro  StartNode: 768  EndNode: 782
+1 Introduction
+Label: method  StartNode: 6644  EndNode: 6656
+2 TextTiling
+Label: rel_work  StartNode: 16283  EndNode: 16307
+3 Relation to Other Work
+Label: exp_result  StartNode: 20909  EndNode: 20921
+4 Evaluation
+Label: conclusion  StartNode: 26645  EndNode: 26657
+5 Discussion
+Label: References  StartNode: 28564  EndNode: 28575
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 61
+TextTiling:
+A Quantitative Approach to Discourse Segmentation
+Label: NAMA  StartNode: 62  EndNode: 77
+Marti A. Hearst
+Label: OTHER  StartNode: 78  EndNode: 173
+Computer Science Division, 571 Evans Hall
+University of California, Berkeley
+Berkeley, CA 94720
+Label: METODE  StartNode: 435  EndNode: 642
+The approach uses lexical analyses based
+on tf.idf, an information retrieval measurement, to de-
+termine the extent of the tiles, incorporating thesaural
+informationvia a statisticaldisambiguation algorithm.
+Label: HASIL  StartNode: 643  EndNode: 767
+The tiles have been found to correspondwell to human
+judgements of themajor subtopicboundaries of science
+magazine articles.
+Label: PROBLEM  StartNode: 783  EndNode: 981
+Expository texts such as science magazine articles and
+environmental impact reports can be viewed as being
+composed of a few main topics and a series of short,
+sometimesdensely discussed, subtopics.
+Label: PROBLEM  StartNode: 1446  EndNode: 1667
+The capability to automate the recognition of this kind
+of structure in a full-text document shouldbe useful for
+improving a variety of computational tasks, e.g., hy-
+pertext, text summarization and information retrieval.
+Label: METODE  StartNode: 4994  EndNode: 5193
+Unlike standard discourse analysis approaches, Text-
+Tiling breaks the text into simple, contiguous ‘tiles’ that
+are meant to reflect only topical loci, and not the inter-
+relations among the topics.
+Label: METODE  StartNode: 6681  EndNode: 6974
+The algorithm is a two step process; first, all pairs of
+adjacent blocks of text (where blocks are usually 3-5
+sentences long) are compared and assigned a similar-
+ity value, and then the resulting sequence of similarity
+values, afterbeinggraphedandsmoothed, is examined
+for peaks and valleys.
+Label: METODE  StartNode: 8762  EndNode: 8935
+ In TextTiling, each block of k sentences is
+treated as a unit unto itself, and the frequency of a
+term within each block is compared to its frequency
+in the entire document
+Label: METODE  StartNode: 9719  EndNode: 9921
+Thus if the similarity score between two blocks is high,
+then not only do the blocks have terms in common, but
+the terms they have in common are relatively rare with
+respect to the rest of the document.
+Label: METODE  StartNode: 10451  EndNode: 10582
+The straightforward way to use the similarity infor-
+mation is to plot, for each sentence gap, the similarity
+value measured there.
+Label: METODE  StartNode: 10710  EndNode: 10860
+This re-
+sult is plotted and for the sentence gap numbers where
+no measurement was made, their values are filled in
+by piecewise linear interpolation.
+Label: METODE  StartNode: 10951  EndNode: 11110
+We then compute the average similar-
+ity value at each sentence gap number, giving equal
+weight to input from each of the k measurements that
+cross that point.
+Label: DATA  StartNode: 21086  EndNode: 21318
+Lacking a standard test set, 5 the algorithm was eval-
+uated on two data sources: three expository articles
+(length 77 to 160 sentences), and the five short gen-
+eral interest articles from (Morris 1988) (length 23 to 44
+sentences).
+Label: HASIL  StartNode: 26928  EndNode: 27015
+The structure it obtains is coarse-grained but generally
+reflects human judgement data.
+Label: Data Title  StartNode: 0  EndNode: 10
+TextTiling
+Label: Method Title  StartNode: 12  EndNode: 35
+A Quantitative Approach
+Label: Problem Title  StartNode: 39  EndNode: 61
+Discourse Segmentation

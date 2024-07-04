@@ -1,0 +1,2 @@
+The task tackled in this paper is Text Segmentation(TS), which is to be understood as the segmentationof texts into topically similar units.
+The chal-lenge for a text segmentation algorithm is to find thesub-topical structure of a text.

@@ -1,0 +1,4 @@
+First we observe that the maximal clique methodcombined with maximum entropy (system MC) re-duces the relative error rate over naively enumer-ating and classifying all instances (system NE) by21%.
+The system basedon binary factorization not only is more efficientthen naively enumerating all instances, but signifi-cantly outperforms it as well.
+We showed that such a method can be suc-cessful with an empirical evaluation on a large setof biomedical data annotated with genomic varia-tion relations.
+In fact, this approach is both signifi-cantly quicker and more accurate then enumeratingand classifying all possible instances.

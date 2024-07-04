@@ -1,0 +1,2 @@
+The tiles have been found to correspondwell to humanjudgements of themajor subtopicboundaries of sciencemagazine articles.
+The structure it obtains is coarse-grained but generallyreflects human judgement data.

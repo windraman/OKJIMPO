@@ -1,0 +1,17 @@
+experimental,1
+corpus,1
+documents,1
+annotatedby,1
+teams,1
+analysts,1
+extracted,1
+collec,1
+tions,1
+public,1
+judicial,1
+acts,1
+legal,1
+proceedingsagainst,1
+large,1
+criminal,1
+enterprise,1

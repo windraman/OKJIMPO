@@ -1,0 +1,3 @@
+This paper presents WikiTranslate, a system which performs query translation for cross-lingual information retrieval (CLIR) using only Wikipedia to obtain translations.
+We treat Wikipedia articles as representations of concepts (i.e. units of knowl-edge).
+The approach used by WikiTranslate consists of two important steps: mapping the query in source language to Wikipedia concepts and creating the final query in the target language using these found concepts.

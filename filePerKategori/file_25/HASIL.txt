@@ -1,0 +1,4 @@
+Again, the results are good.
+Examining the trees learned we can conclude that most ofthe possible semantic classes are not covered.
+We have proposed a system for the detection of marked andexplicit causations between a verb phrase and a subordi-nate clause which yields a high performance.
+The systemis relatively simple and is able to detect causations fromopen domain text.

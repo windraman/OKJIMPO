@@ -1,0 +1,6 @@
+The results show there is a trade-off amongthese factors for relation extraction and the features containing moreinformation such as semantic ones can improve the performance of theontological relation extraction task.
+The results show that performance on relation detection level is the highestwhile that on subtype classification is the lowest.
+The performance for the type EMP-ORGwhen classifying on the type level is the best among all 7 relation types: 77.29%Precision, 75.00% Recall and 76.01% F1 averaged over 5 folds cross validation.
+However, the performance on the 7 subtypes within EMP-ORG when classifyingat subtype level is not only much lower than the result for EMP-ORG overallbut also rather unstable: from zero for Partner to 72.79% for Subsidiary.
+Thetwo biggest subtypes Employ-Exec and Employ-Staff get only 67.16% and 62.25% F1 which are much lower than the 76.01% on type level for their parent typeEMP-ORG.
+But the improvement atvarious levels is different: as more features are used, the improvement in relationdetection is only 10.34% (from 61.25% to 71.59%), while the improvement intype and subtype classification is much more significant: 23.59% (from 41.61%to 65.20%) and 23.40% (from 33.38% to 56.78%).

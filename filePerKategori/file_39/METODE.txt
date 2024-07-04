@@ -1,0 +1,6 @@
+This work evaluates a system that uses in-terpolated predictions of reading difficulty that are based on both vocabulary and grammatical features.
+The statistical model used for this study is based on a variation of the multinomial Naïve Bayes classifier.
+The language models employed in this work are simple: they are based on unigrams and assume that the probability of a token is independent of the surrounding tokens.
+The Stanford Parser (Klein and Man-ning, 2002) was used to produce constituent struc-ture trees.
+Once a document is parsed, the predictor uses Tgrep2 (Rohde, 2005), a tree structure searching tool, to identify instances of the target patterns.
+A k-Nearest Neighbor (kNN) algorithm is used for classification based on the grammatical features described above.

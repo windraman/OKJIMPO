@@ -1,0 +1,93 @@
+Section Title : 
+1 Introduction
+2 The QRDP probabilistic model
+5 Evaluation of the results
+6 Conclusions
+Label: section  StartNode: 1893  EndNode: 1907
+1 Introduction
+Label: section  StartNode: 5319  EndNode: 5349
+2 The QRDP probabilistic model
+Label: section  StartNode: 11996  EndNode: 12023
+5 Evaluation of the results
+Label: section  StartNode: 15245  EndNode: 15258
+6 Conclusions
+Label: Abstract  StartNode: 325  EndNode: 392
+Abstract. The world wide web is a natural setting for cross-lingual
+Label: intro  StartNode: 1893  EndNode: 1907
+1 Introduction
+Label: method  StartNode: 5319  EndNode: 5349
+2 The QRDP probabilistic model
+Label: exp_result  StartNode: 11996  EndNode: 12023
+5 Evaluation of the results
+Label: conclusion  StartNode: 15245  EndNode: 15258
+6 Conclusions
+Label: References  StartNode: 16689  EndNode: 16700
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 76
+Using Query-Relevant Documents Pairs for
+Cross-Lingual Information Retrieval
+Label: NAMA  StartNode: 77  EndNode: 88
+David Pinto
+Label: NAMA  StartNode: 95  EndNode: 106
+Alfons Juan
+Label: NAMA  StartNode: 109  EndNode: 120
+Paolo Rosso
+Label: OTHER  StartNode: 122  EndNode: 215
+1Department of Information Systems and Computation,
+Polytechnic University of Valencia, Spain
+Label: METODE  StartNode: 879  EndNode: 1133
+In this
+work, we propose to use a training corpus made up by a set of Query-
+Relevant Document Pairs (QRDP) in a probabilistic cross-lingual infor-
+mation retrieval approach which is based on the IBM alignment model
+1 for statistical machine translation.
+Label: PROBLEM  StartNode: 2041  EndNode: 2186
+Therefore, the develop-
+ment of novel techniques for managing of data, especially when we deal with
+information in multiple languages, is needed.
+Label: PROBLEM  StartNode: 2765  EndNode: 3000
+In Cross-Language Information Retrieval (CLIR), the usual approach is to
+first translate the query into the target language and then retrieve documents in
+this language by using a conventional, monolingual information retrieval system.
+Label: PROBLEM  StartNode: 3267  EndNode: 3390
+Since our perspective, the above two-step approach is too sensitive to trans-
+lation errors produced during the first step.
+Label: PROBLEM  StartNode: 3391  EndNode: 3519
+In fact, even if we have a very
+accurate retrieval system, translation errors prevent correct retrieval of rele-
+vant documents.
+Label: METODE  StartNode: 3520  EndNode: 3771
+To overcome this drawback, we propose to use a set of queries
+with their respective set of relevant documents as an input training set for a
+direct probabilistic cross-lingual information retrieval system which integrates
+both steps into a single one.
+Label: METODE  StartNode: 3772  EndNode: 3875
+This is done on the basis of the IBM alignment
+model 1 (IBM-1) for statistical machine translation [6].
+Label: METODE  StartNode: 4685  EndNode: 4878
+The corpus reduction
+was based on the use of a technique for selecting mid-frequency terms, named
+the Transition Point (TP), which was used in other research works with the
+same purpose [9,10].
+Label: DATA  StartNode: 9904  EndNode: 9985
+We have used a subset of the EuroGOV corpus for the evaluation of the QRDP
+model.
+Label: HASIL  StartNode: 12572  EndNode: 12788
+As can be seen, an improvement
+by using an evaluation corpus was obtained employing the TP technique with
+a neighbourhood of 40%, which is exactly the same percentage used in other
+research works (see [10] and [13]).
+Label: HASIL  StartNode: 14951  EndNode: 15244
+We may observe that by using the same information from a web page, we
+have slightly outperformed the results obtained by other approaches, even when
+we have trained our model with only 3 target web pages in average per query,
+and executing 100 iterations on the Expectation-Maximization model.
+Label: METODE  StartNode: 15364  EndNode: 15511
+The QRDP model uses a statistical dictionary of
+associated words directly to rank documents according to their relevance with
+respect to the query.
+Label: Method Title  StartNode: 0  EndNode: 36
+Using Query-Relevant Documents Pairs
+Label: Problem Title  StartNode: 41  EndNode: 76
+Cross-Lingual Information Retrieval

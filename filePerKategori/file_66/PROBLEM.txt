@@ -1,0 +1,3 @@
+Previous comparisons of document and query translation suffered difficulty due to differing quality of machine translation in these two opposite directions.
+Should we translate the documents or the queries in cross-language information re- trieval?
+Translating the documents into the query's language(s) and translating the queries into the docu- ment's language(s) represent wo extreme approaches to coupling MT and IR.

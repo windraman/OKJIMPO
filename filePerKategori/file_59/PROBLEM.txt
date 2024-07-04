@@ -1,0 +1,4 @@
+Therefore, the develop-ment of novel techniques for managing of data, especially when we deal withinformation in multiple languages, is needed.
+In Cross-Language Information Retrieval (CLIR), the usual approach is tofirst translate the query into the target language and then retrieve documents inthis language by using a conventional, monolingual information retrieval system.
+Since our perspective, the above two-step approach is too sensitive to trans-lation errors produced during the first step.
+In fact, even if we have a veryaccurate retrieval system, translation errors prevent correct retrieval of rele-vant documents.

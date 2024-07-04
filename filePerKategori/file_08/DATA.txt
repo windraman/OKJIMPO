@@ -1,0 +1,1 @@
+We now use our evaluation method to compare twoopen RE systems: ReVerb and SONEX. The inputcorpus for this comparison is the New York Timescorpus, composed by 1.8 million documents.ReVerb (Fader et al., 2011) extracts relationalphrases using rules over part-of-speech tags andnoun-phrase chunks. 

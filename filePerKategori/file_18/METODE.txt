@@ -1,0 +1,12 @@
+A Framework of Feature Selection Methods
+feature selection (FS) is a strategy that aims at making text classifiers more efficient and accurate
+In this paper, we propose a theoretic framework of FS methods based on two basic measurements: frequency measurement and ratio measurement. 
+. Moreover, with the guidance of our theoretical analysis, we propose a novel method called weighed frequency and odds (WFO) that combines the two measurements with trained weights.
+The experimental results on data sets from both topic-based and sentiment classification tasks show that this new method is robust across different tasks and numbers of selected features.  
+ we propose a framework with two basic measurements for theoretical comparison of six FS methods which are widely used in text classification
+ we have shown that the two basic measurements constitute the six FS methods.
+Hence we apply SVM algorithm with the help of the LIBSVM 4  tool.
+Since the methods of DF and MI only utilize the document frequency and category information respectively, we use the DF scores and MI scores to represent the information of the two basic measurements. 
+ we roughly cluster FS methods into three groups
+we can also find that FS does help sentiment classification
+we propose a framework with two basic measurements and use it to theoretically analyze six FS methods.

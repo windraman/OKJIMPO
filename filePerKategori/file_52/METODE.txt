@@ -1,0 +1,7 @@
+This method selects variables using a feature clustering strategy, using a combination of supervised and unsupervised feature distance measure, which is based on Conditional Mutual Information and Conditional Entropy.
+In order to find the subset of m < n, X?? X, features that minimize the above expression, a clustering based strategy is proposed, as an approximation to use expression (4) as the criterion function to minimize, grouping the original set of features X into clusters X? , and finally selecting a feature representative for each cluster.
+Thus, Ward’s agglomerative hierarchical clustering has been used as a clustering strategy [9], but using an adequate distance for the semi-supervised approach.
+The distance measure proposed between each pair of features is hybrid, and has two parts, one supervised and other unsupervised.
+The first term (also known as the Mantaras’ distance [8]) calculates the symmetrical conditional entropy of two random variables.
+The second term (it can be also proven that this term is also a distance metric) is based on Conditional Mutual Information I(Xi,Y/Xj), and it can be interpreted as how much information variable Xi can predict about relevant variable Y that variable Xj cannot.
+Finally, for each cluster Cj, the representative feature ?? j will be selected as the one with the highest Mutual Information with respect to the relevant variable Y,

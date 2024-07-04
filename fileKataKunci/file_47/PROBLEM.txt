@@ -1,0 +1,17 @@
+relation,2
+extraction,2
+task,2
+identifying,1
+relations,1
+hold,1
+interesting,1
+entities,1
+text,1
+data,1
+main,1
+aim,1
+paper,1
+examine,1
+suitability,1
+grammatical,1
+inference,1

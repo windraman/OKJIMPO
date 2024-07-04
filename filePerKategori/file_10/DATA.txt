@@ -1,0 +1,4 @@
+We used three datasets composed of discharge summariesand radiology reports to develop our statistical section seg-menter and test its performance. A
+This corpus consists of 430 discharge summaries of 402 pa-tients who had a surgery at UW’s medical center in 20101.
+This corpus was created for the 2010 i2b2 natural languageprocessing challenge on medical concept, assertion, and re-lation extraction (Uzuner et al., 2011). T
+This corpus consists of 100 radiology reports extractedfrom the UW Radiology Information System. 

@@ -1,0 +1,84 @@
+Section Title : 
+1 Introduction
+2   Hybrid Approach of Query and Document Translation
+4   Experimental Results
+5   Concluding remarks
+Label: section  StartNode: 1750  EndNode: 1765
+1 Introduction 
+Label: section  StartNode: 3150  EndNode: 3204
+2   Hybrid Approach of Query and Document Translation 
+Label: section  StartNode: 14377  EndNode: 14402
+4   Experimental Results 
+Label: section  StartNode: 17502  EndNode: 17525
+5   Concluding remarks 
+Label: Abstract  StartNode: 321  EndNode: 330
+Abstract 
+Label: intro  StartNode: 1750  EndNode: 1765
+1 Introduction 
+Label: method  StartNode: 3150  EndNode: 3204
+2   Hybrid Approach of Query and Document Translation 
+Label: exp_result  StartNode: 14377  EndNode: 14402
+4   Experimental Results 
+Label: conclusion  StartNode: 17502  EndNode: 17525
+5   Concluding remarks 
+Label: References  StartNode: 18752  EndNode: 18764
+
+References 
+Label: JUDUL  StartNode: 0  EndNode: 111
+Hybrid Approach of Query and Document Translation with Pivot 
+Language for Cross-Language Information Retrieval
+Label: NAMA  StartNode: 113  EndNode: 128
+Kazuaki Kishida
+Label: NAMA  StartNode: 132  EndNode: 144
+Noriko Kando
+Label: OTHER  StartNode: 148  EndNode: 237
+1 Surugadai University, 698 Azu, Hanno, Saitama 357-8555, Japan 
+kishida@surugadai.ac.jp 
+Label: METODE  StartNode: 332  EndNode: 631
+This paper reports experimental results of cross-language information retrieval (CLIR) from 
+German to French, in which a hybrid approach of query and document translation was attempted, 
+i.e, combining results of query translation (German to French) and of document translation 
+(French to German).
+Label: METODE  StartNode: 632  EndNode: 898
+In order to avoid too high complexity of computation for translating a large 
+amount of texts in documents, we executed pseudo-translation, i.e., a simple replacement of terms 
+by a bilingual dictionary (for query translation, a machine translation system was used).
+Label: METODE  StartNode: 899  EndNode: 1156
+In 
+particular, since English was used as an intermediary language for both translation directions of 
+German and French, English translations at the middle stage were employed as document 
+representations in order to reduce the number of translation steps.
+Label: METODE  StartNode: 1157  EndNode: 1239
+By omitting a translation step 
+(English to German), the performance was improved.
+Label: PROBLEM  StartNode: 1890  EndNode: 2104
+Our focus in this experiment is on examining search performance of a hybrid approach 
+combining query translation and document translation, in which English is employed as an intermediary 
+language for translation.
+Label: PROBLEM  StartNode: 2107  EndNode: 2241
+Some researchers have already attempted to merge two results from query and document translation for 
+enhancing effectiveness of CLIR.
+Label: PROBLEM  StartNode: 2391  EndNode: 2700
+One problem for implementing 
+this approach is that the document translation is usually a cost-intensive task, but we can alleviate it by using 
+simpler translation techniques, e.g., “pseudo translation” [1] in which each term is simply replaced with its 
+corresponding translations by a bilingual dictionary.
+Label: DATA  StartNode: 14427  EndNode: 14537
+The target French collection includes 177,452 documents in total. The average document length is 232.65 words.
+Label: HASIL  StartNode: 15725  EndNode: 16032
+As shown in Table 1, the hybrid approach using English documents translated from the original collection 
+(hybrid-2, SrgMgE03) outperforms another hybrid approach using German documents (hybrid-1, SrgdMgG02), 
+i.e., the scores of mean average precision (MAP) are 0.2605 for hybrid-2 and 0.2492 for hybrid-1.
+Label: HASIL  StartNode: 16345  EndNode: 16550
+Unfortunately, the hyper approach could not show better performance than a simple query translation 
+approach (SrgdQT04), i.e., its score of MAP is 0.2658, which is slightly greater than that of SrgdMgE03.
+Label: HASIL  StartNode: 18481  EndNode: 18657
+Unfortunately, our hybrid approach could not show better effectiveness than a simple query translation approach 
+partly because the performance of document translation is poor.
+Label: Problem Title  StartNode: 0  EndNode: 49
+Hybrid Approach of Query and Document Translation
+Label: Method Title  StartNode: 55  EndNode: 70
+Pivot 
+Language
+Label: Data Title  StartNode: 75  EndNode: 111
+Cross-Language Information Retrieval

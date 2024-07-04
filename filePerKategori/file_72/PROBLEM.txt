@@ -1,0 +1,3 @@
+This paper proposes a method of query trans-lation for Cross Language Information Re-trieval.
+A cross language information retrieval (CLIR)system is a system for retrieving documents acrosslanguage boundaries.
+A query written in one languageshould be translated into a representation for findingdocuments in another language.

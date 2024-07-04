@@ -1,0 +1,1 @@
+We extract relations from the Automatic Con-tent Extraction (ACE) corpus provided by theNational Institute for Standards and Technol-ogy (NIST).

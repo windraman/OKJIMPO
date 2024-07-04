@@ -1,0 +1,124 @@
+Section Title : 
+1 Introduction
+2 Preprocessing
+4 Official Results
+6 Conclusions and Future Work
+Label: section  StartNode: 941  EndNode: 955
+1 Introduction
+Label: section  StartNode: 3608  EndNode: 3623
+2 Preprocessing
+Label: section  StartNode: 12636  EndNode: 12654
+4 Official Results
+Label: section  StartNode: 22022  EndNode: 22051
+6 Conclusions and Future Work
+Label: Abstract  StartNode: 295  EndNode: 303
+Abstract
+Label: intro  StartNode: 941  EndNode: 955
+1 Introduction
+Label: method  StartNode: 3608  EndNode: 3623
+2 Preprocessing
+Label: exp_result  StartNode: 12636  EndNode: 12654
+4 Official Results
+Label: conclusion  StartNode: 22022  EndNode: 22051
+6 Conclusions and Future Work
+Label: References  StartNode: 25991  EndNode: 26002
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 113
+The Embra System at DUC 2005:
+Query-oriented Multi-document Summarization
+with a Very Large Latent Semantic Space
+Label: NAMA  StartNode: 114  EndNode: 124
+Ben Hachey
+Label: NAMA  StartNode: 126  EndNode: 140
+Gabriel Murray
+Label: NAMA  StartNode: 143  EndNode: 156
+David Reitter
+Label: OTHER  StartNode: 226  EndNode: 294
+bhachey@inf.ed.ac.uk, gabriel.murray@ed.ac.uk, dreitter@inf.ed.ac.uk
+Label: METODE  StartNode: 501  EndNode: 668
+The system takes a novel ap-
+proach to relevance and redundancy, model-
+ing sentence similarity using a latent seman-
+tic space constructed over a very large cor-
+pus.
+Label: PROBLEM  StartNode: 1531  EndNode: 1685
+DUC 2005 investigated both Rouge and
+Pyramid evaluation schemes in addition to more standard
+human evaluations of responsiveness and linguistic qual-
+ity.
+Label: METODE  StartNode: 1686  EndNode: 1962
+The Embra (Edinburgh Multi-document Brevilo-
+quence Assay) system is based on a Maximal Marginal
+Relevance (MMR) framework (Carbonell and Goldstein,
+1998), where a single extraction score is derived by com-
+bining measures of relevance and redundancy of candi-
+date sentences.
+Label: METODE  StartNode: 1963  EndNode: 2071
+The system is novel in that it measures
+relevance and redundancy using a very large latent se-
+mantic space.
+Label: METODE  StartNode: 2072  EndNode: 2180
+It addresses specificity by detecting the
+presence or absence of Named Entities in our extract can-
+didates.
+Label: METODE  StartNode: 2181  EndNode: 2283
+And it implements a sentence-ordering algorithm
+to maximize sentence coherence in our final summaries.
+Label: METODE  StartNode: 4017  EndNode: 4214
+At the core of preprocessing is the LT TTT program fs-
+gmatch, a general purpose transducer which processes an
+input stream and adds annotations using rules provided
+in a hand-written grammar file.
+Label: METODE  StartNode: 4215  EndNode: 4356
+We also use the sta-
+tistical combined part-of-speech (POS) tagger and sen-
+tence boundary disambiguation module from LT TTT
+(Mikheev, 1997).
+Label: METODE  StartNode: 5669  EndNode: 5823
+In contrast, our system attempts to derive more robust
+representations of sentences by building a large seman-
+tic space using LSA on a very large corpus.
+Label: METODE  StartNode: 7791  EndNode: 7901
+Specificity is addressed in the sentence selection algo-
+rithm and is based on the presence of named entities.
+Label: METODE  StartNode: 8774  EndNode: 8974
+As regards discourse coherence,
+due to constraints of architecture and the sentence ex-
+traction framework, the current system is only concerned
+with telling the story step-by-step in the right order.
+Label: METODE  StartNode: 9319  EndNode: 9541
+With respect to cohesion, looking at the performance
+of available, state-of-the-art anaphora resolution algo-
+rithms, we decided that it would not be in our interest
+to substitute pronouns with their (assumed) antecedents.
+Label: DATA  StartNode: 12751  EndNode: 12902
+There
+were 50 topic clusters to be summarised with respect to a
+short topic query consisting of a 1 to 4 sentence descrip-
+tion of an information need.
+Label: HASIL  StartNode: 13435  EndNode: 13641
+The
+Embra system performance is better than mean and me-
+dian system scores for the responsiveness measure and
+for three of the five linguistic quality measures (grammat-
+icality, non-redundancy and focus).
+Label: HASIL  StartNode: 13642  EndNode: 13706
+It is just below mean
+and median scores for structure/coherence.
+Label: HASIL  StartNode: 18677  EndNode: 18821
+We observed an insignificant but positive
+improvement in the Rouge-2 recall of 0.8% while Rouge-
+SU4 recall exhibited a slight decrease of 0.2%.
+Label: HASIL  StartNode: 18822  EndNode: 19016
+For both
+official DUC 2005 measures, the precision increased giv-
+ing slightly higher combined F-scores. For Rouge-2, pre-
+cision improved by 1.2%. And for Rouge-SU4, precision
+improved by 0.2%.
+Label: Data Title  StartNode: 0  EndNode: 28
+The Embra System at DUC 2005
+Label: Problem Title  StartNode: 30  EndNode: 73
+Query-oriented Multi-document Summarization
+Label: Method Title  StartNode: 79  EndNode: 113
+a Very Large Latent Semantic Space

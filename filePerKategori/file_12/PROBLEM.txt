@@ -1,0 +1,1 @@
+The main contribution of this work is presentinga variant of distance supervision for relation extrac-tion where we do not use heuristics in the selectionof the training data. 

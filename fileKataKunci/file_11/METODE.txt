@@ -1,0 +1,17 @@
+semantic,3
+method,1
+based,1
+informa,1
+tion,1
+shallow,1
+parsers,1
+enhance,1
+adependency,1
+tree,1
+kernel,1
+build,1
+semanticdependency,1
+structures,1
+enhanced,1
+relationextraction,1
+classifiers,1

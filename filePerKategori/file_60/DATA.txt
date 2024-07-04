@@ -1,0 +1,1 @@
+We used two CLIR collections introduced in the CLEFDomain Specific (DS) and Ad Hoc (AH) tracks.

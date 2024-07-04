@@ -1,0 +1,2 @@
+In Cross-Language Information Retrieval (CLIR) process, the translation effects have a direct impact on the accuracy of follow-up retrieval results.
+In dictionary-based approach, we are dealing with the words that have more than one meaning which can decrease the retrieval performance if the query translation return an incorrect translations.

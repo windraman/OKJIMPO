@@ -1,0 +1,89 @@
+Section Title : 
+1. Introduction
+2. Text classification framework
+3. Classical filtering methods of feature selection
+5. Experiment
+6. Conclusions and future work
+Label: section  StartNode: 1593  EndNode: 1609
+1. Introduction 
+Label: section  StartNode: 3703  EndNode: 3736
+2. Text classification framework 
+Label: section  StartNode: 8896  EndNode: 8949
+3. Classical filtering methods of feature selection  
+Label: section  StartNode: 16062  EndNode: 16076
+5. Experiment 
+Label: section  StartNode: 24258  EndNode: 24289
+6. Conclusions and future work 
+Label: Abstract  StartNode: 396  EndNode: 406
+Abstract: 
+Label: intro  StartNode: 1593  EndNode: 1609
+1. Introduction 
+Label: rel_work  StartNode: 3703  EndNode: 3736
+2. Text classification framework 
+Label: method  StartNode: 8896  EndNode: 8949
+3. Classical filtering methods of feature selection  
+Label: exp_result  StartNode: 16062  EndNode: 16076
+5. Experiment 
+Label: conclusion  StartNode: 24258  EndNode: 24289
+6. Conclusions and future work 
+Label: References  StartNode: 25346  EndNode: 25358
+
+References 
+Label: JUDUL  StartNode: 0  EndNode: 59
+A New Approach to Feature Selection in Text Classification
+
+Label: NAMA  StartNode: 240  EndNode: 264
+YI WANG, XIAO-JING WANG 
+Label: OTHER  StartNode: 407  EndNode: 586
+Text classification is the process of automatically 
+assigning predefined categories to free text, which is very 
+important to information retrieval and many other 
+applications. 
+Label: METODE  StartNode: 882  EndNode: 1384
+In 
+this paper, an effective and efficient new method called 
+variance-mean based feature filtering method of feature 
+selection to do feature reduction in the representation phase 
+for text classification is proposed. It keeps the best features, 
+and thus improves the final performance e.g. macro-f1 to 0.92 
+and simultaneously decreases the computing time for 
+representing the incoming text waiting to be classified 
+dramatically, which is important because it occurs on line and 
+is time-critical.
+Label: PROBLEM  StartNode: 2627  EndNode: 2915
+ In this paper, we 
+propose a new approach to feature selection to do feature 
+reduction, which is a constituent process in representing 
+texts. Using SVM as the classifier, the macro-precision, 
+macro-recall and macro-f1 used to evaluate the 
+performance shown by our experiment are high
+Label: DATA  StartNode: 16077  EndNode: 16434
+The corpus used for training and testing is the 
+“Chinese text classification corpus” given by Ronglu Li 
+published on the website http://www.nlp.org.cn. We divide 
+the corpus into two non-intersected sets: a training set 
+containing 10 categories with 100 texts in each and a test 
+set containing the same 10 categories with another 100 texts 
+in each also
+Label: HASIL  StartNode: 23310  EndNode: 23953
+Compared with the classical document frequency 
+incorporated feature filtering methods analyzed in section 4, 
+such as DF, CHI used in our experiment, it shows in Figure 
+1, that our method can gain higher performance at a very 
+low dimension, and quickly reach a peak, which means 
+much less computing time and almost best performance 
+while the other two classical methods and the like only 
+show a slow ascend tendency from a lower performance 
+evaluation value without a peak until the dimension reaches 
+to almost the original one, which means decreasing the 
+dimension dramatically without great loss of performance is 
+hard to realize. 
+Label: TAHUN  StartNode: 27796  EndNode: 27913
+Proceedings of the Fourth International Conference on Machine Learning and Cyberneties, Guangzhou, 18-21 August 2005
+
+Label: Method Title  StartNode: 0  EndNode: 14
+A New Approach
+Label: Problem Title  StartNode: 18  EndNode: 35
+Feature Selection
+Label: Data Title  StartNode: 39  EndNode: 58
+Text Classification

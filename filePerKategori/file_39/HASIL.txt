@@ -1,0 +1,5 @@
+The results show that for both the first and sec-ond language corpora, the language modeling (LM) approach alone produced more accurate pre-dictions than the grammar-based approach alone.
+The results also indicate that while grammar-based predictions are not as accurate as the vo-cabulary-based scores, they can be combined with vocabulary-based scores to produce more accurate interpolated scores.
+When interpolated with grammar-based scores, the reduction of mean squared error over the language modeling approach for L1 was only 7%, while for L2 the reduction or squared error was 22%.
+Although a vocabulary-based language modeling approach outperformed the grammar-based predictor, an interpolated measure using confidence scores for the grammar-based predic-tions showed improvement over both individual measures.
+Also, grammar appears to play a more important role in second language readability than in first language readability.

@@ -1,0 +1,8 @@
+system,2
+evaluation,1
+performance,1
+consists,1
+ofrunning,1
+concatenation,1
+newspaper,1
+articles,1

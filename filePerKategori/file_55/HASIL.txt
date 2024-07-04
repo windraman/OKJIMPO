@@ -1,0 +1,5 @@
+The results show thatdegree-based methods (including LexRank) outperform both centroid-based methods andother systems participating in DUC in most of the cases.
+Furthermore, the LexRankwith threshold method outperforms the other degree-based techniques including continuousLexRank.
+All of ourthree new methods (Degree, LexRank with threshold, and continuous LexRank) performsignificantly better than the baselines in all data sets.
+They also perform better thancentroid-based summaries except for the DUC 2003 data set where the difference betweenCentroid and the others is not obvious.
+Lastly, we haveshown that our methods are quite insensitive to noisy data that often occurs as a result ofimperfect topical document clustering algorithms.

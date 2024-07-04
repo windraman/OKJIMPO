@@ -1,0 +1,6 @@
+We find that hybrids of document and query translation-based systems out- perform query translation systems, even human-quality query translation systems.
+We ob- serve that the hybrid systems which combine query translation and document translation outperform both query translation and doc- ument translation individually, on both sets of documents.
+Surprisingly, we find that the hybrid system outperforms the pure monolingual system.
+We find no clear advantage for either the query trans- lation system or the document translation system; instead French=eeEnglish translation appears advantageous over English~French translation, in spite of identical procedures used in constructing both.
+However a hy- brid system incorporating both directions of translation outperforms either.
+Further- more, by incorporating human query trans- lations rather than machine translations, we show that the hybrid system contin- ues to outperform query translation.

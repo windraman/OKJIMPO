@@ -1,0 +1,3 @@
+The document sets used in our experiments were the English and French parts of the doc- ument set used in the TREC-6 and TREC- 7 CLIR tracks.
+The English document set consisted of 3 years of AP newswire (1988-1990), comprising 242918 stories orig- inally occupying 759 MB.
+The French doc- ument set consisted of the same 3 years of SDA (a Swiss newswire service), compris- ing 141656 stories and originally occupy- ing 257 MB.

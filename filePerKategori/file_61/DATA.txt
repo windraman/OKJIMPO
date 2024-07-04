@@ -1,0 +1,1 @@
+The NTCIR CLIR data collection (NTCIR, 2011) consisting of 187,000 articles in English was used as a data set for experiments.

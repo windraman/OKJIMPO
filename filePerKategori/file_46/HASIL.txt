@@ -1,0 +1,2 @@
+Counting clearly distinct propositions in both cases, yields a 60% greater information content for the MMR- MD case, though both summaries are equivalent in length.
+When these 200 documents were added to a set of 4 other topics of 200 documents, yielding a document-set with 1000 documents, the query relevant multi-document summarization system produced exactly the same re- suits.

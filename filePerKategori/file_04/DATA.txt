@@ -1,0 +1,2 @@
+In addition to theseven techniques we use eleven DNA microarray datasetsfrom various medical, genetics, and bioinformatics studies;twelve feature subset sizes; and three learners.
+The datasets are all DNAmicroarray datasets acquired from a number of different realworld bioinformatics, genetics, and medical projects. Sincethe FOS techniques require only two classes to be present,we have to use datasets with two classes (for example:cancerous/non-cancerous or relapse/no relapse).

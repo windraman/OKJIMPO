@@ -1,0 +1,5 @@
+We applied RelEx on a comprehensive set of one millionMEDLINE abstracts dealing with gene and protein relations andextracted ~150000 relations with an estimated perfomance of both80% precision and 80% recall.
+Evalua-tion results obtained on the LLL-challenge dataset (Figure 4,F 75%, R 83%, P 68% on the training set; F 72%, R 78%,P 68% for the basic test set) show that RelEx returns relationswith significantly higher recall and precision than the approachespreviously applied for the LLL-challenge [F 51.8%, R 53.8%,P 50.0% for the basic and F 54.3%, R 53.0%, P 55.6% for thelinguistically enriched test set (Ne´dellec, 2005)].
+For both datasets (LLL and hprd50) RelExachieves significantly higher precision and thus F-measure thanco-occurrence-search.
+RelEx extracts a significantly largernumber of relations from the abstracts than the number of interac-tions contained in HPRD.
+If RelEx is compared on the rather stringent criteria of the LLLchallenge dataset (Ne´dellec, 2005), performance is significantlyhigher than previously reported results.

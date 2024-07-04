@@ -1,0 +1,117 @@
+Section Title : 
+I. INTRODUCTION
+II. RELATED WORKS
+III. FIRST ORDER STATISTICS (FOS) BASED FEATURE
+V. RESULTS
+VI. CONCLUSION
+Label: section  StartNode: 2170  EndNode: 2185
+I. INTRODUCTION
+Label: section  StartNode: 6179  EndNode: 6196
+II. RELATED WORKS
+Label: section  StartNode: 8480  EndNode: 8527
+III. FIRST ORDER STATISTICS (FOS) BASED FEATURE
+Label: section  StartNode: 20327  EndNode: 20337
+V. RESULTS
+Label: section  StartNode: 26439  EndNode: 26453
+VI. CONCLUSION
+Label: Abstract  StartNode: 310  EndNode: 366
+Abstract—Dimensionality reduction techniques have become
+Label: intro  StartNode: 2170  EndNode: 2185
+I. INTRODUCTION
+Label: rel_work  StartNode: 6179  EndNode: 6196
+II. RELATED WORKS
+Label: method  StartNode: 8480  EndNode: 8527
+III. FIRST ORDER STATISTICS (FOS) BASED FEATURE
+Label: exp_result  StartNode: 20327  EndNode: 20337
+V. RESULTS
+Label: conclusion  StartNode: 26439  EndNode: 26453
+VI. CONCLUSION
+Label: References  StartNode: 32340  EndNode: 32351
+
+REFERENCES
+Label: JUDUL  StartNode: 0  EndNode: 109
+First Order Statistics Based Feature Selection: A Diverse and Powerful Family of
+Feature Seleciton Techniques
+Label: NAMA  StartNode: 110  EndNode: 128
+Taghi Khoshgoftaar
+Label: NAMA  StartNode: 130  EndNode: 143
+David Dittman
+Label: NAMA  StartNode: 145  EndNode: 157
+Randall Wald
+Label: NAMA  StartNode: 163  EndNode: 180
+Alireza Fazelpour
+Label: OTHER  StartNode: 231  EndNode: 309
+Email: khoshgof@fau.edu; ddittman@fau.edu; rwald1@fau.edu; afazelpo@my.fau.edu
+Label: METODE  StartNode: 1402  EndNode: 1563
+In order to examine
+the properties of these seven techniques we performed a series
+of similarity and classi?cation experiments on eleven DNA
+microarray datasets.
+Label: PROBLEM  StartNode: 2186  EndNode: 2320
+One of the most prevalent problems in DNA microarray
+datasets is the large degree of high dimensionality that is
+inherent in the data.
+Label: PROBLEM  StartNode: 2733  EndNode: 2883
+Feature selection refers to a diverse series of techniques
+from the ?eld of data mining designed for the reduction of
+the dimensionality of a dataset.
+Label: PROBLEM  StartNode: 3080  EndNode: 3261
+However, there are a number of feature selection tech-
+niques which are computationally infeasible due to the se-
+vere level of high dimensionality found in DNA microarray
+datasets.
+Label: PROBLEM  StartNode: 3623  EndNode: 3774
+Thus, for datasets with such extreme
+degrees of high dimensionality, the most appropriate choice
+of selection approach is univariate feature selection.
+Label: METODE  StartNode: 4301  EndNode: 4488
+This paper presents a set of seven univariate feature
+selection techniques which we have combined into a family
+of techniques we name First Order Statistics (FOS) based
+feature selection.
+Label: TAHUN  StartNode: 5543  EndNode: 5547
+2012
+Label: DATA  StartNode: 13921  EndNode: 14060
+The datasets are all DNA
+microarray datasets acquired from a number of different real
+world bioinformatics, genetics, and medical projects.
+Label: METODE  StartNode: 15611  EndNode: 15741
+Our group decided to use twelve
+feature subset sizes for this experiment: 5, 10, 15, 20, 25, 50,
+75, 100, 200, 350, 500, and 1000.
+Label: METODE  StartNode: 16044  EndNode: 16139
+We decided to use consistency index [4] because it takes
+into consideration bias due to chance.
+Label: METODE  StartNode: 16831  EndNode: 16952
+In this study we use three different classi?ers or learners
+to evaluate the classi?cation power of the seven FOS rankers.
+Label: METODE  StartNode: 16953  EndNode: 17041
+The three classi?ers used in this study are SVM, Logistic
+Regression, and Random Forest.
+Label: HASIL  StartNode: 25749  EndNode: 25874
+In all but two cases (using Logistic Regression and
+either 75 or 200 features), FCR is the worst performer
+by a clear margin.
+Label: HASIL  StartNode: 26233  EndNode: 26438
+This leads us to
+state that the set of FOS techniques, while diverse in their
+selections for the feature subsets, will perform similarly to
+each other in terms of classi?cation (with the exception of
+FCR).
+Label: HASIL  StartNode: 27325  EndNode: 27486
+In terms of similarity, we ?nd that each ranker in the
+FOS family of techniques will create diverse feature subsets
+when compared to other members of the family.
+Label: HASIL  StartNode: 31402  EndNode: 31535
+If one ignores Fold Change ratio,
+then the difference between the best ranker and the worst
+has a maximum of 0.03080 in terms of AUC.
+Label: HASIL  StartNode: 31536  EndNode: 31665
+As for the top
+performers, we ?nd that SAM followed by Signal-to-Noise
+are commonly the top performers within all three learners.
+Label: Data Title  StartNode: 0  EndNode: 46
+First Order Statistics Based Feature Selection
+Label: Problem Title  StartNode: 48  EndNode: 109
+A Diverse and Powerful Family of
+Feature Seleciton Techniques

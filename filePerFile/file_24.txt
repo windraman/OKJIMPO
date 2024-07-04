@@ -1,0 +1,99 @@
+Section Title : 
+1. Introduction
+2. System Overview
+Fig. 3.Labeling Connected components
+Energy (E) - It is defined as sum of squared elements in the
+3. Multilayer Perceptron – A Neural Network
+5. Conclusion
+Label: section  StartNode: 1323  EndNode: 1339
+1. Introduction 
+Label: section  StartNode: 5959  EndNode: 5978
+2. System Overview 
+Label: section  StartNode: 9405  EndNode: 9442
+Fig. 3.Labeling Connected components 
+Label: section  StartNode: 13340  EndNode: 13401
+Energy (E) - It is defined as sum of squared elements in the 
+Label: section  StartNode: 13959  EndNode: 14003
+3. Multilayer Perceptron – A Neural Network 
+Label: section  StartNode: 20587  EndNode: 20601
+5. Conclusion 
+Label: Abstract  StartNode: 290  EndNode: 299
+Abstract 
+Label: intro  StartNode: 1323  EndNode: 1339
+1. Introduction 
+Label: method  StartNode: 5959  EndNode: 5978
+2. System Overview 
+Label: method  StartNode: 9405  EndNode: 9442
+Fig. 3.Labeling Connected components 
+Label: method  StartNode: 13340  EndNode: 13401
+Energy (E) - It is defined as sum of squared elements in the 
+Label: exp_result  StartNode: 13959  EndNode: 14003
+3. Multilayer Perceptron – A Neural Network 
+Label: conclusion  StartNode: 20587  EndNode: 20601
+5. Conclusion 
+Label: References  StartNode: 21183  EndNode: 21195
+
+References 
+Label: PROBLEM  StartNode: 0  EndNode: 48
+Document Segmentation And Region Classification 
+Label: JUDUL  StartNode: 0  EndNode: 78
+Document Segmentation And Region Classification Using 
+Multilayer Perceptron  
+Label: METODE  StartNode: 55  EndNode: 78
+Multilayer Perceptron  
+Label: NAMA  StartNode: 79  EndNode: 109
+Priyadharshini N1, Vijaya MS2 
+Label: OTHER  StartNode: 112  EndNode: 187
+1Research Scholar, PSGR Krishnammal College for Women,  
+Coimbatore, India 
+Label: OTHER  StartNode: 188  EndNode: 267
+ 
+2Associate Professor, GR Govindarajulu School of Applied Computer Technology 
+Label: OTHER  StartNode: 268  EndNode: 286
+Coimbatore, India 
+Label: PROBLEM  StartNode: 738  EndNode: 823
+Document 
+segmentation is a process of splitting the document into 
+distinct regions.
+Label: HASIL  StartNode: 824  EndNode: 941
+This paper proposes a new approach to 
+segment and classify the document regions as text, image, 
+graphics and table.
+Label: HASIL  StartNode: 1065  EndNode: 1206
+Multilayer perceptron, a 
+supervised learning technique has been used to construct 
+the classifier and found 97.49% classification accuracy. 
+Label: PROBLEM  StartNode: 1340  EndNode: 1451
+Document segmentation is defined as method of subdividing the 
+document regions into text and non-text regions.
+Label: OTHER  StartNode: 1510  EndNode: 1751
+Document 
+segmentation plays a significant role in document analysis, 
+because every day, millions of documents including technical 
+reports, government files, Newspapers, books, magazines, letters, 
+bank cheque, etc,. have to be processed. 
+Label: METODE  StartNode: 5468  EndNode: 5615
+This paper presents the implementation of bottom up approach 
+to segment the document image into homogenous regions based 
+on geometric structure. 
+Label: METODE  StartNode: 5979  EndNode: 6177
+The proposed approach reduces the computational complexities 
+of supporting procedure after document segmentation such as 
+OCR system for processing text regions and for processing non 
+text region.
+Label: TAHUN  StartNode: 9391  EndNode: 9396
+2013
+Label: HASIL  StartNode: 19957  EndNode: 20108
+From the above comparative analysis it is observed that 
+classification accuracy produced by multilayer perceptron is 
+higher than naïve bayes and J48.
+Label: HASIL  StartNode: 20602  EndNode: 20801
+This paper demonstrates the modeling of document 
+segmentation as classification task and describes the 
+implementation of machine learning approach for segmenting 
+the document into various regions.
+Label: Problem Title  StartNode: 0  EndNode: 47
+Document Segmentation And Region Classification
+Label: Method Title  StartNode: 54  EndNode: 76
+
+Multilayer Perceptron

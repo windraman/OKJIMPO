@@ -1,0 +1,3 @@
+Automatic extraction of semantic relationships between en-tity instances in an ontology is useful for attaching richer semantic meta-data to documents.
+However, in addition to this,many ontology-based applications require methods for automatic discovery ofproperties and relations between instances.
+One barrier to applying relation extraction in ontology-based applicationscomes from the difficulty of adapting the system to new domains.

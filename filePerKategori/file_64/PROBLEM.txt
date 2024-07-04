@@ -1,0 +1,3 @@
+However, the output of such systems tend to be noisy, andhence it is crucial to be able to estimate the quality of the ex-tracted information.
+A fundamental problem in information extraction is howto train an extraction system for an extraction task of inter-est.
+Our goal is to extract structured relations between named en-tities (e.g., a company name, a location name, or a name ofa drug or a disease) from unstructured documents with min-imal human effort.

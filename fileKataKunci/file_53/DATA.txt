@@ -1,0 +1,8 @@
+proposed,1
+segmentation,1
+classification,1
+procedurewas,1
+tested,1
+images,1
+shownin,1
+figure,1

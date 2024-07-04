@@ -1,0 +1,4 @@
+The effect of selecting varying numbers and kinds of fea- tures for use in predicting category membership was inves- tigated on the Reuters and MUC-3 text categorization data sets.
+The extraction of new text features by syntactic analysis and feature clustering was investigated on the Reuters data set.
+Our first data  set was a set of 21,450 Reuters newswire stories from the year 1987 [4].
+The second data set consisted of 1,500 documents from the US.  Foreign Broadcast Information Service (FBIS) that had previously been used in the MUC-3 evaluation of natural language processing systems [2].

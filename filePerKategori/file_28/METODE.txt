@@ -1,0 +1,9 @@
+A set of nouns are iteratively extracted fromdocuments in a bootstrapping manner, and then a semantic relationbetween a noun pair is identified by a clustering procedure.
+The mainfeature is exploitation of the co-occurrence of a verb and a noun in asentence, considering that a verb plays an important role in expressingthe meaning of a sentence.
+The main feature is exploitation of theco-occurrence of a verb and a noun in a sentence, considering that a verb playsan important role in expressing the meaning of a sentence.
+Prompted by this observation, the method identifies nouns appear-ing together with particular verbs at a high frequency.
+This is a hybrid methodinvolving a bootstrapping procedure and a clustering procedure.
+The bootstrap-ping procedure is a process that initially extracts patterns from given verb-nounpairs and then alternately extracts pairs and patterns.
+The clustering procedure identifies weak se-mantic relations for each pair of nouns obtained by the bootstrapping procedure,resulting in the hierarchical form of the nouns.
+The method consists of two procedures: bootstrapping and clustering.
+Thebootstrapping procedure consists of pattern acquisition and term acquisitionsteps.

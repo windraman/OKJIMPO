@@ -1,0 +1,3 @@
+Feature selection is an important method for im-proving the ef?ciency and accuracy of text categorization algo-rithms by removing redundant and irrelevant terms from thecorpus.
+But it is shown in [12] that supervised featureselection methods using the information gain [16] and the ?2statistic can improve the clustering performance better than unsu-pervised methods when the class labels of documents are availablefor the feature selection.
+However, supervised feature selectionmethods cannot be directly applied to document clustering be-cause usually the required class label information is not available.

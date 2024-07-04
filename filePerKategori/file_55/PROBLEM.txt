@@ -1,0 +1,3 @@
+We introduce a stochastic graph-based method for computing relative importance oftextual units for Natural Language Processing.
+Extractive TS relies on the concept of sentence salienceto identify the most important sentences in a document or set of documents.
+In this paper, we focuson multi-document extractive generic text summarization, where the goal is to produce asummary of multiple documents about the same, but unspecified topic.

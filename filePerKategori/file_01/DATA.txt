@@ -1,0 +1,2 @@
+And here we use the term frequency as the weight for the feature in a textâ€™s feature vector for further constructing our evaluation function just because of convenience
+We divide the corpus into two non-intersected sets: a training set containing 10 categories with 100 texts in each and a test set containing the same 10 categories with another 100 texts in each also

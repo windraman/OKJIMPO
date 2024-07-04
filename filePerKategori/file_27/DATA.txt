@@ -1,0 +1,1 @@
+Our data set consists of 447 abstracts selectedfrom MEDLINE as being relevant to populating adatabase with facts of the form: gene X with vari-ation event Y is associated with malignancy Z.

@@ -1,0 +1,1 @@
+The proposed method Semi-Supervised Feature Clustering (ssfc) has been tested in several semi-supervised real problems, and compared with WaLuMI [9], which is an unsupervised method based also on feature clustering, in this case, using all unlabelled data (nsup), and with a supervised version of the proposed method (sup) over the labeled samples

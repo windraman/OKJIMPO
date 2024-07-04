@@ -1,0 +1,9 @@
+Then we propose a new feature selection method called “Term Contribution (TC)” and perform a comparative study on a variety of feature selection methods for text clustering, including Document Frequency (DF), Term Strength (TS), Entropy-based (En), Information Gain (IG) and ?2 statistic (CHI). 
+Finally, we propose an “Iterative Feature Selection (IF)” method that addresses the unavailability of label problem by utilizing effective supervised feature selection method to iteratively select features and perform clustering.
+We introduce a new feature selection method called “Term Contribution” that takes the term weight into account. 
+So we define the contribution of a term in a dataset as its overall contribution to the documents’ similarities.
+Enlightened by the EM algorithm, we propose a novel iterative feature selection method, which utilizes supervised feature selection methods for text clustering methods.
+On the E-step, to approximate the expectation of feature relevance, we use supervised feature selection algorithm to calculate the relevance score for each term, then the probability for the term relevance is simplified to }1,0{)( =tz  according to whether the term relevance score is larger than a predefined threshold value.
+So at each iteration, we will remove some irrelevant terms based on the calculated relevance of each term.
+On the M-step, because K-means algorithm can be described by slightly extending the mathematics of the EM algorithm to the hard threshold case (Bottou et al., 1995), we use K-means clustering algorithm to obtain the cluster results based on the selected terms. 
+In order to utilize the efficient supervised methods, we proposed an iterative feature selection method that iteratively performs clustering and feature selection in a unified framework.

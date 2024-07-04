@@ -1,0 +1,3 @@
+The first subset of our training data is the Europarl corpus [11], extracted fromproceedings of the European Parliament and consisting of 6, 206 parallel documents inEnglish and Dutch.
+Another training subset is collected from Wikipedia dumps3 and consists of paireddocuments in English and Dutch.
+Our experiments have been conducted on three data sets taken from the CLEF 2001-2003 CLIR campaigns: the LA Times 1994 (LAT), the LA Times 1994 and GlasgowHerald 1995 (LAT+GH) in English, and the NRC Handelsblad 94-95 and the AlgemeenDagblad 94-95 (NC+AD) in Dutch.

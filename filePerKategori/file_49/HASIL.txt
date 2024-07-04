@@ -1,0 +1,7 @@
+We show that using the mode topic ID as-signed during the inference method of LDA,used to annotate unseen documents, improvesperformance by stabilizing the obtained top-ics.
+We show significant improvements overstate of the art segmentation algorithms on twostandard datasets.
+As an additional benefit,TopicTiling performs the segmentation in lin-ear time and thus is computationally less ex-pensive than other LDA-based segmentationmethods.
+Using a one-sampled t-test with ? = 0.05 we can state significant improve-ments in comparison to all other algorithms.
+Consideringthe unfiltered results we observe that results improvewhen using the mode assigned topic ID and a win-dow of larger than one sentence.
+Fil-tering the documents for parts of speech leads to ?1% absolute error rate reduction, as can be seen inthe last two columns of Table 4.
+Again, we observethat the mode assignment always leads to better re-sults, gaining at least 0.6%.

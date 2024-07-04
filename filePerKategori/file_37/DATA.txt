@@ -1,0 +1,2 @@
+In topic-based text classification, we use two popular data sets: one subset of Reuters-21578 referred to as R2 and the 20 Newsgroup dataset referred to as 20NG.
+In sentiment text classification, we also use two data sets: one is the widely used Cornell movie-review dataset2 (Pang and Lee, 2004) and one dataset from product reviews of domain DVD3 (Blitzer et al., 2007).

@@ -1,0 +1,115 @@
+Section Title : 
+1 Introduction
+2 Background and Related work
+3 Context-Sensitive Query Translation
+4 Evaluation
+5 Conclusions and Future Work
+Label: section  StartNode: 1900  EndNode: 1914
+1 Introduction
+Label: section  StartNode: 6317  EndNode: 6346
+2 Background and Related work
+Label: section  StartNode: 13200  EndNode: 13237
+3 Context-Sensitive Query Translation
+Label: section  StartNode: 23806  EndNode: 23818
+4 Evaluation
+Label: section  StartNode: 41181  EndNode: 41210
+5 Conclusions and Future Work
+Label: Abstract  StartNode: 474  EndNode: 482
+ABSTRACT
+Label: intro  StartNode: 1900  EndNode: 1914
+1 Introduction
+Label: rel_work  StartNode: 6317  EndNode: 6346
+2 Background and Related work
+Label: method  StartNode: 13200  EndNode: 13237
+3 Context-Sensitive Query Translation
+Label: exp_result  StartNode: 23806  EndNode: 23818
+4 Evaluation
+Label: conclusion  StartNode: 41181  EndNode: 41210
+5 Conclusions and Future Work
+Label: References  StartNode: 44850  EndNode: 44861
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 85
+Combining Statistical Translation Techniques for Cross-Language Information Retrieval
+Label: OTHER  StartNode: 86  EndNode: 184
+Proceedings of COLING 2012: Technical Papers, pages 2685–2702,
+COLING 2012, Mumbai, December 2012.
+Label: TAHUN  StartNode: 108  EndNode: 112
+2012
+Label: TAHUN  StartNode: 156  EndNode: 160
+2012
+Label: TAHUN  StartNode: 179  EndNode: 183
+2012
+Label: NAMA  StartNode: 185  EndNode: 196
+Ferhan Ture
+Label: NAMA  StartNode: 198  EndNode: 207
+Jimmy Lin
+Label: NAMA  StartNode: 211  EndNode: 226
+Douglas W. Oard
+Label: PROBLEM  StartNode: 483  EndNode: 784
+Cross-language information retrieval today is dominated by techniques that rely principally on
+context-independent token-to-token mappings despite the fact that state-of-the-art statistical
+machine translation systems now have far richer translation models available in their
+internal representations.
+Label: METODE  StartNode: 785  EndNode: 1039
+This paper explores combination-of-evidence techniques using
+three types of statistical translation models: context-independent token translation, token
+translation using phrase-dependent contexts, and token translation using sentence-dependent
+contexts.
+Label: METODE  StartNode: 1040  EndNode: 1335
+Context-independent translation is performed using statistically-aligned tokens in
+parallel text, phrase-dependent translation is performed using aligned statistical phrases, and
+sentence-dependent translation is performed using those same aligned phrases together with an
+n-gram language model.
+Label: HASIL  StartNode: 1336  EndNode: 1651
+Experiments on retrieval of Arabic, Chinese, and French documents
+using English queries show that no one technique is optimal for all queries, but that statistically
+significant improvements in mean average precision over strong baselines can be achieved by
+combining translation evidence from all three techniques.
+Label: PROBLEM  StartNode: 2644  EndNode: 2900
+These approaches have complementary strengths: MT makes good use of context
+but at the cost of typically producing only one-best results, while token-to-token mappings
+can produce n-best token translations but without leveraging available contextual clues.
+Label: METODE  StartNode: 4507  EndNode: 4632
+One method is to extract a context-aware
+portion of the SCFG by selecting only the grammar rules that apply to a given query.
+Label: METODE  StartNode: 4830  EndNode: 5093
+Another solution is to perform translation in context using the full MT system on the entire
+query and then to reconstruct context-sensitive token translation probabilities by accumulating
+translation likelihood evidence from each of the top n query translations.
+Label: METODE  StartNode: 5221  EndNode: 5433
+In this work we use a technique based on mapping term
+statistics before computing term weights (Pirkola, 1998; Darwish and Oard, 2003), leading to a
+representation known as Probabilistic Structured Queries (PSQ).
+Label: HASIL  StartNode: 5828  EndNode: 5967
+The best results are achieved when we
+perform a linear interpolation of all three approaches (query-based, phrase-based, and token-
+based).
+Label: PROBLEM  StartNode: 7072  EndNode: 7214
+One limitation of applying language and translation models in CLIR is that they have mostly
+focused on isolated tokens (i.e., unigram models).
+Label: METODE  StartNode: 13238  EndNode: 13393
+In this paper, we explore ways to improve the baseline token-translation model discussed above
+by exploiting the internal representations of the MT system.
+Label: DATA  StartNode: 23819  EndNode: 24050
+We evaluated our system on the latest available CLIR test collections for three languages:
+TREC 2002 English-Arabic CLIR, NTCIR-8 English-Chinese Advanced Cross-Lingual Information
+Access (ACLIA), and CLEF 2006 English-French CLIR.
+Label: HASIL  StartNode: 30874  EndNode: 31084
+Based on the randomized significance test proposed by Smucker et al. (2007), the combined
+approach (E) outperforms all models (except for the phrase-based approach) in the Arabic
+collection with 95% confidence.
+Label: HASIL  StartNode: 31085  EndNode: 31325
+When we ran the same test on the other two collections, we
+found that the combined approach is significantly better than the baseline (A) and 1-best (D)
+approaches for Chinese, whereas MAP is significantly higher than baseline A for French.
+Label: HASIL  StartNode: 32439  EndNode: 32591
+For French, the best retrieval effectiveness results from the n-best
+full query translation model (C), significantly better than the baseline model (A).
+Label: HASIL  StartNode: 32592  EndNode: 32688
+This shows
+that there is no individual model that outperforms the rest in all three collections.
+Label: Method Title  StartNode: 0  EndNode: 44
+Combining Statistical Translation Techniques
+Label: Problem Title  StartNode: 49  EndNode: 85
+Cross-Language Information Retrieval

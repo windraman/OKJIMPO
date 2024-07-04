@@ -1,0 +1,3 @@
+The classification or labeling of samples by an expert can often be too expensive in time and sometimes even unfeasible.
+In many application problems there is available a significant amount of unlabelled data, and only few labeled samples.
+A challenge in semi-supervised learning is the feature selection problem.

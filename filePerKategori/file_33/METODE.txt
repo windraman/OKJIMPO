@@ -1,0 +1,11 @@
+The system takes a novel ap-proach to relevance and redundancy, model-ing sentence similarity using a latent seman-tic space constructed over a very large cor-pus.
+The Embra (Edinburgh Multi-document Brevilo-quence Assay) system is based on a Maximal MarginalRelevance (MMR) framework (Carbonell and Goldstein,1998), where a single extraction score is derived by com-bining measures of relevance and redundancy of candi-date sentences.
+The system is novel in that it measuresrelevance and redundancy using a very large latent se-mantic space.
+It addresses specificity by detecting thepresence or absence of Named Entities in our extract can-didates.
+And it implements a sentence-ordering algorithmto maximize sentence coherence in our final summaries.
+At the core of preprocessing is the LT TTT program fs-gmatch, a general purpose transducer which processes aninput stream and adds annotations using rules providedin a hand-written grammar file.
+We also use the sta-tistical combined part-of-speech (POS) tagger and sen-tence boundary disambiguation module from LT TTT(Mikheev, 1997).
+In contrast, our system attempts to derive more robustrepresentations of sentences by building a large seman-tic space using LSA on a very large corpus.
+Specificity is addressed in the sentence selection algo-rithm and is based on the presence of named entities.
+As regards discourse coherence,due to constraints of architecture and the sentence ex-traction framework, the current system is only concernedwith telling the story step-by-step in the right order.
+With respect to cohesion, looking at the performanceof available, state-of-the-art anaphora resolution algo-rithms, we decided that it would not be in our interestto substitute pronouns with their (assumed) antecedents.

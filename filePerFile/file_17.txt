@@ -1,0 +1,81 @@
+Section Title : 
+1. Introduction
+result in more serious problem than common event [11].
+2. Current approaches
+RUSBoost presents a simpler, faster, and less complex
+4. Discussion
+Label: section  StartNode: 1272  EndNode: 1288
+1. Introduction 
+Label: section  StartNode: 3380  EndNode: 3435
+result in more serious problem than common event [11]. 
+Label: section  StartNode: 4348  EndNode: 4371
+2. Current approaches  
+Label: section  StartNode: 11873  EndNode: 11927
+RUSBoost presents a simpler, faster, and less complex 
+Label: section  StartNode: 14966  EndNode: 14980
+4. Discussion 
+Label: Abstract  StartNode: 118  EndNode: 127
+Abstract 
+Label: intro  StartNode: 1272  EndNode: 1288
+1. Introduction 
+Label: intro  StartNode: 3380  EndNode: 3435
+result in more serious problem than common event [11]. 
+Label: rel_work  StartNode: 4348  EndNode: 4371
+2. Current approaches  
+Label: rel_work  StartNode: 11873  EndNode: 11927
+RUSBoost presents a simpler, faster, and less complex 
+Label: conclusion  StartNode: 14966  EndNode: 14980
+4. Discussion 
+Label: References  StartNode: 16929  EndNode: 16941
+
+References 
+Label: JUDUL  StartNode: 0  EndNode: 48
+ Class Imbalance Problem in Data Mining: Review 
+Label: NAMA  StartNode: 49  EndNode: 113
+1Mr.Rushi Longadge, 2 Ms. Snehlata S. Dongre, 3Dr. Latesh Malik 
+Label: PROBLEM  StartNode: 312  EndNode: 471
+Classification of data becomes difficult because of unbounded 
+size and imbalance nature of data. Class imbalance problem 
+become greatest issue in data mining
+Label: PROBLEM  StartNode: 473  EndNode: 565
+Imbalance problem occur 
+where one of the two classes having more sample than other 
+classes
+Label: METODE  StartNode: 763  EndNode: 974
+There are different methods available 
+for classification of imbalance data set which is divided into 
+three main categories, the algorithmic approach, data-
+preprocessing approach and feature selection approach
+Label: PROBLEM  StartNode: 763  EndNode: 974
+There are different methods available 
+for classification of imbalance data set which is divided into 
+three main categories, the algorithmic approach, data-
+preprocessing approach and feature selection approach
+Label: OTHER  StartNode: 1044  EndNode: 1179
+In 
+this paper systematic study of each approach is define which 
+gives the right direction for research in class imbalance problem.   
+Label: PROBLEM  StartNode: 1484  EndNode: 1664
+ In imbalance data set the 
+class having more number of instances is called as major 
+class while the one having relatively less number of 
+instances are called as minor class [16]
+Label: METODE  StartNode: 2236  EndNode: 2457
+ various techniques have been proposed to solve the 
+problems associated with class imbalance [9], which 
+divided into three basic categories, the algorithmic 
+approach, data-preprocessing and feature selection 
+approach.
+Label: TAHUN  StartNode: 3365  EndNode: 3369
+2013
+Label: HASIL  StartNode: 16784  EndNode: 16925
+ Finally, this paper 
+suggests that applying two or more technique i.e. hybrid 
+approach gives better solution for class imbalance 
+problem. 
+Label: Problem Title  StartNode: 0  EndNode: 23
+ Class Imbalance Proble
+Label: Data Title  StartNode: 27  EndNode: 38
+ Data Minin
+Label: Method Title  StartNode: 40  EndNode: 46
+ Revie

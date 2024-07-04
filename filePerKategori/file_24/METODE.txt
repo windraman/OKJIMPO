@@ -1,0 +1,3 @@
+Multilayer Perceptron  
+This paper presents the implementation of bottom up approach to segment the document image into homogenous regions based on geometric structure. 
+The proposed approach reduces the computational complexities of supporting procedure after document segmentation such as OCR system for processing text regions and for processing non text region.

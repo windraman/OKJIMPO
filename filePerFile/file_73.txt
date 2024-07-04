@@ -1,0 +1,97 @@
+Section Title : 
+I.  INTRODUCTION
+II. CLIR APPROACHES FOR MULTIMEDIA INFORMATION
+IV. METHOD VALIDATION
+V. CONCLUSION AND FUTURE DEVELOPMENTS
+Label: section  StartNode: 1099  EndNode: 1117
+I.  INTRODUCTION  
+Label: section  StartNode: 2638  EndNode: 2685
+II. CLIR APPROACHES FOR MULTIMEDIA INFORMATION 
+Label: section  StartNode: 18986  EndNode: 19008
+IV. METHOD VALIDATION 
+Label: section  StartNode: 26053  EndNode: 26091
+V. CONCLUSION AND FUTURE DEVELOPMENTS 
+Label: Abstract  StartNode: 276  EndNode: 339
+Abstract— This paper is devoted to a new method that uses query
+Label: intro  StartNode: 1099  EndNode: 1117
+I.  INTRODUCTION  
+Label: method  StartNode: 2638  EndNode: 2685
+II. CLIR APPROACHES FOR MULTIMEDIA INFORMATION 
+Label: exp_result  StartNode: 18986  EndNode: 19008
+IV. METHOD VALIDATION 
+Label: conclusion  StartNode: 26053  EndNode: 26091
+V. CONCLUSION AND FUTURE DEVELOPMENTS 
+Label: References  StartNode: 27935  EndNode: 27947
+
+REFERENCES 
+Label: JUDUL  StartNode: 0  EndNode: 69
+Query Expansion for Cross Language Information 
+Retrieval Improvement
+Label: NAMA  StartNode: 73  EndNode: 88
+Benoît Gaillard
+Label: NAMA  StartNode: 89  EndNode: 108
+ Jean-Léon Bouraoui
+Label: NAMA  StartNode: 110  EndNode: 132
+Emilie Guimier de Neef
+Label: NAMA  StartNode: 134  EndNode: 147
+Malek Boualem
+Label: OTHER  StartNode: 180  EndNode: 273
+{benoit.gaillard, jeanleon.bouraoui, emilie.guimierdeneef, malek.boualem}@orange-ftgroup.com 
+Label: METODE  StartNode: 397  EndNode: 558
+The 
+backbone is an Information Retrieval (IR) system based on a 
+search engine and a multilingual module based on statistical 
+machine translation of documents.
+Label: METODE  StartNode: 559  EndNode: 679
+To this system is added a 
+Query Expansion (QE) module which mainly uses linguistic 
+resources to perform the expansion.
+Label: PROBLEM  StartNode: 1238  EndNode: 1385
+However standard queries, containing 2-3 terms in average, are 
+less and less likely to be sufficient to retrieve all of the relevant 
+documents.  
+Label: PROBLEM  StartNode: 1386  EndNode: 1556
+Consequently, advanced techniques are necessary to 
+enhance the performances of Information Retrieval (IR) 
+systems, such as Cross Language Information Retrieval 
+(CLIR).
+Label: PROBLEM  StartNode: 1670  EndNode: 1814
+Bridging the gap between document and query languages 
+requires the application of machine translation techniques to 
+queries, indices, or both.
+Label: PROBLEM  StartNode: 1815  EndNode: 1915
+Translation software can induce 
+linguistic differences between translated data and human 
+language.
+Label: METODE  StartNode: 1916  EndNode: 1988
+Our proposal is to overcome this problem by using 
+Query Expansion (QE).
+Label: METODE  StartNode: 1989  EndNode: 2043
+QE consists in adding new words to 
+the initial query.
+Label: METODE  StartNode: 2129  EndNode: 2254
+In a nutshell, our key 
+idea is to combine QE with CLIR in a Multilingual Multimedia 
+Information Retrieval (MMIR) prototype.
+Label: DATA  StartNode: 19009  EndNode: 19084
+In this section we use the OPF set of queries described in 
+section II.E.2.
+Label: HASIL  StartNode: 23367  EndNode: 23512
+More than half of the queries of the complete OPF corpus, 
+including words with spelling mistakes, URLs, etc. are 
+expanded into several choices.
+Label: HASIL  StartNode: 23757  EndNode: 23866
+It is worth noticing that the 
+quantity of words provided by QE is unevenly spread across 
+different queries.
+Label: HASIL  StartNode: 24145  EndNode: 24255
+Silence reduction, which is the first aim of the proposed 
+method, is significant as the results in IV.B show.
+Label: HASIL  StartNode: 24405  EndNode: 24499
+Indeed, the expansions shown in section IV.B.1 do 
+maintain the meaning of the original query.
+Label: Method Title  StartNode: 0  EndNode: 15
+Query Expansion
+Label: Problem Title  StartNode: 20  EndNode: 69
+Cross Language Information 
+Retrieval Improvement

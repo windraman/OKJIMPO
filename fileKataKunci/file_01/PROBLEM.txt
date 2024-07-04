@@ -1,0 +1,10 @@
+text,2
+classification,1
+process,1
+automatically,1
+assigning,1
+predefined,1
+categories,1
+free,1
+retrieval,1
+applications,1

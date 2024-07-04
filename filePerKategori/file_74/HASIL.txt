@@ -1,0 +1,4 @@
+Our method works quite well on the output ofsearch engines as it is shown by table below.
+All the built wrappers correctlyextract the full page with a couple of instances as can be seen the ta-ble below.
+In the worst case, whenall the examples need to be given, the wrapper generated can stillwork on other generated pages.
+The proposed method can wrap up manydifferent types of site, is robust to irregularities in format and makesuse of structure contained in content text.

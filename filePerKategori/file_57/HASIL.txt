@@ -1,0 +1,4 @@
+The first hypothesis was only marginally confirmed in the experiment (0.05 < p < 0.10), whilethe second one was confirmed at p < 0.05.
+Argu-ments generated for the TC condition had greater satisfaction z-scores than arguments generated for the TV, NTC andNA conditions.
+The difference in effectiveness between arguments generated in the TC condition and arguments gen-erated in the TV condition was statistically significant (p < 0.05), while the difference in the other two comparisonsTC vs. NTC and NA was only marginally significant (p < 0.1).
+While the second hypothesis was confirmed in the experiment, the first one was only marginally con-firmed.

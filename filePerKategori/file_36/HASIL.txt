@@ -1,0 +1,4 @@
+The results indicate thaton average, for K4, the best performing kernel, we obtainedan increase of 24.66% in the F-score when features providedby the semantic parsers were added.
+The re-sults show that frame semantics produce an enhancement of53.24% over previous state-of-art results in relation extrac-tion.
+This structure enabled the extraction of rele-vant relations with better performance than previous state-of-the-art kernel methods.
+Furthermore, the semantic featuresenabled similarly good results to be obtained with a few otherlearning algorithms.

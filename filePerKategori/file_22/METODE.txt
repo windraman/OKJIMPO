@@ -1,0 +1,6 @@
+Conditional Random Fields
+ METHOD: Formalizingthe categorization task as a sequential label-ing problem, we employ Conditional Ran-dom Fields (CRFs) to annotate section la-bels into abstract sentences.
+RESULTS: The pro-posed method outperformed the previousapproaches, achieving 95.5% per-sentenceaccuracy and 68.8% per-abstract accuracy.
+We design three kinds of features to represent eachabstract sentence for CRFs.
+We constructed two sets of corpora (‘pure’ and ‘ex-panded’), each of which contains 51,000 abstractssampled from the abstracts with structured sections.
+We utilized FlexCRFs4 implementation to builda classifier with linear-chain CRFs. 

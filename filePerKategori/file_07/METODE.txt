@@ -1,0 +1,2 @@
+Combining Lexical and Grammatical Features
+The statistical model used for this study is based on a variation of the multinomial Naïve Bayes classifier.

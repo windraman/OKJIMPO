@@ -1,0 +1,15 @@
+extract,1
+relations,1
+automatic,1
+con,1
+tent,1
+extraction,1
+ace,1
+corpus,1
+provided,1
+thenational,1
+institute,1
+standards,1
+technol,1
+ogy,1
+nist,1

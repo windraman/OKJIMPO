@@ -1,0 +1,1 @@
+The experimental corpus, made of 86 documents, annotatedby two teams of analysts, has been extracted from two collec-tions of public judicial acts related to the legal proceedingsagainst the same large criminal enterprise.

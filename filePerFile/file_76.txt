@@ -1,0 +1,106 @@
+Section Title : 
+1 Introduction
+2 Related Work
+3 Kernel Methods
+6 Experiments
+7 Conclusions
+Label: section  StartNode: 719  EndNode: 733
+1 Introduction
+Label: section  StartNode: 4948  EndNode: 4962
+2 Related Work
+Label: section  StartNode: 6453  EndNode: 6469
+3 Kernel Methods
+Label: section  StartNode: 17511  EndNode: 17524
+6 Experiments
+Label: section  StartNode: 22769  EndNode: 22782
+7 Conclusions
+Label: Abstract  StartNode: 216  EndNode: 224
+Abstract
+Label: intro  StartNode: 719  EndNode: 733
+1 Introduction
+Label: rel_work  StartNode: 4948  EndNode: 4962
+2 Related Work
+Label: method  StartNode: 6453  EndNode: 6469
+3 Kernel Methods
+Label: exp_result  StartNode: 17511  EndNode: 17524
+6 Experiments
+Label: conclusion  StartNode: 22769  EndNode: 22782
+7 Conclusions
+Label: References  StartNode: 24283  EndNode: 24294
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 47
+Dependency Tree Kernels for Relation Extraction
+Label: NAMA  StartNode: 48  EndNode: 60
+Aron Culotta
+Label: NAMA  StartNode: 128  EndNode: 144
+Jeffrey Sorensen
+Label: OTHER  StartNode: 145  EndNode: 197
+IBM T.J. Watson Research Center
+Yorktown Heights, NY
+Label: PROBLEM  StartNode: 225  EndNode: 334
+We extend previous work on tree kernels
+to estimate the similarity between the
+dependency trees of sentences.
+Label: METODE  StartNode: 334  EndNode: 506
+ Using
+this kernel within a Support Vector Ma-
+chine, we detect and classify relations
+between entities in the Automatic Con-
+tent Extraction (ACE) corpus of news
+articles.
+Label: HASIL  StartNode: 507  EndNode: 718
+We examine the utility of dif-
+ferent features such as Wordnet hyper-
+nyms, parts of speech, and entity types,
+and find that the dependency tree kernel
+achieves a 20% F1 improvement over a
+“bag-of-words” kernel.
+Label: PROBLEM  StartNode: 734  EndNode: 841
+The ability to detect complex patterns in data is
+limited by the complexity of the data’s represen-
+tation.
+Label: METODE  StartNode: 2349  EndNode: 2417
+We describe a relation extraction technique
+based on kernel methods.
+Label: METODE  StartNode: 2418  EndNode: 2603
+Kernel methods are
+non-parametric density estimation techniques that
+compute a kernel function between data instances,
+where a kernel function can be thought of as a
+similarity measure.
+Label: METODE  StartNode: 3665  EndNode: 3738
+To address this problem, we apply SVMs
+to the task of relation exraction.
+Label: METODE  StartNode: 4601  EndNode: 4736
+We define a tree kernel over dependency trees
+and incorporate this kernel within an SVM to ex-
+tract relations from newswire documents.
+Label: DATA  StartNode: 17525  EndNode: 17672
+We extract relations from the Automatic Con-
+tent Extraction (ACE) corpus provided by the
+National Institute for Standards and Technol-
+ogy (NIST).
+Label: HASIL  StartNode: 21876  EndNode: 21993
+The first result of interest is that the sparse tree
+kernel does not perform as well as the con-
+tiguous tree kernel.
+Label: HASIL  StartNode: 22194  EndNode: 22436
+The second result of interest is that all tree
+kernels outperform the bag-of-words kernel,
+most noticeably in recall performance, implying
+that the structural information the tree kernel pro-
+vides is extremely useful for relation extraction.
+Label: HASIL  StartNode: 22783  EndNode: 22916
+We have shown that using a dependency tree ker-
+nel for relation extraction provides a vast improve-
+ment over a bag-of-words kernel.
+Label: HASIL  StartNode: 22917  EndNode: 23047
+While the de-
+pendency tree kernel appears to perform well at
+the task of classifying relations, recall is still rela-
+tively low.
+Label: Method Title  StartNode: 0  EndNode: 23
+Dependency Tree Kernels
+Label: Problem Title  StartNode: 28  EndNode: 47
+Relation Extraction

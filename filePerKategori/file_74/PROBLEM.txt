@@ -1,0 +1,2 @@
+The extraction of information from the content of thesesources is a challenging problem and a hard task since they are het-erogeneous and dynamic.
+The problem we resolve in this paper is to build a wrapper for adata source which can extract a relation it contains.

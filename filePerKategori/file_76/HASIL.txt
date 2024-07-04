@@ -1,0 +1,5 @@
+We examine the utility of dif-ferent features such as Wordnet hyper-nyms, parts of speech, and entity types,and find that the dependency tree kernelachieves a 20% F1 improvement over a“bag-of-words” kernel.
+The first result of interest is that the sparse treekernel does not perform as well as the con-tiguous tree kernel.
+The second result of interest is that all treekernels outperform the bag-of-words kernel,most noticeably in recall performance, implyingthat the structural information the tree kernel pro-vides is extremely useful for relation extraction.
+We have shown that using a dependency tree ker-nel for relation extraction provides a vast improve-ment over a bag-of-words kernel.
+While the de-pendency tree kernel appears to perform well atthe task of classifying relations, recall is still rela-tively low.

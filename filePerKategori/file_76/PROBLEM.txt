@@ -1,0 +1,2 @@
+We extend previous work on tree kernelsto estimate the similarity between thedependency trees of sentences.
+The ability to detect complex patterns in data islimited by the complexity of the data’s represen-tation.

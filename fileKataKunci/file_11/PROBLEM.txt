@@ -1,0 +1,11 @@
+paper,1
+presents,1
+method,1
+extractingmeaningful,1
+relations,1
+unstructured,1
+natural,1
+lan,1
+guage,1
+sources,1
+t,1

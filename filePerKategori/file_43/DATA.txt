@@ -1,0 +1,1 @@
+In this section, we describe our empirical evaluations onthree datasets: TechTC-100 [9]; 20-Newsgroups [1,2,21]; andReuters RCV2 [23].

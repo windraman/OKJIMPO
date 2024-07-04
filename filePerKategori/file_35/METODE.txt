@@ -1,0 +1,8 @@
+In particular, wetackle relation extraction and entity identifi-cation jointly.
+We use distant supervision totrain a factor graph model for relation ex-traction based on an existing knowledge base(Freebase, derived in parts from Wikipedia).
+For inference we run an efficient Gibbs sam-pler that leads to linear time joint inference.
+It is based on an undirected graphical modelin which variables correspond to facts, and factorsbetween them measure compatibility.
+Akin to previous work inrelation extraction with distant supervision, we re-quire no annotated text.
+However, instead extract-ing facts in isolation, we model interactions betweenfacts in order to improve precision.
+In particular, wecapture selectional preferences of relations.
+Thesepreferences are modelled in a cross-document fash-ion using a large scale factor graph.

@@ -1,0 +1,1 @@
+We used the Reuters-21578 collection’ as a testbed  for ourexperiments.

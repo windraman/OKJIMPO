@@ -1,0 +1,3 @@
+Text classification is the process of automatically assigning predefined categories to free text, which is very important to information retrieval and many other applications.
+Of it, the first important thing is to effectively represent a text to characterize it as belonging to a specified category based on its content and thus make the following phase of classifier training and using more effective and efficient regarding to the final classification performance.
+In this paper, we propose a new approach to feature selection to do feature reduction, which is a constituent process in representing texts.

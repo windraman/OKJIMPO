@@ -1,0 +1,2 @@
+The problemis that these shallow features often break downwhere underlying linguistic content needs to becompared rather than just surface structure.
+The problem with these systems is that they alluse supervised approaches to IE that require thatthe IE templates be known in advance and addi-tionally require significant investment in writingextraction rules or in annotating data for train-ing.

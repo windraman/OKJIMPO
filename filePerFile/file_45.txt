@@ -1,0 +1,104 @@
+Section Title : 
+1 Introduction
+1.1 Related Work
+2 Learning with Less Features
+5 Experiments and Results
+8 Discussion
+Label: section  StartNode: 1175  EndNode: 1189
+1 Introduction
+Label: section  StartNode: 5786  EndNode: 5802
+1.1 Related Work
+Label: section  StartNode: 8529  EndNode: 8558
+2 Learning with Less Features
+Label: section  StartNode: 16906  EndNode: 16931
+5 Experiments and Results
+Label: section  StartNode: 37272  EndNode: 37284
+8 Discussion
+Label: Abstract  StartNode: 218  EndNode: 226
+Abstract
+Label: intro  StartNode: 1175  EndNode: 1189
+1 Introduction
+Label: rel_work  StartNode: 5786  EndNode: 5802
+1.1 Related Work
+Label: method  StartNode: 8529  EndNode: 8558
+2 Learning with Less Features
+Label: exp_result  StartNode: 16906  EndNode: 16931
+5 Experiments and Results
+Label: conclusion  StartNode: 37272  EndNode: 37284
+8 Discussion
+Label: References  StartNode: 38660  EndNode: 38671
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 52
+On the Role of Lexical Features in Sequence Labeling
+Label: NAMA  StartNode: 53  EndNode: 66
+Yoav Goldberg
+Label: NAMA  StartNode: 72  EndNode: 87
+Michael Elhadad
+Label: OTHER  StartNode: 154  EndNode: 188
+POB 653 Be’er Sheva, 84105, Israel
+Label: METODE  StartNode: 227  EndNode: 445
+We use the technique of SVM anchoring to
+demonstrate that lexical features extracted
+from a training corpus are not necessary to
+obtain state of the art results on tasks such
+as Named Entity Recognition and Chunk-
+ing.
+Label: PROBLEM  StartNode: 227  EndNode: 445
+We use the technique of SVM anchoring to
+demonstrate that lexical features extracted
+from a training corpus are not necessary to
+obtain state of the art results on tasks such
+as Named Entity Recognition and Chunk-
+ing.
+Label: HASIL  StartNode: 748  EndNode: 1002
+Contrastive error analy-
+sis (with and without lexical features) in-
+dicates that lexical features do contribute
+to resolving some semantic and complex
+syntactic ambiguities – but we find this
+contribution does not generalize outside
+the training corpus.
+Label: PROBLEM  StartNode: 1864  EndNode: 2102
+While early approaches to the NP-chunking task
+(Cardie and Pierce, 1998) relied on part-of-speech
+information alone, it is widely accepted that lexi-
+cal information (word forms) is crucial for build-
+ing accurate systems for these tasks.
+Label: HASIL  StartNode: 2527  EndNode: 2602
+We find that exact word forms
+aren’t necessary for accurate classification.
+Label: METODE  StartNode: 8559  EndNode: 8692
+We adopt the common feature representation in
+which each data-point is represented as a sparse
+D dimensional binary-valued vector f .
+Label: METODE  StartNode: 9999  EndNode: 10193
+To demonstrate this claim,
+we experiment with anchored SVM, which intro-
+duces artificial mechanical anchors into the model
+to achieve separability, and make rare lexical fea-
+tures unnecessary.
+Label: DATA  StartNode: 16967  EndNode: 17048
+We use the Dutch data set from the CoNLL 2002
+shared task (Tjong Kim Sang, 2002).
+Label: DATA  StartNode: 19882  EndNode: 19930
+We use the data from
+the CoNLL 2000 shared task.
+Label: HASIL  StartNode: 37285  EndNode: 37390
+For all the sequence labeling tasks we analyzed,
+the anchored-SVM proved to be robust to feature
+pruning.
+Label: HASIL  StartNode: 37391  EndNode: 37559
+The experiments support the claim that
+rare lexical features do not provide substantial in-
+formation to the model, but instead play a role in
+maintaining separability.
+Label: HASIL  StartNode: 37560  EndNode: 37687
+When this role is taken
+over by anchoring, we can obtain the same level
+of performance with very few robust lexical fea-
+tures.
+Label: Problem Title  StartNode: 0  EndNode: 31
+On the Role of Lexical Features
+Label: Data Title  StartNode: 35  EndNode: 52
+Sequence Labeling

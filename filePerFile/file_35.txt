@@ -1,0 +1,114 @@
+Section Title : 
+1 Introduction
+2 Background
+4 Related Work
+5 Experiments
+6 Conclusion
+Label: section  StartNode: 1335  EndNode: 1349
+1 Introduction
+Label: section  StartNode: 6454  EndNode: 6466
+2 Background
+Label: section  StartNode: 30590  EndNode: 30604
+4 Related Work
+Label: section  StartNode: 32437  EndNode: 32450
+5 Experiments
+Label: section  StartNode: 46095  EndNode: 46107
+6 Conclusion
+Label: Abstract  StartNode: 383  EndNode: 391
+Abstract
+Label: intro  StartNode: 1335  EndNode: 1349
+1 Introduction
+Label: method  StartNode: 6454  EndNode: 6466
+2 Background
+Label: rel_work  StartNode: 30590  EndNode: 30604
+4 Related Work
+Label: exp_result  StartNode: 32437  EndNode: 32450
+5 Experiments
+Label: conclusion  StartNode: 46095  EndNode: 46107
+6 Conclusion
+Label: References  StartNode: 48177  EndNode: 48188
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 67
+Collective Cross-Document Relation Extraction Without Labelled Data
+Label: OTHER  StartNode: 68  EndNode: 216
+Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing, pages 1013–1023,
+MIT, Massachusetts, USA, 9-11 October 2010.
+Label: NAMA  StartNode: 266  EndNode: 275
+Limin Yao
+Label: NAMA  StartNode: 276  EndNode: 292
+Sebastian Riedel
+Label: NAMA  StartNode: 293  EndNode: 308
+Andrew McCallum
+Label: PROBLEM  StartNode: 392  EndNode: 551
+We present a novel approach to relation ex-
+traction that integrates information across doc-
+uments, performs global inference and re-
+quires no labelled text.
+Label: METODE  StartNode: 552  EndNode: 633
+In particular, we
+tackle relation extraction and entity identifi-
+cation jointly.
+Label: METODE  StartNode: 634  EndNode: 797
+We use distant supervision to
+train a factor graph model for relation ex-
+traction based on an existing knowledge base
+(Freebase, derived in parts from Wikipedia).
+Label: METODE  StartNode: 798  EndNode: 890
+For inference we run an efficient Gibbs sam-
+pler that leads to linear time joint inference.
+Label: DATA  StartNode: 891  EndNode: 1019
+We evaluate our approach both for an in-
+domain (Wikipedia) and a more realistic out-
+of-domain (New York Times Corpus) setting.
+Label: HASIL  StartNode: 1020  EndNode: 1162
+For the in-domain setting, our joint model
+leads to 4% higher precision than an isolated
+local approach, but has no advantage over a
+pipeline.
+Label: HASIL  StartNode: 1163  EndNode: 1334
+For the out-of-domain data, we ben-
+efit strongly from joint modelling, and observe
+improvements in precision of 13% over the
+pipeline, and 15% over the isolated baseline.
+Label: PROBLEM  StartNode: 2255  EndNode: 2380
+Naturally, the predictions of a distantly supervised
+relation extractor will be less accurate than those of
+a supervised one.
+Label: PROBLEM  StartNode: 2381  EndNode: 2531
+While facts of existing knowledge
+bases are inexpensive to come by, the heuristic align-
+ment to text will often lead to noisy patterns in learn-
+ing.
+Label: PROBLEM  StartNode: 2806  EndNode: 2962
+However, when we use the knowl-
+edge base Freebase (Bollacker et al., 2008) and the
+New York Times corpus (Sandhaus, 2008), we ob-
+serve very low precision.
+Label: METODE  StartNode: 4614  EndNode: 4746
+It is based on an undirected graphical model
+in which variables correspond to facts, and factors
+between them measure compatibility.
+Label: HASIL  StartNode: 46003  EndNode: 46094
+For example, the held-out experiments with 200,000
+NYT documents finish within three hours.
+Label: METODE  StartNode: 46187  EndNode: 46289
+Akin to previous work in
+relation extraction with distant supervision, we re-
+quire no annotated text.
+Label: METODE  StartNode: 46290  EndNode: 46406
+However, instead extract-
+ing facts in isolation, we model interactions between
+facts in order to improve precision.
+Label: METODE  StartNode: 46407  EndNode: 46470
+In particular, we
+capture selectional preferences of relations.
+Label: METODE  StartNode: 46471  EndNode: 46565
+These
+preferences are modelled in a cross-document fash-
+ion using a large scale factor graph.
+Label: HASIL  StartNode: 46677  EndNode: 46837
+When applied to out-of-domain text, this approach
+leads to a 15% increase in precision over an isolated
+baseline, and a 13% improvement over a pipelined
+system.

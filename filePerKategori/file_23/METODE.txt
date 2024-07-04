@@ -1,0 +1,4 @@
+SupervisedHidden Markov Model
+ Our method re-lies on a Hidden Markov Model (HMM) trained on a corpusof 9,679 clinical notes from NewYork-Presbyterian Hospi-tal.
+2010
+Our work contrasts from their approach in the fol-lowing ways: (i) sections are classi?ed as part of a sequence,not independently of the other sections in the note; (ii) ourset of section labels is more generic than theirs, and thussmaller, so as to be robust across note types (e.g., dischargesummaries vs. outpatient consult notes); and (iii) like intheir work, our dataset is comprised of sections with head-ers mapped to the 15 section labels automatically accordingto a hand-built mapping dictionary. 

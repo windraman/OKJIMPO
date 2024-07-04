@@ -1,0 +1,1 @@
+Therewere 50 topic clusters to be summarised with respect to ashort topic query consisting of a 1 to 4 sentence descrip-tion of an information need.

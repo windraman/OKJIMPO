@@ -1,0 +1,2 @@
+In our dataset of 9,679 notes we paid attention to thefollowing: we did not include notes with less than two sectionheaders; we did not include notes in the training data, whichcame from the same patient id as the clinical notes presentin the test set.
+The test set contains 2,088 clinical notes,corresponding to 11,706 text spans. 

@@ -1,0 +1,1 @@
+It consists of having the decision-maker select a subset of preferred objects(e.g., houses) out of a set of possible alternatives by considering trade-offs among multiple objectives (e.g., houselocation, house quality) and by evaluating the objects with respect to their values for a set of primitive attributes(e.g., distance from work, size of the garden).

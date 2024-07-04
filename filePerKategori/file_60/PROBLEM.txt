@@ -1,0 +1,4 @@
+Multilingual information search becomes increasingly important due to the grow-ing amount of online information available in non-English languages and the riseof multilingual document collections.
+Query translation for CLIR became themost widely used technique to access documents in a different language fromthe query.
+As CLIR is less accurate than monolingual IR, the combination ofquery translation techniques is a promising way to approximate monolingualaccuracy.
+Combination of statistical machine translation (SMT),machine readable dictionary (MRD) based models or similarity thesauri (ST)proved to be difficult [1] due to the difference in the accuracy of individual mod-els (SMT tends to be superior); the aggregation of translation errors; or thetopic drift caused by integrating multiple translations in a single query.

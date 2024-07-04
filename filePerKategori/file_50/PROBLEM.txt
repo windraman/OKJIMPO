@@ -1,0 +1,2 @@
+Expository texts such as science magazine articles andenvironmental impact reports can be viewed as beingcomposed of a few main topics and a series of short,sometimesdensely discussed, subtopics.
+The capability to automate the recognition of this kindof structure in a full-text document shouldbe useful forimproving a variety of computational tasks, e.g., hy-pertext, text summarization and information retrieval.

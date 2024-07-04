@@ -1,0 +1,4 @@
+Translation dictionaries do not exist for every languagepair, and they are usually trained on large parallel corpora, where each document hasan exact translation in the other language, or are hand-built.
+Parallel corpora are notavailable for each language pair.
+In contrast, comparable corpora in which documentsin the source and the target language contain similar content, are usually available inabundance.
+In this paper we address the question whether suitable cross-language re-trieval models can be built based on the interlingual topic representations learned fromcomparable corpora.

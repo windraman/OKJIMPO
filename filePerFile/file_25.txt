@@ -1,0 +1,70 @@
+Section Title : 
+1. Introduction
+3. Previous Work
+4. The Method
+4.2. Pattern Matching
+5. Conclusions and Further Work
+Label: section  StartNode: 1267  EndNode: 1282
+1. Introduction
+Label: section  StartNode: 4555  EndNode: 4571
+3. Previous Work
+Label: section  StartNode: 6159  EndNode: 6172
+4. The Method
+Label: section  StartNode: 7237  EndNode: 7258
+4.2. Pattern Matching
+Label: section  StartNode: 15081  EndNode: 15112
+5. Conclusions and Further Work
+Label: Abstract  StartNode: 319  EndNode: 327
+Abstract
+Label: intro  StartNode: 1267  EndNode: 1282
+1. Introduction
+Label: rel_work  StartNode: 4555  EndNode: 4571
+3. Previous Work
+Label: method  StartNode: 6159  EndNode: 6172
+4. The Method
+Label: exp_result  StartNode: 7237  EndNode: 7258
+4.2. Pattern Matching
+Label: conclusion  StartNode: 15081  EndNode: 15112
+5. Conclusions and Further Work
+Label: References  StartNode: 16620  EndNode: 16634
+
+6. References
+Label: JUDUL  StartNode: 0  EndNode: 26
+Causal Relation Extraction
+Label: NAMA  StartNode: 27  EndNode: 70
+Eduardo Blanco, Nuria Castell, Dan Moldovan
+Label: OTHER  StartNode: 163  EndNode: 252
+The University of Texas at Dallas, Universitat Polite`cnica de Catalunya, Richardson - TX
+Label: METODE  StartNode: 328  EndNode: 444
+This paper presents a supervised method for the detection and extraction of Causal Relations from open domain text. 
+Label: METODE  StartNode: 665  EndNode: 850
+Our approach first identifies the syntactic patterns that may encode a
+causation, then we use Machine Learning techniques to decide whether or not a pattern instance encodes a causation
+Label: PROBLEM  StartNode: 1283  EndNode: 1443
+The automatic detection and extraction of Semantic Rela-
+tions is a crucial step to improve the performance of several
+Natural Language Processing applications.
+Label: METODE  StartNode: 6173  EndNode: 6299
+Our method for the detection and extraction of causations
+is based on the use of syntactic patterns that may encode
+causation.
+Label: DATA  StartNode: 6470  EndNode: 6615
+We manually classified 1270 sentences from the TREC5
+corpus into encoding or not encoding causation; 170 in-
+trasentencial causations were found.
+Label: DATA  StartNode: 7259  EndNode: 7341
+We performed our experiments using the semantically an-
+notated SemCor 2.1 corpus.
+Label: HASIL  StartNode: 12871  EndNode: 12899
+Again, the results are good.
+Label: HASIL  StartNode: 14545  EndNode: 14648
+Examining the trees learned we can conclude that most of
+the possible semantic classes are not covered.
+Label: HASIL  StartNode: 15113  EndNode: 15272
+We have proposed a system for the detection of marked and
+explicit causations between a verb phrase and a subordi-
+nate clause which yields a high performance.
+Label: HASIL  StartNode: 15273  EndNode: 15360
+The system
+is relatively simple and is able to detect causations from
+open domain text.

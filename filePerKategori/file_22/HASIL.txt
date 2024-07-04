@@ -1,0 +1,2 @@
+RESULTS: The pro-posed method outperformed the previousapproaches, achieving 95.5% per-sentenceaccuracy and 68.8% per-abstract accuracy.CONCLUSION: The experimental resultsshowed that CRFs could model the rhetor-ical structure of abstracts more suitably.
+The CRF clas-sifier had roughly 5% advantage on per-abstract ac-curacy over SVM. 

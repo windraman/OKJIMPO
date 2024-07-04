@@ -1,0 +1,6 @@
+tipster,1
+provided,1
+topic,1
+de,1
+scription,1
+query,1

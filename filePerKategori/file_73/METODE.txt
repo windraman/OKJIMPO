@@ -1,0 +1,5 @@
+The backbone is an Information Retrieval (IR) system based on a search engine and a multilingual module based on statistical machine translation of documents.
+To this system is added a Query Expansion (QE) module which mainly uses linguistic resources to perform the expansion.
+Our proposal is to overcome this problem by using Query Expansion (QE).
+QE consists in adding new words to the initial query.
+In a nutshell, our key idea is to combine QE with CLIR in a Multilingual Multimedia Information Retrieval (MMIR) prototype.

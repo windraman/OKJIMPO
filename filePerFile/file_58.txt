@@ -1,0 +1,125 @@
+Section Title : 
+1 INTRODUCTION
+2 METHODS
+4 RESULTS AND DISCUSSION
+5 CONCLUSIONS
+Label: section  StartNode: 1415  EndNode: 1429
+1 INTRODUCTION
+Label: section  StartNode: 4774  EndNode: 4783
+2 METHODS
+Label: section  StartNode: 18539  EndNode: 18563
+4 RESULTS AND DISCUSSION
+Label: section  StartNode: 25899  EndNode: 25912
+5 CONCLUSIONS
+Label: Abstract  StartNode: 378  EndNode: 386
+ABSTRACT
+Label: intro  StartNode: 1415  EndNode: 1429
+1 INTRODUCTION
+Label: method  StartNode: 4774  EndNode: 4783
+2 METHODS
+Label: exp_result  StartNode: 18539  EndNode: 18563
+4 RESULTS AND DISCUSSION
+Label: conclusion  StartNode: 25899  EndNode: 25912
+5 CONCLUSIONS
+Label: References  StartNode: 30673  EndNode: 30684
+
+REFERENCES
+Label: JUDUL  StartNode: 0  EndNode: 54
+RelEx—Relation extraction using dependency parse trees
+Label: NAMA  StartNode: 55  EndNode: 102
+Katrin Fundel?, Robert Ku¨ffner and Ralf Zimmer
+Label: OTHER  StartNode: 214  EndNode: 301
+Received on August 31, 2006; revised on November 8, 2006; accepted on November 28, 2006
+Label: TAHUN  StartNode: 237  EndNode: 241
+2006
+Label: PROBLEM  StartNode: 399  EndNode: 609
+The discovery of regulatory pathways, signal cascades,
+metabolic processes or diseasemodels requires knowledge on individ-
+ual relations like e.g. physical or regulatory interactions between
+genes and proteins.
+Label: PROBLEM  StartNode: 610  EndNode: 728
+Most interactions mentioned in the free text of
+biomedical publications are not yet contained in structured databases.
+Label: PROBLEM  StartNode: 610  EndNode: 728
+Most interactions mentioned in the free text of
+biomedical publications are not yet contained in structured databases.
+Label: METODE  StartNode: 738  EndNode: 809
+We developed RelEx, an approach for relation extraction
+from free text.
+Label: METODE  StartNode: 810  EndNode: 948
+It is based on natural language preprocessing producing
+dependency parse trees and applying a small number of simple rules to
+these trees.
+Label: HASIL  StartNode: 949  EndNode: 1160
+We applied RelEx on a comprehensive set of one million
+MEDLINE abstracts dealing with gene and protein relations and
+extracted ~150000 relations with an estimated perfomance of both
+80% precision and 80% recall.
+Label: DATA  StartNode: 949  EndNode: 1160
+We applied RelEx on a comprehensive set of one million
+MEDLINE abstracts dealing with gene and protein relations and
+extracted ~150000 relations with an estimated perfomance of both
+80% precision and 80% recall.
+Label: PROBLEM  StartNode: 1430  EndNode: 1645
+Most biological facts are available only in the free text of scientific
+articles. For information integration or combination with other types
+of data, these facts have to be extracted from the scientific literature.
+Label: PROBLEM  StartNode: 2156  EndNode: 2226
+Extracted relations
+exhibit high sensitivity but very low specificity.
+Label: METODE  StartNode: 3856  EndNode: 4004
+It uses a
+small set of simple rules, building upon publicly available tools
+applied for part-of-speech-tagging, noun-phrase-chunking and
+dependency.
+Label: METODE  StartNode: 4005  EndNode: 4202
+As an extension to standard relation extraction pipelines, we
+propose the use of dependency parse trees (Klein and Manning,
+2002, 2003; Mel’cuk, 1988) as a means for biomedical relation
+extraction.
+Label: METODE  StartNode: 4784  EndNode: 4887
+The RelEx work-flow (Figure 1) extracts directed qualified relations starting
+from free-text sentences.
+Label: METODE  StartNode: 6420  EndNode: 6532
+RelEx creates candidate relations by extracting paths connecting pairs of
+proteins from dependency parse trees. 
+Label: DATA  StartNode: 14637  EndNode: 14810
+The provided data consists of a synonym dictionary for genes/
+proteins, a training set (55 sentences and 103 interactions) and a test
+set (80 sentences and 54 interactions).
+Label: DATA  StartNode: 14967  EndNode: 15297
+The comprehensive subset of ?1 million MEDLINE abstracts deal-
+ing with human gene and protein interactions from 1990 or newer
+[for details see (Ku¨ffner et al., 2005)] and a synonym dictionary
+(Fundel and Zimmer, 2006) containing 338 824 synonyms for
+27 141 human genes and proteins were used for large-scale relation
+extraction.
+Label: DATA  StartNode: 15351  EndNode: 15491
+We randomly selected a subset of 50 abstracts (called hprd50)
+referenced by the Human Protein Reference Database (HPRD)
+(Peri et al., 2004).
+Label: HASIL  StartNode: 18655  EndNode: 19083
+Evalua-
+tion results obtained on the LLL-challenge dataset (Figure 4,
+F 75%, R 83%, P 68% on the training set; F 72%, R 78%,
+P 68% for the basic test set) show that RelEx returns relations
+with significantly higher recall and precision than the approaches
+previously applied for the LLL-challenge [F 51.8%, R 53.8%,
+P 50.0% for the basic and F 54.3%, R 53.0%, P 55.6% for the
+linguistically enriched test set (Ne´dellec, 2005)].
+Label: HASIL  StartNode: 19683  EndNode: 19809
+For both datasets (LLL and hprd50) RelEx
+achieves significantly higher precision and thus F-measure than
+co-occurrence-search.
+Label: HASIL  StartNode: 23401  EndNode: 23530
+RelEx extracts a significantly larger
+number of relations from the abstracts than the number of interac-
+tions contained in HPRD.
+Label: HASIL  StartNode: 26510  EndNode: 26681
+If RelEx is compared on the rather stringent criteria of the LLL
+challenge dataset (Ne´dellec, 2005), performance is significantly
+higher than previously reported results.
+Label: Problem Title  StartNode: 0  EndNode: 25
+RelEx—Relation extraction
+Label: Method Title  StartNode: 32  EndNode: 54
+dependency parse trees

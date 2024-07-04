@@ -1,0 +1,116 @@
+Section Title : 
+1 Introduction
+3 Algorithm for Set Cover Extraction
+6 Results
+7.3 Comparison to Supervised Extraction
+8 Conclusion
+Label: section  StartNode: 1265  EndNode: 1279
+1 Introduction
+Label: section  StartNode: 9178  EndNode: 9214
+3 Algorithm for Set Cover Extraction
+Label: section  StartNode: 12800  EndNode: 12809
+6 Results
+Label: section  StartNode: 21397  EndNode: 21436
+7.3 Comparison to Supervised Extraction
+Label: section  StartNode: 25918  EndNode: 25930
+8 Conclusion
+Label: Abstract  StartNode: 434  EndNode: 442
+Abstract
+Label: intro  StartNode: 1265  EndNode: 1279
+1 Introduction
+Label: method  StartNode: 9178  EndNode: 9214
+3 Algorithm for Set Cover Extraction
+Label: exp_result  StartNode: 12800  EndNode: 12809
+6 Results
+Label: rel_work  StartNode: 21397  EndNode: 21436
+7.3 Comparison to Supervised Extraction
+Label: conclusion  StartNode: 25918  EndNode: 25930
+8 Conclusion
+Label: References  StartNode: 27308  EndNode: 27319
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 62
+Multi-Document Summarisation Using Generic Relation Extraction
+Label: OTHER  StartNode: 63  EndNode: 193
+Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing, pages 420–429,
+Singapore, 6-7 August 2009.
+Label: TAHUN  StartNode: 82  EndNode: 86
+2009
+Label: TAHUN  StartNode: 188  EndNode: 192
+2009
+Label: TAHUN  StartNode: 197  EndNode: 201
+2009
+Label: NAMA  StartNode: 279  EndNode: 289
+Ben Hachey
+Label: METODE  StartNode: 633  EndNode: 885
+A novel
+representation is introduced based on
+generic relation extraction (GRE), which
+aims to build systems for relation iden-
+tification and characterisation that can be
+transferred across domains and tasks with-
+out modification of model parameters.
+Label: PROBLEM  StartNode: 4445  EndNode: 4597
+The problem
+is that these shallow features often break down
+where underlying linguistic content needs to be
+compared rather than just surface structure.
+Label: PROBLEM  StartNode: 5522  EndNode: 5772
+The problem with these systems is that they all
+use supervised approaches to IE that require that
+the IE templates be known in advance and addi-
+tionally require significant investment in writing
+extraction rules or in annotating data for train-
+ing.
+Label: METODE  StartNode: 8417  EndNode: 8472
+The GRE models
+used here do rely on dependency parsing.
+Label: METODE  StartNode: 9215  EndNode: 9338
+For the sake of comparison, the current evaluation
+adopts the Filatova and Hatzivassiloglou (2004)
+summarisation framework.
+Label: DATA  StartNode: 9338  EndNode: 9528
+The experiments here use the multi-document
+summarisation data from the 2001 Document Un-
+derstanding Conference (DUC),
+8
+which is the
+same data used by Filatova and Hatzivassiloglou
+(2004).
+Label: HASIL  StartNode: 13260  EndNode: 13481
+The results demonstrate unambigu-
+ously that the event and relation representations
+outperform the tf*idf representation, with strongly
+significant p-values less than 0.001 for both Rouge
+measures and all summary lengths.
+Label: HASIL  StartNode: 14127  EndNode: 14370
+Results suggest that
+the entity pair model based on GRE data out-
+performs the entity pair model based on atomic
+events, at least for medium sized summaries of
+100 and 200 words where ER is significantly better
+than EE for both Rouge measures.
+Label: HASIL  StartNode: 14484  EndNode: 14672
+The scores for the entity
+pair representations reported in Table 3 are statisti-
+cally indistinguishable from those for correspond-
+ing relation and event representations in Table 2
+above.
+Label: HASIL  StartNode: 26359  EndNode: 26511
+Performance for the re-
+lation representation is significantly better than a
+non-trivial tf*idf baseline across the range of sum-
+mary lengths explored.
+Label: HASIL  StartNode: 26512  EndNode: 26625
+Performance is also at
+least as good as a comparable but less general rep-
+resentation based on event extraction.
+Label: HASIL  StartNode: 26626  EndNode: 26771
+Correlation
+analysis suggests that different representations are
+complementary due to the fact that they perform
+well on different document sets.
+Label: Problem Title  StartNode: 0  EndNode: 28
+Multi-Document Summarisation
+Label: Method Title  StartNode: 35  EndNode: 62
+Generic Relation Extraction

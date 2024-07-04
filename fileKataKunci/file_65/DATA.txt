@@ -1,0 +1,14 @@
+proposed,2
+method,2
+malay,2
+english,2
+actual,2
+quran,2
+collection,2
+evaluate,1
+effectiveness,1
+clir,1
+documents,1
+sets,1
+abdullah,1
+verify,1

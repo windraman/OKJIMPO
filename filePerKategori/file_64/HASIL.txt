@@ -1,0 +1,5 @@
+As we can see, both NB-EM and VS-EM-Spyperform on par with the Constraint method on this task.
+As we conjectured,for this relation (which lacks true integrity constraints), theEM-based methods have higher accuracy than the constraint-based method.
+As we can see in Figure 7,Snowball variations with no specific tuning for DiseaseOut-breaks produce results that are comparable with those forProteus.
+In fact, Snowball manages to achieve recall that issubstantially higher than that of Proteus while maintainingcompetitive precision.
+We showed that ourgeneral EM-based confidence estimation method improvesextraction accuracy over heuristic-based methods, allowinga partially supervised relation extraction system to achieveaccuracy comparable to a sophisticated manually tuned state-of-the-art information extraction system.

@@ -1,0 +1,5 @@
+We also developed a new supervised feature selection method,named CHIR, which is based on the ?2 statistic and the new term-category dependency measure.
+Unlike CHI, CHIR selects featureshaving strong positive dependency on the categories.
+Unlike the IFmethod [12], which performs text clustering and feature selectionseparately, TCFS integrates a supervised feature selection method,such as CHIR, into the text clustering process.
+Our feature selection method CHIR uses r?2(w) to measure theterm-goodness, and makes sure that the r?2 statistic of each termrepresents only positive term-category dependency.
+In TCFS, asupervised feature selection method, such as CHIR, is integratedinto the updating step of k-means, and the new updating stepis considered as the E-step of TCFS.

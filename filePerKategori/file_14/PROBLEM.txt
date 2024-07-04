@@ -1,0 +1,1 @@
+ In this paper, we propose a new approach to feature selection to do feature reduction, which is a constituent process in representing texts. Using SVM as the classifier, the macro-precision, macro-recall and macro-f1 used to evaluate the performance shown by our experiment are high

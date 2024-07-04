@@ -1,0 +1,4 @@
+One of the most prevalent problems in DNA microarraydatasets is the large degree of high dimensionality that isinherent in the data.
+Feature selection refers to a diverse series of techniquesfrom the ?eld of data mining designed for the reduction ofthe dimensionality of a dataset.
+However, there are a number of feature selection tech-niques which are computationally infeasible due to the se-vere level of high dimensionality found in DNA microarraydatasets.
+Thus, for datasets with such extremedegrees of high dimensionality, the most appropriate choiceof selection approach is univariate feature selection.

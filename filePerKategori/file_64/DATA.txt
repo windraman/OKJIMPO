@@ -1,0 +1,1 @@
+We used three relations ex-tracted from a collection of 145,000 articles from the NewYork Times from 1996, available as part of the North Amer-ican News Text Corpus1.

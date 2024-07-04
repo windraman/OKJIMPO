@@ -1,0 +1,6 @@
+Modern models of relation extraction for tasks likeACE are based on supervised learning of relationsfrom small hand-labeled corpora.
+We investigate analternative paradigm that does not require labeledcorpora, avoiding the domain dependence of ACE-style algorithms, and allowing the use of corporaof any size.
+PROBLEM
+Also, because the relations are labeledon a particular corpus, the resulting classifiers tendto be biased toward that text domain.
+ Unsupervised approaches canuse very large amounts of data and extract verylarge numbers of relations, but the resulting rela-tions may not be easy to map to relations neededfor a particular knowledge base.
+The resulting patterns often sufferfrom low precision and semantic drift.

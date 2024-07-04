@@ -1,0 +1,135 @@
+Section Title : 
+1.  Introduction
+2.  Feature Selection Methods
+4.  Experiments
+5.  Conclusions
+Label: section  StartNode: 1563  EndNode: 1580
+1.  Introduction 
+Label: section  StartNode: 6838  EndNode: 6868
+2.  Feature Selection Methods 
+Label: section  StartNode: 17098  EndNode: 17114
+4.  Experiments 
+Label: section  StartNode: 30167  EndNode: 30183
+5.  Conclusions 
+Label: Abstract  StartNode: 603  EndNode: 613
+Abstract  
+Label: intro  StartNode: 1563  EndNode: 1580
+1.  Introduction 
+Label: method  StartNode: 6838  EndNode: 6868
+2.  Feature Selection Methods 
+Label: exp_result  StartNode: 17098  EndNode: 17114
+4.  Experiments 
+Label: conclusion  StartNode: 30167  EndNode: 30183
+5.  Conclusions 
+Label: References  StartNode: 31353  EndNode: 31365
+
+References 
+Label: JUDUL  StartNode: 0  EndNode: 54
+An Evaluation on Feature Selection for Text Clustering
+Label: OTHER  StartNode: 57  EndNode: 165
+Proceedings of the Twentieth International Conference on Machine Learning (ICML-2003), Washington DC, 2003. 
+Label: TAHUN  StartNode: 137  EndNode: 141
+2003
+Label: TAHUN  StartNode: 159  EndNode: 163
+2003
+Label: JUDUL  StartNode: 166  EndNode: 221
+An Evaluation on Feature Selection for Text Clustering 
+Label: NAMA  StartNode: 222  EndNode: 229
+Tao Liu
+Label: NAMA  StartNode: 340  EndNode: 353
+Shengping Liu
+Label: NAMA  StartNode: 459  EndNode: 469
+Zheng Chen
+Label: METODE  StartNode: 944  EndNode: 1245
+Then we propose a new 
+feature selection method called “Term 
+Contribution (TC)” and perform a comparative 
+study on a variety of feature selection methods for 
+text clustering, including Document Frequency 
+(DF), Term Strength (TS), Entropy-based (En), 
+Information Gain (IG) and ?2 statistic (CHI). 
+Label: METODE  StartNode: 1246  EndNode: 1479
+Finally, we propose an “Iterative Feature Selection 
+(IF)” method that addresses the unavailability of 
+label problem by utilizing effective supervised 
+feature selection method to iteratively select 
+features and perform clustering.
+Label: METODE  StartNode: 10060  EndNode: 10173
+We introduce a new feature selection method called “Term 
+Contribution” that takes the term weight into account. 
+Label: METODE  StartNode: 10846  EndNode: 10959
+So we define the contribution of a term in a dataset as its 
+overall contribution to the documents’ similarities.
+Label: METODE  StartNode: 13176  EndNode: 13347
+Enlightened by the EM algorithm, we 
+propose a novel iterative feature selection method, which 
+utilizes supervised feature selection methods for text 
+clustering methods.
+Label: METODE  StartNode: 16389  EndNode: 16720
+On the E-step, to approximate the expectation 
+of feature relevance, we use supervised feature selection 
+algorithm to calculate the relevance score for each term, 
+then the probability for the term relevance is simplified to 
+}1,0{)( =tz  according to whether the term relevance 
+score is larger than a predefined threshold value.
+Label: METODE  StartNode: 16721  EndNode: 16829
+So at each 
+iteration, we will remove some irrelevant terms based on 
+the calculated relevance of each term.
+Label: METODE  StartNode: 16830  EndNode: 17096
+On the M-step, 
+because K-means algorithm can be described by slightly 
+extending the mathematics of the EM algorithm to the hard 
+threshold case (Bottou et al., 1995), we use K-means 
+clustering algorithm to obtain the cluster results based on 
+the selected terms. 
+Label: DATA  StartNode: 19587  EndNode: 19846
+So we chose three different text datasets to evaluate 
+text clustering performance, including two standard labeled 
+datasets: Reuters-21578 1  (Reuters), 20 Newsgroups 2 
+(20NG), and one web directory dataset (Web) collected 
+from the Open Directory Project3.
+Label: HASIL  StartNode: 23370  EndNode: 23567
+To prove this, we conducted a Naïve Bayesian 
+classification experiment on Web Directory dataset and 
+found that the classification accuracy increased from 49.6% 
+to 57.6% after removing 98% terms.
+Label: HASIL  StartNode: 25863  EndNode: 25988
+Finally, compared with other unsupervised feature selection 
+methods, TC is better than DF and En, but little worse than 
+TS.
+Label: HASIL  StartNode: 27073  EndNode: 27194
+About 8.5% entropy reduction and 8.1% precision 
+improvement are achieved while 96% features are removed 
+with TS method.
+Label: HASIL  StartNode: 28520  EndNode: 28803
+For example, after 11 iterations 
+with CHI selection on Web Directory dataset (nearly 98% 
+terms removal), the entropy was reduced from 2.305 to 
+1.994 (13.5% entropy reduction relatively) and the 
+precision was improved from 52.9% to 60.6% (14.6% 
+precision improvement relatively).
+Label: PROBLEM  StartNode: 30380  EndNode: 30489
+But in real case the class information is 
+unknown, so only unsupervised feature selection can be 
+exploited.
+Label: PROBLEM  StartNode: 30490  EndNode: 30680
+In many cases, unsupervised feature selection are 
+much worse than supervised feature selection, not only less 
+terms they can remove, but also much worse clustering 
+performance they yield.
+Label: METODE  StartNode: 30681  EndNode: 30870
+In order to utilize the efficient 
+supervised methods, we proposed an iterative feature 
+selection method that iteratively performs clustering and 
+feature selection in a unified framework.
+Label: HASIL  StartNode: 30871  EndNode: 30979
+It is found that its 
+performance is close to the ideal case and much better than 
+any unsupervised methods.
+Label: Problem Title  StartNode: 0  EndNode: 13
+An Evaluation
+Label: Method Title  StartNode: 17  EndNode: 34
+Feature Selection
+Label: Data Title  StartNode: 39  EndNode: 54
+Text Clustering

@@ -1,0 +1,4 @@
+We applied RelEx on a comprehensive set of one millionMEDLINE abstracts dealing with gene and protein relations andextracted ~150000 relations with an estimated perfomance of both80% precision and 80% recall.
+The provided data consists of a synonym dictionary for genes/proteins, a training set (55 sentences and 103 interactions) and a testset (80 sentences and 54 interactions).
+The comprehensive subset of ?1 million MEDLINE abstracts deal-ing with human gene and protein interactions from 1990 or newer[for details see (Ku¨ffner et al., 2005)] and a synonym dictionary(Fundel and Zimmer, 2006) containing 338 824 synonyms for27 141 human genes and proteins were used for large-scale relationextraction.
+We randomly selected a subset of 50 abstracts (called hprd50)referenced by the Human Protein Reference Database (HPRD)(Peri et al., 2004).

@@ -1,0 +1,4 @@
+The region con-necting a pair of entities (in a parsedsentence) is often used to construct ker-nels or feature vectors that can recognizeand extract interesting relations.
+Such re-gions are useful, but they can also incor-porate unnecessary distracting informa-tion.
+The shortest paths between a pair of enti-ties (Bunescu and Mooney, 2005) or pair-enclosedtrees (Zhang et al., 2006) are widely used as focusregions.
+These regions are useful, but they can in-clude unnecessary sub-paths such as appositions,which cause noisy features.

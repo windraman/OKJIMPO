@@ -1,0 +1,107 @@
+Section Title : 
+1. INTRODUCTION
+2. THE APPROACH
+5. RESULTS AND DISCUSSION
+6. CONCLUSIONS AND FUTURE WORK
+Label: section  StartNode: 1398  EndNode: 1413
+1. INTRODUCTION
+Label: section  StartNode: 3646  EndNode: 3661
+2. THE APPROACH
+Label: section  StartNode: 24584  EndNode: 24609
+5. RESULTS AND DISCUSSION
+Label: section  StartNode: 33135  EndNode: 33165
+6. CONCLUSIONS AND FUTURE WORK
+Label: Abstract  StartNode: 297  EndNode: 305
+ABSTRACT
+Label: intro  StartNode: 1398  EndNode: 1413
+1. INTRODUCTION
+Label: method  StartNode: 3646  EndNode: 3661
+2. THE APPROACH
+Label: exp_result  StartNode: 24584  EndNode: 24609
+5. RESULTS AND DISCUSSION
+Label: conclusion  StartNode: 33135  EndNode: 33165
+6. CONCLUSIONS AND FUTURE WORK
+Label: References  StartNode: 34681  EndNode: 34695
+
+7. REFERENCES
+Label: JUDUL  StartNode: 0  EndNode: 49
+A New Approach to Unsupervised Text Summarization
+Label: NAMA  StartNode: 50  EndNode: 64
+Tadashi Nomoto
+Label: OTHER  StartNode: 65  EndNode: 106
+National Institute of Japanese Literature
+Label: NAMA  StartNode: 173  EndNode: 187
+Yuji Matsumoto
+Label: METODE  StartNode: 378  EndNode: 534
+The novelty lies in exploiting the diversity
+of concepts in text for summarization, which has not re-
+ceived much attention in the summarization literature.
+Label: METODE  StartNode: 535  EndNode: 669
+A
+diversity-based approach here is a principled generalization
+of Maximal Marginal Relevance criterion by Carbonell and
+Goldstein [3].
+Label: METODE  StartNode: 670  EndNode: 970
+We propose, in addition, an information-centric approach
+to evaluation, where the quality of summaries is judged not
+in terms of how well they match human-created summaries
+but in terms of how well they represent their source docu-
+ments in IR tasks such document retrieval and text catego-
+rization.
+Label: DATA  StartNode: 971  EndNode: 1233
+To ?nd the e?ectiveness of our approach under the pro-
+posed evaluation scheme, we set out to examine how a sys-
+tem with the diversity functionality performs against one
+without, using the BMIR-J2 corpus, a test data developed
+by a Japanese research consortium.
+Label: HASIL  StartNode: 1234  EndNode: 1343
+The results demonstrate
+a clear superiority of a diversity based approach to a non-
+diversity based approach.
+Label: PROBLEM  StartNode: 1757  EndNode: 1950
+One
+of the problems with the former approach has to do with its
+underlying assumption that human-made summaries are re-
+liable enough to be used as “gold standards” for automatic
+summarization.
+Label: PROBLEM  StartNode: 2968  EndNode: 3221
+Another problem associated with the approach concerns
+the portability of a summarization system: deploying the
+system in a new domain usually requires one to collect a
+large amount of data, which need to be manually annotated,
+and then train the system.
+Label: METODE  StartNode: 3956  EndNode: 4261
+We evaluate summaries, not in terms of how well
+they match human-made extracts [9, 6], nor in terms of how
+much time it takes for humans to make relevance judgments
+on them [12], but in terms of how well they represent source
+documents in usual IR tasks such as document retrieval and
+text categorization.
+Label: METODE  StartNode: 7406  EndNode: 7665
+Roughly,
+the summarizer consists of the following two operations:
+1. Find-Diversity: Find diverse topic areas in text.
+2. Reduce-Redundancy: From each topic area, iden-
+tify the most important sentence and take that sen-
+tence as a representative of the area.
+Label: DATA  StartNode: 21251  EndNode: 21295
+We have conducted experiments using BMIR-J2.
+Label: HASIL  StartNode: 25486  EndNode: 25639
+At compression rates between 20% and 40%, despite
+some outliers, DBS/XM performs better for the majority
+of queries than Z-model, but breaks even at 50%.
+Label: HASIL  StartNode: 26835  EndNode: 26960
+On the other hand, under MRS,
+DBS/XM turned out to be signi?cantly di?erent from Z-
+model at every compression rate examined.
+Label: HASIL  StartNode: 32940  EndNode: 32999
+DBS/XM performs consistently better
+than Z-model under MRS.
+Label: HASIL  StartNode: 33380  EndNode: 33507
+Under this scheme,
+diversity-based summarization (DBS/XM ) was found to be
+superior to relevance-based summarization (Z-model).
+Label: Method Title  StartNode: 0  EndNode: 14
+A New Approach
+Label: Problem Title  StartNode: 18  EndNode: 49
+Unsupervised Text Summarization

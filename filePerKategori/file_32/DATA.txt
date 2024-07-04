@@ -1,0 +1,1 @@
+To elucidate the effect of the sentence simplifi-cation, we applied the rules to five PPI corporaand evaluated the PPI extraction performance.

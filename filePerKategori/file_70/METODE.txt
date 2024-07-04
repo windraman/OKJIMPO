@@ -1,0 +1,4 @@
+This paper reports experimental results of cross-language information retrieval (CLIR) from German to French, in which a hybrid approach of query and document translation was attempted, i.e, combining results of query translation (German to French) and of document translation (French to German).
+In order to avoid too high complexity of computation for translating a large amount of texts in documents, we executed pseudo-translation, i.e., a simple replacement of terms by a bilingual dictionary (for query translation, a machine translation system was used).
+In particular, since English was used as an intermediary language for both translation directions of German and French, English translations at the middle stage were employed as document representations in order to reduce the number of translation steps.
+By omitting a translation step (English to German), the performance was improved.

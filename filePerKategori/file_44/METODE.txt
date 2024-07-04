@@ -1,0 +1,6 @@
+In order to restrict the processing to sen-tences written in English, we apply a language guessertool, lc4j (Lc4j, 2007) and remove sentences not clas-sified as written in English.
+To all remaining sentences, we apply LingPipe (Ling-Pipe, 2007) for sentence boundary detection, namedentity recognition (NER) and coreference resolution.
+We define a sentence to beof potential relevance if it at least contains two NEs.
+We can now extractverb relations using a simple algorithm: We define averb relation to be a verb together with its arguments(subject(s), object(s) and prepositional phrases) andconsider only those relations to be of interest where atleast the subject or the object is an NE.
+We thus de-cided to use a scoring algorithm that compares a re-lation to other relations based on certain aspects andcalculates a similarity score.
+Similarity is measured based on the output from thedifferent preprocessing steps as well as lexical informa-tion from WordNet

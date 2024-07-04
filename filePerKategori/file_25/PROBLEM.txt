@@ -1,0 +1,1 @@
+The automatic detection and extraction of Semantic Rela-tions is a crucial step to improve the performance of severalNatural Language Processing applications.

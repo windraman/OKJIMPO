@@ -1,0 +1,3 @@
+The goal of Information Extraction is to auto-matically generate structured pieces of information from therelevant information contained in text documents.
+However,elements of human supervision strongly bias the learningprocess.
+IE systems require a significant amount of specific lin-guistic knowledge, and the process of language or domainadaptation of IE systems can hence require significant hu-man effort.

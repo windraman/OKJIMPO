@@ -1,0 +1,1 @@
+In this section, we present the results of our CLIR experimentson TREC Chinese corpora.

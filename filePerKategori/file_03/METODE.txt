@@ -1,0 +1,3 @@
+Clustering-Based Feature Selection
+In this contribution a feature selection method in semi-supervised problems is proposed. This method selects variables using a feature clustering strategy, using a combination of supervised and unsupervised feature distance measure, which is based on Conditional Mutual Information and Conditional Entropy.
+In this paper, a filter method for feature selection is presented. A new hybrid method for semi-supervised problem is proposed, which combines supervised and unsupervised measures of information.

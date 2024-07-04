@@ -1,0 +1,4 @@
+Classification of data becomes difficult because of unbounded size and imbalance nature of data. Class imbalance problem become greatest issue in data mining
+Imbalance problem occur where one of the two classes having more sample than other classes
+There are different methods available for classification of imbalance data set which is divided into three main categories, the algorithmic approach, data-preprocessing approach and feature selection approach
+ In imbalance data set the class having more number of instances is called as major class while the one having relatively less number of instances are called as minor class [16]

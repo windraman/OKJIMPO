@@ -1,0 +1,111 @@
+Section Title : 
+I. INTRODUCTION
+II. FEATURE SELECTION BASED ON THE ?2 STATISTICS
+III. TEXT CLUSTERING WITH FEATURE SELECTION (TCFS)
+IV. EXPERIMENTAL RESULTS
+V. CONCLUSIONS
+ACKNOWLEDGMENT
+Label: section  StartNode: 1109  EndNode: 1124
+I. INTRODUCTION
+Label: section  StartNode: 8711  EndNode: 8759
+II. FEATURE SELECTION BASED ON THE ?2 STATISTICS
+Label: section  StartNode: 26657  EndNode: 26707
+III. TEXT CLUSTERING WITH FEATURE SELECTION (TCFS)
+Label: section  StartNode: 36601  EndNode: 36625
+IV. EXPERIMENTAL RESULTS
+Label: section  StartNode: 51011  EndNode: 51025
+V. CONCLUSIONS
+Label: section  StartNode: 53392  EndNode: 53406
+ACKNOWLEDGMENT
+Label: Abstract  StartNode: 121  EndNode: 179
+Abstract— Feature selection is an important method for im-
+Label: intro  StartNode: 1109  EndNode: 1124
+I. INTRODUCTION
+Label: rel_work  StartNode: 8711  EndNode: 8759
+II. FEATURE SELECTION BASED ON THE ?2 STATISTICS
+Label: method  StartNode: 26657  EndNode: 26707
+III. TEXT CLUSTERING WITH FEATURE SELECTION (TCFS)
+Label: exp_result  StartNode: 36601  EndNode: 36625
+IV. EXPERIMENTAL RESULTS
+Label: conclusion  StartNode: 51011  EndNode: 51025
+V. CONCLUSIONS
+Label: conclusion  StartNode: 53392  EndNode: 53406
+ACKNOWLEDGMENT
+Label: References  StartNode: 53483  EndNode: 53494
+
+REFERENCES
+Label: JUDUL  StartNode: 0  EndNode: 65
+Text Clustering with Feature Selection by Using
+Statistical Data
+
+Label: JUDUL  StartNode: 65  EndNode: 120
+Yanjun Li, Congnan Luo, and Soon M. Chung, Member, IEEE
+Label: NAMA  StartNode: 65  EndNode: 121
+Yanjun Li, Congnan Luo, and Soon M. Chung, Member, IEEE
+
+Label: OTHER  StartNode: 131  EndNode: 311
+Feature selection is an important method for im-
+proving the ef?ciency and accuracy of text categorization algo-
+rithms by removing redundant and irrelevant terms from the
+corpus. 
+Label: PROBLEM  StartNode: 1827  EndNode: 2152
+The problem of document clustering is generally de?ned as
+follows: given a set of documents, we would like to partition
+them into a predetermined or an automatically derived number
+of clusters, such that the documents assigned to each cluster
+are more similar to each other than the documents assigned to
+different clusters. 
+Label: PROBLEM  StartNode: 5997  EndNode: 6607
+In this research, we extended the ?2 term-category indepen-
+dence test by introducing new statistical data that can measure
+whether the dependency between a term and a category is positive
+or negative. This new statistical data can describe the term-
+category dependency more accurately than the two variants of
+Digital Object Indentifier 10.1109/TKDE.2007.190740 1041-4347/$25.00 ©  2007 IEEE
+the ?2 statistic — correlation coef?cient and GSS coef?cient.
+We also developed a new supervised feature selection method,
+named CHIR, which is based on the ?2 statistic and the new term-
+category dependency measure.
+Label: METODE  StartNode: 30168  EndNode: 31048
+ Based on the EM algorithm, we propose
+a new text clustering algorithm, named Text Clustering with
+Feature Selection (TCFS), which performs the clustering and the
+supervised feature selection alternately until convergence.
+Recall that we de?ned the problem of text clustering as the
+grouping of documents with similar topics into a cluster. As we
+use the EM algorithm, we assume that each cluster of documents
+has a Gaussian distribution of terms. That means, a corpus with
+k clusters is considered as a mixture of k Gaussian distributions.
+Given the parameters and our Gaussian model, we maximize the
+likelihood of our data set. The maximum likelihood represents
+how well our Gaussian model ?ts the data set. In this case,
+the clustering criterion for the TCFS algorithm is the maximum
+likelihood, and a natural criterion for the feature selection also is
+the maximum likelihood.
+Label: DATA  StartNode: 37481  EndNode: 37953
+We used ?ve test data sets extracted from two different types
+of text databases, which have been widely used by the researchers
+in the information retrieval area. Two data sets, denoted by
+CACM and MED, are extracted from the CACM and MEDLINE
+abstracts, respectively, which are included in the Classic database
+[4]. Additional three data sets, denoted by EXC, PEO and TOP,
+are from the EXCHANGES, PEOPLE and TOPICS category sets
+of the Reuters-21578 Distribution 1.0 [17].
+Label: HASIL  StartNode: 43414  EndNode: 43969
+Our experimental results indicate that CHIR consistently out-
+performs other three methods in terms of increasing the cohe-
+siveness values of the clusters. The performance of CC and CHI
+are very close in some cases, which tells us that identifying
+only the positive term-category dependency is not suf?cient.
+The term-goodness measure should also describe the dependency
+accurately. SCHI does not perform well in most cases because
+the de?nition of s?2 (see Equation 9) does not contain suf?cient
+information about the ?2 term-category independence test.
+Label: TAHUN  StartNode: 59059  EndNode: 59133
+IEEE TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING, VOL. XX, NO. YY, 2008
+Label: Problem Title  StartNode: 0  EndNode: 15
+Text Clustering
+Label: Method Title  StartNode: 21  EndNode: 41
+Feature Selection by
+Label: Data Title  StartNode: 48  EndNode: 64
+Statistical Data

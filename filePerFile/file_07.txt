@@ -1,0 +1,85 @@
+Section Title : 
+1 Introduction
+2 Language Model Readability Prediction
+4 Descriptions of Experiments
+6 Discussion
+Label: section  StartNode: 1106  EndNode: 1121
+1 Introduction 
+Label: section  StartNode: 5485  EndNode: 5525
+2 Language Model Readability Prediction 
+Label: section  StartNode: 19002  EndNode: 19032
+4 Descriptions of Experiments 
+Label: section  StartNode: 26488  EndNode: 26501
+6 Discussion 
+Label: Abstract  StartNode: 374  EndNode: 383
+Abstract 
+Label: intro  StartNode: 1106  EndNode: 1121
+1 Introduction 
+Label: method  StartNode: 5485  EndNode: 5525
+2 Language Model Readability Prediction 
+Label: exp_result  StartNode: 19002  EndNode: 19032
+4 Descriptions of Experiments 
+Label: conclusion  StartNode: 26488  EndNode: 26501
+6 Discussion 
+Label: References  StartNode: 30121  EndNode: 30133
+
+References 
+Label: METODE  StartNode: 0  EndNode: 42
+Combining Lexical and Grammatical Features
+Label: JUDUL  StartNode: 0  EndNode: 112
+Combining Lexical and Grammatical Features to Improve Readability 
+Measures for First and Second Language Texts 
+Label: PROBLEM  StartNode: 45  EndNode: 111
+ Improve Readability 
+Measures for First and Second Language Texts
+Label: NAMA  StartNode: 113  EndNode: 188
+Michael J. Heilman 
+Kevyn Collins-
+Thompson 
+Jamie Callan 
+Maxine Eskenazi 
+Label: PROBLEM  StartNode: 384  EndNode: 533
+This work evaluates a system that uses in-
+terpolated predictions of reading difficulty 
+that are based on both vocabulary and 
+grammatical features.
+Label: OTHER  StartNode: 1122  EndNode: 1339
+The REAP tutoring system (Heilman, et al. 2006), 
+aims to provide authentic reading materials of the 
+appropriate difficulty level, in terms of both vo-
+cabulary and grammar, for English as a Second 
+Language students
+Label: METODE  StartNode: 6590  EndNode: 6700
+The statistical model used for this study is 
+based on a variation of the multinomial Naïve 
+Bayes classifier.
+Label: DATA  StartNode: 7190  EndNode: 7357
+The language models employed in this work are 
+simple: they are based on unigrams and assume 
+that the probability of a token is independent of the 
+surrounding tokens
+Label: DATA  StartNode: 20687  EndNode: 20744
+Two corpora of labeled texts were used in the 
+evaluation
+Label: DATA  StartNode: 20745  EndNode: 20869
+  The first corpus was from a set of texts 
+gathered from the Web for a prior evaluation of the 
+language modeling approach.
+Label: DATA  StartNode: 21074  EndNode: 21387
+The second corpora consisted of textbook mate-
+rials (Adelson-Goldstein and Howard, 2004, for 
+level 2; Ediger and Pavlik, 2000, for levels 3 and 4; 
+Silberstein, 2002, for level 5) from a series of Eng-
+lish as a Second Language reading courses at the 
+English Language Institute at the University of 
+Pittsburgh
+Label: HASIL  StartNode: 28940  EndNode: 29111
+The results of this work suggest that grammatical 
+features can play a role in predicting reading diffi-
+culty levels for both first and second language texts 
+in English.
+Label: Method Title  StartNode: 0  EndNode: 42
+Combining Lexical and Grammatical Features
+Label: Problem Title  StartNode: 46  EndNode: 111
+Improve Readability 
+Measures for First and Second Language Texts

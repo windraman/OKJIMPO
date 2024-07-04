@@ -1,0 +1,5 @@
+Semantic information was used (1) to enhance adependency tree kernel; and (2) to build semanticdependency structures used for enhanced relationextraction for several semantic classifiers. 
+We explored two main resources: PropBank andFrameNet.
+We used thesemantic information identified by the parsers in two ways.
+Instead of usingthe entire dependency tree to compute similarities, we se-lected sub-trees that contain nodes having values for the fea-tures from set F2 (illustrated in Figure 7).
+We used each kernel within an SVM (we augmented theSVMlight implementation to include our kernels).

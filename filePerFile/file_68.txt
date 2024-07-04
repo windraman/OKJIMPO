@@ -1,0 +1,122 @@
+Section Title : 
+1. INTRODUCTION
+2. RELATED WORK
+3. FACETED FEEDBACK
+5. EXPERIMENTAL RESULTS
+6. CONCLUSIONS
+Label: section  StartNode: 1428  EndNode: 1443
+1. INTRODUCTION
+Label: section  StartNode: 6590  EndNode: 6605
+2. RELATED WORK
+Label: section  StartNode: 9922  EndNode: 9941
+3. FACETED FEEDBACK
+Label: section  StartNode: 22278  EndNode: 22301
+5. EXPERIMENTAL RESULTS
+Label: section  StartNode: 33943  EndNode: 33957
+6. CONCLUSIONS
+Label: Abstract  StartNode: 151  EndNode: 159
+ABSTRACT
+Label: intro  StartNode: 1428  EndNode: 1443
+1. INTRODUCTION
+Label: rel_work  StartNode: 6590  EndNode: 6605
+2. RELATED WORK
+Label: method  StartNode: 9922  EndNode: 9941
+3. FACETED FEEDBACK
+Label: exp_result  StartNode: 22278  EndNode: 22301
+5. EXPERIMENTAL RESULTS
+Label: conclusion  StartNode: 33943  EndNode: 33957
+6. CONCLUSIONS
+Label: References  StartNode: 36063  EndNode: 36077
+
+8. REFERENCES
+Label: JUDUL  StartNode: 0  EndNode: 47
+Interactive Retrieval Based on Faceted Feedback
+Label: NAMA  StartNode: 48  EndNode: 59
+Lanbo Zhang
+Label: NAMA  StartNode: 61  EndNode: 69
+Yi Zhang
+Label: OTHER  StartNode: 70  EndNode: 150
+School of Engineering
+UC Santa Cruz
+Santa Cruz, CA, USA{lanbo, yiz}@soe.ucsc.edu
+Label: METODE  StartNode: 160  EndNode: 331
+Motivated by the commonly used faceted search interface
+in e-commerce, this paper investigates interactive relevance
+feedback mechanism based on faceted document metadata.
+Label: METODE  StartNode: 332  EndNode: 485
+In this mechanism, the system recommends a group of docu-
+ment facet-value pairs, and lets users select relevant ones to
+restrict the returned documents.
+Label: METODE  StartNode: 486  EndNode: 621
+We propose four facet-
+value pair recommendation approaches and two retrieval
+models that incorporate user feedback on document facets.
+Label: HASIL  StartNode: 622  EndNode: 961
+Evaluated based on user feedback collected through Amazon
+Mechanical Turk, our experimental results show that the
+Boolean filtering approach, which is widely used in faceted
+search in e-commerce, doesn’t work well for text document
+retrieval, due to the incompleteness (low recall) of metadata
+assignment in semi-structured text documents.
+Label: PROBLEM  StartNode: 1444  EndNode: 1615
+A personalized search or filtering system usually suffers
+from the “cold start” problem, where the system performs
+poorly when it has little training data about new users.
+Label: PROBLEM  StartNode: 2138  EndNode: 2298
+We aim to study a new inter-
+active user feedback mechanism that helps retrieval systems
+learn more about user information needs with limited user
+interactions.
+Label: PROBLEM  StartNode: 2749  EndNode: 2865
+This motivates us
+to explore whether we can adapt the faceted search idea to
+the general purpose document retrieval.
+Label: METODE  StartNode: 4359  EndNode: 4646
+In this mechanism, instead of letting users pro-
+vide relevance feedback on documents or create structured
+queries actively, the system suggests faceted constraints (in
+the form of facet-value pairs) and users can choose interest-
+ing facet-value pairs to improve the returned documents.
+Label: PROBLEM  StartNode: 4733  EndNode: 4785
+First, how to recommend facet-
+value pairs to users.
+Label: PROBLEM  StartNode: 5092  EndNode: 5157
+Secondly, we study how to use
+user faceted feedback in retrieval.
+Label: METODE  StartNode: 5448  EndNode: 5494
+Thus we also propose a soft re-
+trieval model.
+Label: METODE  StartNode: 5495  EndNode: 5600
+In this model, a document that meets a users
+elected faceted constraint gets a certain number of credits.
+Label: DATA  StartNode: 16927  EndNode: 17101
+To evaluate the proposed faceted feedback mechanism, we
+use two TREC filtering track datasets: the medical article
+collection OHSUMED and the news story collection RCV1
+[14].
+Label: HASIL  StartNode: 22706  EndNode: 22848
+The average MAP and P@10 of using faceted feed-
+back on OHSUMED dataset are improved by 32.4% and
+43.9% over the baseline (BM25) respectively.
+Label: HASIL  StartNode: 22849  EndNode: 22934
+The average
+MAP and P@10 on RCV1 dataset are improved by 11.1%
+and 8.8% respectively.
+Label: HASIL  StartNode: 26543  EndNode: 26623
+The Boolean A+O works
+better than Boolean AND while still worse than Boolean
+OR.
+Label: HASIL  StartNode: 32054  EndNode: 32220
+Table 6 shows that FF per-
+forms better than PRF, and closely to RRF on OHSUMED
+dataset; FF performs worse than PRF and RRF on RCV1
+dataset, and 10% better than BM25.
+Label: HASIL  StartNode: 34872  EndNode: 35036
+The proposed soft model
+is shown consistently more effective on both datasets, as it
+automatically learns a weight for each facet, which captures
+the facet quality.
+Label: Problem Title  StartNode: 0  EndNode: 21
+Interactive Retrieval
+Label: Method Title  StartNode: 31  EndNode: 47
+Faceted Feedback

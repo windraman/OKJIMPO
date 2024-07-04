@@ -1,0 +1,3 @@
+TextCategorization
+We address the problem of evaluating the effectiveness ofsummarization techniques for the task of document catego-rization. 
+In this work, we focus on the task of au-tomatic document categorization in scenarios where a doc-ument’s summary is functionally equivalent to reducing thenumber of features of the original.

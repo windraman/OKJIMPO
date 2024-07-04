@@ -1,0 +1,108 @@
+Section Title : 
+1. Introduction
+2. Previous work: dimensionality reduction techniques
+3. Abstract feature extraction algorithm
+5. Experimental results
+7. Conclusions
+Label: section  StartNode: 1495  EndNode: 1510
+1. Introduction
+Label: section  StartNode: 5510  EndNode: 5563
+2. Previous work: dimensionality reduction techniques
+Label: section  StartNode: 19384  EndNode: 19424
+3. Abstract feature extraction algorithm
+Label: section  StartNode: 32951  EndNode: 32974
+5. Experimental results
+Label: section  StartNode: 55268  EndNode: 55282
+7. Conclusions
+Label: Abstract  StartNode: 0  EndNode: 50
+Abstract feature extraction for text classi?cation
+Label: intro  StartNode: 1495  EndNode: 1510
+1. Introduction
+Label: rel_work  StartNode: 5510  EndNode: 5563
+2. Previous work: dimensionality reduction techniques
+Label: method  StartNode: 19384  EndNode: 19424
+3. Abstract feature extraction algorithm
+Label: exp_result  StartNode: 32951  EndNode: 32974
+5. Experimental results
+Label: conclusion  StartNode: 55268  EndNode: 55282
+7. Conclusions
+Label: References  StartNode: 57815  EndNode: 57826
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 50
+Abstract feature extraction for text classi?cation
+Label: NAMA  StartNode: 51  EndNode: 69
+Go¨ksel BI?RI?CI?K
+Label: NAMA  StartNode: 72  EndNode: 83
+Banu DI?RI?
+Label: NAMA  StartNode: 85  EndNode: 106
+Ahmet Cos¸kun SO¨NMEZ
+Label: OTHER  StartNode: 107  EndNode: 197
+Department of Computer Engineering, Y?ld?z Technical University,
+Esenler, I?stanbul-TURKEY
+Label: TAHUN  StartNode: 263  EndNode: 267
+2011
+Label: PROBLEM  StartNode: 277  EndNode: 411
+Feature selection and extraction are frequently used solutions to overcome the curse of dimensionality in
+text classi?cation problems.
+Label: METODE  StartNode: 412  EndNode: 608
+We introduce an extraction method that summarizes the features of the document
+samples, where the new features aggregate information about how much evidence there is in a document, for
+each class.
+Label: METODE  StartNode: 609  EndNode: 776
+We project the high dimensional features of documents onto a new feature space having dimensions
+equal to the number of classes in order to form the abstract features.
+Label: HASIL  StartNode: 1194  EndNode: 1372
+Results show that our summarizing abstract
+feature extraction method encouragingly enhances classi?cation performances on most of the classi?ers when
+compared with other methods.
+Label: PROBLEM  StartNode: 3528  EndNode: 3630
+In vector space, we represent
+the documents with terms, which is also known as the bag-of-words model.
+Label: PROBLEM  StartNode: 3631  EndNode: 3727
+The nature of the bag-of-words
+approach causes a very high dimensional and sparse feature space.
+Label: PROBLEM  StartNode: 3786  EndNode: 3885
+It is hard to build an e?cient model for text classi?cation in this high dimensional feature
+space.
+Label: PROBLEM  StartNode: 3886  EndNode: 4014
+Due to this problem, dimension reduction has become one of the key problems of textual information
+processing and retrieval [4].
+Label: METODE  StartNode: 4464  EndNode: 4627
+In this paper, we propose a supervised feature extraction method, which produces the extracted
+features by combining the e?ects of the input features over classes.
+Label: METODE  StartNode: 19425  EndNode: 19627
+The method we provide, the abstract feature extractor (AFE), is a supervised feature extraction algorithm that
+produces the extracted features by combining the e?ects of the input features over classes.
+Label: METODE  StartNode: 19808  EndNode: 19935
+Input features are projected to a suppositious feature
+space using the probabilistic distribution of the features over classes.
+Label: METODE  StartNode: 19936  EndNode: 20071
+We project the probabilities of the features
+to classes and sum up these probabilities to get the impact of each feature to each class.
+Label: METODE  StartNode: 24327  EndNode: 24513
+In the AFE, we combine the in-class term frequencies given in Eq. (22) with inverse document frequencies
+and use this scheme to weight the e?ects of terms on the classes, as in Eq. (23).
+Label: DATA  StartNode: 25655  EndNode: 25808
+The ?rst dataset is Reuters-215782 and the second is the reduced version of
+the 20 Newsgroups dataset, which is known as the 20 Newsgroups Mini3 dataset.
+Label: DATA  StartNode: 55983  EndNode: 56139
+We examine
+performances of the classi?ers on 3 standard and popular text collections: the Reuters-21578, 20 Newsgroups,
+and the ModApte-10 split of Reuters.
+Label: HASIL  StartNode: 56468  EndNode: 56648
+ Comparison
+and test results show that the AFE scores the highest F1 measure on the Reuters dataset with 96.9%, the 20
+Newsgroups dataset with 94.8%, and the ModApte-10 with 96.1%.
+Label: HASIL  StartNode: 56649  EndNode: 56823
+This means that the AFE achieves a better
+F1 measure of 3.7% on the Reuters, 19.4% on the 20 Newsgroups, and 3.4% on the ModApte-10 than its nearest
+following non-AFE method.
+Label: HASIL  StartNode: 56824  EndNode: 57027
+Looking at the average F1 measures of the classi?ers, we see that the AFE’s score
+is 9.2% higher on Reuters, 33.0% higher on 20 Newsgroups, and 7.3% higher on ModApte-10 than the next best
+scored method.
+Label: Method Title  StartNode: 0  EndNode: 27
+Abstract feature extraction
+Label: Problem Title  StartNode: 32  EndNode: 50
+text classi?cation

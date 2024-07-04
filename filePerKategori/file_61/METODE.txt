@@ -1,0 +1,6 @@
+To get all possible English senses for every Japanese term, the online dictionary SPACEALC is utilized.
+The EWC semantic relatedness measure is used to select the most related meanings for the results of translation.
+This measure combines the Wikipedia-based Explicit Semantic Analysis measure, the WordNet path measure and the mixed collocation index.
+We assume that terms in any query should be semantically related to each other.
+After segmenting the queries, we obtain full sets of translations for each Japanese term.
+The final step is to select the most semantically related alternatives applying EWC.

@@ -1,0 +1,14 @@
+automatic,1
+detection,1
+extraction,1
+semantic,1
+rela,1
+tions,1
+crucial,1
+step,1
+improve,1
+performance,1
+severalnatural,1
+language,1
+processing,1
+applications,1

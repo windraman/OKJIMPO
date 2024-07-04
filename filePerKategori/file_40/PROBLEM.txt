@@ -1,0 +1,5 @@
+Feature selection and extraction are frequently used solutions to overcome the curse of dimensionality intext classi?cation problems.
+In vector space, we representthe documents with terms, which is also known as the bag-of-words model.
+The nature of the bag-of-wordsapproach causes a very high dimensional and sparse feature space.
+It is hard to build an e?cient model for text classi?cation in this high dimensional featurespace.
+Due to this problem, dimension reduction has become one of the key problems of textual informationprocessing and retrieval [4].

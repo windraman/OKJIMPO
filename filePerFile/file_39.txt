@@ -1,0 +1,131 @@
+Section Title : 
+1 Introduction
+2 Language Model Readability Prediction
+5 Results of Experiments
+7 Conclusion
+Label: section  StartNode: 1110  EndNode: 1125
+1 Introduction 
+Label: section  StartNode: 5489  EndNode: 5529
+2 Language Model Readability Prediction 
+Label: section  StartNode: 23294  EndNode: 23319
+5 Results of Experiments 
+Label: section  StartNode: 28930  EndNode: 28943
+7 Conclusion 
+Label: Abstract  StartNode: 378  EndNode: 387
+Abstract 
+Label: intro  StartNode: 1110  EndNode: 1125
+1 Introduction 
+Label: method  StartNode: 5489  EndNode: 5529
+2 Language Model Readability Prediction 
+Label: exp_result  StartNode: 23294  EndNode: 23319
+5 Results of Experiments 
+Label: conclusion  StartNode: 28930  EndNode: 28943
+7 Conclusion 
+Label: References  StartNode: 30125  EndNode: 30137
+
+References 
+Label: JUDUL  StartNode: 0  EndNode: 112
+Combining Lexical and Grammatical Features to Improve Readability 
+Measures for First and Second Language Texts 
+Label: NAMA  StartNode: 113  EndNode: 131
+Michael J. Heilman
+Label: NAMA  StartNode: 135  EndNode: 158
+Kevyn Collins-
+Thompson
+Label: NAMA  StartNode: 160  EndNode: 172
+Jamie Callan
+Label: NAMA  StartNode: 176  EndNode: 191
+Maxine Eskenazi
+Label: OTHER  StartNode: 195  EndNode: 334
+Language Technologies Institute 
+School of Computer Science 
+Carnegie Mellon University 
+4502 Newell Simon Hall 
+Pittsburgh, PA 15213-8213 
+Label: METODE  StartNode: 388  EndNode: 537
+This work evaluates a system that uses in-
+terpolated predictions of reading difficulty 
+that are based on both vocabulary and 
+grammatical features.
+Label: PROBLEM  StartNode: 1346  EndNode: 1458
+An automatic measure of read-
+ability that incorporated both lexical and gram-
+matical features was thus needed.
+Label: PROBLEM  StartNode: 2603  EndNode: 2836
+One goal of 
+this work is to show that the use of pedagogically 
+motivated grammatical features (e.g., passive 
+voice, rather than the number of words per sen-
+tence) can improve readability measures based on 
+lexical features alone.
+Label: PROBLEM  StartNode: 4471  EndNode: 4600
+This phenome-
+non suggests that grammatical features may play a 
+more important role in predicting and measuring 
+L2 readability.
+Label: METODE  StartNode: 6594  EndNode: 6704
+The statistical model used for this study is 
+based on a variation of the multinomial Naïve 
+Bayes classifier.
+Label: METODE  StartNode: 7194  EndNode: 7362
+The language models employed in this work are 
+simple: they are based on unigrams and assume 
+that the probability of a token is independent of the 
+surrounding tokens.
+Label: METODE  StartNode: 12212  EndNode: 12310
+The Stanford Parser (Klein and Man-
+ning, 2002) was used to produce constituent struc-
+ture trees.
+Label: METODE  StartNode: 12886  EndNode: 13034
+Once a document is parsed, the predictor uses 
+Tgrep2 (Rohde, 2005), a tree structure searching 
+tool, to identify instances of the target patterns.
+Label: METODE  StartNode: 16273  EndNode: 16389
+A k-Nearest Neighbor (kNN) algorithm is used for 
+classification based on the grammatical features 
+described above.
+Label: DATA  StartNode: 20751  EndNode: 20873
+The first corpus was from a set of texts 
+gathered from the Web for a prior evaluation of the 
+language modeling approach.
+Label: DATA  StartNode: 21078  EndNode: 21392
+The second corpora consisted of textbook mate-
+rials (Adelson-Goldstein and Howard, 2004, for 
+level 2; Ediger and Pavlik, 2000, for levels 3 and 4; 
+Silberstein, 2002, for level 5) from a series of Eng-
+lish as a Second Language reading courses at the 
+English Language Institute at the University of 
+Pittsburgh.
+Label: HASIL  StartNode: 23320  EndNode: 23510
+The results show that for both the first and sec-
+ond language corpora, the language modeling 
+(LM) approach alone produced more accurate pre-
+dictions than the grammar-based approach alone.
+Label: HASIL  StartNode: 23682  EndNode: 23897
+The results also indicate that while grammar-
+based predictions are not as accurate as the vo-
+cabulary-based scores, they can be combined with 
+vocabulary-based scores to produce more accurate 
+interpolated scores.
+Label: HASIL  StartNode: 28381  EndNode: 28574
+When interpolated 
+with grammar-based scores, the reduction of mean 
+squared error over the language modeling approach 
+for L1 was only 7%, while for L2 the reduction or 
+squared error was 22%.
+Label: HASIL  StartNode: 29117  EndNode: 29351
+Although a vocabulary-based language 
+modeling approach outperformed the grammar-
+based predictor, an interpolated measure using 
+confidence scores for the grammar-based predic-
+tions showed improvement over both individual 
+measures.
+Label: HASIL  StartNode: 29353  EndNode: 29473
+Also, grammar appears to play a more 
+important role in second language readability than 
+in first language readability.
+Label: Method Title  StartNode: 0  EndNode: 42
+Combining Lexical and Grammatical Features
+Label: Problem Title  StartNode: 46  EndNode: 111
+Improve Readability 
+Measures for First and Second Language Texts

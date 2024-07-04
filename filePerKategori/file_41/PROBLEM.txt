@@ -1,0 +1,5 @@
+The effect of selecting varying numbers and kinds of fea- tures for use in predicting category membership was inves- tigated on the Reuters and MUC-3 text categorization data sets.
+The extraction of new text features by syntactic analysis and feature clustering was investigated on the Reuters data set.
+However, words have properties, such as synonymy and polysemy, that make them a less than ideal indexing language.
+Syntactic phrase indexing and term clustering have op- posite effects on the properties of a text representation, which led us t o  investigate combining the two techniques [3].
+However, the small size of standard text retrieval test collections, and the variety of approaches available for query interpretation, made it difficult to  study purely representational issues in text retrieval experiments.

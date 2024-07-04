@@ -1,0 +1,1 @@
+To evaluate the role of shallow semantics provided by se-mantic parsers on relation extraction we have used the Auto-matic Content Extraction (ACE) corpus available from LDC(LDC2003T11).

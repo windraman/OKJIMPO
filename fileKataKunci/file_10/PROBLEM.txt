@@ -1,0 +1,17 @@
+work,1
+describe,1
+ourapproach,1
+automatic,1
+segmentation,1
+clinical,1
+records,1
+hospital,1
+discharge,1
+summaries,1
+radiology,1
+reports,1
+withsection,1
+classification,1
+pre,1
+defined,1
+categories,1

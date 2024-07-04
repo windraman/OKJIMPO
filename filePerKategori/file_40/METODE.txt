@@ -1,0 +1,7 @@
+We introduce an extraction method that summarizes the features of the documentsamples, where the new features aggregate information about how much evidence there is in a document, foreach class.
+We project the high dimensional features of documents onto a new feature space having dimensionsequal to the number of classes in order to form the abstract features.
+In this paper, we propose a supervised feature extraction method, which produces the extractedfeatures by combining the e?ects of the input features over classes.
+The method we provide, the abstract feature extractor (AFE), is a supervised feature extraction algorithm thatproduces the extracted features by combining the e?ects of the input features over classes.
+Input features are projected to a suppositious featurespace using the probabilistic distribution of the features over classes.
+We project the probabilities of the featuresto classes and sum up these probabilities to get the impact of each feature to each class.
+In the AFE, we combine the in-class term frequencies given in Eq. (22) with inverse document frequenciesand use this scheme to weight the e?ects of terms on the classes, as in Eq. (23).

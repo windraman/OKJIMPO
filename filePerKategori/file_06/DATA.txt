@@ -1,0 +1,3 @@
+We use the Dutch data set from the CoNLL 2002shared task (Tjong Kim Sang, 2002).
+We usethe data from the CoNLL 2000 shared task: NPchunks are extracted from Sections 15-18 (train)and 20 (test) of the Penn WSJ corpus.
+We use the data fromthe CoNLL 2000 shared task

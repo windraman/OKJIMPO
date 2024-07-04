@@ -1,0 +1,2 @@
+For unstructured text we use the FreebaseWikipedia Extraction, a dump of the full text of allWikipedia articles (not including discussion and
+user pages) which has been sentence-tokenized byMetaweb Technologies, the developers of Free-base (Metaweb, 2008).

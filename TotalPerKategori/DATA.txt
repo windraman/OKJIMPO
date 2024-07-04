@@ -1,0 +1,114 @@
+And here we use the term frequency as the weight for the feature in a textâ€™s feature vector for further constructing our evaluation function just because of convenience
+We divide the corpus into two non-intersected sets: a training set containing 10 categories with 100 texts in each and a test set containing the same 10 categories with another 100 texts in each also
+We used ?ve test data sets extracted from two different typesof text databases, which have been widely used by the researchersin the information retrieval area. Two data sets, denoted byCACM and MED, are extracted from the CACM and MEDLINEabstracts, respectively, which are included in the Classic database[4]. Additional three data sets, denoted by EXC, PEO and TOP,are from the EXCHANGES, PEOPLE and TOPICS category setsof the Reuters-21578 Distribution 1.0 [17].
+The proposed method Semi-Supervised Feature Clustering (ssfc) has been tested in several semi-supervised real problems, and compared with WaLuMI [9], which is an unsupervised method based also on feature clustering, in this case, using all unlabelled data (nsup), and with a supervised version of the proposed method (sup) over the labeled samples
+In addition to theseven techniques we use eleven DNA microarray datasetsfrom various medical, genetics, and bioinformatics studies;twelve feature subset sizes; and three learners.
+The datasets are all DNAmicroarray datasets acquired from a number of different realworld bioinformatics, genetics, and medical projects. Sincethe FOS techniques require only two classes to be present,we have to use datasets with two classes (for example:cancerous/non-cancerous or relapse/no relapse).
+In total we use 12 datasets, with dimensions ranging from 6 to 983 labels, andfrom less than 1,000 examples to almost 100,000.
+We use the Dutch data set from the CoNLL 2002shared task (Tjong Kim Sang, 2002).
+We usethe data from the CoNLL 2000 shared task: NPchunks are extracted from Sections 15-18 (train)and 20 (test) of the Penn WSJ corpus.
+We use the data fromthe CoNLL 2000 shared task
+The language models employed in this work are simple: they are based on unigrams and assume that the probability of a token is independent of the surrounding tokens
+Two corpora of labeled texts were used in the evaluation
+  The first corpus was from a set of texts gathered from the Web for a prior evaluation of the language modeling approach.
+The second corpora consisted of textbook mate-rials (Adelson-Goldstein and Howard, 2004, for level 2; Ediger and Pavlik, 2000, for levels 3 and 4; Silberstein, 2002, for level 5) from a series of Eng-lish as a Second Language reading courses at the English Language Institute at the University of Pittsburgh
+We now use our evaluation method to compare twoopen RE systems: ReVerb and SONEX. The inputcorpus for this comparison is the New York Timescorpus, composed by 1.8 million documents.ReVerb (Fader et al., 2011) extracts relationalphrases using rules over part-of-speech tags andnoun-phrase chunks. 
+Data Sets and Relations: We used three relations ex-tracted from a collection of 145,000 articles from the NewYork Times from 1996, available as part of the North Amer-ican News Text Corpus1. 
+We used three datasets composed of discharge summariesand radiology reports to develop our statistical section seg-menter and test its performance. A
+This corpus consists of 430 discharge summaries of 402 pa-tients who had a surgery at UW’s medical center in 20101.
+This corpus was created for the 2010 i2b2 natural languageprocessing challenge on medical concept, assertion, and re-lation extraction (Uzuner et al., 2011). T
+This corpus consists of 100 radiology reports extractedfrom the UW Radiology Information System. 
+To evaluate the role of shallow semantics provided by se-mantic parsers on relation extraction we have used the Auto-matic Content Extraction (ACE) corpus available from LDC(LDC2003T11). The data consists of 422 annotated text doc-uments gathered from various newspapers and broadcasts.Five entity types have been annotated (PERSON, ORGANI-ZATION, GEO-POLITICAL ENTITY, LOCATION, FACILITY)along with the 24 types of relations.
+Settings We use Freebase as our knowledge base.It can be freely downloaded1. text corpus used con-tains 33 million English news articles that we down-loaded between January 2004 and December 2011.
+To evaluate the performance of TSHAC, a publicly available test corpus is adopted. The test corpus was created by Choi [3] and has been commonly used in previous researches. The test corpus consists of 700 samples. A sample is a concatenation of ten text segments. A segment is the first n sentences of a randomly selected document from the Brown corpus. The 700 samples are divided into 4 sets according to the range of the number of sentences. 
+The corpus used for training and testing is the “Chinese text classification corpus” given by Ronglu Li published on the website http://www.nlp.org.cn. We divide the corpus into two non-intersected sets: a training set containing 10 categories with 100 texts in each and a test set containing the same 10 categories with another 100 texts in each also
+We used ?ve test data sets extracted from two different typesof text databases, which have been widely used by the researchersin the information retrieval area. Two data sets, denoted byCACM and MED, are extracted from the CACM and MEDLINEabstracts, respectively, which are included in the Classic database[4]. Additional three data sets, denoted by EXC, PEO and TOP,are from the EXCHANGES, PEOPLE and TOPICS category setsof the Reuters-21578 Distribution 1.0 [17].
+For the experimentation the following datasets have been chosen of the UCI repository (http://archive.ics.uci.edu/ml/). • Gisette is a big data in the UCI repository, with 5000 attributes and 13500 objects, 7000 of them labelled. It is a handwritten digit recognition problem; and the task is to discriminate between the four and the nine numbers. It has artificial attributes that are randomly generated, and the values are rather sparse, about 13% of the values are non-zero. In the experiments, only the first 500 features with the highest entropy were used. • Optdigits problem is about the recognition of a handwritten number. The database has 5620 samples and 64 features. The 32x32 bitmaps are divided into no overlapping blocks of 4x4 and the number of pixels is counted in each block. This generates an input matrix of 8x8 (64 features) where each value is an integer in the range 0..16.  • In covtype database, the objective is predicting forest cover type from cartographic variables, with no remotely sensed data. This database has 54 features, 581012 objects and 7 classes. A hyperspectral image called 92AV3C [9] has also been used, corresponding to a spectral image (145 x 145 pixels, 220 bands, and 17 classes) acquired with the AVIRIS, in June 1992, over the Indian Pine Test, in Northwestern Indiana. (http:/dynamo.ecn.purdue.edu/?biehl/MultiSpec) It has also pixels with an undetermined class. In this hyperspectral image several bands are discarded due to the effect of atmospheric absorption; 185 of the original 220 bands were used discarding the lowest signal-to-noise ratio bands.  
+we give some notations of these probabilities below. ( )P t : the probability that a document x  contains term t ; ( )iP c : the probability that a document x  does not belong to category ic ; ( , )iP t c : the joint probability that a document x  contains term t  and also belongs to category ic ; ( | )iP c t : the probability that a document x belongs to category ic ?under the condition that it contains  term t.
+693( | )iP t c : the probability that, a document x does not contain term t with the condition that x belongs to category ic ; Some other probabilities, such as ( )P t , ( )iP c , ( | )iP t c , ( | )iP t c , ( | )iP c t ,  and ( | )iP c t , are similarly defined. 
+1{ }mi ic = : the set of categories; iA : the number of the documents that contain the term t  and also belong to category ic ; iB : the number of the documents that contain the term t  but do not belong to category ic ; iN : the total number of the documents that belong to category ic ; allN : the total number of all documents from the training data. iC : the number of the documents that do not contain the term t  but belong to category ic , i.e., i iN A?  iD : the number of the documents that neither contain the term t  nor belong to category ic , i.e., all i iN N B? ? ;
+ In sentiment text classification, we also use two data sets: one is the widely used Cornell movie-review dataset2 (Pang and Lee, 2004) and one dataset from product reviews of domain DVD3 (Blitzer et al., 2007)
+Our first data  set was a set of 21,450 Reuters newswire stories from the year 1987 [4]
+We used the Reuters-21578 collection’ as a testbed  for ourexperiments.
+ Given an unstructured ab-stract without section labels indicated by boldfacetype, the proposed method annotates section labelsof each sentence.
+In our dataset of 9,679 notes we paid attention to thefollowing: we did not include notes with less than two sectionheaders; we did not include notes in the training data, whichcame from the same patient id as the clinical notes presentin the test set.
+The test set contains 2,088 clinical notes,corresponding to 11,706 text spans. 
+We manually classified 1270 sentences from the TREC5corpus into encoding or not encoding causation; 170 in-trasentencial causations were found.
+We performed our experiments using the semantically an-notated SemCor 2.1 corpus.
+In this section we compare our method with the approaches proposed in [2,4] on the publicly available benchmark dataset ACE–20034 [9].
+Our data set consists of 447 abstracts selectedfrom MEDLINE as being relevant to populating adatabase with facts of the form: gene X with vari-ation event Y is associated with malignancy Z.
+We apply the proposed method to a set of three hundred Web documents, whichare blog posts mentioned on food products.
+For unstructured text we use the FreebaseWikipedia Extraction, a dump of the full text of allWikipedia articles (not including discussion and
+user pages) which has been sentence-tokenized byMetaweb Technologies, the developers of Free-base (Metaweb, 2008).
+As learning corpus we used the year 2000 subset of theAssociated Press section of the AQUAINT Corpus.
+As mentioned, as test corpus we used data from the Rela-tion Detection and Recognition task of the ACE evaluation.
+Specifically, we used the training data of ACE evaluationsfor years 2003, 2004 and 2008.
+To ?nd the e?ectiveness of our approach under the pro-posed evaluation scheme, we set out to examine how a sys-tem with the diversity functionality performs against onewithout, using the BMIR-J2 corpus, a test data developedby a Japanese research consortium.
+We have conducted experiments using BMIR-J2.
+To elucidate the effect of the sentence simplifi-cation, we applied the rules to five PPI corporaand evaluated the PPI extraction performance.
+Therewere 50 topic clusters to be summarised with respect to ashort topic query consisting of a 1 to 4 sentence descrip-tion of an information need.
+We evaluate our method, especially the contribution of the different features, onthe ACE2004 training data.
+We evaluate our approach both for an in-domain (Wikipedia) and a more realistic out-of-domain (New York Times Corpus) setting.
+To evaluate the role of shallow semantics provided by se-mantic parsers on relation extraction we have used the Auto-matic Content Extraction (ACE) corpus available from LDC(LDC2003T11).
+In topic-based text classification, we use two popular data sets: one subset of Reuters-21578 referred to as R2 and the 20 Newsgroup dataset referred to as 20NG.
+In sentiment text classification, we also use two data sets: one is the widely used Cornell movie-review dataset2 (Pang and Lee, 2004) and one dataset from product reviews of domain DVD3 (Blitzer et al., 2007).
+So we chose three different text datasets to evaluate text clustering performance, including two standard labeled datasets: Reuters-21578 1  (Reuters), 20 Newsgroups 2 (20NG), and one web directory dataset (Web) collected from the Open Directory Project3.
+The first corpus was from a set of texts gathered from the Web for a prior evaluation of the language modeling approach.
+The second corpora consisted of textbook mate-rials (Adelson-Goldstein and Howard, 2004, for level 2; Ediger and Pavlik, 2000, for levels 3 and 4; Silberstein, 2002, for level 5) from a series of Eng-lish as a Second Language reading courses at the English Language Institute at the University of Pittsburgh.
+The ?rst dataset is Reuters-215782 and the second is the reduced version ofthe 20 Newsgroups dataset, which is known as the 20 Newsgroups Mini3 dataset.
+We examineperformances of the classi?ers on 3 standard and popular text collections: the Reuters-21578, 20 Newsgroups,and the ModApte-10 split of Reuters.
+The effect of selecting varying numbers and kinds of fea- tures for use in predicting category membership was inves- tigated on the Reuters and MUC-3 text categorization data sets.
+The extraction of new text features by syntactic analysis and feature clustering was investigated on the Reuters data set.
+Our first data  set was a set of 21,450 Reuters newswire stories from the year 1987 [4].
+The second data set consisted of 1,500 documents from the US.  Foreign Broadcast Information Service (FBIS) that had previously been used in the MUC-3 evaluation of natural language processing systems [2].
+The data we use in this paper consists of 3 sequences of meetingsnamed CMU-2, CMU-3 and SRI-1.
+In this section, we describe our empirical evaluations onthree datasets: TechTC-100 [9]; 20-Newsgroups [1,2,21]; andReuters RCV2 [23].
+For our experiments, we built a test corpus of doc-uments related to the topic “Berlin Hauptbahnhof”by sending queries describing the topic (e.g., “BerlinHauptbahnhof”, “Berlin central station”) to Googleand downloading the retrieved documents specifyingEnglish as the target language.
+We use the Dutch data set from the CoNLL 2002shared task (Tjong Kim Sang, 2002).
+We use the data fromthe CoNLL 2000 shared task.
+We used the TIPSTER provided topic de- scription as the query.
+For the purposes of the evaluation, annotated corpus from the BOEMIE research project was used.
+Two data sets, denoted byCACM and MED, are extracted from the CACM and MEDLINEabstracts, respectively, which are included in the Classic database[4].
+Additional three data sets, denoted by EXC, PEO and TOP,are from the EXCHANGES, PEOPLE and TOPICS category setsof the Reuters-21578 Distribution 1.0 [17].
+The performance of the introduced algorithm isdemonstrated using two datasets: A dataset pro-posed by Choi and another more challenging one as-sembled by Galley.
+Lacking a standard test set, 5 the algorithm was eval-uated on two data sources: three expository articles(length 77 to 160 sentences), and the five short gen-eral interest articles from (Morris 1988) (length 23 to 44sentences).
+The datasets are all DNAmicroarray datasets acquired from a number of different realworld bioinformatics, genetics, and medical projects.
+For the experimentation the following datasets have been chosen of the UCI repository
+Gisette is a big data in the UCI repository, with 5000 attributes and 13500 objects, 7000 of them labelled. 
+Optdigits problem is about the recognition of a handwritten number.
+In covtype database, the objective is predicting forest cover type from cartographic variables, with no remotely sensed data.
+The proposed segmentation and classification procedurewas tested with several images, some of which are shownin the Figure 4.
+Evaluation of the system’s performance consists ofrunning the system on a concatenation of newspaper articles.
+We used DUC 2003 and 2004 data sets in our experiments.
+The corpus used for training and testing is the “Chinese text classification corpus” given by Ronglu Li published on the website http://www.nlp.org.cn.
+It consists of having the decision-maker select a subset of preferred objects(e.g., houses) out of a set of possible alternatives by considering trade-offs among multiple objectives (e.g., houselocation, house quality) and by evaluating the objects with respect to their values for a set of primitive attributes(e.g., distance from work, size of the garden).
+We applied RelEx on a comprehensive set of one millionMEDLINE abstracts dealing with gene and protein relations andextracted ~150000 relations with an estimated perfomance of both80% precision and 80% recall.
+The provided data consists of a synonym dictionary for genes/proteins, a training set (55 sentences and 103 interactions) and a testset (80 sentences and 54 interactions).
+The comprehensive subset of ?1 million MEDLINE abstracts deal-ing with human gene and protein interactions from 1990 or newer[for details see (Ku¨ffner et al., 2005)] and a synonym dictionary(Fundel and Zimmer, 2006) containing 338 824 synonyms for27 141 human genes and proteins were used for large-scale relationextraction.
+We randomly selected a subset of 50 abstracts (called hprd50)referenced by the Human Protein Reference Database (HPRD)(Peri et al., 2004).
+We have used a subset of the EuroGOV corpus for the evaluation of the QRDPmodel.
+We used two CLIR collections introduced in the CLEFDomain Specific (DS) and Ad Hoc (AH) tracks.
+The NTCIR CLIR data collection (NTCIR, 2011) consisting of 187,000 articles in English was used as a data set for experiments.
+The system is first evaluated with the data of CLEF 2006, 2005 and 2004.
+The best performing system is also evaluated with data of CLEF 2008.
+For the test data, we used NACSIS Test Collection 1(NTCIR-1)[17] (Research Purpose Use).
+For query translation, we merged three dictionaries,Japanese-English Bilingual Dictionary and TechnicalTerms Dictionary (Information Processing) of EDRElectronic Dictionary Version 1.5[19] and EDICT, which isa freeware Japanese-English dictionary.
+We chose AltaVista as the Websearch engine for the query disambiguation for thefollowing reasons:
+We used three relations ex-tracted from a collection of 145,000 articles from the NewYork Times from 1996, available as part of the North Amer-ican News Text Corpus1.
+To evaluate the effectiveness of the proposed CLIR method, we used Malay-English documents sets from actual Malay Quran collection and actual English Quran collection from Abdullah (2006) to verify the proposed method.
+The document sets used in our experiments were the English and French parts of the doc- ument set used in the TREC-6 and TREC- 7 CLIR tracks.
+The English document set consisted of 3 years of AP newswire (1988-1990), comprising 242918 stories orig- inally occupying 759 MB.
+The French doc- ument set consisted of the same 3 years of SDA (a Swiss newswire service), compris- ing 141656 stories and originally occupy- ing 257 MB.
+In this section, we present the results of our CLIR experimentson TREC Chinese corpora.
+To evaluate the proposed faceted feedback mechanism, weuse two TREC filtering track datasets: the medical articlecollection OHSUMED and the news story collection RCV1[14].
+The first subset of our training data is the Europarl corpus [11], extracted fromproceedings of the European Parliament and consisting of 6, 206 parallel documents inEnglish and Dutch.
+Another training subset is collected from Wikipedia dumps3 and consists of paireddocuments in English and Dutch.
+Our experiments have been conducted on three data sets taken from the CLEF 2001-2003 CLIR campaigns: the LA Times 1994 (LAT), the LA Times 1994 and GlasgowHerald 1995 (LAT+GH) in English, and the NRC Handelsblad 94-95 and the AlgemeenDagblad 94-95 (NC+AD) in Dutch.
+The target French collection includes 177,452 documents in total. The average document length is 232.65 words.
+We evaluated our system on the latest available CLIR test collections for three languages:TREC 2002 English-Arabic CLIR, NTCIR-8 English-Chinese Advanced Cross-Lingual InformationAccess (ACLIA), and CLEF 2006 English-French CLIR.
+We used an English-Japanese bilingual patent ab-stract corpus for our experimental tests.
+In this section we use the OPF set of queries described in section II.E.2.
+We have evaluated our method on three different types of datasources : search-engines, product catalogs and bibliography listings.
+The experiments here use the multi-documentsummarisation data from the 2001 Document Un-derstanding Conference (DUC),8which is thesame data used by Filatova and Hatzivassiloglou(2004).
+We extract relations from the Automatic Con-tent Extraction (ACE) corpus provided by theNational Institute for Standards and Technol-ogy (NIST).
+The experimental corpus, made of 86 documents, annotatedby two teams of analysts, has been extracted from two collec-tions of public judicial acts related to the legal proceedingsagainst the same large criminal enterprise.

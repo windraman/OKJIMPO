@@ -1,0 +1,5 @@
+The empirical investigation pre-sented here shows that accurate results, comparable to theexpert teams, can be achieved, and parametrization allowsto fine tune the system behavior for fitting the specific do-main requirements.
+Although the precision score of Decision Treeand NaiveBayes are better than the model trained over thebag-of-words (i.e. a simple model), it achieves an overalllower F1 measure (0.31 and 0.4 vs. 0.45) this is due to thehigher generalisation power of the kernel methods, in factthe simple Bow model is already able to achieve an higherrecall level.
+On some more complex relationshipclasses, as PP knows PP and PP hangs out at a Pl, theKXBOW kernel achieves lower performances, basically dueto the presence of dialectal or syntactically odd expressions.
+As apparent, the plot shows a regular shape and itsuggests that parameter tuning can be effectively applied tocapture the required trade-off between the suitable coverageand the required accuracy of the method.
+The technology designed and tested in the project has beenshown to be very effective.

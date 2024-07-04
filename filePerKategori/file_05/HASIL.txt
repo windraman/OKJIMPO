@@ -1,0 +1,2 @@
+This paper shows that binary relevance-based methods have much to of-fer, especially in terms of scalability to large datasets
+Using a variety of multi-label datasets and evaluation measures, we carriedout empirical evaluations against a range of algorithms. Our classifier chainsmethod proved superior to related methods, and in an ensemble scenario wasable to improve on state-of-the-art methods, particularly on large datasets.

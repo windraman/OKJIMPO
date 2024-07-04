@@ -1,0 +1,3 @@
+We consider feature selection for text classification both the-oretically and empirically.
+Nevertheless,general theoretical performance guarantees are modest andit is often difficult to claim more than a vague intuitive un-derstanding of why a particular feature selection algorithmperforms well when it does.
+Indeed, selecting an optimal setof features is in general difficult, both theoretically and em-pirically; hardness results are known [5–7], and in practicegreedy heuristics are often employed [4,13,17,20].

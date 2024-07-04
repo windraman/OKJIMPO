@@ -1,0 +1,3 @@
+Cross-Language Information Retrieval (CLIR) can be used to retrieve documents in one language in response to a query given in another.
+The usual approach consists of two steps: 1) translation of the user query into the target language and then 2) retrieval of documents in this language by using a conventional mono-lingual information retrieval system.
+In this paper, we propose a novel approach to translate queries for a Japanese-English CLIR task.

@@ -1,0 +1,1 @@
+We have evaluated our method on three different types of datasources : search-engines, product catalogs and bibliography listings.

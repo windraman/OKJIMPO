@@ -1,0 +1,5 @@
+A personalized search or filtering system usually suffersfrom the “cold start” problem, where the system performspoorly when it has little training data about new users.
+We aim to study a new inter-active user feedback mechanism that helps retrieval systemslearn more about user information needs with limited userinteractions.
+This motivates usto explore whether we can adapt the faceted search idea tothe general purpose document retrieval.
+First, how to recommend facet-value pairs to users.
+Secondly, we study how to useuser faceted feedback in retrieval.

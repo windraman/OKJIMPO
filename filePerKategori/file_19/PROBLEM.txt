@@ -1,0 +1,2 @@
+Text Categorization
+A primary concern of ours was to  examine the effect of feature set size on text categorization effectiveness.

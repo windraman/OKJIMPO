@@ -1,0 +1,11 @@
+data,2
+experiments,1
+multi,1
+documentsummarisation,1
+document,1
+derstanding,1
+conference,1
+duc,1
+thesame,1
+filatova,1
+hatzivassiloglou,1

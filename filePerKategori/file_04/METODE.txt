@@ -1,0 +1,2 @@
+This paper presents seven univariate featureselection techniques and collects them into a single familyentitled First Order Statistics (FOS) based feature selection.
+ In this paper we presentseven univariate feature selection techniques (Fold ChangeDifference, Fold Change Ratio, Welch T Statistic, WilcoxonRank Sum, Fisher Score, SAM, and Signal-to-Noise) as asingle new family which we name First Order Statistics(FOS) based feature selection, due to their use of ï¬?rstorder statistical measurements such as mean and standarddeviation.

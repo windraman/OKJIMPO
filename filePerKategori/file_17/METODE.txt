@@ -1,0 +1,2 @@
+There are different methods available for classification of imbalance data set which is divided into three main categories, the algorithmic approach, data-preprocessing approach and feature selection approach
+ various techniques have been proposed to solve the problems associated with class imbalance [9], which divided into three basic categories, the algorithmic approach, data-preprocessing and feature selection approach.

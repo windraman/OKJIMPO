@@ -1,0 +1,3 @@
+The best precision score was 0.77 when run on the New York Times texts, and it wasaccompanied by a recall score of 0.77 as well.
+While these scores may sound relatively impressive, it is important tonote that they were only numerically evaluated on this one set of data, and so it is unlikely that those parameterswould return such high scores in all circumstances.
+While this system fails to perform as well as manyof the other segmentation systems that have recently been presented in the literature, it is certainly on the right pathand can produce good results with the proper parameters.

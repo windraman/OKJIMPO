@@ -1,0 +1,76 @@
+Section Title : 
+1 Introduction
+2 Shallow Semantic Parsing
+3 Dependency Tree Kernels
+5 Experimental results
+Label: section  StartNode: 781  EndNode: 795
+1 Introduction
+Label: section  StartNode: 5517  EndNode: 5543
+2 Shallow Semantic Parsing
+Label: section  StartNode: 13891  EndNode: 13916
+3 Dependency Tree Kernels
+Label: section  StartNode: 28475  EndNode: 28497
+5 Experimental results
+Label: Abstract  StartNode: 237  EndNode: 245
+Abstract
+Label: intro  StartNode: 781  EndNode: 795
+1 Introduction
+Label: rel_work  StartNode: 5517  EndNode: 5543
+2 Shallow Semantic Parsing
+Label: method  StartNode: 13891  EndNode: 13916
+3 Dependency Tree Kernels
+Label: exp_result  StartNode: 28475  EndNode: 28497
+5 Experimental results
+Label: References  StartNode: 32486  EndNode: 32497
+
+References
+Label: JUDUL  StartNode: 0  EndNode: 42
+Shallow Semantics for Relation Extraction
+
+Label: NAMA  StartNode: 42  EndNode: 99
+Sanda Harabagiu, Cosmin Adrian Bejan and Paul Mora?rescu
+
+Label: PROBLEM  StartNode: 246  EndNode: 362
+This paper presents a new method for extracting
+meaningful relations from unstructured natural lan-
+guage sources. T
+Label: METODE  StartNode: 360  EndNode: 632
+ The method is based on informa-
+tion made available by shallow semantic parsers.
+Semantic information was used (1) to enhance a
+dependency tree kernel; and (2) to build semantic
+dependency structures used for enhanced relation
+extraction for several semantic classifiers.
+Label: OTHER  StartNode: 796  EndNode: 884
+With the advent of the Internet, more and more information
+is available electronically. 
+Label: DATA  StartNode: 28498  EndNode: 28931
+To evaluate the role of shallow semantics provided by se-
+mantic parsers on relation extraction we have used the Auto-
+matic Content Extraction (ACE) corpus available from LDC
+(LDC2003T11). The data consists of 422 annotated text doc-
+uments gathered from various newspapers and broadcasts.
+Five entity types have been annotated (PERSON, ORGANI-
+ZATION, GEO-POLITICAL ENTITY, LOCATION, FACILITY)
+along with the 24 types of relations.
+Label: HASIL  StartNode: 30169  EndNode: 30508
+The results indicate that
+on average, for K4, the best performing kernel, we obtained
+an increase of 24.66% in the F-score when features provided
+by the semantic parsers were added. When relying on SDTs,
+the average Precision that was obtained was 89.3%, the re-
+call was 76.4%, thus an F-score of 82.35%, when using the
+same data as [1]. 
+Label: HASIL  StartNode: 30789  EndNode: 31109
+The re-
+sults show that frame semantics produce an enhancement of
+53.24% over previous state-of-art results in relation extrac-
+tion. Furthermore, they show that semantic representations
+such as frames or predicate-argument structures have a wider
+impact on classification performance than the classification
+technique.
+
+Label: Method Title  StartNode: 0  EndNode: 17
+Shallow Semantics
+Label: Problem Title  StartNode: 22  EndNode: 41
+Relation Extraction

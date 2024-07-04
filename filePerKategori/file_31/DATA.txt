@@ -1,0 +1,2 @@
+To ?nd the e?ectiveness of our approach under the pro-posed evaluation scheme, we set out to examine how a sys-tem with the diversity functionality performs against onewithout, using the BMIR-J2 corpus, a test data developedby a Japanese research consortium.
+We have conducted experiments using BMIR-J2.

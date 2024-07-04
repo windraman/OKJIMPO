@@ -1,0 +1,4 @@
+This paper proposes a new approach to segment and classify the document regions as text, image, graphics and table.
+Multilayer perceptron, a supervised learning technique has been used to construct the classifier and found 97.49% classification accuracy. 
+From the above comparative analysis it is observed that classification accuracy produced by multilayer perceptron is higher than naïve bayes and J48.
+This paper demonstrates the modeling of document segmentation as classification task and describes the implementation of machine learning approach for segmenting the document into various regions.

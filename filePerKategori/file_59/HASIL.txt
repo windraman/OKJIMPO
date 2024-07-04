@@ -1,0 +1,2 @@
+As can be seen, an improvementby using an evaluation corpus was obtained employing the TP technique witha neighbourhood of 40%, which is exactly the same percentage used in otherresearch works (see [10] and [13]).
+We may observe that by using the same information from a web page, wehave slightly outperformed the results obtained by other approaches, even whenwe have trained our model with only 3 target web pages in average per query,and executing 100 iterations on the Expectation-Maximization model.

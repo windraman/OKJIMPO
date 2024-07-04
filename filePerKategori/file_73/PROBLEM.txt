@@ -1,0 +1,4 @@
+However standard queries, containing 2-3 terms in average, are less and less likely to be sufficient to retrieve all of the relevant documents.  
+Consequently, advanced techniques are necessary to enhance the performances of Information Retrieval (IR) systems, such as Cross Language Information Retrieval (CLIR).
+Bridging the gap between document and query languages requires the application of machine translation techniques to queries, indices, or both.
+Translation software can induce linguistic differences between translated data and human language.

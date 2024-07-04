@@ -1,0 +1,1 @@
+For our experiments, we built a test corpus of doc-uments related to the topic “Berlin Hauptbahnhof”by sending queries describing the topic (e.g., “BerlinHauptbahnhof”, “Berlin central station”) to Googleand downloading the retrieved documents specifyingEnglish as the target language.

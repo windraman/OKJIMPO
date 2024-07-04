@@ -1,0 +1,9 @@
+In this paper we propose an SVM based approachto hierarchical relation extraction, using features derived automaticallyfrom a number of GATE-based open-source language processing tools.
+In comparison to the previous works, we use several new features includ-ing part of speech tag, entity subtype, entity class, entity role, semanticrepresentation of sentence and WordNet synonym set.
+Motivated by the above work, we use the SVM as well and apply a diverseset of Natural Language Processing (NLP) tools to derive features for relationextraction.
+ In particular, several new features are introduced, such as part-of-speech (POS) tags, entity subtype, entity class, entity role, semantic represen-tation of sentences and WordNet synonym set.
+As we use a veryhigh dimensional and very sparse feature vector for relation extraction, it can beexpected that SVM will have similarly good performance.
+Therefore we used the one-against-one method in the experiments(see Section 5.1 for more details).
+Based on the previous works, we developed a set of features for semanticrelation extraction, many of which are adopted from [19].
+Moreover, we intro-duce some new features such as POS tags, entity subtype and class features,entity mention role feature, and several general semantic features.
+Therefore in our method, we introduce instead a set of more general semanticfeatures produced by a semantic analyser and WordNet.

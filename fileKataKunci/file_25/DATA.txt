@@ -1,0 +1,14 @@
+corpus,2
+encoding,2
+manually,1
+classified,1
+sentences,1
+trec,1
+causation,1
+trasentencial,1
+causations,1
+performed,1
+experiments,1
+semantically,1
+notated,1
+semcor,1

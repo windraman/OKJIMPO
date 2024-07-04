@@ -1,0 +1,1 @@
+We evaluated our system on the latest available CLIR test collections for three languages:TREC 2002 English-Arabic CLIR, NTCIR-8 English-Chinese Advanced Cross-Lingual InformationAccess (ACLIA), and CLEF 2006 English-French CLIR.

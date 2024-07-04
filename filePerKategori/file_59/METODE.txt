@@ -1,0 +1,5 @@
+In thiswork, we propose to use a training corpus made up by a set of Query-Relevant Document Pairs (QRDP) in a probabilistic cross-lingual infor-mation retrieval approach which is based on the IBM alignment model1 for statistical machine translation.
+To overcome this drawback, we propose to use a set of querieswith their respective set of relevant documents as an input training set for adirect probabilistic cross-lingual information retrieval system which integratesboth steps into a single one.
+This is done on the basis of the IBM alignmentmodel 1 (IBM-1) for statistical machine translation [6].
+The corpus reductionwas based on the use of a technique for selecting mid-frequency terms, namedthe Transition Point (TP), which was used in other research works with thesame purpose [9,10].
+The QRDP model uses a statistical dictionary ofassociated words directly to rank documents according to their relevance withrespect to the query.
